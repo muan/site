@@ -1,0 +1,26 @@
+<html>
+  <head></head>
+  {% include header.html %}
+  <body>
+    <div id='container'>
+      <a class='sec-head' href='/'>&#9873;</a>
+      <div class='site'>
+        <div class='hr'>
+          <div class='title'>
+            <a href='{{ page.url }}'>
+              {{ page.title }}
+            </a>
+          </div>
+        </div>
+        <section class='post'>
+          <center class='date muted'>{{ page.date | date_to_string }}</center>
+          {{ content }}
+        </section>
+        <div class='hr'></div>
+        <iframe height='340' src='//copyin.com/invite_requests/embed?uid=7623898808' style='border: 0;' width='100%'></iframe>
+        <br />
+        {% include footer.html %}
+      </div>
+    </div>
+  </body>
+</html>

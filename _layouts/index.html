@@ -1,0 +1,17 @@
+<html>
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    <div id='container'>
+      <a class='sec-head' href='/'>&#9874;</a>
+      <div class='hr'>
+        <div class='title'>
+          {{ page.title }}
+        </div>
+      </div>
+      {{ content }}
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
