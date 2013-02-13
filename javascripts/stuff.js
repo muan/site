@@ -28,9 +28,12 @@ jQuery(function() {
       matchBrackets: true
     });
   });
-  return $.each(["twitter", "tweaker", "copyin", "github", "subscribe", "email", "dribbble", "hn", "zeczec"], function(index, val) {
+  $.each(["twitter", "tweaker", "copyin", "instagram", "github", "subscribe", "email", "hn", "zeczec"], function(index, val) {
     return $("#" + val).click(function(e) {
       return _gaq.push(["_trackEvent", e.target.id, "clicked"]);
     });
+  });
+  return $.each($("[data-time]"), function(index, ele) {
+    return $(ele).html(prettyDate(new Date($(this).data("time"))));
   });
 });

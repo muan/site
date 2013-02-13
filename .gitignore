@@ -2,6 +2,7 @@
 _drafts/
 _site/
 *.swp
+*.scssc
 .DS_Store
 .rvmrc
 *~

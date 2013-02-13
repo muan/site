@@ -3,9 +3,11 @@ layout: post
 title: Sublime Text 2 Mac Shortcuts
 ---
 
-Here’s a little bit of keyboard shortcuts that I found useful to have for sublime text2:
+Here’s a little bit of keyboard shortcuts that I found useful to have for sublime text 2:
 
     javascript||
+    // Put them in Preferences > Key Bindings - User
+
     [
       { “keys”: [“super+alt+down”], “command”: “duplicate_line” }, 
       { “keys”: [“alt+up”], “command”: “swap_line_up”},

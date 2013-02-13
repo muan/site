@@ -3,5 +3,8 @@ layout: post
 title: Hello Jeykll
 ---
 
-This took me a lot longer than I'd expect... Need a better boilerplate.
-I will be back.
+Setting up Jekyll with Github pages took me a lot longer than I'd expect... <br />
+Need a better boilerplate.
+
+<br />
+I will be back. :)

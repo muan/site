@@ -12,9 +12,13 @@ body {
   padding: 20px;
 }
 
+[data-more] {
+  div.more-body { display: none; }
+}
+
 strong, b { font-weight: 400; }
 
-a {
+a, .as-link {
   text-decoration: none; 
   color: #47b;
   &.big-button {
@@ -67,10 +71,11 @@ section.post {
   padding: 15px 15px 0;
   border-top: 0;
   margin: -25px 0 0;
+  min-height: 250px;
 }
 
 section.post, section > p {
-  font-size: 1.25rem; line-height: 1.75rem;
+  font-size: 1.10rem; line-height: 1.55rem;
   * { max-width: 100%; }
   blockquote { font-style: italic; color: #999; }
   li .CodeMirror { margin: 10px 0; }

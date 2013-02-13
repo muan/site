@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Mu-An Chiou
+title:  How nice! ( Mu-An Chiou )
 ---
 
 <div id="home">
@@ -9,7 +9,7 @@ title: Mu-An Chiou
     <li>
       <a href="{{ post.url }}">
         {{ post.title }}
-        <small class="muted">{{ post.date | date_to_string }} </small>
+        <small class="muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
       </a>
     </li>
     {% endfor %}
