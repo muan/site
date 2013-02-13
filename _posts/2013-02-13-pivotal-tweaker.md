@@ -3,6 +3,8 @@ layout: post
 title: Pivotal Tweaker
 ---
 
+<div class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="muanchiou">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
 **tl;dr**
 
 I made a Chrome plugin called [Pivotal Tweaker](https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg), it makes your Pivotal Tracker better. You can download the plugin by click on this huge button:
