@@ -28,7 +28,7 @@ jQuery(function() {
       matchBrackets: true
     });
   });
-  $.each(["twitter", "tweaker", "copyin", "instagram", "github", "subscribe", "email", "hn", "zeczec"], function(index, val) {
+  $.each(["tweaker-dl", "tldr-tweaker-dl", "twitter", "tweaker", "copyin", "instagram", "github", "subscribe", "email", "hn", "zeczec"], function(index, val) {
     return $("#" + val).click(function(e) {
       return _gaq.push(["_trackEvent", e.target.id, "clicked"]);
     });
