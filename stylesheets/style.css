@@ -192,6 +192,17 @@ section.info {
     padding-bottom: 2px;
     border-bottom: 1px dotted #cccccc; }
 
+.paging section {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.a-r {
+  text-align: right; }
+
+.a-c {
+  text-align: center; }
+
 center.date {
   font-size: 60%;
   position: relative;

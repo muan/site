@@ -158,6 +158,16 @@ section.info {
   }
 }
 
+.paging {
+  section {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.a-r { text-align: right; }
+.a-c { text-align: center; }
+
 center.date {
   font-size: 60%; position: relative;
   height: 0; top: -10px;

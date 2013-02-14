@@ -1,11 +1,11 @@
 <html>
   <head>
+    <meta content='{{ page.title }} - {{ site.title }}' name='title' />
     {% include header.html %}
     {% include ga.html %}
   </head>
   <body>
     <div id='container'>
-      <div class="pull-right small"><a href="#me">This is Mu-An Chiou</a> from <a href="http://copyin.com" target="_blank">Copyin</a></div>
       <a class='sec-head' href='/'>&#9873;</a>
       <div class='site'>
         <div class='hr'>
@@ -18,7 +18,39 @@
         <section class='post'>
           <center class='date muted'>{{ page.date | date_to_string }}</center>
           {{ content }}
+
+          {% if page.copyin == 'y' %}
+            {% include copyin.html %}
+          {% endif %}
+          
+          {% if page.disqus == 'y' %}
+            {% include disqus.html %}
+          {% endif %}
+
         </section>
+        <div class='hr'>
+          <div class='title'>
+              I want more!
+          </div>
+        </div>
+        <div class="paging">
+          <section class="info">
+            {% if page.previous %}
+              <a href="{{ page.previous.url }}">
+                ⇠ {{page.previous.title}}
+              </a>
+            {% endif %}
+          </section>
+          <section class="info a-c">
+          </section>
+          <section class="info a-r">
+            {% if page.next %}
+              <a href="{{page.next.url}}">
+                {{page.next.title}} ⇢
+              </a>
+            {% endif %}
+          </section>
+        </div>
         {% include footer.html %}
       </div>
     </div>
