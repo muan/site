@@ -28,8 +28,9 @@ jQuery(function() {
       matchBrackets: true
     });
   });
-  $.each(["tweaker-dl", "tldr-tweaker-dl", "twitter", "tweaker", "copyin", "instagram", "github", "subscribe", "email", "hn", "zeczec"], function(index, val) {
-    return $("#" + val).click(function(e) {
+  $.each($("a[id]"), function(index, ele) {
+    return $(ele).click(function(e) {
+      e.stopImmediatePropagation();
       return _gaq.push(["_trackEvent", e.target.id, "clicked"]);
     });
   });

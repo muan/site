@@ -24,8 +24,9 @@ jQuery ->
       matchBrackets: true
 
   # tracking stuff
-  $.each ["tweaker-dl", "tldr-tweaker-dl", "twitter", "tweaker", "copyin", "instagram", "github", "subscribe", "email", "hn", "zeczec"], (index, val) ->
-    $("#" + val).click (e) ->
+  $.each $("a[id]"), (index, ele) ->
+    $(ele).click (e) ->
+      e.stopImmediatePropagation()
       _gaq.push ["_trackEvent", e.target.id, "clicked"]
 
   $.each $("[data-time]"), ( index, ele ) ->
