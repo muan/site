@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Installing Ruby on Rails on Windows (+ notes for Heroku)
+date: 2012-06-09 15:14:13
 ---
 
 For some reason I can’t find a straightforward and up-to-date version of this, so I just wrote this as I go.

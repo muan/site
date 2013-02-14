@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Toggle your story in panels in Pivotal
+date: 2012-11-27 21:54:13
 ---
 
 In Chrome, add a new bookmark, and change the url to:

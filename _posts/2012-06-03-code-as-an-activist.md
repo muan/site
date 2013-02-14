@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Sunday
+title: Code as an activist
+date: 2012-06-03 22:35:02
 ---
 
 I had a great day, and here’s the journey:
 
-Started by wandering on Twitter trying to catch the end of the endless twitter feed, saw someone's conversation with [@victorlin](https://twitter.com/victorlin)(founder of Now.in - online broadcasting site). I followed Victor, and he followed me back shortly. Emm, then I decided to read through his previous tweets, and found [Inventing on Principle](https://vimeo.com/36579366) by Bret Victor [@worrydream](https://twitter.com/#!/worrydream). And then I went on reading through Bret’s tweets.. Amazing how internet works, isn’t it? (Or amazing how time just vanishes..)
+Started by wandering on Twitter trying to catch the end of the endless twitter feed, I saw someone's conversation with [@victorlin](https://twitter.com/victorlin)(founder of Now.in - online broadcasting site). I followed Victor, and he followed me back shortly. Emm, then I decided to read through his previous tweets, and found [Inventing on Principle](https://vimeo.com/36579366) by Bret Victor [@worrydream](https://twitter.com/#!/worrydream). And then I went on reading through Bret’s tweets.. Amazing how internet works, isn’t it? (Or amazing how time just vanishes..)
 
 ---
 

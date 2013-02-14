@@ -18,6 +18,7 @@
         <section class='post'>
           <center class='date muted'>{{ page.date | date_to_string }}</center>
           {{ content }}
+          {% include signature.html %}
 
           {% if page.copyin == 'y' %}
             {% include copyin.html %}
@@ -30,14 +31,14 @@
         </section>
         <div class='hr'>
           <div class='title'>
-              I want more!
+              want more?
           </div>
         </div>
         <div class="paging">
           <section class="info">
             {% if page.previous %}
               <a href="{{ page.previous.url }}">
-                ⇠ {{page.previous.title}}
+                {{page.previous.title}}
               </a>
             {% endif %}
           </section>
@@ -46,7 +47,7 @@
           <section class="info a-r">
             {% if page.next %}
               <a href="{{page.next.url}}">
-                {{page.next.title}} ⇢
+                {{page.next.title}}
               </a>
             {% endif %}
           </section>

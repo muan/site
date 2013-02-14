@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Pivotal Tweaker
+date: 2013-02-13 15:14:21
+copyin: y
 ---
 
 <div class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="muanchiou">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
@@ -49,7 +51,7 @@ After a few weeks in, Pivotal started to grow on me, it started to make sense, t
 However, there's still a lot of noise, there are little things that annoys me daily in Pivotal Tracker. What frustrated me the most was: I cannot filter my story down within coloumns. <br />
 It is very clever of Pivotal to let you hide columns, allowing you focus on the current stories, but it's like a feature half done. I care about **<span class="colour-1">my</span> <span class="colour-2">current</span>** stories, not everyone else's, nor the ones sitting in Icebox. And initials in plain text brakets are not clear enough, there's not much to add, they're just texts like everything around it, except that I care about them more.
 
-**What now?**
+**What next?**
 
 Since I still need to use Pivotal Tracker, I started trying to hack the features I wanted. 
 One day [Peter](http://www.peternixey.com) and I was having a meeting, we put up a Pivotal screen and tried to discuss my current focus, he said:
@@ -62,13 +64,12 @@ I took my laptop and show him my Pivotal Tracker, and the immediate response was
 
 So I wrote [this post](/2012/11/27/pivotal-stories/), where I shared how you easily toggle your stories with merely a bookmark, and how I re-styled parts of Pivotal so the information I care about jumps out.
 
-Then our whole team found out, and they all want it! <br />
-So this is the story of why I made **Pivotal Tweaker**, download the plugin by click on this second huge button:
-
-<a href="https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg" target="_blank" class="big-button red" id="tweaker-dl">Download Pivotal Tweaker</a>
-
-{% include copyin.html %}
+Then our whole team found out, and they all want it! 
 
 ---
+
+So this is the story of why I made **Pivotal Tweaker**, to download the plugin, click on yet another huge button:
+
+<a href="https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg" target="_blank" class="big-button red" id="tweaker-dl">Download Pivotal Tweaker</a>
 
 And after you tried it, it'd be super nice if you could give me a [review](https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg/reviews) on Chrome Store, or better yet, share it or [tweet to me](http://twitter.com/muanchiou), let me know if you like it. <br />It'd just be a pat on the shoulder for me, but it's all I want! :) 
