@@ -3,7 +3,7 @@
 jQuery(function() {
   var mobile;
   mobile = function(width) {
-    if (width < 770) {
+    if (width < 768) {
       return $("section.info").addClass("one");
     } else {
       return $("section.info").removeClass("one");

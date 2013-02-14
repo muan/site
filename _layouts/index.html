@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta content='{{ site.title }}' name='title' />
+    <meta content='{{ site.title }}' name='og:title' />
+    <title>{{ site.title }}</title>
     {% include header.html %}
     {% include ga.html %}
   </head>
@@ -44,7 +47,7 @@
       </div>
       <div class='hr'>
         <div class='title'>
-          <small>My name is Mu-An Chiou, here's something I wrote</small>
+          My name is Mu-An Chiou, here are some things I wrote
         </div>
       </div>
       {{ content }}

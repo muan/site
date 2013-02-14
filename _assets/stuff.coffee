@@ -1,7 +1,7 @@
 jQuery ->
 
   mobile = (width) ->
-    if width < 770
+    if width < 768
       $("section.info").addClass("one")
     else
       $("section.info").removeClass("one")

@@ -45,6 +45,18 @@ a, .as-link {
       &:hover { background: #bf4634; }
       &:active { @include box-shadow(inset 0 1px 2px #602022); }
     }
+    &.yellow {
+      border: 4px solid #faddaa;
+      background: #d0a033;
+      &:hover { background: #cc9011; }
+      &:active { @include box-shadow(inset 0 1px 2px #a08011); }
+    }
+    &.green {
+      border: 4px solid #ddeed0;
+      background: #40914A;
+      &:hover { background: #308140; }
+      &:active { @include box-shadow(inset 0 1px 2px #305130); }
+    }
   }
 }
 
@@ -56,7 +68,7 @@ a, .as-link {
 }
 
 @media (min-width: 960px) {
-  #container { width: 60%; }
+  #container { width: 75%; }
 }
 
 .colour-1 { color: #c94 }
@@ -181,7 +193,7 @@ center.date {
   text-align: center;
   a.title { color: #9ac }
   .title { 
-    white-space: nowrap; max-width: 90%; overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap; max-width: 84%; overflow: hidden; text-overflow: ellipsis;
     background: #f9f9f9; padding: 0 8px; margin: -21px 0; font-size: 0.5em; text-align: center;
     color: #a0a0a0; display: inline-block;
   }
