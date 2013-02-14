@@ -20,9 +20,7 @@
           {{ content }}
           {% include signature.html %}
 
-          {% if page.copyin == 'y' %}
-            {% include copyin.html %}
-          {% endif %}
+          {% include copyin.html %}
           
           {% if page.disqus == 'y' %}
             {% include disqus.html %}
