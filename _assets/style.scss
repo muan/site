@@ -1,37 +1,47 @@
-@import "mixin";
+@import "bourbon/bourbon";
+@include keyframes(rotate) {
+  from { @include transform(rotate(0deg)); }
+  to { @include transform(rotate(-80deg)); }
+}
 
-// mobile ---------------------------------
+$background: #fff;
 
 body { 
-  background: #f9f9f9;
-  color: #555;
-  font-family: "Lato", "Microsoft JhengHei", helvetica, arial, sans-serif;
+  background: $background;
+  color: #303030;
+  font-family: "Source Sans Pro", "Microsoft JhengHei", helvetica, arial, sans-serif;
   font-weight: 300;
   font-size: 2em;
   line-height: 1.25em;
   padding: 20px;
 }
 
-[data-more] {
-  div.more-body { display: none; }
-}
-
+.fc-webicon { @include transition(all 0.3s); border: 1px solid #999; margin-right: 8px; margin-top: 10px; }
+.a-r { text-align: right; }
+.a-c { text-align: center; }
 .small { font-size: 12px }
 .pull-right { float: right; }
+.muted { color: #777; }
+.colour-1 { color: #c94 }
+.colour-2 { color: #925}
+.colour-3 { color: #484 }
+.text-big { font-size: 200%; line-height: 1em; }
 strong, b { font-weight: 400; }
+blockquote { &::before { content: "░"; font-size: 100%; color: #ddd; position: absolute; margin-left: -28px; font-style: normal; } }
 
 a, .as-link {
   text-decoration: none; 
   color: #47b;
   &.big-button {
     display: block;
-    @include radius(3px);
-    @include transit(all, 0.2s);
+    @include border-top-radius(3px);
+    @include border-bottom-radius(3px);
+    @include transition(all, 0.2s);
     color: #fff;
     font-size: 12px;
     line-height: 2em;
     padding: 8px 0;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
@@ -62,24 +72,28 @@ a, .as-link {
 
 #container {
   width: 100%;
-  max-width: 800px;
+  max-width: 640px;
   margin: auto;
   position: relative;
 }
-
-@media (min-width: 960px) {
-  #container { width: 75%; }
-}
-
-.colour-1 { color: #c94 }
-.colour-2 { color: #925}
-.colour-3 { color: #484 }
-.text-big { font-size: 200%; line-height: 1em; }
 
 hr {
   border: 0;
   border-bottom: 1px dotted #CCC;
   margin: 25px 0;
+}
+.hr { 
+  clear: both;
+  height: 1px;
+  border-top: 1px dotted #d0d0d0;
+  margin: 25px 0;
+  text-align: center;
+  a.title { color: #9ac }
+  .title { 
+    white-space: nowrap; max-width: 84%; overflow: hidden; text-overflow: ellipsis;
+    background: $background; padding: 0 8px; margin: -21px 0; font-size: 0.5em; text-align: center;
+    color: #a0a0a0; display: inline-block;
+  }
 }
 
 ul.posts {
@@ -87,7 +101,7 @@ ul.posts {
   li a { 
     opacity: 0.7;
     display: block;
-    @include transit(all, 0.3s);
+    @include transition(all, 0.3s);
     &:hover { opacity: 1; }
     margin-bottom: 15px;
     font-size: 80%;
@@ -96,11 +110,13 @@ ul.posts {
 }
 
 section.post {
-  border: 1px dotted #CCC;
-  padding: 15px 15px 0;
+  padding: 25px 0px 0;
   border-top: 0;
-  margin: -25px 0 0;
   min-height: 250px;
+  center.date {
+    font-size: 60%; position: relative;
+    height: 0; top: -40px;
+  }
 }
 
 section.post, section > p {
@@ -115,24 +131,23 @@ section.post, section > p {
   }
 }
 
-@media (max-width: 580px) {
-  section.post img.half { width: 100%; }
-}
-.muted { color: #777; }
-
 .sec-head {
   display: none; 
   background: #494949;
   color: #fff;
   display: block;
-  border-radius: 40px;
+  @include border-top-radius(60px);
+  @include border-bottom-radius(60px);
   width: 60px;
   height: 60px;
   line-height: 58px;
-  margin: 10px auto;
+  margin: 10px auto 50px;
   text-align: center;
   font-size: 80%;
-  text-shadow: -1px -1px 0px #000;
+  -webkit-font-smoothing: antialiased;
+  @include transition(all 0.8s ease-in-out);
+  @include transform(rotate(0deg));
+  &:hover { @include transform(rotate(360deg)); }
 }
 
 section.footer {
@@ -142,7 +157,7 @@ section.footer {
   * { color: inherit }
 }
 
-.twitter {
+.twitter-button {
   margin-top: 0px;
   position: absolute;
   right: 0px;
@@ -157,8 +172,9 @@ section.info {
     }
   }
   .title { font-size: 1rem; margin: -18px 0; }
-  width: 31%; 
-  &:not(:last-of-type) { margin-right: 2%; }
+  width: 48%; 
+  margin-right: 2%;
+  &:last-of-type { margin-right: 0; }
   @include inline-block;
   vertical-align: top;
   font-size: 1rem;
@@ -177,24 +193,5 @@ section.info {
     text-overflow: ellipsis;
   }
 }
-.a-r { text-align: right; }
-.a-c { text-align: center; }
 
-center.date {
-  font-size: 60%; position: relative;
-  height: 0; top: -10px;
-}
 
-.hr { 
-  clear: both;
-  height: 1px;
-  border-top: 1px dotted #d0d0d0;
-  margin: 25px 0;
-  text-align: center;
-  a.title { color: #9ac }
-  .title { 
-    white-space: nowrap; max-width: 84%; overflow: hidden; text-overflow: ellipsis;
-    background: #f9f9f9; padding: 0 8px; margin: -21px 0; font-size: 0.5em; text-align: center;
-    color: #a0a0a0; display: inline-block;
-  }
-}

@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <meta content='{{ site.title }} - Who?' name='title' />
+    <meta content='{{ site.title }} - Who?' name='og:title' />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include header.html %}
+    {% include ga.html %}
+  </head>
+  <body class="one-pager">
+    {{ content }}
+  </body>
+</html>

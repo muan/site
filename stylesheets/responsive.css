@@ -1,0 +1,9 @@
+@media (max-width: 580px) {
+  section.post img.half {
+    width: 100%; } }
+@media (min-width: 960px) {
+  #container {
+    width: 75%; }
+
+  .stuff section.info {
+    height: 300px; } }
