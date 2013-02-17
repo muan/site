@@ -44,14 +44,30 @@ body {
   padding: 20px; }
 
 .fc-webicon {
+  opacity: 0.5;
+  display: inline-block;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  text-indent: -999em;
+  text-align: left;
+  margin-bottom: 5px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #999999;
+  border: 1px solid #dddddd;
   margin-right: 8px;
   margin-top: 10px; }
+  .fc-webicon.small {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; }
+  .fc-webicon:hover {
+    opacity: 0.9;
+    margin-bottom: 4px; }
 
 .a-r {
   text-align: right; }
@@ -186,13 +202,21 @@ ul.posts li a {
   -ms-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
-  margin-bottom: 15px;
-  font-size: 80%; }
-  ul.posts li a:hover {
-    opacity: 1; }
+  margin: 20px 0 10px;
+  font-size: 80%;
+  line-height: 1em; }
   ul.posts li a small {
     font-size: 50%;
     text-transform: uppercase; }
+  ul.posts li a:hover {
+    opacity: 1;
+    margin-left: 20px; }
+    ul.posts li a:hover::before {
+      content: "»";
+      position: absolute;
+      line-height: 0;
+      color: #afafaf;
+      margin: 20px 0 0 -20px; }
 
 section.post {
   padding: 25px 0px 0;
@@ -289,7 +313,8 @@ section.info {
   section.info:last-of-type {
     margin-right: 0; }
   section.info small {
-    color: #999; }
+    color: #999;
+    line-height: 1.35rem; }
   section.info .item * {
     padding-bottom: 2px;
     border-bottom: 1px dotted #cccccc; }

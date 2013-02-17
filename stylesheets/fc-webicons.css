@@ -1,12 +1,4 @@
 /* FC Webicons by Fairhead Creative http://fairheadcreative.com */
-.fc-webicon { 
-  display: inline-block; background-size: 100%; width: 30px; height: 30px; text-indent: -999em; text-align: left; margin-bottom: 5px;
-  opacity: 0.3;
-  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
-}
-.fc-webicon:hover { opacity: 0.7; margin-bottom: 4px; }
 .fc-webicon.small { width: 20px; height: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
 .fc-webicon.large { width: 48px; height: 48px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
 

@@ -3,5 +3,5 @@
 }
 @media (min-width: 960px) {
   #container { width: 75%; }
-  .stuff section.info { height: 300px; }
+  .stuff section.info { min-height: 200px; }
 }

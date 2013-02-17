@@ -6,4 +6,4 @@
     width: 75%; }
 
   .stuff section.info {
-    height: 300px; } }
+    min-height: 200px; } }

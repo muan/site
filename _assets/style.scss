@@ -15,8 +15,17 @@ body {
   line-height: 1.25em;
   padding: 20px;
 }
-
-.fc-webicon { @include transition(all 0.3s); border: 1px solid #999; margin-right: 8px; margin-top: 10px; }
+.fc-webicon { 
+  opacity: 0.5;
+  display: inline-block; background-size: 100%; 
+  width: 30px; height: 30px; text-indent: -999em; text-align: left; margin-bottom: 5px;
+  @include transition(all 0.3s); border: 1px solid #ddd; margin-right: 8px; margin-top: 10px;
+  &.small {
+    @include border-top-radius(30px);
+    @include border-bottom-radius(30px);
+  }
+  &:hover { opacity: 0.9; margin-bottom: 4px; }
+}
 .a-r { text-align: right; }
 .a-c { text-align: center; }
 .small { font-size: 12px }
@@ -102,10 +111,20 @@ ul.posts {
     opacity: 0.7;
     display: block;
     @include transition(all, 0.3s);
-    &:hover { opacity: 1; }
-    margin-bottom: 15px;
+    margin: 20px 0 10px;
     font-size: 80%;
+    line-height: 1em;
     small { font-size: 50%; text-transform: uppercase; }
+    &:hover { 
+      opacity: 1; margin-left: 20px;
+      &::before {
+        content: "»";
+        position: absolute;
+        line-height: 0;
+        color: #afafaf;
+        margin: 20px 0 0 -20px;
+      }
+    }
   }
 }
 
@@ -179,7 +198,7 @@ section.info {
   vertical-align: top;
   font-size: 1rem;
   line-height: 2rem;
-  small { color: #999; }
+  small { color: #999; line-height: 1.35rem; }
   .item { * { padding-bottom: 2px; border-bottom: 1px dotted #ccc;} }
   h4 {
 
