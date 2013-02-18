@@ -23,11 +23,18 @@ jQuery ->
       lineNumbers: $.trim(code.textContent.split("||")[1]).match("\\n")
       matchBrackets: true
 
+  $.each $("[data-time]"), ( index, ele ) ->
+    $(ele).html( prettyDate( new Date( $(this).data("time") ) ) )
+  
   # tracking stuff
   $.each $("a[id]"), (index, ele) ->
     $(ele).click (e) ->
       e.stopImmediatePropagation()
-      _gaq.push ["_trackEvent", e.target.id, "clicked"]
+      _gaq.push ["_trackEvent", "Clicks", "clicked", e.target.id]
 
-  $.each $("[data-time]"), ( index, ele ) ->
-    $(ele).html( prettyDate( new Date( $(this).data("time") ) ) )
+  $.each $("a:not([id])"), (index, ele) ->
+    $(ele).click (e) ->
+      e.stopImmediatePropagation()
+      _gaq.push ["_trackEvent", "Visits", "visited", e.currentTarget.href]
+
+

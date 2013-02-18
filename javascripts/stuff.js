@@ -28,13 +28,19 @@ jQuery(function() {
       matchBrackets: true
     });
   });
+  $.each($("[data-time]"), function(index, ele) {
+    return $(ele).html(prettyDate(new Date($(this).data("time"))));
+  });
   $.each($("a[id]"), function(index, ele) {
     return $(ele).click(function(e) {
       e.stopImmediatePropagation();
-      return _gaq.push(["_trackEvent", e.target.id, "clicked"]);
+      return _gaq.push(["_trackEvent", "Clicks", "clicked", e.target.id]);
     });
   });
-  return $.each($("[data-time]"), function(index, ele) {
-    return $(ele).html(prettyDate(new Date($(this).data("time"))));
+  return $.each($("a:not([id])"), function(index, ele) {
+    return $(ele).click(function(e) {
+      e.stopImmediatePropagation();
+      return _gaq.push(["_trackEvent", "Visits", "visited", e.currentTarget.href]);
+    });
   });
 });
