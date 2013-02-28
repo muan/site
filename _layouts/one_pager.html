@@ -6,7 +6,23 @@
     {% include header.html %}
     {% include ga.html %}
   </head>
-  <body class="one-pager">
-    {{ content }}
+  <body class="no-svg">
+    <div id='container'>
+      <div class='hr'>
+        <div class='title'>
+          <a href="/">☜ Back</a>
+        </div>
+      </div>
+
+      <div class='stuff'><a name="me"></a>
+        <section class='info'>
+          <div class='item'>
+            {{ content }}
+          </div>
+        </section>
+      </div>
+      
+      {% include footer.html %}
+    </div>
   </body>
 </html>

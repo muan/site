@@ -300,7 +300,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .cm-s-monokai.CodeMirror {
   background: #272822;
   color: #f8f8f2;
-  font-size: 80%;
+  font-size: 12px;
   line-height: 1.6em;
   border-radius: 3px;
   -moz-border-radius: 3px;

@@ -28,6 +28,12 @@ jQuery(function() {
       matchBrackets: true
     });
   });
+  $("#moremore").click(function() {
+    if (confirm("Really?")) {
+      $("#about-more").slideToggle();
+    }
+    return false;
+  });
   $.each($("[data-time]"), function(index, ele) {
     return $(ele).html(prettyDate(new Date($(this).data("time"))));
   });

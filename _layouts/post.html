@@ -10,15 +10,14 @@
     <div id='container'>
       <a class='sec-head' href='/' id='go-back-home'>&#9873;</a>
       <div class='site'>
-        <div class='hr'>
+        <section class='post'>
           <div class='title'>
             <a href='{{ page.url }}'>
               {{ page.title }}
             </a>
           </div>
-        </div>
-        <section class='post'>
-          <center class='date muted'>{{ page.date | date_to_string }}</center>
+          <span class='date'>{{ page.date | date_to_string }}</span>
+          <span class='author'><a href="/about">Mu-An</a> typed these words</span>
           {{ content }}
           {% include signature.html %}
 
@@ -29,27 +28,25 @@
           {% endif %}
 
         </section>
+        <hr>
         <div class='hr'>
           <div class='title'>
-              want more?
+              More things I wrote
           </div>
         </div>
         <div class="paging">
-          <section class="info">
-            {% if page.previous %}
-              <a href="{{ page.previous.url }}">
-                {{page.previous.title}}
-              </a>
-            {% endif %}
-          </section>
-          <section class="info a-r">
-            {% if page.next %}
-              <a href="{{page.next.url}}">
-                {{page.next.title}}
-              </a>
-            {% endif %}
-          </section>
+          {% if page.previous %}
+            Before this: <a href="{{ page.previous.url }}">
+              {{page.previous.title}}
+            </a><br />
+          {% endif %}
+          {% if page.next %}
+            After this: <a href="{{page.next.url}}">
+              {{page.next.title}}
+            </a>
+          {% endif %}
         </div>
+        <hr>
         {% include footer.html %}
       </div>
     </div>

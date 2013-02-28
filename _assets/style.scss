@@ -9,10 +9,10 @@ $background: #fff;
 body { 
   background: $background;
   color: #303030;
-  font-family: "Source Sans Pro", "Microsoft JhengHei", helvetica, arial, sans-serif;
+  font-family: "Varela Round", "Microsoft JhengHei", helvetica, arial, sans-serif;
   font-weight: 300;
-  font-size: 2em;
-  line-height: 1.25em;
+  font-size: 14px;
+  line-height: 24px;
   padding: 20px;
 }
 .fc-webicon { 
@@ -26,17 +26,21 @@ body {
   }
   &:hover { opacity: 0.9; margin-bottom: 4px; }
 }
+.hide { display: none; }
 .a-r { text-align: right; }
 .a-c { text-align: center; }
-.small { font-size: 12px }
+.small { font-size: 11px }
 .pull-right { float: right; }
 .muted { color: #777; }
 .colour-1 { color: #c94 }
 .colour-2 { color: #925}
 .colour-3 { color: #484 }
-.text-big { font-size: 200%; line-height: 1em; }
+.text-big { font-size: 24px; line-height: 1em; }
 strong, b { font-weight: 400; }
-blockquote { &::before { content: "░"; font-size: 100%; color: #ddd; position: absolute; margin-left: -28px; font-style: normal; } }
+blockquote { 
+  margin: 0;
+  font-style: normal !important;
+}
 
 a, .as-link {
   text-decoration: none; 
@@ -48,7 +52,7 @@ a, .as-link {
     @include transition(all, 0.2s);
     color: #fff;
     font-size: 12px;
-    line-height: 2em;
+    line-height: 24px;
     padding: 8px 0;
     font-weight: 600;
     text-transform: uppercase;
@@ -81,7 +85,7 @@ a, .as-link {
 
 #container {
   width: 100%;
-  max-width: 640px;
+  max-width: 500px;
   margin: auto;
   position: relative;
 }
@@ -93,37 +97,26 @@ hr {
 }
 .hr { 
   clear: both;
-  height: 1px;
-  border-top: 1px dotted #d0d0d0;
   margin: 25px 0;
-  text-align: center;
   a.title { color: #9ac }
   .title { 
-    white-space: nowrap; max-width: 84%; overflow: hidden; text-overflow: ellipsis;
-    background: $background; padding: 0 8px; margin: -21px 0; font-size: 0.5em; text-align: center;
-    color: #a0a0a0; display: inline-block;
+    white-space: nowrap; max-width: 84%; 
+    background: $background; font-size: 13px; text-align: center; text-transform: uppercase;
+    color: #555; display: inline-block;
   }
 }
 
 ul.posts {
   &, li { margin: 0; padding: 0; list-style: none; }
   li a { 
-    opacity: 0.7;
     display: block;
     @include transition(all, 0.3s);
     margin: 20px 0 10px;
-    font-size: 80%;
+    font-size: 16px;
     line-height: 1em;
-    small { font-size: 50%; text-transform: uppercase; }
+    small { font-size: 10px; color: #d0d0d0; text-transform: uppercase; }
     &:hover { 
-      opacity: 1; margin-left: 20px;
-      &::before {
-        content: "»";
-        position: absolute;
-        line-height: 0;
-        color: #afafaf;
-        margin: 20px 0 0 -20px;
-      }
+      margin-left: 5px;
     }
   }
 }
@@ -131,15 +124,13 @@ ul.posts {
 section.post {
   padding: 25px 0px 0;
   border-top: 0;
-  min-height: 250px;
-  center.date {
-    font-size: 60%; position: relative;
-    height: 0; top: -40px;
-  }
+  .title { font-size: 24px; }
+  .date { color: #d0d0d0; }
+  .author { color: #c0c0c0; a { color: #aaa; }  }
 }
 
 section.post, section > p {
-  font-size: 1.20rem; line-height: 1.75rem;
+  font-size: 14px; line-height: 1.75em;
   * { max-width: 100%; }
   blockquote { font-style: italic; color: #999; }
   li .CodeMirror { margin: 10px 0; }
@@ -151,28 +142,14 @@ section.post, section > p {
 }
 
 .sec-head {
-  display: none; 
-  background: #494949;
-  color: #fff;
-  display: block;
-  @include border-top-radius(60px);
-  @include border-bottom-radius(60px);
-  width: 60px;
-  height: 60px;
-  line-height: 58px;
-  margin: 10px auto 50px;
-  text-align: center;
-  font-size: 80%;
-  -webkit-font-smoothing: antialiased;
-  @include transition(all 0.8s ease-in-out);
-  @include transform(rotate(0deg));
-  &:hover { @include transform(rotate(360deg)); }
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 section.footer {
   text-align: center;
-  font-size: 1rem;
-  line-height: 2rem;
+  font-size: 14px;
+  line-height: 2em;
   * { color: inherit }
 }
 
@@ -183,25 +160,21 @@ section.footer {
 }
 
 section.info {
+  @include inline-block;
+  margin-right: 2%;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 30px;
+  small { color: #999; line-height: 1.35em; }
+  .title { margin: -18px 0; }
+  .item { a { padding-bottom: 1px; border-bottom: 1px dotted #ccc;} }
+  &:last-of-type { margin-right: 0; }
   &.one { 
     width: 100%; 
     &:not(:last-of-type) { 
       border-bottom: 1px dotted #ccc; margin-bottom: 20px;
       padding-bottom: 20px;
     }
-  }
-  .title { font-size: 1rem; margin: -18px 0; }
-  width: 48%; 
-  margin-right: 2%;
-  &:last-of-type { margin-right: 0; }
-  @include inline-block;
-  vertical-align: top;
-  font-size: 1rem;
-  line-height: 2rem;
-  small { color: #999; line-height: 1.35rem; }
-  .item { * { padding-bottom: 2px; border-bottom: 1px dotted #ccc;} }
-  h4 {
-
   }
 }
 
