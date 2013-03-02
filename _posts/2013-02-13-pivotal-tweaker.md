@@ -7,11 +7,10 @@ copyin: y
 
 {% include twitter.html %}
 
-**tl;dr**
 
 I made a Chrome plugin called [Pivotal Tweaker](https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg), it makes your Pivotal Tracker better. You can download the plugin by clicking on this huge button:
 
-<a href="https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg" target="_blank" class="big-button green" id="tldr-tweaker-dl">Download Pivotal Tweaker</a>
+<a href="https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg" target="_blank" class="big-button green" id="tldr-tweaker-dl">Download Pivotal Tweaker &hearts;</a>
 <a name="better"></a>
 
 ---
@@ -70,6 +69,6 @@ Then our whole team found out, and they all want it!
 
 So this is the story of why I made **Pivotal Tweaker**, to download the plugin, click on yet another huge button:
 
-<a href="https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg" target="_blank" class="big-button green" id="tweaker-dl">Download Pivotal Tweaker</a>
+<a href="https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg" target="_blank" class="big-button green" id="tweaker-dl">Download Pivotal Tweaker &hearts;</a>
 
 And after you tried it, it'd be super nice if you could give me a [review](https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg/reviews) on Chrome Store, or better yet, share it or [tweet to me](http://twitter.com/muanchiou), let me know if you like it. <br />It'd just be a pat on the shoulder for me, but it's all I want! :) 

@@ -28,12 +28,6 @@ jQuery(function() {
       matchBrackets: true
     });
   });
-  $("#moremore").click(function() {
-    if (confirm("Really?")) {
-      $("#about-more").slideToggle();
-    }
-    return false;
-  });
   $.each($("[data-time]"), function(index, ele) {
     return $(ele).html(prettyDate(new Date($(this).data("time"))));
   });
@@ -46,7 +40,8 @@ jQuery(function() {
   return $.each($("a:not([id])"), function(index, ele) {
     return $(ele).click(function(e) {
       e.stopImmediatePropagation();
-      return _gaq.push(["_trackEvent", "Visits", "visited", e.currentTarget.href]);
+      console.log(e.currentTarget.innerText);
+      return _gaq.push(["_trackEvent", "Visits", "clicked on" + e.currentTarget.innerText, e.currentTarget.href]);
     });
   });
 });
