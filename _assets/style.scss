@@ -151,6 +151,7 @@ section.post {
   .title { font-size: 24px; }
   .date { color: #d0d0d0; }
   .author { color: #c0c0c0; a { color: #acb; }  }
+  iframe, img { @include border-bottom-radius(3px); @include border-top-radius(3px); }
 }
 
 section.post, section > p {
