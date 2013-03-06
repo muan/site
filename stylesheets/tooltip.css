@@ -1,0 +1,22 @@
+.tooltip {
+  position: absolute;
+  margin: -45px 15px;
+  background: #444;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: none;
+  color: white;
+  padding: 7px 15px; }
+  .tooltip .arrow {
+    border: 6px solid transparent;
+    border-top: 6px solid #444444;
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg); }

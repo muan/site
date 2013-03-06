@@ -13,6 +13,7 @@ jQuery(function() {
     return mobile($(this).width());
   });
   $(window).resize();
+  $("[data-tooltip]").tooltip();
   $.each($("pre"), function(index, code) {
     return new CodeMirror(function(node) {
       if (code instanceof jQuery) {

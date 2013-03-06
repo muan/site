@@ -10,6 +10,7 @@ jQuery ->
     mobile( $(this).width() )
   
   $(window).resize()
+  $("[data-tooltip]").tooltip()
 
   $.each $("pre"), ( index, code ) ->
     new CodeMirror (node) ->

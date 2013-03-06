@@ -11,7 +11,6 @@ copyin: y
 I made a Chrome plugin called [Pivotal Tweaker](https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg), it makes your Pivotal Tracker better. You can download the plugin by clicking on this huge button:
 
 <a href="https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg" target="_blank" class="big-button green" id="tldr-tweaker-dl">Download Pivotal Tweaker &hearts;</a>
-<a name="better"></a>
 
 ---
 
