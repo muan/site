@@ -38,7 +38,7 @@ or Bill Murray.
 
 ---
 
-Here's the actually code for it if you're curious:
+Here's the actual code for it if you're curious:
 
 <pre>javascript||
 javascript:for(var i=0,item;item=document.getElementsByTagName("img")[i];i++)
