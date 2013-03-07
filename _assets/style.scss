@@ -234,4 +234,23 @@ section.info {
   }
 }
 
-
+@include keyframes(cage) {
+  0% { background-image: url(../images/13030701.png) }
+  31% { background-image: url(../images/13030701.png) }
+  34% { background-image: url(../images/13030702.png) }
+  65% { background-image: url(../images/13030702.png) }
+  68% { background-image: url(../images/13030703.png) }
+  100% { background-image: url(../images/13030703.png) }
+}
+.slide-place-cage {
+  border: 1px solid #ddd;
+  @include border-top-radius(3px);
+  @include border-bottom-radius(3px);
+  width: 100%; height: 300px;
+  cursor: pointer;
+  background-image: url(../images/13030701.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  @include background-size(cover); 
+  @include animation( cage 6s linear infinite );
+}

@@ -371,3 +371,119 @@ section.info {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
+
+@-webkit-keyframes cage {
+  0% {
+    background-image: url(../images/13030701.png); }
+
+  31% {
+    background-image: url(../images/13030701.png); }
+
+  34% {
+    background-image: url(../images/13030702.png); }
+
+  65% {
+    background-image: url(../images/13030702.png); }
+
+  68% {
+    background-image: url(../images/13030703.png); }
+
+  100% {
+    background-image: url(../images/13030703.png); } }
+
+@-moz-keyframes cage {
+  0% {
+    background-image: url(../images/13030701.png); }
+
+  31% {
+    background-image: url(../images/13030701.png); }
+
+  34% {
+    background-image: url(../images/13030702.png); }
+
+  65% {
+    background-image: url(../images/13030702.png); }
+
+  68% {
+    background-image: url(../images/13030703.png); }
+
+  100% {
+    background-image: url(../images/13030703.png); } }
+
+@-ms-keyframes cage {
+  0% {
+    background-image: url(../images/13030701.png); }
+
+  31% {
+    background-image: url(../images/13030701.png); }
+
+  34% {
+    background-image: url(../images/13030702.png); }
+
+  65% {
+    background-image: url(../images/13030702.png); }
+
+  68% {
+    background-image: url(../images/13030703.png); }
+
+  100% {
+    background-image: url(../images/13030703.png); } }
+
+@-o-keyframes cage {
+  0% {
+    background-image: url(../images/13030701.png); }
+
+  31% {
+    background-image: url(../images/13030701.png); }
+
+  34% {
+    background-image: url(../images/13030702.png); }
+
+  65% {
+    background-image: url(../images/13030702.png); }
+
+  68% {
+    background-image: url(../images/13030703.png); }
+
+  100% {
+    background-image: url(../images/13030703.png); } }
+
+@keyframes cage {
+  0% {
+    background-image: url(../images/13030701.png); }
+
+  31% {
+    background-image: url(../images/13030701.png); }
+
+  34% {
+    background-image: url(../images/13030702.png); }
+
+  65% {
+    background-image: url(../images/13030702.png); }
+
+  68% {
+    background-image: url(../images/13030703.png); }
+
+  100% {
+    background-image: url(../images/13030703.png); } }
+
+.slide-place-cage {
+  border: 1px solid #dddddd;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 100%;
+  height: 300px;
+  cursor: pointer;
+  background-image: url(../images/13030701.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-animation: cage 6s linear infinite;
+  -moz-animation: cage 6s linear infinite;
+  animation: cage 6s linear infinite; }
