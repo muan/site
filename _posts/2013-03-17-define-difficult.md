@@ -23,13 +23,13 @@ Now, since they are not difficult, what are they? mildly unpleasant? slightly un
 Except, everyone is comparing.
 
 When something happens, it is so common for people to compare, because it is a way to relate, a way to understand and put one self in the same spot. We compare the situations to get a grasp of how to properly deal with certain things, compare by looking at how had people dealt with it in the past. So something far more difficult happened to someone, and that someone pull through, I guess then since my problem is way less significant, I should pull through too without a wink.
-<br />
+
 ---
 
 <center class="muted">Don't say it hurts unless you are bleeding.</center>
 
 ---
-<br />
+
 To solve a problem, first you have to recognize there is a problem, isn't that true? But I think it is getting harder and harder to recognize problems. Looks like what we have here is not difficult enough to be a problem.
 
 So, just pull through. You will be fine.

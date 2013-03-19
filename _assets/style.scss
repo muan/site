@@ -244,8 +244,7 @@ section.info {
 }
 .slide-place-cage {
   border: 1px solid #ddd;
-  @include border-top-radius(3px);
-  @include border-bottom-radius(3px);
+  border-radius: 3px;
   width: 100%; height: 300px;
   cursor: pointer;
   background-image: url(../images/13030701.png);
@@ -253,4 +252,11 @@ section.info {
   background-position: 50% 0%;
   @include background-size(cover); 
   @include animation( cage 6s linear infinite );
+}
+
+.label { background: #444; color: #fff; }
+
+#hire {
+  background: #ddeed0; padding: 10px 8px; border-radius: 3px;
+  text-align: center;
 }

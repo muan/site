@@ -1,12 +1,12 @@
 $.fn.tooltip = () ->
-  content = $(this).attr "title"
-  tooltip = $("<div class=\"tooltip\"><div class=\"arrow\"></div>" + content + "</div>")
-  $(this).after tooltip
+  $.each $(this), (index, element) ->
+    content = $(element).data "title"
+    tooltip = $("<div class=\"tooltip\"><div class=\"arrow\"></div>" + content + "</div>")
+    $(element).after tooltip
 
-  top = $(this).position().top
-  left = $(this).position().left
-  tooltip.css("top": top).css("left": left)
-  $(this).hover () ->
-    tooltip.show()
-  , () ->
-    tooltip.hide()
+    top = $(element).position().top - tooltip.height() - $(element).outerHeight()
+    left = $(element).position().left
+    tooltip.css("top": top).css("left": left)
+
+    $(element).hover () ->
+      tooltip.toggleClass('show')

@@ -2,15 +2,19 @@
 
 .tooltip {
   position: absolute;
-  margin: -45px 15px;
-  background: #444;
-  @include border-top-radius(30px);
-  @include border-bottom-radius(30px);
+  opacity: 0.8;
+  background: #000;
+  @include border-top-radius(3px);
+  @include border-bottom-radius(3px);
   display: none; color: white;
-  padding: 7px 15px;
+  padding: 6px 10px; line-height: 1.4em;
+  max-width: 240px;
+  &.show {
+    @include inline-block;
+  }
   .arrow {
     border: 6px solid transparent;
-    border-top: 6px solid #444;
+    border-top: 6px solid #000;
     position: absolute; left: 10px;
     bottom: -10px;
     @include transform( rotate(20deg) );

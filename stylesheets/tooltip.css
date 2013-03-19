@@ -1,17 +1,25 @@
 .tooltip {
   position: absolute;
-  margin: -45px 15px;
-  background: #444;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  opacity: 0.8;
+  background: #000;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
   display: none;
   color: white;
-  padding: 7px 15px; }
+  padding: 6px 10px;
+  line-height: 1.4em;
+  max-width: 240px; }
+  .tooltip.show {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto; }
   .tooltip .arrow {
     border: 6px solid transparent;
-    border-top: 6px solid #444444;
+    border-top: 6px solid black;
     position: absolute;
     left: 10px;
     bottom: -10px;
