@@ -1,0 +1,11 @@
+---
+layout: post
+title: Difficult Decisions
+date: 2013-03-20 10:56:35
+---
+
+There are times we will need to make the difficult decisions, and we would try to convince ourselves that they are all for the best. Truth is we will never know if it will be for the best in the future. All we know is now, and with the restricted view into the future, we place our best bet. 
+
+When I watch people play poker, I always think it is just luck. Although I have been told otherwise countless time, it is still difficult for me to understand. There are always factors effecting our decisions, but I don't pay much attention them. I am a terrible gambler, I care too much and notice too less. If you are playing against me, you would see everything on my face, then it's only sensible that you take them away and make your best counter bet. 
+
+Luckily in this game of life, things always turn out better than the worst thing that could have happened. So we can to just go nuts, bet away. If I prepare for the worst, things would always turn out better, right?
