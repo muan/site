@@ -18,4 +18,4 @@ So I spent tonight working on it, eventually I made it. It feels really stupid, 
 
 Oh by the way, Tweaker is now on Github! Go nuts.
 
-<a href="https://github.com/copyin/pivotal-tweaker" target="_blank" class="big-button red" id="tweaker-gh">Pivotal Tweaker on Github</a>
+<a href="https://github.com/muan/tweaker" target="_blank" class="big-button red" id="tweaker-gh">Pivotal Tweaker on Github</a>
