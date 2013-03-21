@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sublime Text 2 Mac Shortcuts
+title: Sublime Text 2 Mac shortcuts
 date: 2012-10-22 19:33:53
 ---
 
