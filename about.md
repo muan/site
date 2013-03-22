@@ -17,4 +17,6 @@ I founded <a data-title="A crowdfunding site based in Taiwan." href='http://zecz
 
 ---
 
-There's a <a href='/feed.xml' id='subscribe' target='_blank'>feed</a> if you'd like to subscribe to what I write.
+<a href='https://github.com/muan/muan.github.com' class='big-button green' id='star-github' target='_blank'>FOLLOW THIS SITE ON GITHUB</a>
+
+<a href='/feed.xml' id='subscribe'  class='big-button red' target='_blank'>GET RSS FEED</a>
