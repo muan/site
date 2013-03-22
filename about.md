@@ -5,7 +5,7 @@ title: about
 
 This is Mu-An. I am a <u>designer & developer</u>.
 
-This means I write a lot of stuff. From haml/scss/javascript/coffeescript, to Ruby on Rails and commands. I am good with Git, and I LOOOVE CODING. 
+This means I do a lot of stuff. I code in HAML, SCSS, JavaScript, CoffeeScript, Ruby on Rails, and work in terminal. 
 
 I've formerly worked in <a href='http://copyin.com' id='copyin-about' target='_blank'>Copyin.com</a> and <a href='http://bluefields.com' id='hownice' target='_blank' data-title="Summer 2012 in Mountain View in 500 Startups">Bluefields.com</a>.
 
@@ -17,4 +17,4 @@ I founded <a data-title="A crowdfunding site based in Taiwan." href='http://zecz
 
 ---
 
-There's also a <a href='/feed.xml' id='subscribe' target='_blank'>feed</a> if you'd like to subscribe to what I write.
+There's a <a href='/feed.xml' id='subscribe' target='_blank'>feed</a> if you'd like to subscribe to what I write.
