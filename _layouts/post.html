@@ -14,15 +14,14 @@
         <br />
         <div class="special-line">Other posts</div>
         <div class="paging">
-          {% if page.previous %}
-            <a href="{{ page.previous.url }}">
-              {{page.previous.title}}
-            </a><br />
-          {% endif %}
-          {% if page.next %}
-            <a href="{{page.next.url}}">
-              {{page.next.title}}
-            </a>
+          {% if site.related_posts %}
+            {% for post in site.related_posts, limit: 5 %}
+              <a href="{{ post.url }}">{{ post.title }}</a><br />
+            {% endfor %}
+          {% else %}
+            {% for post in site.posts, limit: 5 %}
+              <a href="{{ post.url }}">{{ post.title }}</a><br />
+            {% endfor %}
           {% endif %}
         </div>
         <hr>
