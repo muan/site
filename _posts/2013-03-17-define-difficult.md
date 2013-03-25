@@ -4,8 +4,6 @@ title: Define difficult
 date: 2013-03-17 19:45:47
 ---
 
-Define difficult.
-
 Last time I went back home, my dad asked me all sorts of questions, trying to get a handle on my life. 
 
 I tried, but there are too many years left blank in their mind I think it began to be difficult to put the pieces together in a way that they make sense. This is the same for me when I look at their lives, or anyone in my family, and now even most of my close friends back there.

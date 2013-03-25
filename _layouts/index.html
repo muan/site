@@ -3,33 +3,24 @@
     <meta content='{{ site.title }}' name='title' />
     <meta content='{{ site.title }}' name='og:title' />
     <title>{{ site.title }}</title>
-    {% include header.html %}
-    {% include ga.html %}
+    {% include head.html %}
   </head>
   <body class="no-svg">
+    <a href='/' id='go-back-home' class='flag'>⚑</a>
     <div id='container'>
-      <div class='header'>
-          I am <a href="/about">Mu-An</a>, a designer + developer. <br />
-          Find me on
-          <a target="_blank" id="ind-twitter" href="http://twitter.com/muanchiou">twitter</a>,
-          <a target="_blank" id="ind-dribbble" href="http://dribbble.com/muan">dribbble</a>, 
-          <a target="_blank" id="ind-github" href="http://github.com/muan">github</a>, 
-          <a target="_blank" id="ind-linkedin" href="http://uk.linkedin.com/in/muanchiou">linkedin</a>, 
-          <a target="_blank" id="ind-instagram" href="http://instagram.com/muanchiou">instagram</a>.
+      <div class="sidebar">
+        {% include sidebar.html %}
+        <section class="hide-small">
+          <hr>
+          Recently redesigned here.
+          <br />
+          <small class="muted">Updated <span data-time="2013-03-25"></span></small>
+          {% include footer.html %}
+        </section>
       </div>
-      <hr>
-      <p>
-        Recently don't really know what I'm doing.
-        <span class="muted pull-right" data-time="2013-03-22"></span>
-      </p>
-      <hr>
-      <div class="hr">
-        <div class="title">
-          Stuff I wrote
-        </div>
+      <div class="content">
+        {{ content }}
       </div>
-      {{ content }}
-      {% include footer.html %}
     </div>
   </body>
 </html>

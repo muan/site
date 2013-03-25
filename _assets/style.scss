@@ -4,27 +4,22 @@
   to { @include transform(rotate(-80deg)); }
 }
 
-$background: #fff;
+$background: #f9f9f9;
 
+h1, h2, h3, h4, h5 { font-weight: 400; }
+
+html, body { height: 100%; }
 body { 
   background: $background;
   color: #303030;
-  font-family: "Varela Round", "Microsoft JhengHei", helvetica, arial, sans-serif;
+  font-family: $helvetica;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 24px;
-  padding: 20px;
+  font-size: 13px;
+  line-height: 19px;
+  padding: 0; margin: 0;
 }
-.fc-webicon { 
-  opacity: 0.5;
-  display: inline-block; background-size: 100%; 
-  width: 30px; height: 30px; text-indent: -999em; text-align: left; margin-bottom: 5px;
-  @include transition(all 0.3s); border: 1px solid #ddd; margin-right: 8px; margin-top: 10px;
-  &.small {
-    @include border-top-radius(30px);
-    @include border-bottom-radius(30px);
-  }
-  &:hover { opacity: 0.9; margin-bottom: 4px; }
+#me {
+  border-radius: 7px;
 }
 .hide { display: none; }
 .a-r { text-align: right; }
@@ -42,21 +37,48 @@ blockquote {
   font-style: normal !important;
 }
 
+#container {
+  width: 70%;
+  margin: auto;
+  @include clearfix;
+  padding: 0 0 60px; 
+  position: relative;
+}
+
+.sidebar, .content {
+  @include box-sizing(border-box);
+  float: left;
+  position: relative;
+}
+.sidebar {
+  width: 40%;
+  @include transition(all, 0.8s);
+  padding: 30px 30px;
+}
+.content {
+  width: 60%;
+  border-width: 0;
+  border-style: solid;
+  border-color: #efefef;
+  padding: 30px;
+  background-color: #fff;
+}
+
 a, .as-link {
   text-decoration: none; 
   color: #4a8;
   @include transition(all, 0.3s);
   &:hover { color: #486 }
   &.big-button {
-    display: block;
-    @include border-top-radius(2px);
-    @include border-bottom-radius(2px);
+    @include inline-block;
+    min-width: 30%;
+    border-radius: 2px;
     @include transition(all, 0.2s);
     color: #fff;
     cursor: pointer;
     font-size: 12px;
     line-height: 24px;
-    padding: 8px 0;
+    padding: 8px 17px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -89,12 +111,6 @@ a, .as-link {
   }
 }
 
-#container {
-  width: 100%;
-  max-width: 500px;
-  margin: auto;
-  position: relative;
-}
 
 hr {
   border: 0;
@@ -113,51 +129,82 @@ hr {
   }
 }
 
-.hr { 
-  clear: both;
-  margin: 25px 0;
-  a.title { color: #9ac }
-  .title { 
-    &:hover:before { color: #4a8; }
-    &:before {
-      content: "⚑"; color: #adadac;
-      margin-left: -13px;
-      padding-right: 3px;
-    }
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #555; 
+.flag {
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 40px auto 40px;
+  font-size: 20px;
+  line-height: 38px;
+  position: relative;
+  &:hover {
+    color: #bf4634;
+    line-height: 26px;
   }
+  &:after {
+    top: 23px; left: 5px;
+    background: #e0e0e0;
+    position: absolute;
+    z-index: -1;
+    @include border-top-radius(80% 100%);
+    @include border-bottom-radius(80% 100%);
+    display: block;
+    content: " ";
+    width: 14px;
+    height: 6px;
+  }
+}
+
+.special-line { 
+  &:hover:before { color: #4a8; }
+  &:before {
+    content: "⚑"; color: #adadac;
+    margin-left: -13px;
+    padding-right: 3px;
+  }
+  text-indent: 3px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #555; 
 }
 
 ul.posts {
   &, li { margin: 0; padding: 0; list-style: none; }
+  li:first-of-type a { margin-top: 0; }
   li a { 
-    @include transition(all, 0.3s);
+    @include transition(all, 0.5s);
     display: block;
-    color: #a0afaa;
-    margin: 20px 0 10px;
-    font-size: 16px;
-    line-height: 1em;
-    small { font-size: 10px; color: #d0d0d0; text-transform: uppercase; }
+    color: #707f7a;
+    margin: 0 0 0px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.2em;
+    background-color: #fff;
+    small { font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 1px; }
     &:hover { 
-      color: #697;
-      margin-left: 5px;
+      color: #385;
+      background-color: #f9f9f9;
+      // margin-left: -30px;
+      // margin-right: -30px;
+      // padding-left: 50px;
     }
   }
 }
 
+
 section.post {
-  padding: 25px 0px 0;
-  border-top: 0;
-  .title { font-size: 24px; }
-  .date { color: #d0d0d0; }
-  .author { color: #c0c0c0; a { color: #587584; }  }
+  max-width: 540px;  
+  border-top: 0; padding: 10px 20px;
+  h2 { margin: 0 0 5px; letter-spacing: 1px; font-weight: 300; }
+  .date { color: #aaa; font-size: 10px; }
   iframe, img { @include border-bottom-radius(3px); @include border-top-radius(3px); }
 }
 
 section.post, section > p {
-  font-size: 14px; line-height: 1.75em;
+  font-size: 14px; line-height: 1.6em;
   * { max-width: 100%; }
   iframe.copyin {
     margin: 0 -15%;
@@ -165,35 +212,35 @@ section.post, section > p {
     width: 130%;
   }
   blockquote { 
-    color: #909090;
+    @include transition(all, 0.3s);
+    color: #999;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    padding: 0 0 0 20px;
+    &:hover { color: #454545; }
+    &:hover:before { color: darken(#d0dfda, 8%); }
     &:before {
-      content: "◌"; margin-left: -26px;
-      line-height: 20px; color: #d0dfda;
-      font-size: 36px;
+      content: "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"; 
+      font-size: 24px; 
+      overflow: hidden;
       position: absolute;
+      top: 20px; bottom: 18px;
+      left: -3px;
+      line-height: 0.4em;
+      word-break: break-all;
+      color: #d0dfda;
+      display: block; width: 7px !important;
+      white-space: normal;
     }
   }
   li .CodeMirror { margin: 10px 0; }
   li p { margin-bottom: 5px; }
+  code { font-size: 13px; color: #888; background: #f9f9f9; padding: 0 4px; }
   img { 
     max-width: 100%;
     &.half { width: 50%; }
   }
-}
-
-.sec-head {
-  color: #797979;
-  line-height: 40px;
-  margin: auto;
-  text-align: center;
-  display: block; width: 40px; height: 40px;
-  font-size: 24px;
-  text-transform: uppercase;
-  &:hover { 
-    color: #333; 
-    background: #fff; 
-    text-shadow: 1px 1px 0px #bbb, 2px 2px 0px #bbb, 3px 3px 0px #bbb; 
-    line-height: 36px; text-indent: -3px; }
 }
 
 section.footer {
@@ -214,8 +261,6 @@ section.info {
   font-size: 14px;
   line-height: 30px;
   small { color: #999; line-height: 1.35em; }
-  .title { margin: -18px 0; }
-  .item { a { padding-bottom: 1px; border-bottom: 1px dotted #ccc;} }
   &:last-of-type { margin-right: 0; }
   &.one { 
     width: 100%; 
@@ -259,4 +304,12 @@ section.info {
 #hire {
   background: #ddeed0; padding: 10px 8px; border-radius: 3px;
   text-align: center;
+}
+
+section.share-links {
+  .button { 
+    vertical-align: top;
+    height: 20px; 
+    margin-bottom: 15px;
+  }
 }

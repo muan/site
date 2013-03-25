@@ -1,26 +1,25 @@
 <html>
   <head>
-    <meta content='{{ site.title }} - Who?' name='title' />
-    <meta content='{{ site.title }} - Who?' name='og:title' />
+    <meta content='{{ page.title }} - {{ site.title }}' name='title' />
+    <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
     <title>{{ page.title }} - {{ site.title }}</title>
-    {% include header.html %}
-    {% include ga.html %}
+    {% include head.html %}
   </head>
-  <body class="no-svg">
+  <body>
+    <a href='/' id='go-back-home' class='flag'>⚑</a>
     <div id='container'>
-      <div class='hr'>
-        <div class='title'>
-          <a href="/">Back</a>
-        </div>
-      </div>
-
-      <div class='stuff'><a name="me"></a>
-        <section class='info'>
-          {{ content }}
-        </section>
+      <div class="sidebar">
+        {% include sidebar.html %}
       </div>
       
-      {% include footer.html %}
+      <div class="content">
+          <section class='post'>
+            <a href='{{ page.url }}' class='special-line'>
+              {{ page.title }}
+            </a>
+            {{ content }}
+          </section>
+        </div>
     </div>
   </body>
 </html>

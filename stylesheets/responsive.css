@@ -1,9 +1,20 @@
-@media (max-width: 580px) {
+@media (max-width: 700px) {
+  .sidebar, .content {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 0; }
+
+  .content {
+    border-top-width: 1px;
+    margin-top: 20px; }
+
+  .hide-small {
+    display: none; }
+
   section.post img.half {
     width: 100%; } }
 @media (min-width: 960px) {
-  #container {
-    width: 75%; }
-
   .stuff section.info {
     min-height: 200px; } }

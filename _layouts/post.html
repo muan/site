@@ -3,50 +3,47 @@
     <meta content='{{ page.title }} - {{ site.title }}' name='title' />
     <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
     <title>{{ page.title }} - {{ site.title }}</title>
-    {% include header.html %}
-    {% include ga.html %}
+    {% include head.html %}
   </head>
   <body>
+    <a href='/' id='go-back-home' class='flag'>⚑</a>
     <div id='container'>
-      <a class='sec-head' href='/' id='go-back-home'>&#8962;</a>
-      <div class='site'>
-        <section class='post'>
-          <div class='title'>
-            <a href='{{ page.url }}'>
-              {{ page.title }}
-            </a>
-          </div>
-          <span class='date'>{{ page.date | date_to_string }}</span>
-          <span class='author'><a href="/about" data-title="me me me me me!">I</a> typed these words..</span>
-          {{ content }}
-          {% include signature.html %}
-
-          {% if page.disqus == 'y' %}
-            {% include disqus.html %}
-          {% endif %}
-
-        </section>
-        <hr>
-        <div class='hr'>
-          <div class='title'>
-              More things I wrote
-          </div>
-        </div>
+      <div class="sidebar">
+        {% include sidebar.html %}
+        <br />
+        <br />
+        <div class="special-line">Other posts</div>
         <div class="paging">
           {% if page.previous %}
-            Before this: <a href="{{ page.previous.url }}">
+            <a href="{{ page.previous.url }}">
               {{page.previous.title}}
             </a><br />
           {% endif %}
           {% if page.next %}
-            After this: <a href="{{page.next.url}}">
+            <a href="{{page.next.url}}">
               {{page.next.title}}
             </a>
           {% endif %}
         </div>
         <hr>
-        {% include footer.html %}
+        {% include social_links.html %}
       </div>
+      
+      <div class="content">
+          <section class='post'>
+            <a href='{{ page.url }}' class='special-line'>
+              {{ page.title }}
+            </a>
+            <span class='date'>{{ page.date | date_to_string }}</span>
+            {{ content }}
+            {% include signature.html %}
+
+            {% if page.disqus == 'y' %}
+              {% include disqus.html %}
+            {% endif %}
+
+          </section>
+        </div>
     </div>
   </body>
 </html>

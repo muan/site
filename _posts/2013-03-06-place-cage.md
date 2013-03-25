@@ -4,8 +4,6 @@ title: Place Cage everywhere
 date: 2013-03-07 13:54:43
 ---
 
-{% include twitter.html %}
-
 Wouldn't it be nice if all your friends were Nicolas Cage. Or Bill Murray. Or Vanilla Ice.
 
 <div class="slide-place-cage" onclick="window.open('/images/13030701.png')">&nbsp;</div>
@@ -22,9 +20,9 @@ Just drag any of the buttons below to your bookmark bar, and with a click you ca
 <a href="javascript:for(var i=0,item;item=document.getElementsByTagName('img')[i];i++){item.setAttribute('src','http://nicenicejpg.com/'+item.clientWidth+'/'+item.clientHeight)}" class="big-button red">Vanilla Ice</a>
 
 
-<img src="http://placecage.com/g/80/200" />
-<img src="http://placecage.com/g/310/200" />
-<img src="http://placecage.com/g/100/200" />
+<img src="http://placecage.com/g/60/160" />
+<img src="http://placecage.com/g/246/160" />
+<img src="http://placecage.com/g/120/160" />
 
 ---
 
@@ -40,5 +38,3 @@ javascript:for(var i=0,item;item=document.getElementsByTagName("img")[i];i++)
 In all seriousness, I made this because when I run localhost using Production DB I get error images as it's trying to link to production AWS bucket, this way I get real images in the img tags, and a smile. :)
 
 Happy Thursday!
-
-{% include twitter.html %}
