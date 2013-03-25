@@ -245,28 +245,161 @@ hr {
   -moz-animation: tilde 8s ease-in infinite;
   animation: tilde 8s ease-in infinite; }
 
+@-webkit-keyframes dropfromsomewhereupthere {
+  0% {
+    top: -80px;
+    color: #999; }
+
+  99% {
+    color: #999; }
+
+  100% {
+    top: 0; } }
+
+@-moz-keyframes dropfromsomewhereupthere {
+  0% {
+    top: -80px;
+    color: #999; }
+
+  99% {
+    color: #999; }
+
+  100% {
+    top: 0; } }
+
+@-ms-keyframes dropfromsomewhereupthere {
+  0% {
+    top: -80px;
+    color: #999; }
+
+  99% {
+    color: #999; }
+
+  100% {
+    top: 0; } }
+
+@-o-keyframes dropfromsomewhereupthere {
+  0% {
+    top: -80px;
+    color: #999; }
+
+  99% {
+    color: #999; }
+
+  100% {
+    top: 0; } }
+
+@keyframes dropfromsomewhereupthere {
+  0% {
+    top: -80px;
+    color: #999; }
+
+  99% {
+    color: #999; }
+
+  100% {
+    top: 0; } }
+
+@-webkit-keyframes phewww {
+  0% {
+    box-shadow: 0 0 0px #836f61; }
+
+  33% {
+    box-shadow: 0 0 0px #836f61; }
+
+  99% {
+    box-shadow: 0 0 300px #836f61; }
+
+  100% {
+    box-shadow: none; } }
+
+@-moz-keyframes phewww {
+  0% {
+    box-shadow: 0 0 0px #836f61; }
+
+  33% {
+    box-shadow: 0 0 0px #836f61; }
+
+  99% {
+    box-shadow: 0 0 300px #836f61; }
+
+  100% {
+    box-shadow: none; } }
+
+@-ms-keyframes phewww {
+  0% {
+    box-shadow: 0 0 0px #836f61; }
+
+  33% {
+    box-shadow: 0 0 0px #836f61; }
+
+  99% {
+    box-shadow: 0 0 300px #836f61; }
+
+  100% {
+    box-shadow: none; } }
+
+@-o-keyframes phewww {
+  0% {
+    box-shadow: 0 0 0px #836f61; }
+
+  33% {
+    box-shadow: 0 0 0px #836f61; }
+
+  99% {
+    box-shadow: 0 0 300px #836f61; }
+
+  100% {
+    box-shadow: none; } }
+
+@keyframes phewww {
+  0% {
+    box-shadow: 0 0 0px #836f61; }
+
+  33% {
+    box-shadow: 0 0 0px #836f61; }
+
+  99% {
+    box-shadow: 0 0 300px #836f61; }
+
+  100% {
+    box-shadow: none; } }
+
 .flag {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   margin: 40px auto 40px;
   font-size: 20px;
-  line-height: 38px;
   position: relative; }
-  .flag:hover {
+  .flag .pole {
+    -webkit-animation: dropfromsomewhereupthere 0.8s ease-in;
+    -moz-animation: dropfromsomewhereupthere 0.8s ease-in;
+    animation: dropfromsomewhereupthere 0.8s ease-in;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    -ms-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+    line-height: 38px;
+    position: relative; }
+  .flag:hover .pole {
     color: #bf4634;
     line-height: 26px; }
-  .flag:after {
-    top: 23px;
-    left: 5px;
-    background: #e0e0e0;
-    position: absolute;
-    z-index: -1;
+  .flag .floor {
+    -webkit-animation: phewww 2.4s ease-in;
+    -moz-animation: phewww 2.4s ease-in;
+    animation: phewww 2.4s ease-in;
     border-top-left-radius: 80% 100%;
     border-top-right-radius: 80% 100%;
     border-bottom-left-radius: 80% 100%;
     border-bottom-right-radius: 80% 100%;
+    top: 23px;
+    left: 10px;
+    background: #e0e0e0;
+    position: absolute;
+    z-index: -1;
     display: block;
     content: " ";
     width: 14px;
