@@ -13,7 +13,7 @@ I've formerly worked in <a href='http://copyin.com' id='copyin-about' target='_b
 
 I <a href='http://twitter.com/muanchiou' id='twitter' target='_blank'>tweet</a> occasionally, sometimes try to <a href='http://instagram.com/muanchiou' id='instagram' target='_blank'>upload hipster-ish photos</a>, recently joined <a href='http://dribbble.com/muan' id='dribbble' target='_blank'>dribbble</a>. I hang out on <a href='http://github.com/muan' id='github' target='_blank'>Github</a> A LOT, and check my <a href='mailto:me@muanchiou.com' id='email-icon' target='_blank'>emails</a> about every 5 seconds. I am also on <a href='http://uk.linkedin.com/in/muanchiou/' id='linkedin' target='_blank'>LinkedIn</a>.
 
-I made <a href='https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg' id='tweaker' target='_blank'>Pivotal Tweaker</a> (now on <a href="https://github.com/muan/tweaker" id="pt-github" target="_blank">Github</a>).
+I made <a href='https://chrome.google.com/webstore/detail/pivotal-tweaker/aodalckpkgijlndlnlhblojedfboaglg' id='tweaker' target='_blank'>Pivotal Tweaker</a> (now on <a href="https://github.com/muan/pivotal-tweaker" id="pt-github" target="_blank">Github</a>).
 
 ---
 
