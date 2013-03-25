@@ -5,4 +5,5 @@ _site/
 *.scssc
 .DS_Store
 .rvmrc
+*.psd
 *~
