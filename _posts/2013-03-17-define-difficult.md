@@ -10,13 +10,13 @@ I tried, but there are too many years left blank in their mind I think it began 
 
 As I was talking to him, I looked back to the first 3 years I spent in the UK, and realised it is really hard to imagine what happened then, even for myself. How was I able to live that life and somewhat seemed to pull through?
 
-Wait no, no, no, it was not difficult. Psst. Not even close. 
+Wait, no. It was not difficult. Not even close. 
 
 I guess by difficult we are talking about the "real difficulties", right? The ones that leave people homeless, depressed, helpless and have actual significant impact on life? I know the sorts of things, and they happened to people, people who are not me. You? perhaps.
 
-So what happened was not even close to those, they are not difficult, not comparing to the real difficulties. They are things I have been through, and nothing more, nothing worth dwelling on, nothing worth mentioning, as they are not difficult.
+So what happened was not even close to those, they were not difficult, not comparing to the real difficulties. They were things I have been through, and nothing more, nothing worth dwelling on, nothing worth mentioning, as they were not difficult.
 
-Now, since they are not difficult, what are they? mildly unpleasant? slightly unideal? bumps in the road? I know for sure I would rather not do it again, but I guess since they are not difficult, it is impossible for me to be more broken than anyone, right? Oh no, don't get me wrong, this is not a competition, I am fully aware. 
+Now, since they were not difficult, what were they? mildly unpleasant? slightly unideal? bumps in the road? I know for sure I would rather not do it again, but I guess since they were not difficult, it is impossible for me to be more broken than anyone, right? But don't get me wrong, I know this is not a competition.
 
 Except, everyone is comparing.
 
@@ -28,6 +28,6 @@ When something happens, it is so common for people to compare, because it is a w
 
 ---
 
-To solve a problem, first you have to recognize there is a problem, isn't that true? But I think it is getting harder and harder to recognize problems. Looks like what we have here is not difficult enough to be a problem.
+To solve a problem, first you have to recognize there is a problem, isn't that true? But I think it is getting harder and harder to recognise problems. 
 
-So, just pull through. You will be fine.
+Looks like what we have here is not difficult enough to be a problem. So, just pull through. You will be fine.
