@@ -92,7 +92,8 @@ blockquote {
   font-style: normal !important; }
 
 #container {
-  width: 70%;
+  width: 90%;
+  max-width: 900px;
   margin: auto;
   *zoom: 1;
   padding: 0 0 60px;

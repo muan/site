@@ -3,18 +3,23 @@
     float: none;
     width: 100%;
     height: auto;
-    padding: 20px;
     padding-bottom: 0; }
 
+  .sidebar {
+    padding: 0 40px; }
+
   .content {
-    border-top-width: 1px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    padding: 20px; }
 
   .hide-small {
     display: none; }
 
   section.post img.half {
-    width: 100%; } }
+    width: 100%; }
+
+  #container {
+    width: 100% !important; } }
 @media (min-width: 960px) {
   .stuff section.info {
     min-height: 200px; } }
