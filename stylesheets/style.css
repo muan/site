@@ -448,6 +448,8 @@ ul.posts li a {
   ul.posts li a:hover {
     color: #385;
     background-color: #f9f9f9; }
+    ul.posts li a:hover .shares {
+      color: #bbbb00; }
 
 section.post {
   max-width: 540px;
