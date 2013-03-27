@@ -38,6 +38,7 @@
             <span class='date'>{{ page.date | date_to_string }}</span>
             {{ content }}
             {% include signature.html %}
+            {% include hire.html %}
 
             {% if page.disqus == 'y' %}
               {% include disqus.html %}

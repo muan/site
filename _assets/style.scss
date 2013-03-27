@@ -137,9 +137,9 @@ hr {
 }
 
 @include keyframes(phewww) {
-  0% { box-shadow: 0 0 0px #836f61 }
-  33% { box-shadow: 0 0 0px #836f61 }
-  99% { box-shadow: 0 0 300px #836f61 }
+  0% { box-shadow: 0 0 0px #7a5227 }
+  33% { box-shadow: 0 0 0px #7a5227 }
+  99% { box-shadow: 0 0 300px #7a5227 }
   100% { box-shadow: none }
 }
 
@@ -207,9 +207,6 @@ ul.posts {
     &:hover { 
       color: #385;
       background-color: #f9f9f9;
-      // margin-left: -30px;
-      // margin-right: -30px;
-      // padding-left: 50px;
     }
   }
 }
@@ -322,8 +319,8 @@ section.info {
 .label { background: #444; color: #fff; }
 
 #hire {
-  background: #ddeed0; padding: 10px 8px; border-radius: 3px;
-  text-align: center;
+  background: #eaefe0; padding: 10px 8px; border-radius: 3px;
+  text-align: center; font-size: 13px; font-weight: 400;
 }
 
 section.share-links {
