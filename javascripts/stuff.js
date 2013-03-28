@@ -58,7 +58,7 @@ jQuery(function() {
   });
   $("a[href^='#']").click(function() {
     var current_top, scroll, top;
-    top = $("a[name='" + $(this).attr("href").replace("#", "") + "']").offset().top;
+    top = $("a[name='" + $(this).attr("href").replace("#", "") + "']").offset().top - 10;
     current_top = $(window).scrollTop();
     scroll = setInterval(function() {
       var i, jumpp, order;

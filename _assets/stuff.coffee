@@ -46,7 +46,7 @@ jQuery ->
   
   # scrollTo
   $("a[href^='#']").click ->
-    top = $("a[name='" + $(this).attr("href").replace("#","") + "']").offset().top
+    top = $("a[name='" + $(this).attr("href").replace("#","") + "']").offset().top - 10
     current_top = $(window).scrollTop()
     scroll = setInterval( () ->
       if $(window).scrollTop() > top
