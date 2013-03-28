@@ -1,5 +1,7 @@
 permalink:   pretty
 markdown:    rdiscount
+rdiscount:
+  extensions: [smart]
 title: How nice!
 description: mumumumumur
 url: http://muan.co

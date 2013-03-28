@@ -119,6 +119,15 @@ hr {
   margin: 25px 0;
 }
 
+@include keyframes(jump) {
+  0% { top: 0 }
+  30% { top: 2px }
+  60% { top: -6px; }
+  100% { top: 0 }
+}
+
+a.jump { position: relative; @include animation(jump 0.6s ease-out ); }
+
 @include keyframes(tilde) {
   0% { margin-left: 0 }
   50% { margin-left: -50%; }

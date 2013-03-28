@@ -56,17 +56,44 @@ jQuery(function() {
   $.each($("[data-time]"), function(index, ele) {
     return $(ele).html(prettyDate(new Date($(this).data("time"))));
   });
+  $("a[href^='#']").click(function() {
+    var current_top, scroll, top;
+    top = $("a[name='" + $(this).attr("href").replace("#", "") + "']").offset().top;
+    current_top = $(window).scrollTop();
+    scroll = setInterval(function() {
+      var i, jumpp, order;
+      if ($(window).scrollTop() > top) {
+        return $(window).scrollTop($(window).scrollTop() - 15);
+      } else {
+        i = $("a[id^=ind]").length;
+        order = 0;
+        jumpp = setInterval(function() {
+          if (order <= i) {
+            $($("a[id^=ind]")[order]).addClass("jump");
+            return ++order;
+          } else {
+            clearInterval(jumpp);
+            return setTimeout(function() {
+              return $("a[id^=ind]").removeClass("jump");
+            }, 600 * i - 100 * i);
+          }
+        }, 100);
+        return clearInterval(scroll);
+      }
+    }, 0.1);
+    return false;
+  });
   $.each($("a[id]"), function(index, ele) {
     return $(ele).click(function(e) {
       e.stopImmediatePropagation();
-      return _gaq.push(["_trackEvent", "Clicks", "clicked", e.target.id]);
+      return _gaq.push(["_trackEvent", "Clicks", "clicked on " + e.target.id]);
     });
   });
   return $.each($("a:not([id])"), function(index, ele) {
     return $(ele).click(function(e) {
       e.stopImmediatePropagation();
       console.log(e.currentTarget.innerText);
-      return _gaq.push(["_trackEvent", "Visits", "clicked on" + e.currentTarget.innerText, e.currentTarget.href]);
+      return _gaq.push(["_trackEvent", "Clicks", "clicked on " + e.currentTarget.innerText + " to " + e.currentTarget.href]);
     });
   });
 });

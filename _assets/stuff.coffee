@@ -44,15 +44,39 @@ jQuery ->
   $.each $("[data-time]"), ( index, ele ) ->
     $(ele).html( prettyDate( new Date( $(this).data("time") ) ) )
   
+  # scrollTo
+  $("a[href^='#']").click ->
+    top = $("a[name='" + $(this).attr("href").replace("#","") + "']").offset().top
+    current_top = $(window).scrollTop()
+    scroll = setInterval( () ->
+      if $(window).scrollTop() > top
+        $(window).scrollTop $(window).scrollTop() - 15
+      else
+        i = $("a[id^=ind]").length
+        order = 0
+        jumpp = setInterval () ->
+          if order <= i
+            $($("a[id^=ind]")[order]).addClass "jump"
+            ++order
+          else
+            clearInterval jumpp
+            setTimeout () -> 
+              $("a[id^=ind]").removeClass "jump"
+            , (600*i - 100*i)
+        , 100
+        clearInterval scroll
+    , 0.1 )
+    false
+
   # tracking stuff
   $.each $("a[id]"), (index, ele) ->
     $(ele).click (e) ->
       e.stopImmediatePropagation()
-      _gaq.push ["_trackEvent", "Clicks", "clicked", e.target.id]
+      _gaq.push ["_trackEvent", "Clicks", "clicked on " + e.target.id]
 
   $.each $("a:not([id])"), (index, ele) ->
     $(ele).click (e) ->
       e.stopImmediatePropagation()
       console.log e.currentTarget.innerText
-      _gaq.push ["_trackEvent", "Visits", "clicked on" + e.currentTarget.innerText, e.currentTarget.href]
+      _gaq.push ["_trackEvent", "Clicks", "clicked on " + e.currentTarget.innerText + " to " + e.currentTarget.href]
 
