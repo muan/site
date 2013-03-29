@@ -93,7 +93,7 @@ jQuery(function() {
     return $(ele).click(function(e) {
       e.stopImmediatePropagation();
       console.log(e.currentTarget.innerText);
-      return _gaq.push(["_trackEvent", "Clicks", "clicked on " + e.currentTarget.innerText + " to " + e.currentTarget.href]);
+      return _gaq.push(["_trackEvent", "Clicks", "clicked on " + $(ele).text()]);
     });
   });
 });

@@ -78,5 +78,5 @@ jQuery ->
     $(ele).click (e) ->
       e.stopImmediatePropagation()
       console.log e.currentTarget.innerText
-      _gaq.push ["_trackEvent", "Clicks", "clicked on " + e.currentTarget.innerText + " to " + e.currentTarget.href]
+      _gaq.push ["_trackEvent", "Clicks", "clicked on " + $(ele).text()]
 
