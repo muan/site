@@ -20,13 +20,14 @@
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
 <meta content="http://muan.co/images/flag_in_a_huge_field.png" property="og:image" />
-<meta content="blog" property="og:type" />
 <meta content="604714799556697" property="fb:app_id" />
 <meta content="1036039927" property="fb:admins" />
 {% if page.date %}
-  <meta content='{{ page.content | strip_html | truncate: 120 }}' property='og:description' />
+  <meta content="{{ page.content | strip_html | truncate: 120 }}" property='og:description' />
+  <meta content="article" property="og:type" />
 {% else %}
-  <meta content='Mu-An Chiou. I design, code, make funny noises and live in London. I am very nice. Read my code on github: github.com/muan' property='og:description' />
+  <meta content="Mu-An Chiou. I design, code, make funny noises and live in London. I am very nice. Read my code on github: github.com/muan" property='og:description' />
+  <meta content="blog" property="og:type" />
 {% endif %}
 <!-- - -->
 {% include ga.html %}
