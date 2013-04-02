@@ -23,9 +23,11 @@
 <meta content="604714799556697" property="fb:app_id" />
 <meta content="1036039927" property="fb:admins" />
 {% if page.date %}
+  <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
   <meta content="{{ page.content | strip_html | truncate: 120 }}" property='og:description' />
   <meta content="article" property="og:type" />
 {% else %}
+  <meta content='{{ site.url }}' property='og:url' />
   <meta content="Mu-An Chiou. I design, code, make funny noises and live in London. I am very nice. Read my code on github: github.com/muan" property='og:description' />
   <meta content="blog" property="og:type" />
 {% endif %}
