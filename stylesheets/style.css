@@ -34,8 +34,8 @@
   to {
     transform: rotate(-80deg); } }
 
-h1, h2, h3, h4, h5 {
-  font-weight: 400; }
+h1, h2, h3, h4, h5, strong, b {
+  font-weight: 600; }
 
 html, body {
   height: 100%; }
@@ -44,11 +44,13 @@ body {
   background: #f9f9f9;
   color: #303030;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 13px;
   line-height: 19px;
   padding: 0;
   margin: 0; }
+  body, body * {
+    -webkit-font-smoothing: antialiased; }
 
 #me {
   border-radius: 7px; }
@@ -83,9 +85,6 @@ body {
 .text-big {
   font-size: 24px;
   line-height: 1em; }
-
-strong, b {
-  font-weight: 400; }
 
 blockquote {
   margin: 0;
@@ -130,14 +129,16 @@ blockquote {
 
 a, .as-link {
   text-decoration: none;
-  color: #4a8;
+  color: #35866b;
+  font-weight: 500;
+  line-height: 1.8em;
   -webkit-transition: all, 0.3s;
   -moz-transition: all, 0.3s;
   -ms-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s; }
   a:hover, .as-link:hover {
-    color: #448866; }
+    color: #204f3f; }
   a.big-button, .as-link.big-button {
     display: inline-block;
     vertical-align: baseline;
@@ -529,7 +530,7 @@ section.post {
   section.post h2 {
     margin: 0 0 5px;
     letter-spacing: 1px;
-    font-weight: 300; }
+    font-weight: 400; }
   section.post .date {
     color: #aaa;
     font-size: 10px; }

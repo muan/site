@@ -6,14 +6,15 @@
 
 $background: #f9f9f9;
 
-h1, h2, h3, h4, h5 { font-weight: 400; }
+h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
 
 html, body { height: 100%; }
 body { 
+  &, * { -webkit-font-smoothing: antialiased; }
   background: $background;
   color: #303030;
   font-family: $helvetica;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 13px;
   line-height: 19px;
   padding: 0; margin: 0;
@@ -31,7 +32,6 @@ body {
 .colour-2 { color: #925}
 .colour-3 { color: #484 }
 .text-big { font-size: 24px; line-height: 1em; }
-strong, b { font-weight: 400; }
 blockquote { 
   margin: 0;
   font-style: normal !important;
@@ -67,9 +67,11 @@ blockquote {
 
 a, .as-link {
   text-decoration: none; 
-  color: #4a8;
+  color: darken(#4a8, 10%);
+  font-weight: 500;
+  line-height: 1.8em;
   @include transition(all, 0.3s);
-  &:hover { color: #486 }
+  &:hover { color: darken(#4a8, 25%); }
   &.big-button {
     @include inline-block;
     min-width: 30%;
@@ -225,7 +227,7 @@ ul.posts {
 section.post {
   max-width: 540px;  
   border-top: 0; padding: 10px 20px;
-  h2 { margin: 0 0 5px; letter-spacing: 1px; font-weight: 300; }
+  h2 { margin: 0 0 5px; letter-spacing: 1px; font-weight: 400; }
   .date { color: #aaa; font-size: 10px; }
   iframe, img { @include border-bottom-radius(3px); @include border-top-radius(3px); }
 }
