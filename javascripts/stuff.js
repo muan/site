@@ -14,30 +14,6 @@ jQuery(function() {
   });
   $(window).resize();
   $("[data-title]").tooltip();
-  if ($("ul.posts").length > 0 && window.location.origin.indexOf("localhost") < 0) {
-    $.each($("ul.posts li a"), function(index, a) {
-      var appd, facebook_query, t, twitter_query, url;
-      url = "http://muan.co" + $(a).attr("href");
-      twitter_query = 'http://urls.api.twitter.com/1/urls/count.json?callback=?&url=' + url;
-      facebook_query = 'http://graph.facebook.com/?id=' + url;
-      t = a;
-      $.getJSON(twitter_query, function(res) {
-        t.t_count = res.count || 0;
-        if (typeof t.f_count !== "undefined") {
-          return appd();
-        }
-      });
-      $.getJSON(facebook_query, function(res) {
-        t.f_count = res.shares || 0;
-        if (typeof t.t_count !== "undefined") {
-          return appd();
-        }
-      });
-      return appd = function() {
-        return $(a).find(".shares").html("⚑ " + (t.t_count + t.f_count));
-      };
-    });
-  }
   $.each($("pre"), function(index, code) {
     return new CodeMirror(function(node) {
       if (code instanceof jQuery) {

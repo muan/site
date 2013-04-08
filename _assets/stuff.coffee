@@ -12,23 +12,6 @@ jQuery ->
   $(window).resize()
   $("[data-title]").tooltip()
 
-  if $("ul.posts").length > 0 && window.location.origin.indexOf("localhost") < 0
-    $.each $("ul.posts li a"), ( index, a ) ->
-      url = "http://muan.co" + $(a).attr("href")
-      twitter_query = 'http://urls.api.twitter.com/1/urls/count.json?callback=?&url=' + url
-      facebook_query = 'http://graph.facebook.com/?id=' + url
-      t = a
-      $.getJSON twitter_query, (res) -> 
-        t.t_count = res.count || 0
-        appd() if typeof t.f_count != "undefined"
-
-      $.getJSON facebook_query, (res) -> 
-        t.f_count = res.shares || 0
-        appd() if typeof t.t_count != "undefined"
-      
-      appd = () ->
-        $(a).find(".shares").html "⚑ " + (t.t_count + t.f_count)
-
   $.each $("pre"), ( index, code ) ->
     new CodeMirror (node) ->
       code = code.get(0) if code instanceof jQuery
