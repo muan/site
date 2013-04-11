@@ -1,3 +1,3 @@
-Many things are stupid, this might be one of them.
+Fork away if you feel like it.
 
 [@muanchiou](http://twitter.com/muanchiou)

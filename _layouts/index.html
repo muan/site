@@ -6,20 +6,10 @@
   </head>
   <body class="no-svg">
     {% include flag.html %}
+    <div class="side">
+      {% include sidebar.html %}
+    </div>
     <div id='container'>
-      <div class="sidebar">
-        {% include sidebar.html %}
-        <section class="hide-small">
-          <hr>
-          Recently made a page for <a href="http://muan.co/styles" target="_blank">Hacker News stylesheet</a>.
-          <br />
-          <small class="muted">Updated <span data-time="2013-04-10"></span></small><br />
-          Recently <a href="https://dribbble.com/muan" target="_blank">dribbbled</a>.
-          <br />
-          <small class="muted">Updated <span data-time="2013-04-03"></span></small>
-          {% include footer.html %}
-        </section>
-      </div>
       <div class="content">
         {{ content }}
       </div>

@@ -67,6 +67,9 @@ body {
 .small {
   font-size: 11px; }
 
+.pull-left {
+  float: left; }
+
 .pull-right {
   float: right; }
 
@@ -91,10 +94,10 @@ blockquote {
   font-style: normal !important; }
 
 #container {
-  width: 90%;
-  max-width: 900px;
-  margin: auto;
   *zoom: 1;
+  width: 100%;
+  background-color: #fff;
+  margin: auto;
   padding: 0 0 60px;
   position: relative; }
   #container:before, #container:after {
@@ -103,29 +106,34 @@ blockquote {
   #container:after {
     clear: both; }
 
-.sidebar, .content {
+.side, .content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  float: left;
   position: relative; }
 
-.sidebar {
-  width: 40%;
+.side {
+  padding: 0 20px;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto 30px;
   -webkit-transition: all, 0.8s;
   -moz-transition: all, 0.8s;
   -ms-transition: all, 0.8s;
   -o-transition: all, 0.8s;
-  transition: all, 0.8s;
-  padding: 30px 30px; }
+  transition: all, 0.8s; }
+  .side [data-time] {
+    text-transform: lowercase; }
 
 .content {
-  width: 60%;
+  width: 100%;
+  max-width: 540px;
   border-width: 0;
   border-style: solid;
+  padding: 30px 0;
   border-color: #efefef;
-  padding: 30px;
-  background-color: #fff; }
+  background-color: #fff;
+  margin: auto; }
 
 a, .as-link {
   text-decoration: none;
@@ -479,7 +487,7 @@ a.jump {
     height: 6px; }
 
 .special-line {
-  text-indent: 3px;
+  white-space: nowrap;
   letter-spacing: 1px;
   margin-bottom: 10px;
   font-size: 11px;
@@ -491,7 +499,9 @@ a.jump {
     content: "⚑";
     color: #adadac;
     margin-left: -13px;
-    padding-right: 3px; }
+    padding-right: 1px; }
+  .special-line a {
+    color: #35866b; }
 
 ul.posts, ul.posts li {
   margin: 0;
@@ -524,9 +534,13 @@ ul.posts li a {
       color: #cc8796; }
 
 section.post {
-  max-width: 540px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: left;
+  width: 100%;
   border-top: 0;
-  padding: 10px 20px; }
+  padding: 0 20px; }
   section.post h2 {
     margin: 0 0 5px;
     letter-spacing: 1px;
@@ -592,11 +606,10 @@ section.post, section > p {
     section.post img.half, section > p img.half {
       width: 50%; }
 
-section.footer {
-  text-align: center;
-  font-size: 14px;
+footer {
+  padding: 0 20px;
   line-height: 2em; }
-  section.footer * {
+  footer * {
     color: #797979; }
 
 .twitter-button {
@@ -748,12 +761,28 @@ section.info {
 
 #hire {
   background: #eaefe0;
-  padding: 10px 8px;
+  padding: 10px 14px;
   border-radius: 3px;
   font-size: 13px;
   font-weight: 400; }
 
-section.share-links .button {
+.paging, .share-links {
+  *zoom: 1;
+  margin: 10px 0; }
+  .paging:before, .paging:after, .share-links:before, .share-links:after {
+    content: " ";
+    display: table; }
+  .paging:after, .share-links:after {
+    clear: both; }
+
+.share-links .button {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
   vertical-align: top;
   height: 20px;
   margin-bottom: 15px; }
+  .share-links .button.spaced {
+    margin-right: 15px; }

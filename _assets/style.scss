@@ -26,6 +26,7 @@ body {
 .a-r { text-align: right; }
 .a-c { text-align: center; }
 .small { font-size: 11px }
+.pull-left { float: left; }
 .pull-right { float: right; }
 .muted { color: #777; }
 .colour-1 { color: #c94 }
@@ -38,31 +39,35 @@ blockquote {
 }
 
 #container {
-  width: 90%;
-  max-width: 900px;
-  margin: auto;
   @include clearfix;
+  width: 100%;
+  background-color: #fff;
+  margin: auto;
   padding: 0 0 60px; 
   position: relative;
 }
 
-.sidebar, .content {
+.side, .content {
   @include box-sizing(border-box);
-  float: left;
   position: relative;
 }
-.sidebar {
-  width: 40%;
+.side {
+  padding: 0 20px;
+  width: 100%; max-width: 540px;
+  margin: 0 auto 30px;
   @include transition(all, 0.8s);
-  padding: 30px 30px;
+  [data-time] { text-transform: lowercase }
+  // text-align: center;
 }
 .content {
-  width: 60%;
+  width: 100%;
+  max-width: 540px;
   border-width: 0;
   border-style: solid;
+  padding: 30px 0;
   border-color: #efefef;
-  padding: 30px;
   background-color: #fff;
+  margin: auto;
 }
 
 a, .as-link {
@@ -192,14 +197,15 @@ a.jump { position: relative; @include animation(jump 0.6s ease-out ); }
   &:before {
     content: "⚑"; color: #adadac;
     margin-left: -13px;
-    padding-right: 3px;
+    padding-right: 1px;
   }
-  text-indent: 3px;
+  white-space: nowrap;
   letter-spacing: 1px;
   margin-bottom: 10px;
   font-size: 11px;
   text-transform: uppercase;
   color: #555; 
+  a { color: darken(#4a8, 10%); }
 }
 
 ul.posts {
@@ -225,8 +231,10 @@ ul.posts {
 
 
 section.post {
-  max-width: 540px;  
-  border-top: 0; padding: 10px 20px;
+  @include box-sizing(border-box);
+  text-align: left;
+  width: 100%;
+  border-top: 0; padding: 0 20px;
   h2 { margin: 0 0 5px; letter-spacing: 1px; font-weight: 400; }
   .date { color: #aaa; font-size: 10px; }
   iframe, img { @include border-bottom-radius(3px); @include border-top-radius(3px); }
@@ -272,9 +280,8 @@ section.post, section > p {
   }
 }
 
-section.footer {
-  text-align: center;
-  font-size: 14px;
+footer {
+  padding: 0 20px;
   line-height: 2em;
   * { color: #797979; }
 }
@@ -331,12 +338,17 @@ section.info {
 .label { background: #444; color: #fff; }
 
 #hire {
-  background: #eaefe0; padding: 10px 8px; border-radius: 3px;
+  background: #eaefe0; padding: 10px 14px; border-radius: 3px;
   font-size: 13px; font-weight: 400;
 }
-
-section.share-links {
+.paging, .share-links {
+  @include clearfix;
+  margin: 10px 0;
+}
+.share-links {
   .button { 
+    &.spaced { margin-right: 15px; }
+    @include inline-block;
     vertical-align: top;
     height: 20px; 
     margin-bottom: 15px;

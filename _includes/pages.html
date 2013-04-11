@@ -1,0 +1,16 @@
+<section class="paging">
+  {% if page.previous %}
+    <div class="pull-left">
+      <a href="{{ page.previous.url }}">
+        ☜ <span>{{page.previous.title}}</span>
+      </a>
+    </div>
+  {% endif %}
+  {% if page.next %}
+    <div class="pull-right">
+      <a href="{{page.next.url}}">
+        <span>{{page.next.title}}</span> ☞
+      </a>
+    </div>
+  {% endif %}
+</section>

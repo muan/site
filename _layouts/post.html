@@ -6,28 +6,10 @@
   </head>
   <body>
     {% include flag.html %}
+    <div class="side">
+      {% include sidebar.html %}
+    </div>
     <div id='container'>
-      <div class="sidebar">
-        {% include sidebar.html %}
-        <section class="hide-small">
-          <br />
-          <br />
-          <div class="special-line">Other posts.</div>
-          <div class="paging">
-            {% if site.related_posts %}
-              {% for post in site.related_posts, limit: 5 %}
-                <a href="{{ post.url }}">{{ post.title }}</a><br />
-              {% endfor %}
-            {% else %}
-              {% for post in site.posts, limit: 5 %}
-                <a href="{{ post.url }}">{{ post.title }}</a><br />
-              {% endfor %}
-            {% endif %}
-          </div>
-          <hr>
-          {% include social_links.html %}
-        </section>
-      </div>
       
       <div class="content">
           <section class='post'>
@@ -37,13 +19,16 @@
             <span class='date'>{{ page.date | date_to_string }}</span>
             {{ content }}
             {% include signoff.html %}
+            {% include social_links.html %}
             {% include hire.html %}
+            {% include pages.html %}
 
             {% if page.disqus == 'y' %}
               {% include disqus.html %}
             {% endif %}
 
           </section>
+          {% include footer.html %}
         </div>
     </div>
   </body>
