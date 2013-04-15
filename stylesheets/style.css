@@ -775,6 +775,17 @@ section.info {
   .paging:after, .share-links:after {
     clear: both; }
 
+.share-links .button ~ .nice {
+  font-size: 12px;
+  color: #989897;
+  opacity: 0;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+.share-links .button:hover ~ .nice {
+  opacity: 1; }
 .share-links .button {
   display: inline-block;
   vertical-align: baseline;

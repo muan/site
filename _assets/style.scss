@@ -346,6 +346,15 @@ section.info {
   margin: 10px 0;
 }
 .share-links {
+  .button ~ .nice {
+    font-size: 12px;
+    color: #989897;
+    opacity: 0;
+    @include transition(all 0.3s linear);
+  }
+  .button:hover ~ .nice {
+    opacity: 1;
+  }
   .button { 
     &.spaced { margin-right: 15px; }
     @include inline-block;
