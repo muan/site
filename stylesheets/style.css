@@ -55,6 +55,12 @@ body {
 #me {
   border-radius: 7px; }
 
+.capitalize {
+  text-transform: capitalize; }
+
+.downcase {
+  text-transform: lowercase; }
+
 .hide {
   display: none; }
 
@@ -122,8 +128,6 @@ blockquote {
   -ms-transition: all, 0.8s;
   -o-transition: all, 0.8s;
   transition: all, 0.8s; }
-  .side [data-time] {
-    text-transform: lowercase; }
 
 .content {
   width: 100%;
