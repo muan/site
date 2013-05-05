@@ -15,7 +15,7 @@ Just drag any of the buttons below to your bookmark bar, and with a click you ca
 
 <a href="javascript:for(var i=0,item;item=document.getElementsByTagName('img')[i];i++){item.setAttribute('src','http://placecage.com/'+item.clientWidth+'/'+item.clientHeight)}" class="big-button green">Nicolas Cage</a>
 
-<a href="javascript:for(var i=0,item;item=document.getElementsByTagName('img')[i];i++){item.setAttribute('src','http://fillmurray.com/g/'+item.clientWidth+'/'+item.clientHeight)}" class="big-button yellow">Bill Murray</a>
+<a href="javascript:for(var i=0,item;item=document.getElementsByTagName('img')[i];i++){item.setAttribute('src','http://fillmurray.com/g/'+item.clientWidth+'/'+item.clientHeight)}" class="big-button blue">Bill Murray</a>
 
 <a href="javascript:for(var i=0,item;item=document.getElementsByTagName('img')[i];i++){item.setAttribute('src','http://nicenicejpg.com/'+item.clientWidth+'/'+item.clientHeight)}" class="big-button red">Vanilla Ice</a>
 

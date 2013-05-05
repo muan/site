@@ -2,7 +2,6 @@
 layout: post
 title: Want some jekyll themes?
 date: 2013-04-08 14:53:13
-disqus: y
 ---
 
 It’s a common habit for designers to redesign their sites once every when-I-feel-like-it. It could have been a month since the last redesign, but it might well have been only a day. I suffer from this horrible habit of mine aggressively.

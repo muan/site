@@ -1,13 +1,10 @@
 <link href='/images/fav.png' rel='shortcut icon'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css' />
-<link href='/stylesheets/reset.css' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/codemirror.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
-<link href='/stylesheets/tooltip.css' rel='stylesheet' type='text/css' />
 <!-- - -->
 <script src='/javascripts/jquery.js' type='text/javascript'></script>
-<script src='/javascripts/tooltip.js' type='text/javascript'></script>
 <script src='/javascripts/codemirror.js' type='text/javascript'></script>
 <script src='/javascripts/javascript-cm.js' type='text/javascript'></script>
 <script src='/javascripts/ruby-cm.js' type='text/javascript'></script>
@@ -19,16 +16,16 @@
 <!-- - -->
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-<meta content="http://muan.co/images/flag_in_a_huge_field.png" property="og:image" />
-<meta content="604714799556697" property="fb:app_id" />
-<meta content="1036039927" property="fb:admins" />
+<meta content="http://muan.co/images/og.png" property="og:image" />
+<meta content="{{ site.facebook_appid }}" property="fb:app_id" />
+<meta content="{{ site.facebook_userid }}" property="fb:admins" />
 {% if page.date %}
   <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
   <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
   <meta content="article" property="og:type" />
 {% else %}
   <meta content='{{ site.url }}' property='og:url' />
-  <meta content="Mu-An Chiou. I design, code, make funny noises and live in London. I am very nice. Read my code on github: github.com/muan" property='og:description' />
+  <meta content="Mu-An Chiou. Designer and front-end developer living in London. I am very nice." property='og:description' />
   <meta content="blog" property="og:type" />
 {% endif %}
 <!-- - -->
@@ -40,13 +37,3 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=604714799556697";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script type="text/javascript">
-  google.load("webfont", "1");
-  google.setOnLoadCallback(function() {
-    WebFont.load({
-      google: {
-        families: [ 'Varela Round' ]
-      }
-    });
-  });
-</script>

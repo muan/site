@@ -5,31 +5,27 @@
     {% include head.html %}
   </head>
   <body>
-    {% include flag.html %}
-    <div class="side">
-      {% include sidebar.html %}
-    </div>
+    {% include header.html %}
     <div id='container'>
-      
+      {% include links.html %}
+      {% include pages.html %}
       <div class="content">
-          <section class='post'>
-            <a href='{{ page.url }}' class='special-line'>
-              {{ page.title }}
-            </a>
-            <span class='date'>{{ page.date | date_to_string }}</span>
-            {{ content }}
-            {% include signoff.html %}
-            {% include social_links.html %}
-            {% include hire.html %}
-            {% include pages.html %}
+        <section class='post'>
+          <h1 class="upcase">
+            <div class='date'>{{ page.date | date_to_string }}</div>
+            {{ page.title }}
+          </h1>
+          {{ content }}
+          {% include signoff.html %}
 
-            {% if page.disqus == 'y' %}
-              {% include disqus.html %}
-            {% endif %}
+          {% if page.disqus == 'y' %}
+            {% include disqus.html %}
+          {% endif %}
 
-          </section>
-          {% include footer.html %}
-        </div>
+        </section>
+      </div>
+      {% include links.html %}
     </div>
+    {% include footer.html %}
   </body>
 </html>

@@ -1,5 +1,18 @@
-@media (max-width: 700px) {
-  // #container { width: 100% !important; }
+@media (max-width: 480px) {
+  body {
+    padding: 0 10px;
+    #container {
+      #ind-instagram, #ind-linkedin { display: none; }
+      .links, .content {
+        padding: 15px;
+        section.post { 
+          margin: 0 -15px; 
+          > p, h1 { padding: 0 15px; }
+          > ul, > ol { padding: 0 30px; }
+        }
+      }
+    }
+  }
 }
 @media (min-width: 960px) {
   // .stuff section.info { min-height: 200px; }

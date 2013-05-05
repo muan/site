@@ -244,7 +244,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 
 .cm-s-monokai.CodeMirror {
   background: #272822; color: #f8f8f2; font-size: 12px; line-height: 1.6em;
-  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+  border-radius: 0;
 }
 .cm-s-monokai div.CodeMirror-selected {background: #49483E !important;}
 .cm-s-monokai .CodeMirror-gutters {background: #272822; border-right: 0px;}
