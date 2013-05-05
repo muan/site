@@ -16,6 +16,6 @@ But then one by one, my colleagues asked for this feature, and we all quite ofte
 
 So I spent tonight working on it, eventually I made it. It feels really stupid, but it works. So who cares? It involves expanding every single story, grab the requester info, put it somewhere, collapse the story. It takes quite a while, but.. I feel it's alright. So try it out, it's a beta feature(of course) so you'll need to opt-in from the options page.
 
-Oh by the way, Tweaker is now on Github! Go nuts.
+Oh by the way, Tweaker is now on GitHub! Go nuts.
 
-<a href="https://github.com/muan/pivotal-tweaker" target="_blank" class="big-button red" id="tweaker-gh">Pivotal Tweaker on Github</a>
+<a href="https://github.com/muan/pivotal-tweaker" target="_blank" class="big-button red" id="tweaker-gh">Pivotal Tweaker on GitHub</a>
