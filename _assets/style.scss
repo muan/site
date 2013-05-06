@@ -1,8 +1,4 @@
 @import "bourbon/bourbon";
-@include keyframes(rotate) {
-  from { @include transform(rotate(0deg)); }
-  to { @include transform(rotate(-80deg)); }
-}
 
 $background: #f9f9f9;
 
@@ -60,16 +56,24 @@ footer {
   border-radius: 7px;
   border: 1px solid #eee;
   position: relative;
-  .links {
-    &:first-child { border-bottom: 1px solid #efefef; }
-    &:last-child { border-top: 1px solid #efefef; }
+  .block {
+    &:first-child, & + .block { border-top: 0; }
+    &:last-child { border-bottom: 0; }
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
     padding: 30px 40px 24px;
     text-align: center;
-    [id^=ind] {
-      padding: 4px 2px;
+    a.main {
       @include inline-block;
-      margin-right: 15px;
+      padding: 2px 2px;
+      margin-right: 12px;
       margin-bottom: 6px;
+      &:last-of-type { margin-right: 0; }
+    }
+    .button {
+      @include inline-block;
+      height: 20px;
+      overflow: hidden;
     }
   }
 }
@@ -91,7 +95,7 @@ a, .as-link {
   line-height: 1.4em;
   @include inline-block;
   @include transition(color 0.3s);
-  &.active, &:hover { 
+  &.main, &:hover { 
     color: darken(#698f9f, 25%); 
     background-image: url(/images/line.png);
     background-repeat: repeat-x;
@@ -114,16 +118,21 @@ a, .as-link {
     border-style: solid;
     border-color: #8ab;
     background: #6f8f9f;
-    @include box-shadow(inset 0 -2px 0px rgba(0,0,0,0.1));
+    @include box-shadow(inset 0 -1px 0px rgba(0,0,0,0.1));
     &:hover { 
       background: #608090;
-      // @include box-shadow( inset 0 -2px 0px rgba(0,0,0,0.1));
     }
-    &:active { @include box-shadow(inset 0 2px 0px rgba(0,0,0,0.1)); }
+    &:active { @include box-shadow(inset 0 1px 0px rgba(0,0,0,0.1)); }
     &.red {
       border-color: #ddacac;
       background: #a65;
       &:hover { background: #b76; }
+    }
+    &.gray {
+      border-color: #f4f4f4;
+      color: #404040;
+      background: #e7e7e7;
+      &:hover { background: #efefef; }
     }
     &.blue {
       border-color: #ace;
@@ -165,7 +174,7 @@ section.post {
   text-align: left;
   border-top: 0; 
   padding: 0;
-  > p, h1 { padding: 0 60px; }
+  > * { padding: 0 60px; }
   > ul, > ol { padding: 0 80px; }
   ul, ol { ul, ol { margin-left: 20px; } }
   h1 {
@@ -177,7 +186,6 @@ section.post {
       color: #d0d0d0; font-size: 10px; 
     }
   }
-  h2 { margin: 0 0 5px; letter-spacing: 1px; font-weight: 400; }
   iframe, img { 
     @include border-bottom-radius(3px); @include border-top-radius(3px);
   }
@@ -220,27 +228,6 @@ section.post, section > p {
   }
 }
 
-.twitter-button {
-  margin-bottom: 40px;
-}
-
-section.info {
-  @include inline-block;
-  margin-right: 2%;
-  vertical-align: top;
-  font-size: 14px;
-  line-height: 30px;
-  small { color: #999; line-height: 1.35em; }
-  &:last-of-type { margin-right: 0; }
-  &.one { 
-    width: 100%; 
-    &:not(:last-of-type) { 
-      border-bottom: 1px dotted #ccc; margin-bottom: 20px;
-      padding-bottom: 20px;
-    }
-  }
-}
-
 .paging {
   a { opacity: 0.15 }
   a:hover { opacity: 0.7; background: none; }
@@ -253,23 +240,3 @@ section.info {
   .left { margin-left: -340px; }
   .right {  margin-left: 320px; }
 }
-
-@include keyframes(cage) {
-  0% { background-image: url(../images/13030701.png) }
-  31% { background-image: url(../images/13030701.png) }
-  34% { background-image: url(../images/13030702.png) }
-  65% { background-image: url(../images/13030702.png) }
-  68% { background-image: url(../images/13030703.png) }
-  100% { background-image: url(../images/13030703.png) }
-}
-.slide-place-cage {
-  width: 100%; height: 300px;
-  cursor: pointer;
-  background-image: url(../images/13030701.png);
-  background-repeat: no-repeat;
-  background-position: 50% 0%;
-  @include background-size(cover); 
-  @include animation( cage 6s linear infinite );
-}
-
-.label { background: #444; color: #fff; }

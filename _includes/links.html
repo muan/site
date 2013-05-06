@@ -1,6 +1,6 @@
-<div class="links">
-  <a target="_top" class="active" id="ind-about" href="/about">About</a>
+<div class="block">
+  <a target="_top" class="main" id="ind-about" href="/about">About</a>
   {% for link in site.links %}
-    <a target="_blank" class="active" id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
+    <a target="_blank" class="main" id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
   {% endfor %}
 </div>
