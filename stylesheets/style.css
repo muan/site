@@ -358,7 +358,7 @@ section.info {
   opacity: 0.15; }
 .paging a:hover {
   opacity: 0.7;
-  border: 0; }
+  background: none; }
 .paging .left, .paging .right {
   position: fixed;
   top: 50%;
