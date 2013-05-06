@@ -81,19 +81,18 @@ footer {
   width: 100%;
   border-width: 0;
   border-style: solid;
-  padding: 30px 40px;
+  padding: 30px 60px;
   margin: auto;
 }
 
 a, .as-link {
   text-decoration: none; 
-  color: darken(#77808f, 10%);
+  color: darken(#698f9f, 10%);
   line-height: 1.4em;
-  border-bottom: 1px dotted fade-out(#77808f, 1);
   @include inline-block;
   @include transition(color 0.3s);
   &.active, &:hover { 
-    color: darken(#77808f, 25%); 
+    color: darken(#698f9f, 25%); 
     background-image: url(/images/line.png);
     background-repeat: repeat-x;
     background-position: left bottom;
@@ -162,8 +161,7 @@ ul.posts {
 
 
 section.post {
-  margin: 0 -40px;
-  // @include box-sizing(border-box);
+  margin: 0 -60px;
   text-align: left;
   border-top: 0; 
   padding: 0;
@@ -199,7 +197,7 @@ section.post, section > p {
     &:hover { color: #454545; }
     &:hover:before { color: darken(#d0dfda, 8%); }
     &:before { left: -3px; }
-    &:after { right: -1px; }
+    &:after { right: -2px; }
     &:before, &:after {
       content: "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"; 
       font-size: 24px; 

@@ -1,12 +1,26 @@
-permalink:   pretty
-markdown:    rdiscount
+title:            How nice!
+description:      Mu-An Chiou. Designer and front-end developer living in London. I am very nice.
+url:              http://muan.co
+auto:             true
+permalink:        pretty
+markdown:         rdiscount
 rdiscount:
-  extensions: [smart]
-title: How nice!
-description: mumumumumur
-url: http://muan.co
-auto: true
+  extensions:     [smart]
 disqus_shortname: muan
-feedburner_id: muan
-facebook_appid: 604714799556697
-facebook_userid: 1036039927
+feedburner_id:    muan
+facebook_appid:   604714799556697
+facebook_userid:  1036039927
+google_analytics: UA-21332781-7
+links: 
+  - name:         GitHub
+    url:          http://github.com/muan
+  - name:         Twitter
+    url:          http://twitter.com/muanchiou
+  - name:         LinkedIn
+    url:          http://uk.linkedin.com/in/muanchiou
+  - name:         Dribbble
+    url:          http://dribbble.com/muan
+  - name:         Instagram
+    url:          http://instagram.com/muanchiou
+  - name:         Email
+    url:          mailto:hello@muan.co

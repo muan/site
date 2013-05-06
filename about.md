@@ -1,5 +1,5 @@
 ---
-layout: one_pager
+layout: page
 title: about
 ---
 

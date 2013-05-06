@@ -159,14 +159,13 @@ footer {
   width: 100%;
   border-width: 0;
   border-style: solid;
-  padding: 30px 40px;
+  padding: 30px 60px;
   margin: auto; }
 
 a, .as-link {
   text-decoration: none;
-  color: #5f6774;
+  color: #537482;
   line-height: 1.4em;
-  border-bottom: 1px dotted rgba(119, 128, 143, 0);
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
@@ -178,7 +177,7 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s; }
   a.active, a:hover, .as-link.active, .as-link:hover {
-    color: #3d424a;
+    color: #354a53;
     background-image: url(/images/line.png);
     background-repeat: repeat-x;
     background-position: left bottom; }
@@ -249,7 +248,7 @@ ul.posts .datetime {
   text-align: right; }
 
 section.post {
-  margin: 0 -40px;
+  margin: 0 -60px;
   text-align: left;
   border-top: 0;
   padding: 0; }
@@ -301,7 +300,7 @@ section.post, section > p {
     section.post blockquote:before, section > p blockquote:before {
       left: -3px; }
     section.post blockquote:after, section > p blockquote:after {
-      right: -1px; }
+      right: -2px; }
     section.post blockquote:before, section.post blockquote:after, section > p blockquote:before, section > p blockquote:after {
       content: "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^";
       font-size: 24px;
