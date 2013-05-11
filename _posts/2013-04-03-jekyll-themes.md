@@ -15,3 +15,9 @@ I think this could be pretty sweet. **I want to make more themes and let you use
 At the moment I still have very little idea yet as how it should work, perhaps I will make a gem for it, or perhaps not, let me know if you have any thoughts on the practicalities.
 
 It’s time for us all to [blog like a hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) with an endless wardrobe.
+
+---
+
+**Update: 11 May 2013**
+
+I made the first theme, not quite what I describe above, but I thought I get started in the simplest format. Try [Scribble](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/). More to come. :)
