@@ -1,7 +1,17 @@
 ---
 layout: post
-title: Want some jekyll themes?
+title: Jekyll themes?
 date: 2013-04-08 14:53:13
+---
+
+**Update: 20 May 2013**
+
+As Jekyll 1.0 released this post is getting a lot more traffic, therefore just so you know, I made a stand-alone theme [Scribble](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/) which is available on [GitHub](https://github.com/muan/scribble). And, I am now working on **Wardrobe**, which would be a gem with 3-5 themes to start with, it is currently work in progress but you can have [a sneak preview here](http://themes.muan.co/), of one of the themes. 
+
+Follow me on [Twitter](http://twitter.com/muanchiou) or [GitHub](http://github.com/muan) to keep yourself in the loop. ♥
+
+This is Mu-An. Over.
+
 ---
 
 It’s a common habit for designers to redesign their sites once every when-I-feel-like-it. It could have been a month since the last redesign, but it might well have been only a day. I suffer from this horrible habit of mine aggressively.
@@ -15,9 +25,3 @@ I think this could be pretty sweet. **I want to make more themes and let you use
 At the moment I still have very little idea yet as how it should work, perhaps I will make a gem for it, or perhaps not, let me know if you have any thoughts on the practicalities.
 
 It’s time for us all to [blog like a hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) with an endless wardrobe.
-
----
-
-**Update: 11 May 2013**
-
-I made the first theme, not quite what I describe above, but I thought I get started in the simplest format. Try [Scribble](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/). More to come. :)
