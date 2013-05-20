@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Jekyll themes?
+title: Want some jekyll themes?
 date: 2013-04-08 14:53:13
 ---
 
 **Update: 20 May 2013**
 
-As Jekyll 1.0 released this post is getting a lot more traffic, therefore just so you know, I made a stand-alone theme [Scribble](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/) which is available on [GitHub](https://github.com/muan/scribble). And, I am now working on **Wardrobe**, which would be a gem with 3-5 themes to start with, it is currently work in progress but you can have [a sneak preview here](http://themes.muan.co/), of one of the themes. 
+As Jekyll 1.0 released this post is getting a lot more traffic, therefore just so you know upfront, I made a stand-alone theme [Scribble](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/) which is available on [GitHub](https://github.com/muan/scribble). And, I am now working on **Wardrobe**, which would be a gem with 3-5 themes to start with, it is currently work in progress but you can have [a sneak preview here](http://themes.muan.co/), of one of the themes. 
 
 Follow me on [Twitter](http://twitter.com/muanchiou) or [GitHub](http://github.com/muan) to keep yourself in the loop. ♥
 
