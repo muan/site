@@ -250,6 +250,7 @@ section.post {
       color: #d0d0d0;
       font-size: 10px; }
   section.post iframe, section.post img {
+    padding: 0;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     border-top-left-radius: 3px;

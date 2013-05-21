@@ -187,6 +187,7 @@ section.post {
     }
   }
   iframe, img { 
+    padding: 0; width: 100%;
     @include border-bottom-radius(3px); @include border-top-radius(3px);
   }
 }
