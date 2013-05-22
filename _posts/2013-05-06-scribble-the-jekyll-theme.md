@@ -6,9 +6,9 @@ date: 2013-05-05 20:38:50
 
 **Update: 20 May 2013**
 
-I am now working on **Wardrobe**, which would be a gem with 3-5 themes to start with, it is currently work in progress but you can have [a sneak preview here](http://themes.muan.co/) (one of the themes.)
+I am now working on **Wardrobe**, which would be a jekyll setup with 3-5 themes to start with, it is currently work in progress but you can have [a sneak preview here](http://themes.muan.co/) (one of the themes.)
 
-Follow me on [Twitter](http://twitter.com/muanchiou) or [GitHub](http://github.com/muan) to keep yourself in the loop. ♥
+Follow me on [Twitter](https://twitter.com/muanchiou) or [GitHub](https://github.com/muan/jekyll-wardrobe) to keep yourself in the loop. ♥
 
 ---
 
