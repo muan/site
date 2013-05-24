@@ -169,7 +169,7 @@ ul.posts {
 }
 
 
-section.post {
+.post {
   margin: 0 -60px;
   text-align: left;
   border-top: 0; 
@@ -222,13 +222,13 @@ section.post, section > p {
   }
   li .CodeMirror { margin: 10px 0; }
   li p { margin-bottom: 5px; }
-  code { font-size: 13px; color: #888; background: #f9f9f9; padding: 0 4px; }
-  img { 
-    max-width: 100%;
-    &.half { width: 50%; }
-  }
 }
-
+code { font-size: 13px; color: #888; background: #f9f9f9; padding: 0 4px; }
+img { 
+  max-width: 100%;
+  &.half { width: 50%; }
+}
+.signoff { margin-top: 30px; img { width: 20px; } }
 .paging {
   a { opacity: 0.15 }
   a:hover { opacity: 0.7; background: none; }

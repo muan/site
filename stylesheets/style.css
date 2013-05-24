@@ -230,27 +230,28 @@ ul.posts .datetime {
   font-size: 10px;
   text-align: right; }
 
-section.post {
+.post {
   margin: 0 -60px;
   text-align: left;
   border-top: 0;
   padding: 0; }
-  section.post > * {
+  .post > * {
     padding: 0 60px; }
-  section.post > ul, section.post > ol {
+  .post > ul, .post > ol {
     padding: 0 80px; }
-  section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
+  .post ul ul, .post ul ol, .post ol ul, .post ol ol {
     margin-left: 20px; }
-  section.post h1 {
+  .post h1 {
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 60px; }
-    section.post h1 .date {
+    .post h1 .date {
       color: #d0d0d0;
       font-size: 10px; }
-  section.post iframe, section.post img {
+  .post iframe, .post img {
     padding: 0;
+    width: 100%;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -298,15 +299,22 @@ section.post, section > p {
     margin: 10px 0; }
   section.post li p, section > p li p {
     margin-bottom: 5px; }
-  section.post code, section > p code {
-    font-size: 13px;
-    color: #888;
-    background: #f9f9f9;
-    padding: 0 4px; }
-  section.post img, section > p img {
-    max-width: 100%; }
-    section.post img.half, section > p img.half {
-      width: 50%; }
+
+code {
+  font-size: 13px;
+  color: #888;
+  background: #f9f9f9;
+  padding: 0 4px; }
+
+img {
+  max-width: 100%; }
+  img.half {
+    width: 50%; }
+
+.signoff {
+  margin-top: 30px; }
+  .signoff img {
+    width: 20px; }
 
 .paging a {
   opacity: 0.15; }
