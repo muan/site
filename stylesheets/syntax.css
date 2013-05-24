@@ -1,8 +1,9 @@
-.highlight pre { padding: 5px 0; }
-.highlight, .highlight code, .highlight pre  { background: #39382e; }
+.post > .highlight { padding: 0; margin: 10px 0; }
+.highlight pre { padding: 8px 0; margin: 0 60px; }
+.highlight, .highlight code, .highlight pre  { background: #29281e; }
 .highlight code { padding: 0; }
 .highlight .c { color: #75715e } /* Comment */
-.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .err { color: #960050; background-color: #29281e } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
 .highlight .l { color: #ae81ff } /* Literal */
 .highlight .n { color: #f8f8f2 } /* Name */

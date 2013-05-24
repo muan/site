@@ -20,7 +20,7 @@ Just drag any of the buttons below to your bookmark bar, and with a click you ca
 <a href="javascript:for(var i=0,item;item=document.getElementsByTagName('img')[i];i++){item.setAttribute('src','http://nicenicejpg.com/'+item.clientWidth+'/'+item.clientHeight)}" class="big-button red">Vanilla Ice</a>
 
 
-<img src="http://placecage.com/g/60/160" />
+<img src="http://placecage.com/g/100/160" />
 <img src="http://placecage.com/g/246/160" />
 <img src="http://placecage.com/g/120/160" />
 
@@ -28,10 +28,10 @@ Just drag any of the buttons below to your bookmark bar, and with a click you ca
 
 Here's the actual code for it if you're curious:
 
-<pre>javascript||
+{% highlight javascript %}
 javascript:for(var i=0,item;item=document.getElementsByTagName("img")[i];i++)
 {item.setAttribute("src","http://placecage.com/"+item.clientWidth+"/"+item.clientHeight)}
-</pre>
+{% endhighlight %}
 
 ---
 

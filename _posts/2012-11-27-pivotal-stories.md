@@ -6,8 +6,9 @@ date: 2012-11-27 21:54:13
 
 In Chrome, add a new bookmark, and change the url to:
 
-    javascript||
-    javascript:void(jQuery(".item[id*='itemList_story']:not(:has(a[title='Mu-An Chiou']))").toggle())
+{% highlight javascript %}
+javascript:void(jQuery(".item[id*='itemList_story']:not(:has(a[title='Mu-An Chiou']))").toggle())
+{% endhighlight %}
 
 Et voila, you can toggle to see only your stories! Of course, change my name to yours first.
 

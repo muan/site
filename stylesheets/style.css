@@ -249,9 +249,10 @@ ul.posts .datetime {
     .post h1 .date {
       color: #d0d0d0;
       font-size: 10px; }
+  .post iframe {
+    width: 100%; }
   .post iframe, .post img {
     padding: 0;
-    width: 100%;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -300,11 +301,21 @@ section.post, section > p {
   section.post li p, section > p li p {
     margin-bottom: 5px; }
 
+.highlight pre {
+  overflow-x: scroll; }
+
 code {
   font-size: 13px;
-  color: #888;
-  background: #f9f9f9;
-  padding: 0 4px; }
+  color: #eee;
+  background: #39382e;
+  padding: 2px 4px 3px;
+  border-radius: 2px;
+  line-height: 1.3em;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto; }
 
 img {
   max-width: 100%; }
