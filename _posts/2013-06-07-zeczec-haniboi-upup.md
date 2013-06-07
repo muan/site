@@ -14,7 +14,7 @@ Not long after his 500th manually made people-holding-signs image, He contacted 
 
 As a bigger plan, Han wants to make lots of products around this concept, toys, stickers, notebooks.... He planned to put it on zeczec to raise funding for them, so we agreed to put UPUP on hold until he's ready. 
 
-We didn't make the generator public, though we didn't really think it's going to be anything even if we did. So we tested the generator publicly, I put it on GitHub, we test uploading to facebook and so on. No one cares about letting it get out, as it is so unlikely that it will blow up.
+We didn't make the generator public, and at the same time we didn't really think it's going to be anything even if we did. So we tested the generator publicly, I put it on GitHub, we test uploading to facebook and so on. No one cares about letting it get out, as it is so unlikely that it will blow up.
 
 As time passed by, it was getting closer and closer to the date we planned to launch the project. We tested UPUP a few more times, and just like before, we didn't bother to hide it. 
 
