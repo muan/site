@@ -12,15 +12,15 @@ title: 1 million pageviews
 
 Not long after his 500th manually made people-holding-signs image, He contacted us for the idea of making an image generator, and immediately I said yes. I think for the most part it is that I hadn't really used Canvas before, and I couldn't find an excuse to use it, and this was perfect! Therefore, just like me facing any other exciting new projects, I dived right in and finished most of the code within couple of days. We decided to call it UPUP.
 
-As a bigger plan, Han wants to make lots of products around this concept, and he planned to put it on zeczec to raise sufficient fund to do it, we had to put this project on hold until he's ready. 
+As a bigger plan, Han wants to make lots of products around this concept, toys, stickers, notebooks.... He planned to put it on zeczec to raise funding for them, so we agreed to put UPUP on hold until he's ready. 
 
-We didn't publish the generator, but we didn't really think it's going to BE anything, so we test the generator publicly, I put it on GitHub, we test uploading to facebook and so on. No one cares about letting it get out. Well, why should we? We really didn't think it is going to be anything.
+We didn't make the generator public, though we didn't really think it's going to be anything even if we did. So we tested the generator publicly, I put it on GitHub, we test uploading to facebook and so on. No one cares about letting it get out, as it is so unlikely that it will blow up.
 
-As time passed by, it's getting closer and closer to the date we planned to launch the project. We tested a few more times, and just like before, we didn't bother to hide it. 
+As time passed by, it was getting closer and closer to the date we planned to launch the project. We tested UPUP a few more times, and just like before, we didn't bother to hide it. 
 
 ![](https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/943420_513806072018857_1221631741_n.png)
 
-However on 29 May, it got out, all of a sudden. Initially we noticed it being shared by a couple of friends but didn't think much of it, but suddenly it became 30 friends, then before we knew it, the generator is shared by the most popular local tech blog. We got 50,000 views in 5 hours, and the number of currently active users on site was soaring, going from 400 to 1800+.
+On 29 May, it got out, all of a sudden. Initially we noticed images being shared by a couple of friends but didn't think much of it, but suddenly it became 30 friends, then before we knew it, the generator is shared by the most popular local tech blog. We got 50,000 views in 5 hours, and the number of active users on site was soaring, going from 400 to 1800+.
 
 We were not prepared at all, and we decided to shut it down(which was a questionable decision), and take some time to come up with a strategy. I was dead worried, thinking after we shut it down we might not be able to get it this popular again, it was just about to take off at the time... 
 
