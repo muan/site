@@ -38,4 +38,6 @@ Anyway.
 
 Lots of friends in Taiwan are congratulating us for this seemingly extremely successful campaign. We still don't have Han's big-picture project up on zeczec, and the hype is indeed likely to die down soon, but we had a great run.
 
-It's our first million, lots of things went wrong, lots of things didn't go as planned and lots of opportunities were missed. It'd be nice if we were more prepared, but who'd know what would have happen if so?  :)
+It's our first million, lots of things went wrong, lots of things didn't go as planned and lots of opportunities were missed. It'd be nice if we were more prepared, but who'd know what would have happen if so? :)
+
+By the way, you can [play it here](http://www.haniboi.com), this weekend we're dedicating the site to newly grads hence the dresses. :)
