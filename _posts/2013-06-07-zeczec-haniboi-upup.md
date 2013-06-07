@@ -4,7 +4,7 @@ date: 2013-06-07 05:46:17
 title: 1 million pageviews
 ---
 
-Zeczec (my not-really-a-startup startup) and designer Han Lee had [a little collaboration project.](http://www.haniboi.com) It started simple and small. Han is a friend of us and he had previously launched [a successful project](http://www.zeczec.com/projects/haniboi) on zeczec. (we're a crowdfunding platform)
+[Zeczec](http://www.zeczec.com/) (my not-really-a-startup startup) and designer Han Lee had [a little collaboration project.](http://www.haniboi.com) It started simple and small. Han is a friend of us and he had previously launched [a successful project](http://www.zeczec.com/projects/haniboi) on zeczec. (we're a crowdfunding platform)
 
 3 months ago, Han had this new idea with little people holding word signs, and at the time "no nukes" was a really big topic in Taiwan, people were asking him to make pictures like this for their facebook covers:
 
