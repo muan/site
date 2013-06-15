@@ -10,6 +10,7 @@ disqus_shortname: muan
 facebook_appid:   604714799556697
 facebook_userid:  1036039927
 google_analytics: UA-21332781-7
+timezone:         Europe/London
 links: 
   - name:         About Mu-An
     url:          /about

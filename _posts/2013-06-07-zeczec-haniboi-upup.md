@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 05:46:17
+date: 2013-06-07 05:46:17
 title: 1 million pageviews
 ---
 
