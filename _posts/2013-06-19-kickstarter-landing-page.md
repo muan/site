@@ -4,7 +4,7 @@ title: Landing page for Kickstarter projects
 date: 2013-06-19 12:04
 ---
 
-A couple of my friends have been working on [Stair-Rover](http://stair-rover.com), and they are launching their Kickstarter project today!
+A couple of my friends have been working on [Stair-Rover](http://stair-rover.com), and they launched [their Kickstarter project](http://kck.st/12bbLkw) today!
 
 <iframe src="http://player.vimeo.com/video/67177468?portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
