@@ -24,7 +24,7 @@ Then a friend of mine started saying how he wanted to hide anything to do with N
 
 **Links**
 
-<a href="https://chrome.google.com/webstore/detail/filter/ongmpdiioadbiooegapnhbfglmaacpcd?hl=zh-TW" class="big-button green">Facebook filter <em>in Chrome Store</em></a>
+<a href="https://chrome.google.com/webstore/detail/filter/ongmpdiioadbiooegapnhbfglmaacpcd" class="big-button green">Facebook filter <em>in Chrome Store</em></a>
 
 <a href="https://github.com/muan/filter" class="big-button red">Facebook filter <em>on GitHub</em></a>
 
