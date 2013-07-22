@@ -91,12 +91,12 @@ footer {
 
 a, .as-link {
   text-decoration: none; 
-  color: darken(#698f9f, 10%);
+  color: #597;
   line-height: 1.4em;
   @include inline-block;
   @include transition(color 0.3s);
   &.main, &:hover { 
-    color: darken(#698f9f, 25%); 
+    color: #597;
     background-image: url(/images/line.png);
     background-repeat: repeat-x;
     background-position: left bottom;
@@ -118,11 +118,11 @@ a, .as-link {
     border-style: solid;
     border-color: #8ab;
     background: #6f8f9f;
-    @include box-shadow(inset 0 -1px 0px rgba(0,0,0,0.1));
+    box-shadow: inset 0 -1px 0px rgba(0,0,0,0.1);
     &:hover { 
       background: #608090;
     }
-    &:active { @include box-shadow(inset 0 1px 0px rgba(0,0,0,0.1)); }
+    &:active { box-shadow: inset 0 1px 0px rgba(0,0,0,0.1); }
     &.red {
       border-color: #ddacac;
       background: #a65;
