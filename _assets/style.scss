@@ -25,7 +25,9 @@ body {
 .small { font-size: 11px }
 .pull-left { float: left; }
 .pull-right { float: right; }
-.muted { color: #777; }
+img[alt*="pull-left"] { float: left; margin: 0 10px 10px 0; }
+img[alt*="pull-right"] { float: right; margin: 0 0 10px 10px; }
+.muted { color: #8f8f8f; }
 .colour-1 { color: #c94 }
 .colour-2 { color: #925}
 .colour-3 { color: #484 }
@@ -91,12 +93,12 @@ footer {
 
 a, .as-link {
   text-decoration: none; 
-  color: #597;
+  color: #269;
   line-height: 1.4em;
   @include inline-block;
   @include transition(color 0.3s);
   &.main, &:hover { 
-    color: #597;
+    color: darken(#269, 5%);
     background-image: url(/images/line.png);
     background-repeat: repeat-x;
     background-position: left bottom;
@@ -196,6 +198,7 @@ ul.posts {
 section.post, section > p {
   font-size: 14px; line-height: 1.6em;
   * { max-width: 100%; }
+  em strong { background-color: #ffffee; padding: 0 2px; }
   blockquote { 
     @include transition(all, 0.3s);
     color: #606060;
