@@ -100,7 +100,7 @@ Then I flew back to London a day later.
 
 During the whole process, I did not talk to any "HR people." I met and talked to people who actually work in GitHub doing the same thing as what I will be doing, and people who will be working with me if I got hired. There was really an impressive amount of engineering time set aside purely for hiring. 
 
-Watching from the outside, I saw GitHub being this great company that builds a much loved product, and I thought they must have everything all figured out; but I came to realise, **they don't haeve everything figured out**, and it is so awesome. &hearts;
+Watching from the outside, I saw GitHub being this great company that builds a much loved product, and I thought they must have everything all figured out; but I came to realise, **they do not have everything figured out**, and it is so awesome. &hearts;
 
 GitHub is the people, and obviously people make mistakes, no one is ever perfect, and they are not afraid to show it. They recognise their weaknesses and try to better everything all the time.
 
@@ -108,18 +108,16 @@ Before the interview I couldn't help but feeling out of place, simply because Gi
 
 ---
 
-### Above all
-
 My concern as a candidate was to make sure I will love my job, I will get excited at what I'll be doing, I will like the company and most importantly, enjoy working with the people. And from what I have learned from the process, the people and the culture, I find everything at GitHub extremely appealing to me.
 
-I started writing this blog post before they flew me to San Francsico, and I finished the post on the plane back to London. I didn't know if I was going to get an offer while writing this initially, it almost felt like a stupid teenage crush; fortunately for me, turns out in the end our love was mutual ♥, I got an offer a week couple days later.
+I started writing this blog post before they flew me to San Francsico, and I finished the post on the plane back to London. I didn't know if I was going to get an offer while writing this initially, it almost felt like a stupid teenage crush; fortunately for me, turns out in the end our love was mutual ♥, I got an offer a couple days after I got back to London.
 
 Obviously not having actually worked in GitHub yet, there could be a possiblilty that everyone is secretly annoying, @mtodd lied about how TPW really is, and I just couldn't see all these things from the outside. Although I highly doubt these, I do only speak for what I've already known. :)
 
-<img src="https://f.cloud.github.com/assets/98681/851043/9d55b404-f494-11e2-8f95-9ae77140dfac.gif" alt="Spinning, I am spinning!" width="100%" />
+<img src="/images/muan-fast.gif" alt="Spinning, I am spinning!" width="100%" />
 
 This week is my first week at GitHub, good luck to me. <br />
 [May octocat be with you](http://octodex.github.com/). &hearts;<br />
-Have you heard that [we are still hiring a bunch of people](https://github.com/about/jobs)?
+Have you heard that [we are currently hiring](https://github.com/about/jobs)?
 
-p.s. Thank you [Julie](https://twitter.com/nrrrdcore) for everything. You are so awesome. &hearts; &hearts; &hearts;
+p.s. Thank you [Julie](https://twitter.com/nrrrdcore) for everything. You are so awesome. &hearts; &hearts; &hearts; &hearts; &hearts;
