@@ -116,6 +116,8 @@ I started writing this blog post before they flew me to San Francsico, and I fin
 
 Obviously not having actually worked in GitHub yet, there could be a possiblilty that everyone is secretly annoying, @mtodd lied about how TPW really is, and I just couldn't see all these things from the outside. Although I highly doubt these, I do only speak for what I've already known. :)
 
+<img src="https://f.cloud.github.com/assets/98681/851043/9d55b404-f494-11e2-8f95-9ae77140dfac.gif" alt="Spinning, I am spinning!" width="100%" />
+
 This week is my first week at GitHub, good luck to me. <br />
 [May octocat be with you](http://octodex.github.com/). &hearts;<br />
 Have you heard that [we are still hiring a bunch of people](https://github.com/about/jobs)?
