@@ -3,7 +3,7 @@ layout: page
 title: about
 ---
 
-This is Mu-An, [I am a GitHubber &hearts;](https://github.com/blog/1568-mu-an-chiou-is-a-githubber). I am a designer & developer. I code in HAML, SCSS, JavaScript, CoffeeScript, Ruby on Rails, and do Git stuff. I grew up in Taiwan, have been living in London for some years.x
+This is Mu-An, [I am a GitHubber &hearts;](https://github.com/blog/1568-mu-an-chiou-is-a-githubber). I am a designer & developer. I code in HAML, SCSS, JavaScript, CoffeeScript, Ruby on Rails, and do Git stuff. I grew up in Taiwan, have been living in London for some years.
 
 I think about doing `git reset head --hard` on my room from time to time, but sadly the world's not perfect. 
 
