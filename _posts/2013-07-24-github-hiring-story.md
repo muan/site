@@ -4,7 +4,7 @@ date: 2013-07-24 14:34:00 PST
 title: GitHub hiring story
 ---
 
-Most of us have heard how incredibly relaxed GitHub's cultrue is, but not many people have actullay experienced it first hand to be able to confirm it. After going through GitHub's hiring process, I have to say it was honestly the best experience I have ever had. <span class="muted">Though bear in mind that I am still early in my years.</span>
+Most of us have heard how incredibly relaxed GitHub's culture is, but not many people have actually experienced it first hand to be able to confirm it. After going through GitHub's hiring process, I have to say it was honestly the best experience I have ever had. <span class="muted">Though bear in mind that I am still early in my years.</span>
 
 Reading [The GitHub hiring experience](https://github.com/blog/1269-the-github-hiring-experience) by [Coby](https://twitter.com/cobyism) certainly helped me a lot in understanding GitHub's process while I was in it. GitHub is so out of the ordinary that you do need to study up in order to get a grasp on where you are at. And here's my take on everything. :)
 
@@ -14,7 +14,7 @@ Reading [The GitHub hiring experience](https://github.com/blog/1269-the-github-h
 
 ### First Contact
 
-3 months ago, I was taking my time in finding something new, while finishing off lots of personal projects. I talked to a bunch of companies during the time; it took some people a long time to say no, and for some it costed me a long time to find out it wasn't a good fit.
+3 months ago, I was taking my time in finding something new, while finishing off lots of personal projects. I talked to a bunch of companies during the time; it took some people a long time to say no, and for some it cost me a long time to find out it wasn't a good fit.
 
 Lots of people talk about how interview should be a two-way process, but there is a problem: most interviews are not set up to be a two-way process. It wouldn't be about people meeting people, but purely about the company screening you.
 
@@ -66,7 +66,7 @@ Next up was the interview day, I had breakfast with [@tclem](https://twitter.com
 
 ![](/images/13072202.png)
 
-Over the course of the day, I talked to about some 10 people, 2 at a time. It was super laid-back, just chatting. There was one thing surprised me the most -- everyone already knows a lot about me. They know about my recent projects, things I have built and shipped(not just the ones on my resume), they know how I got in touch, they know I am from Taiwan but I live in London and so on. It is surprising how rare this is the case, and this tells me that they took the time to get to know me, not just by looking at my resume, but actaully took the time to read through stuff I have done.
+Over the course of the day, I talked to about some 10 people, 2 at a time. It was super laid-back, just chatting. There was one thing surprised me the most -- everyone already knows a lot about me. They know about my recent projects, things I have built and shipped(not just the ones on my resume), they know how I got in touch, they know I am from Taiwan but I live in London and so on. It is surprising how rare this is the case, and this tells me that they took the time to get to know me, not just by looking at my resume, but actually took the time to read through stuff I have done.
 
 I talked to developers, designers and also to my surprise -- the finance team! Normally when interviewing at a company, I will expect seeing developers, project managers or so, not people from a whole different department, but this was brilliant! People were not hard-divided into certain groups simply because they were non-techs working in a tech company or something. I enjoyed very much talking to [@hotbootymasala](https://twitter.com/hotbootymasala), who used to live in London like me, and [@TaxAly](https://twitter.com/TaxAly), who codes quite a lot now!
 
@@ -84,7 +84,7 @@ Lucky for me, in the evening one of the [passion projects](http://passion-projec
 
 The day after, I received an email from someone I met briefly but didn't get a chance to talk to on the interview day. He introduced himself and said if I have got any more questions about GitHub he'll be happy to answer.
 
-It could be because the interivew was over, I had the illusion that I can now begin to ask a bunch of silly questions and not get judged by, so I replied asking if he'll be able to meet and have a chat, and he said yes right away. 
+It could be because the interview was over, I had the illusion that I can now begin to ask a bunch of silly questions and not get judged by, so I replied asking if he'll be able to meet and have a chat, and he said yes right away.
 
 
 [@mtodd](http://twitter.com/mtodd) ended up spending a whole Saturday afternoon with me in the GitHub office, just answering my endless questions about GitHub and chatting with me about basically everything. 
@@ -110,9 +110,9 @@ Before the interview I couldn't help but feeling out of place, simply because Gi
 
 My concern as a candidate was to make sure I will love my job, I will get excited at what I'll be doing, I will like the company and most importantly, enjoy working with the people. And from what I have learned from the process, the people and the culture, I find everything at GitHub extremely appealing to me.
 
-I started writing this blog post before they flew me to San Francsico, and I finished the post on the plane back to London. I didn't know if I was going to get an offer while writing this initially, it almost felt like a stupid teenage crush; fortunately for me, turns out in the end our love was mutual ♥, I got an offer a couple days after I got back to London.
+I started writing this blog post before they flew me to San Francisco, and I finished the post on the plane back to London. I didn't know if I was going to get an offer while writing this initially, it almost felt like a stupid teenage crush; fortunately for me, turns out in the end our love was mutual ♥, I got an offer a couple days after I got back to London.
 
-Obviously not having actually worked in GitHub yet, there could be a possiblilty that everyone is secretly annoying, @mtodd lied about how TPW really is, and I just couldn't see all these things from the outside. Although I highly doubt these, I do only speak for what I've already known. :)
+Obviously not having actually worked in GitHub yet, there could be a possibility that everyone is secretly annoying, @mtodd lied about how TPW really is, and I just couldn't see all these things from the outside. Although I highly doubt these, I do only speak for what I've already known. :)
 
 <img src="/images/muan-fast.gif" alt="Spinning, I am spinning!" width="100%" />
 
