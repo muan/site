@@ -43,7 +43,7 @@ After a few weeks in, Pivotal started to grow on me, it started to make sense, t
 
 ---
 
-However, there's still a lot of noise, there are little things that annoys me daily in Pivotal Tracker. What frustrated me the most was: I cannot filter my story down within coloumns. <br />
+However, there's still a lot of noise, there are little things that annoys me daily in Pivotal Tracker. What frustrated me the most was: I cannot filter my story down within columns. <br />
 It is very clever of Pivotal to let you hide columns, allowing you focus on the current stories, but it's like a feature half done. I care about **<span class="colour-1">my</span> <span class="colour-2">current</span>** stories, not everyone else's, nor the ones sitting in Icebox. And initials in plain text brakets are not clear enough, there's not much to add, they're just texts like everything around it, except that I care about them more.
 
 **What next?**
