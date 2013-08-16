@@ -117,7 +117,7 @@ Obviously not having actually worked in GitHub yet, there could be a possibility
 <img src="/images/muan-fast.gif" alt="Spinning, I am spinning!" width="100%" />
 
 This week is my first week at GitHub, good luck to me. <br />
-[May octocat be with you](http://octodex.github.com/). &hearts;<br />
+[May the octocats be with you](http://octodex.github.com/). &hearts;<br />
 Have you heard that [we are currently hiring](https://github.com/about/jobs)?
 
 p.s. Thank you [Julie](https://twitter.com/nrrrdcore) for everything. You are so awesome. &hearts; &hearts; &hearts; &hearts; &hearts;
