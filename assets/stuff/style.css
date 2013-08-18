@@ -1,0 +1,188 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  font-weight: 400;
+  line-height: 1.65em;
+  font-size: 15px; }
+  body h1, body h2, body h3, body h4, body h5, body strong, body b, body .bold {
+    font-weight: 700; }
+  body .small {
+    line-height: 1.5em; }
+  body small {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 10px; }
+  body .big {
+    font-size: 60px; }
+  body .toned, body .toned * {
+    color: #707070; }
+  body .muted, body .muted * {
+    color: #bababa; }
+
+.wrapper {
+  margin: 0 0 0 30%; }
+
+.hex {
+  position: relative;
+  left: -4px;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+  .hex:before {
+    opacity: 0; }
+  .hex:hover {
+    color: transparent;
+    text-shadow: 0 0 0 #ff5d56, 0 0 0px green, 50px 0 0 rgba(255, 93, 86, 0.6), 100px 0 0 rgba(255, 93, 86, 0.4), 150px 0 0 rgba(255, 93, 86, 0.2); }
+
+header, footer, section {
+  padding: 20px;
+  border-radius: 3px;
+  width: 100%;
+  margin: 0 auto; }
+
+header {
+  font-size: 14px;
+  text-transform: uppercase; }
+  header hr {
+    margin-bottom: 0; }
+
+footer hr {
+  margin-top: 0; }
+
+.a {
+  color: #e05D56; }
+
+a, .link {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  color: #FF5D56; }
+  a.big-button, .link.big-button {
+    background-color: #ff5d56;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1em;
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    border-radius: 3px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.6); }
+    a.big-button:hover, .link.big-button:hover {
+      box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.6), inset 0 20px 80px rgba(255, 221, 214, 0.2);
+      color: #fff;
+      background-color: #ee3d36; }
+  a:hover, .link:hover {
+    color: #aa5d56; }
+
+.content-wrapper {
+  margin: auto; }
+
+img:not([width]):not([height]) {
+  width: 100%; }
+
+img {
+  border-radius: 3px; }
+
+.signoff {
+  margin-top: 40px; }
+
+hr {
+  height: 5px;
+  margin: 2em 0;
+  width: 30%;
+  border: 0;
+  border-top: 1px double #eee;
+  border-bottom: 1px double #eee; }
+
+article, .pagination {
+  max-width: 500px; }
+
+article h3 {
+  line-height: 1em; }
+article blockquote {
+  box-shadow: -3px 0 0 #fdd;
+  font-style: normal;
+  padding: 0 10px 3px;
+  margin: 30px 0;
+  border-left: 40px solid #fee; }
+  article blockquote:before {
+    content: "“";
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    margin-left: -1.2em;
+    margin-top: .5em;
+    color: #f88; }
+article iframe, article img, article video {
+  margin: 20px 0;
+  border: 8px solid #f5f5f5;
+  padding: 8px; }
+
+.posts li {
+  margin-bottom: 15px;
+  line-height: 1.2em; }
+  .posts li h2 {
+    margin: 0;
+    font-size: inherit; }
+  .posts li a {
+    display: block; }
+    .posts li a:hover {
+      background-color: transparent; }
+
+.arrow {
+  color: #efefef;
+  position: absolute;
+  margin-left: -50px; }
+
+.signoff .avatar-wrapper {
+  float: left;
+  margin-right: 10px;
+  margin-top: -3px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  width: 40px;
+  overflow: hidden; }
+  .signoff .avatar-wrapper:hover {
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    transform: rotate(720deg); }
+  .signoff .avatar-wrapper:before, .signoff .avatar-wrapper:after {
+    display: block;
+    border: 20px solid white;
+    content: "";
+    position: absolute; }
+  .signoff .avatar-wrapper:after {
+    margin-top: -12px;
+    border-top: 12px solid transparent;
+    border-bottom: transparent; }
+  .signoff .avatar-wrapper:before {
+    border-bottom: 12px solid transparent;
+    border-top: transparent; }
+.signoff .avatar {
+  width: 40px;
+  height: 48px; }
+
+@media (max-width: 770px) {
+  .wrapper {
+    margin: 0; } }

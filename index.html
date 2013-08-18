@@ -2,13 +2,17 @@
 layout: index
 ---
 
+<strong class="muted upcase">
+  Some words:
+</strong><br /><br />
+
 <ul class="posts">
   {% for post in site.posts %}
   <li>
-    <small class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
-    <a href="{{ post.url }}#">
+    <h2><a class="upcase" href="{{ post.url }}#">
       {{ post.title }}<br />
-    </a>
+    </a></h2>
+    <small class="datetime muted">Posted <span data-time="{{ post.date }}">{{ post.date | date_to_string }}</span></small>
   </li>
   {% endfor %}
 </ul>

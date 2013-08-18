@@ -1,0 +1,205 @@
+@import "../bourbon/bourbon";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  font-weight: 400;
+  line-height: 1.65em;
+  font-size: 15px;
+
+  h1, h2, h3, h4, h5, strong, b, .bold { font-weight: 700; }
+
+  .small { line-height: 1.5em; }
+  
+  small {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  
+  .big {
+    font-size: 60px;
+  }
+  .toned, .toned * {
+    color: #707070;
+  }
+  .muted, .muted * {
+    color: #bababa;
+  }
+}
+
+.wrapper {
+  margin: 0 0 0 30%;
+}
+
+.hex {
+  position: relative;
+  left: -4px;
+  @include inline-block;
+  @include transition(.3s);
+  &:before { opacity: 0; }
+  &:hover {
+    color: transparent;
+    text-shadow: 0 0 0 fade-out(#FF5D56, 0), 0 0 0px green, 50px 0 0 fade-out(#FF5D56, .4), 100px 0 0 fade-out(#FF5D56, .6), 150px 0 0 fade-out(#FF5D56, .8);
+  }
+}
+
+header, footer, section {
+  padding: 20px;
+  border-radius: 3px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 14px;
+  text-transform: uppercase;
+  hr { margin-bottom: 0; }
+}
+
+footer {
+  hr { margin-top: 0; }
+}
+
+.a {
+  color: #e05D56;
+}
+
+a, .link {
+  @include transition(0.5s);
+  color: #FF5D56;
+  &.big-button {
+    background-color: #ff5d56;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1em;
+    @include inline-block;
+    border-radius: 3px;
+    box-shadow: inset 0 0 3px rgba(0,0,0,.6);
+    &:hover {
+      box-shadow: inset 0 0 3px rgba(0,0,0,.6), inset 0 20px 80px fade-out(#ffddd6, .8);
+      color: #fff;
+      background-color: #ee3d36;
+    }
+  }
+  &:hover {
+    color: #aa5d56;
+  }
+}
+
+.content-wrapper {
+  margin: auto;
+}
+
+.stuff-ftw {
+}
+
+img:not([width]):not([height]) { 
+  width: 100%;
+}
+
+img {
+  border-radius: 3px;
+}
+
+.signoff {
+  margin-top: 40px;
+}
+
+hr { 
+  height: 5px;
+  margin: 2em 0;
+  width: 30%;
+  border: 0;
+  border-top: 1px double #eee;
+  border-bottom: 1px double #eee;
+}
+
+
+article, .pagination {
+  max-width: 500px;
+}
+article {
+  h3 { line-height: 1em; }
+  blockquote {
+    &:before {
+      content: "“";
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+      font-size: 30px;
+      position: absolute;
+      margin-left: -1.2em;
+      margin-top: .5em;
+      color: #f88;
+    }
+    box-shadow: -3px 0 0 #fdd;
+    font-style: normal;
+    padding: 0 10px 3px;
+    margin: 30px 0;
+    border-left: 40px solid #fee;
+  }
+  iframe, img, video {
+    margin: 20px 0;
+    border: 8px solid #f5f5f5;
+    padding: 8px;
+  }
+}
+
+.posts {
+  li {
+    margin-bottom: 15px;
+    line-height: 1.2em;
+    h2 { margin: 0; font-size: inherit; }
+    a {
+      display: block;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.arrow {
+  color: #efefef;
+  position: absolute; margin-left: -50px;
+}
+
+.signoff {
+  .avatar-wrapper {
+    float: left;
+    margin-right: 10px;
+    margin-top: -3px;
+    @include transition(1s);
+    &:hover {
+      @include transform(rotate(720deg));
+    }
+    &:before, &:after {
+      display: block;
+      border: 20px solid white;
+      content: "";
+      position: absolute;
+    }
+    &:after {
+      margin-top: -12px;
+      border-top: 12px solid transparent;
+      border-bottom: transparent;
+    }
+    &:before {
+      border-bottom: 12px solid transparent;
+      border-top: transparent;
+    }
+    width: 40px;
+    overflow: hidden;
+  }
+  .avatar {
+    width: 40px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 770px) {
+  .wrapper { margin: 0; }
+}
