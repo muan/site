@@ -4,9 +4,11 @@ title: Newbie experience at GitHub
 date: 2013-08-15 08:25:00 BST
 ---
 
+I decided to write a post about my first two weeks in GitHub. Here it is.
+
 > Holy shit, I am a GitHubber!
 
-First week is the onboarding week at GitHub, the week of mind explosions and new friends. Same as before, there is an unlimited amount of flexibility, I could choose whenever I wanted to start, and GitHub will fly me over to San Francisco. 
+The first week is the onboarding week at GitHub, the week of mind explosions and new friends. Same as before, there is an unlimited amount of flexibility, I could choose whenever I wanted to start, and GitHub will fly me over to San Francisco. 
 
 After knowing about the Summit™ from our spiritual guide [@newmerator](https://twitter.com/newmerator), I didn't think it makes any sense to miss the Summit, so I decided to start a week before it.
 
