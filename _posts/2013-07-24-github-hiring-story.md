@@ -89,7 +89,7 @@ It could be because the interview was over, I had the illusion that I can now be
 
 [@mtodd](http://twitter.com/mtodd) ended up spending a whole Saturday afternoon with me in the GitHub office, just answering my endless questions about GitHub and chatting with me about basically everything. 
 
-![pull-left Octocat](/images/13072204.png)
+![Octocat pillow](/images/13072204.png)
 I was really glad to have the chance spending time with him that afternoon, I got to know so much more about GitHub. I had a peek of the weekend office, sat in an egg chair hugging an octocat pillow, and hung out in the guitar room. Without the pressure of it being an interview (although it definitely still counted), I was a whole lot more relaxed!
 
 Then I flew back to London a day later.
