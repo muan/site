@@ -1,6 +1,36 @@
 @import "../bourbon/bourbon";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
 
+@mixin hex-shape($size) {
+  &:before, &:after {
+    display: block;
+    border: $size/2 solid white;
+    content: "";
+    position: absolute;
+  }
+  &:after {
+    top: 100%;
+    margin-top: -$size*0.3;
+    border-top: $size*0.3 solid transparent;
+    border-bottom-color: white;
+  }
+  &:before {
+    border-bottom: $size*0.3 solid transparent;
+    border-top: 0;
+  }
+  &:hover {
+    @include transform(rotate(720deg));
+  }
+  @include transition(1s);
+  @include inline-block;
+  position: relative;
+  line-height: 0;
+  font-size: 0;
+  width: $size;
+  height: $size*1.15;
+  overflow: hidden;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
@@ -33,18 +63,6 @@ body {
   margin: 0 0 0 30%;
 }
 
-.hex {
-  position: relative;
-  left: -4px;
-  @include inline-block;
-  @include transition(.3s);
-  &:before { opacity: 0; }
-  &:hover {
-    color: transparent;
-    text-shadow: 0 0 0 fade-out(#FF5D56, 0), 0 0 0px green, 50px 0 0 fade-out(#FF5D56, .4), 100px 0 0 fade-out(#FF5D56, .6), 150px 0 0 fade-out(#FF5D56, .8);
-  }
-}
-
 header, footer, section {
   padding: 20px;
   border-radius: 3px;
@@ -64,6 +82,22 @@ footer {
 
 .a {
   color: #e05D56;
+}
+
+.hex-shape {
+  @include hex-shape(24px);
+  background-color: #ff5d56;
+  &.muted {
+    background-color: #ccc;
+  }
+  &.small {
+    margin: 6px 0;
+    @include hex-shape(14px);
+  }
+  &.big {
+    margin: 20px 0;
+    @include hex-shape(44px);
+  }
 }
 
 a, .link {
@@ -172,27 +206,7 @@ article {
     float: left;
     margin-right: 10px;
     margin-top: -3px;
-    @include transition(1s);
-    &:hover {
-      @include transform(rotate(720deg));
-    }
-    &:before, &:after {
-      display: block;
-      border: 20px solid white;
-      content: "";
-      position: absolute;
-    }
-    &:after {
-      margin-top: -12px;
-      border-top: 12px solid transparent;
-      border-bottom: transparent;
-    }
-    &:before {
-      border-bottom: 12px solid transparent;
-      border-top: transparent;
-    }
-    width: 40px;
-    overflow: hidden;
+    @include hex-shape(40px);
   }
   .avatar {
     width: 40px;
@@ -202,4 +216,5 @@ article {
 
 @media (max-width: 770px) {
   .wrapper { margin: 0; }
+  .arrow { display: none; }
 }
