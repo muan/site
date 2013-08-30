@@ -98,6 +98,13 @@ footer {
     margin: 20px 0;
     @include hex-shape(44px);
   }
+  &.huge {
+    @include hex-shape(140px);
+    margin: 30px 0;
+    font-size: 15px;
+    line-height: 161px;
+    color: fade-out(white, 0.2);
+  }
 }
 
 a, .link {
