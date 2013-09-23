@@ -107,9 +107,9 @@ hr { border: 0; border-bottom: 1px solid #efefef; border-top: 1px solid #efefef;
 
 .mark {
   position: absolute;
-  left: 3px;
-  top: 3px;
-  border: 10px solid #eee;
+  left: 10px;
+  top: 10px;
+  border: 8px solid #eee;
   border-right-color: transparent;
   border-bottom-color: transparent;
   @include transition(.5s);
@@ -165,4 +165,13 @@ article {
   h4 {
     margin: 0 0 5px;
   }
+}
+
+.plain {
+  background-color: transparent;
+  border: 0;
+  margin: 40px auto 30px;
+  text-align: left;
+  color: #999;
+  display: inline-block;
 }

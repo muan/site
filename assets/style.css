@@ -111,9 +111,9 @@ hr {
 
 .mark {
   position: absolute;
-  left: 3px;
-  top: 3px;
-  border: 10px solid #eee;
+  left: 10px;
+  top: 10px;
+  border: 8px solid #eee;
   border-right-color: transparent;
   border-bottom-color: transparent;
   -webkit-transition: 0.5s;
@@ -163,3 +163,11 @@ article {
   padding: 25px; }
   .pagination h4 {
     margin: 0 0 5px; }
+
+.plain {
+  background-color: transparent;
+  border: 0;
+  margin: 40px auto 30px;
+  text-align: left;
+  color: #999;
+  display: inline-block; }
