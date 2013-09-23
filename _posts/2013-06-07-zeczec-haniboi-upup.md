@@ -1,7 +1,8 @@
 ---
 layout: post
 date: 2013-06-07 05:46:17
-title: 1 million pageviews
+title: 1 Million Pageviews
+cover: https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/943420_513806072018857_1221631741_n.png
 ---
 
 [Zeczec](http://www.zeczec.com/) (my not-really-a-startup startup) and designer Han Lee had [a little collaboration project.](http://www.haniboi.com) It started simple and small. Han is a friend of us and he had previously launched [a successful project](http://www.zeczec.com/projects/haniboi) on zeczec. (we're a crowdfunding platform)

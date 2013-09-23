@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Facebook filter
+title: Facebook Filter
 date: 2013-06-29 17:38
 ---
 
-I use Facebook a lot. 
-
-A British friend of mine doesn't quite get it at first, he said: "who cares about where _someone_ went or what _someone_ ate last weekend?" But after putting himself in my shoes, I think he got it, at least a little bit.
+I use Facebook a lot. A friend of mine doesn't quite get it, he said: "who cares about where _someone_ went or what _someone_ ate last weekend?" But after putting himself in my shoes, I think he got it, at least a little bit.
 
 Being away from home in a foreign country, with most of my close friends back in Taiwan, Facebook is awesome for keeping up with how my friends are doing; especially nowadays some people think it is OK to send wedding invitations through Facebook.
 

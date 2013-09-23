@@ -1,10 +1,8 @@
 ---
 layout: post
-title: git wedding-speech
+title: Git wedding-speech
 date: 2013-07-21 05:43
 ---
-
-&hearts;
 
 Lots of my friends just got married/got engaged recently. People plan their weddings in all different ways. I suddenly wondered if any couple has ever planned a wedding in a GitHub repository, so I typed "wedding" into [GitHub search box](https://github.com/blog/1381-a-whole-new-code-search). And found this.
 

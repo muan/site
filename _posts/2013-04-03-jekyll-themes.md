@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Want some jekyll themes?
+title: Jekyll Themes?
 date: 2013-04-08 14:53:13
 ---
 

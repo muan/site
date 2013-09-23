@@ -1,0 +1,52 @@
+@import "bourbon/bourbon";
+
+$background: #fff;
+
+h1, h2, h3, h4, h5, strong, b, .bold { font-weight: 400; }
+html, body { height: 100%; }
+body { 
+  &, * { -webkit-font-smoothing: antialiased; @include box-sizing(border-box); }
+  background: $background;
+  color: #444;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5em;
+  padding: 0; margin: 0;
+}
+p { margin: 0 0 0.6em; }
+.capitalize { text-transform: capitalize; }
+.upcase { text-transform: uppercase; }
+.downcase { text-transform: lowercase; }
+.hide { display: none; }
+.fly-right { text-align: right; }
+.fly-center { text-align: center; }
+.small { font-size: 10px }
+.big { font-size: 50px; line-height: 1.5em; }
+.pull-left { float: left; }
+.reset { margin: 0; padding: 0; }
+.pull-right { float: right; }
+.muted { color: #8f8f8f; }
+.colour-1 { color: #c94 }
+.colour-2 { color: #925}
+.colour-3 { color: #484 }
+.text-big { font-size: 24px; line-height: 1em; }
+ul, ul li, ol, ol li { padding: 0; margin: 0; }
+blockquote { padding: 0; margin: 0.8em 0; font-style: italic; p:last-child { margin: 0; } small { color: #aaa; } }
+
+.posts, .posts li { list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #202020;
+}
+
+code { white-space: nowrap; color: #000; }
+pre code { white-space: pre; background: transparent; border: 0; padding: 0; }
+
+pre, code {
+  background-color: #F8F8FF;
+  border: 1px solid #DDDDDD;
+  font-size: 13px; padding: 3px 5px;
+  border-radius: 3px;
+}

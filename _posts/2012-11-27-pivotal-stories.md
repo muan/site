@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Toggle your story in panels in Pivotal
+title: Toggle Stories in Pivotal
 date: 2012-11-27 21:54:13
 ---
 
@@ -16,8 +16,8 @@ When I first saw Pivotal I hated it. It was so cluttered and there were lots of 
 
 Here’s one for you all. :)
 
-—--
+---
 
-screenshot of my pivotal tracker in use
+Screenshot of my pivotal tracker in use:
 
 ![screenshot](/images/12112701.png)

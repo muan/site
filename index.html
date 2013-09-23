@@ -2,17 +2,20 @@
 layout: index
 ---
 
-<strong class="muted upcase">
-  Some words:
-</strong><br /><br />
-
 <ul class="posts">
   {% for post in site.posts %}
-  <li>
-    <h2><a class="upcase" href="{{ post.url }}#">
-      {{ post.title }}<br />
-    </a></h2>
-    <small class="datetime muted">Posted <span data-time="{{ post.date }}">{{ post.date | date_to_string }}</span></small>
+  <li class="post">
+    <a href="{{ post.url }}" class="post-link {% if post.cover %}padded-right{% endif %}">
+      {% if post.cover %}
+        <div class="post-cover" style="background-image: url({{ post.cover }});" /></div>
+      {% endif %}
+      <div class="mark"></div>
+      <h2 class="post-title">
+        {{ post.title }}<br />
+      </h2>
+      <span class="meta">Posted <time data-time="{{ post.date }}" title="{{ post.date }}">{{ post.date | date_to_string }}</time></span>
+      <p class="excerpt">{{ post.excerpt | strip_html | strip_newlines }}</p>
+    </a>
   </li>
   {% endfor %}
 </ul>

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Did I mention I like boring stories?
+title: Random Swiss
 date: 2013-08-29 01:43:50
+cover: /images/13082901.jpg
 ---
 
 Arrived at Zurich. 

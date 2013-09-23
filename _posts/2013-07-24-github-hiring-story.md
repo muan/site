@@ -1,7 +1,8 @@
 ---
 layout: post
 date: 2013-07-24 14:34:00 PST
-title: GitHub hiring story
+title: GitHub Hiring Story
+cover: /images/13072203.png
 ---
 
 Most of us have heard how incredibly relaxed GitHub's culture is, but not many people have actually experienced it first hand to be able to confirm it. After going through GitHub's hiring process, I have to say it was honestly the best experience I have ever had. <span class="muted">Though bear in mind that I am still early in my years.</span>
@@ -38,7 +39,7 @@ Different from the usual interview setup, people I talked to made the purpose of
 
 > We want to get to know you, and we want you to know us, so you can be sure you would like to work with us personally.
 
-Most of my developer friends love GitHub, and almost everyone would like to work in GitHub simply because **it is GitHub**. But through talking to real people working in GitHub, there comes a point when I felt *__Gosh I really want to work with these people!__* It was perfectly possible that during the process I might realise that they are pricks and stop being interested in them, but it was the complete opposite.
+Most of my developer friends love GitHub, and almost everyone would like to work in GitHub simply because **it is GitHub**. But through talking to real people working in GitHub, there comes a point when I felt **I really want to work with these people!** It was perfectly possible that during the process I might realise that they are pricks and stop being interested in them, but it was the complete opposite.
 
 All of the calls were super casual, we talk about personal experiences, my usual design process, preprocessors I love and hate, joked about how me loving HAML (just for not having to close tags) is plain lazy. :P I was super nervous, but it was great fun at the same time.
 
@@ -90,6 +91,7 @@ It could be because the interview was over, I had the illusion that I can now be
 [@mtodd](http://twitter.com/mtodd) ended up spending a whole Saturday afternoon with me in the GitHub office, just answering my endless questions about GitHub and chatting with me about basically everything. 
 
 ![Octocat pillow](/images/13072204.png)
+
 I was really glad to have the chance spending time with him that afternoon, I got to know so much more about GitHub. I had a peek of the weekend office, sat in an egg chair hugging an octocat pillow, and hung out in the guitar room. Without the pressure of it being an interview (although it definitely still counted), I was a whole lot more relaxed!
 
 Then I flew back to London a day later.

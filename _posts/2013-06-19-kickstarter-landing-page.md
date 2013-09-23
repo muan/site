@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Landing page for Kickstarter projects
+title: Landing Page for Kickstarter Projects
 date: 2013-06-19 12:04
 ---
 

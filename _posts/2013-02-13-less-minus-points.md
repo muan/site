@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimising for less minus points
+title: Optimising for Less Minus Points
 date: 2013-02-13 23:19:10
 ---
 

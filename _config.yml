@@ -1,10 +1,8 @@
-title:            How nice!
-description:      Mu-An Chiou. Designer and front-end developer living in London. I am very nice.
+title:            Mu-An Chiou - @muanchiou or @muan
 url:              http://muan.co
 permalink:        pretty
 pygments:         true
 markdown:         rdiscount
-folder:           stuff
 rdiscount:
   extensions:     [smart]
 google_analytics: UA-21332781-7
@@ -13,9 +11,3 @@ paginate: 5
 links: 
   - name:         About
     url:          /about
-  - name:         GitHub
-    url:          http://github.com/muan
-  - name:         Twitter
-    url:          http://twitter.com/muanchiou
-  - name:         Instagram
-    url:          http://instagram.com/muanchiou

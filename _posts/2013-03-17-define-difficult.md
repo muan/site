@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Define difficult
+title: Define Difficult
 date: 2013-03-17 19:45:47
 ---
 

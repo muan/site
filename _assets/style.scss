@@ -1,52 +1,168 @@
 @import "bourbon/bourbon";
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
 
-$background: #fff;
-
-h1, h2, h3, h4, h5, strong, b, .bold { font-weight: 400; }
-html, body { height: 100%; }
-body { 
-  &, * { -webkit-font-smoothing: antialiased; @include box-sizing(border-box); }
-  background: $background;
-  color: #444;
-  font-family: sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 1.5em;
-  padding: 0; margin: 0;
+body {
+  background-color: #f4f4f4;
+  color: #343434;
+  line-height: 1.6em;
+  font-family: Ubuntu;
+  padding: 20px 0;
 }
-p { margin: 0 0 0.6em; }
-.capitalize { text-transform: capitalize; }
-.upcase { text-transform: uppercase; }
-.downcase { text-transform: lowercase; }
-.hide { display: none; }
-.fly-right { text-align: right; }
-.fly-center { text-align: center; }
-.small { font-size: 10px }
-.big { font-size: 50px; line-height: 1.5em; }
-.pull-left { float: left; }
-.reset { margin: 0; padding: 0; }
-.pull-right { float: right; }
-.muted { color: #8f8f8f; }
-.colour-1 { color: #c94 }
-.colour-2 { color: #925}
-.colour-3 { color: #484 }
-.text-big { font-size: 24px; line-height: 1em; }
-ul, ul li, ol, ol li { padding: 0; margin: 0; }
-blockquote { padding: 0; margin: 0.8em 0; font-style: italic; p:last-child { margin: 0; } small { color: #aaa; } }
-
-.posts, .posts li { list-style: none; }
 
 a {
-  text-decoration: none;
-  color: #202020;
+  color: #6AD;
+  font-weight: 700;
 }
 
-code { white-space: nowrap; color: #000; }
-pre code { white-space: pre; background: transparent; border: 0; padding: 0; }
+b, strong, h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
 
-pre, code {
-  background-color: #F8F8FF;
-  border: 1px solid #DDDDDD;
-  font-size: 13px; padding: 3px 5px;
-  border-radius: 3px;
+hr { border: 0; border-bottom: 1px solid #efefef; border-top: 1px solid #efefef; margin: 20px 0; height: 6px; }
+
+.wrapper {
+  max-width: 620px;
+  width: 100%;
+  margin: auto;
+}
+
+.site-header, .site-footer {
+  padding: 25px;
+  text-align: center;
+}
+
+.site-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  nav a {
+    border-bottom: 2px solid #6ad;
+  }
+  .site-title {
+    color: #676767;
+    @include transition(.4s);
+    text-transform: uppercase;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    .firstname { margin-right: 5px; }
+    .lastname { opacity: .4 }
+  }
+}
+
+.posts {
+  text-align: center;
+  font-size: 0;
+  .post-link {
+    color: inherit;
+    font-size: 13px;
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    position: relative;
+    @include transition(.5s);
+    &.padded-right {
+      padding-right: 185px;
+    }
+    .post-cover {
+      @include transition(.5s);
+      position: absolute;
+      width: 160px;
+      top: 0;
+      right: 0;
+      background-size: cover;
+      background-position: 50% 50%;
+      border: 10px solid #fff;
+      height: 100%;
+      opacity: .3;
+    }
+    .post-title {
+      margin: 0 0 5px;
+    }
+    .meta {
+      opacity: .4;
+      font-size: 10px;
+    }
+    .excerpt {
+      color: #888;
+      margin: 20px 0 0;
+      max-height: 100px;
+      overflow: hidden;
+      font-weight: normal;
+    }
+    .mark { opacity: 0; }
+    &:hover {
+      .mark { opacity: 1; }
+      .post-cover { opacity: .6; }
+      border: 1px solid #eee;
+      box-shadow: 0 0 25px #eee;
+    }
+  }
+}
+
+.mark {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  border: 10px solid #eee;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  @include transition(.5s);
+}
+
+article {
+  padding: 25px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #565656;
+  line-height: 1.6em;
+  position: relative;
+  p {
+    margin: 0.6em 0;
+  }
+  header {
+    margin-bottom: 30px;
+    .post-title {
+      font-weight: 700;
+      margin: 0;
+    }
+  }
+  .signoff {
+    margin-top: 30px;
+    color: #777;
+  }
+  * {
+    max-width: 100%;
+  }
+  img:not([height]) {
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+  }
+  blockquote {
+    font-style: normal;
+    margin: 20px 0 20px -30px;
+    width: auto;
+    display: block;
+    padding: 5px 25px 5px 20px;
+    border-left: 10px solid #e0e9ed;
+    box-shadow: -5px 0 0 white,  -5px 5px 0 white,  -5px -5px 0 white;
+    p:first-child, p:last-child { margin: 0; }
+  }
+  ul, ol {
+    margin: 20px 0 20px 20px;
+  }
+}
+
+.pagination {
+  margin-top: 25px;
+  padding: 25px;
+  h4 {
+    margin: 0 0 5px;
+  }
 }

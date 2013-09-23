@@ -1,14 +1,11 @@
-<a id="fork-me" href="https://github.com/muan/muan.github.com"><img width style="z-index: 100; position: absolute; top: 0; right: 0; border: 0;" src="/images/fmog.png" alt="Fork me on GitHub"></a>
-
-<p><a href="/" class="hex-shape big"></a></p>
-{% if page.url == "/" %}
-  <p>My name is <strong>Mu-An Chiou</strong>.</p>
-  <p>A super proud <strong>Design Superhero™</strong> at <a href="">GitHub</a>. Founder of <a href="">Zeczec</a>.</p>
-  <p>Known to be Aggressively Shy™. From <strong>Taipei</strong>, based in <strong>London</strong>.</p>
-  <nav class="bold">
+<header class="site-header">
+  <a href="/" class="site-title">
+    <span class="firstname">Mu-An</span><span class="lastname">Chiou</strong>
+  </a>
+  <nav>
     {% for link in site.links %}
       <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
     {% endfor %}
   </nav>
-{% endif %}
-<hr />
+</header>
+<a id="fork-me" href="https://github.com/muan/muan.github.com"><img width style="z-index: 100; position: absolute; top: 0; right: 0; border: 0;" src="/images/fmog.png" alt="Fork me on GitHub"></a>

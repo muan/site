@@ -7,57 +7,44 @@
   <body>
     <div class="wrapper">
 
-      <header>
-        {% include header.html %}
-      </header>
+      {% include header.html %}
 
-      <div class="content-wrapper">
         <section class="content">
           <article>
-            <h3 class="reset bold upcase a">{{ page.title }}</h3>
-            {% if page.date %}
-              <small class="datetime muted">{{ page.date | date_to_string }}</small>
-            {% endif %}
-            <hr>
+            <div class="mark"></div>
+            <header>
+              <h2 class="post-title">{{ page.title }}</h2>
+              {% if page.date %}
+                <small class="datetime muted">{{ page.date | date_to_string }}</small>
+              {% endif %}
+            </header>
             {{ content }}
+            {% unless page.url == "/about/" %}{% include signoff.html %}{% endunless %}
           </article>
-          {% unless page.url == "/about/" %}{% include signoff.html %}{% endunless %}
+          {% if page.previous or page.next %}
           <div class="pagination">
             {% if page.previous %}
-              <hr />
               <p class="toned upcase small">Use ← and → to navigate between posts.</p>
               <hr />
               <a href="{{ page.previous.url }}" id="js-previous-post">
-                <div class="arrow big">❰</div>
-                <p><span class="small toned upcase">
-                  Previous Post</span>
-                  <br />
-                  <span class="bold link">{{ page.previous.title }}</span>
-                  <p class="toned small">{{ page.previous.content | strip_html | truncate: 200 }}</p>
-                  <span class="small upcase datetime muted">{{ page.previous.date | date_to_string }}</span>
-                </p>
+                <span class="small toned upcase">Previous Post</span>
+                <h4>{{ page.previous.title }}</h4>
+                <span class="small upcase datetime muted">{{ page.previous.date | date_to_string }}</span>
               </a>
             {% endif %}
             {% if page.next %}
               <hr />
               <a href="{{ page.next.url }}" id="js-next-post">
-                <div class="arrow big">❱</div>
-                <p><span class="small toned upcase">
-                  Next Post</span>
-                  <br />
-                    <span class="bold link">{{ page.next.title }}</span>
-                  <br />
-                  <p class="toned small">{{ page.next.content | strip_html | truncate: 200 }}</p>
-                  <span class="small upcase datetime muted">{{ page.next.date | date_to_string }}</span>
-                </p>
+                <span class="small toned upcase">Next Post</span>
+                <h4>{{ page.next.title }}</h4>
+                <span class="small upcase datetime muted">{{ page.next.date | date_to_string }}</span>
               </a>
             {% endif %}
           </div>
+          {% endif %}
         </section>
-      </div>
-      <footer>
-        {% include footer.html %}
-      </footer>
+
+      {% include footer.html %}
     </div>
   </body>
 </html>

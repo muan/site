@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pivotal Tweaker update
+title: Pivotal Tweaker Update
 date: 2013-03-06 22:58:02
 ---
 

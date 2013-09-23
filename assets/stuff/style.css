@@ -276,6 +276,7 @@ article iframe, article img, article video {
     margin: 0;
     font-size: inherit; }
   .posts li a {
+    text-transform: uppercase;
     display: block; }
     .posts li a:hover {
       background-color: transparent; }
