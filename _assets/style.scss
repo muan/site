@@ -6,7 +6,7 @@ body {
   color: #343434;
   line-height: 1.6em;
   font-family: Ubuntu;
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 
 a {
@@ -26,28 +26,40 @@ hr { border: 0; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; margi
   margin: auto;
 }
 
-.site-header, .site-footer {
-  padding: 25px;
+.site-footer {
   text-align: center;
+  padding: 25px;
 }
 
 .site-header {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
-  nav a {
-    border-bottom: 2px solid #6ad;
-  }
+  text-align: right;
   .site-title {
+    &:hover {
+      .block { background-color: #6AD; }
+      .lastname { opacity: .7; color: #59b; }
+      color: #59b;
+    }
+    .block {
+      display: inline-block;
+      width: 30px;
+      height: 9px;
+      margin-top: 1px;
+      background-color: #ddd;
+      margin-right: 10px;
+      @include transition(.4s);
+    }
+    float: left;
     color: #676767;
     @include transition(.4s);
     text-transform: uppercase;
     display: block;
-    font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-weight: bold;
     .firstname { margin-right: 5px; }
-    .lastname { opacity: .4 }
+    .lastname { opacity: .4; @include transition(.4s); }
   }
 }
 
@@ -109,7 +121,7 @@ hr { border: 0; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; margi
   position: absolute;
   left: 10px;
   top: 10px;
-  border: 8px solid #eee;
+  border: 5px solid #eee;
   border-right-color: transparent;
   border-bottom-color: transparent;
   @include transition(.5s);

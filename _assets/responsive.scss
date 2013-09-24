@@ -1,34 +1,9 @@
 @media (max-width: 480px) {
 
   body {
-    padding: 0 0 10px;
-    .content {
-      padding: 10px;
-    }
+    padding: 10px;
     .site-header {
-      margin: 0;
-      padding: 15px;
-      background-color: #202020;
-      text-align: center;
-      .site-title {
-        color: #eee;
-        margin-bottom: 0;
-        margin-right: 20px;
-        font-size: 14px;
-        display: inline-block;
-        .firstname:after {
-          content: "'s";
-          color: #aaa;
-        }
-        .lastname {
-          display: none;
-        }
-      }
-      nav { display: inline-block; } 
-      a {
-        line-height: 1em;
-        border: 0;
-      }
+      margin-bottom: 10px;
     }
     .fork-me, .tip {
       display: none;

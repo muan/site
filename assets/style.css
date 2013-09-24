@@ -4,7 +4,7 @@ body {
   color: #343434;
   line-height: 1.6em;
   font-family: Ubuntu;
-  padding: 20px 0; }
+  padding: 20px 10px; }
 
 a {
   color: #6AD;
@@ -25,17 +25,17 @@ hr {
   width: 100%;
   margin: auto; }
 
-.site-header, .site-footer {
-  padding: 25px;
-  text-align: center; }
+.site-footer {
+  text-align: center;
+  padding: 25px; }
 
 .site-header {
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px; }
-  .site-header nav a {
-    border-bottom: 2px solid #6ad; }
+  margin-bottom: 20px;
+  text-align: right; }
   .site-header .site-title {
+    float: left;
     color: #676767;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -44,13 +44,36 @@ hr {
     transition: 0.4s;
     text-transform: uppercase;
     display: block;
-    font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-weight: bold; }
+    .site-header .site-title:hover {
+      color: #59b; }
+      .site-header .site-title:hover .block {
+        background-color: #6AD; }
+      .site-header .site-title:hover .lastname {
+        opacity: .7;
+        color: #59b; }
+    .site-header .site-title .block {
+      display: inline-block;
+      width: 30px;
+      height: 9px;
+      margin-top: 1px;
+      background-color: #ddd;
+      margin-right: 10px;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      -ms-transition: 0.4s;
+      -o-transition: 0.4s;
+      transition: 0.4s; }
     .site-header .site-title .firstname {
       margin-right: 5px; }
     .site-header .site-title .lastname {
-      opacity: 0.4; }
+      opacity: .4;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      -ms-transition: 0.4s;
+      -o-transition: 0.4s;
+      transition: 0.4s; }
 
 .posts {
   text-align: center;
@@ -113,7 +136,7 @@ hr {
   position: absolute;
   left: 10px;
   top: 10px;
-  border: 8px solid #eee;
+  border: 5px solid #eee;
   border-right-color: transparent;
   border-bottom-color: transparent;
   -webkit-transition: 0.5s;

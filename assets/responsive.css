@@ -1,29 +1,8 @@
 @media (max-width: 480px) {
   body {
-    padding: 0 0 10px; }
-    body .content {
-      padding: 10px; }
+    padding: 10px; }
     body .site-header {
-      margin: 0;
-      padding: 15px;
-      background-color: #202020;
-      text-align: center; }
-      body .site-header .site-title {
-        color: #eee;
-        margin-bottom: 0;
-        margin-right: 20px;
-        font-size: 14px;
-        display: inline-block; }
-        body .site-header .site-title .firstname:after {
-          content: "'s";
-          color: #aaa; }
-        body .site-header .site-title .lastname {
-          display: none; }
-      body .site-header nav {
-        display: inline-block; }
-      body .site-header a {
-        line-height: 1em;
-        border: 0; }
+      margin-bottom: 10px; }
     body .fork-me, body .tip {
       display: none; }
     body .pagination {
