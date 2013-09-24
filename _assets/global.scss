@@ -34,6 +34,10 @@ p { margin: 0 0 0.6em; }
 ul, ul li, ol, ol li { padding: 0; margin: 0; }
 blockquote { padding: 0; margin: 0.8em 0; font-style: italic; p:last-child { margin: 0; } small { color: #aaa; } }
 
+
+.fork-me {
+  z-index: 100; position: absolute; top: 0; right: 0; border: 0;
+}
 .posts, .posts li { list-style: none; }
 
 a {

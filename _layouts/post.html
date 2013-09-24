@@ -24,10 +24,9 @@
           {% if page.previous or page.next %}
           <div class="pagination">
             {% if page.previous %}
-              <p class="toned upcase small">Use ← and → to navigate between posts.</p>
-              <hr />
+              <div class="tip">Use ← and → to navigate between posts.</div>
               <a href="{{ page.previous.url }}" id="js-previous-post">
-                <span class="small toned upcase">Previous Post</span>
+                <span class="small-title">Previous Post</span>
                 <h4>{{ page.previous.title }}</h4>
                 <span class="small upcase datetime muted">{{ page.previous.date | date_to_string }}</span>
               </a>
@@ -35,7 +34,7 @@
             {% if page.next %}
               <hr />
               <a href="{{ page.next.url }}" id="js-next-post">
-                <span class="small toned upcase">Next Post</span>
+                <span class="small-title">Next Post</span>
                 <h4>{{ page.next.title }}</h4>
                 <span class="small upcase datetime muted">{{ page.next.date | date_to_string }}</span>
               </a>

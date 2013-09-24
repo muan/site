@@ -15,8 +15,8 @@ b, strong, h1, h2, h3, h4, h5 {
 
 hr {
   border: 0;
-  border-bottom: 1px solid #efefef;
-  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
   margin: 20px 0;
   height: 6px; }
 
@@ -71,7 +71,7 @@ hr {
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s; }
-    .posts .post-link.padded-right {
+    .posts .post-link.has-cover {
       padding-right: 185px; }
     .posts .post-link .post-cover {
       -webkit-transition: 0.5s;
@@ -129,6 +129,8 @@ article {
   color: #565656;
   line-height: 1.6em;
   position: relative; }
+  article hr {
+    border-color: #efefef; }
   article p {
     margin: 0.6em 0; }
   article header {
@@ -161,8 +163,13 @@ article {
 .pagination {
   margin-top: 25px;
   padding: 25px; }
+  .pagination .tip {
+    padding-bottom: 20px; }
+  .pagination .small-title, .pagination .tip {
+    font-size: 11px;
+    color: #888; }
   .pagination h4 {
-    margin: 0 0 5px; }
+    margin: 5px 0; }
 
 .plain {
   background-color: transparent;

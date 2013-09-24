@@ -18,7 +18,7 @@ b, strong, h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
-hr { border: 0; border-bottom: 1px solid #efefef; border-top: 1px solid #efefef; margin: 20px 0; height: 6px; }
+hr { border: 0; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; margin: 20px 0; height: 6px; }
 
 .wrapper {
   max-width: 620px;
@@ -66,7 +66,7 @@ hr { border: 0; border-bottom: 1px solid #efefef; border-top: 1px solid #efefef;
     overflow: hidden;
     position: relative;
     @include transition(.5s);
-    &.padded-right {
+    &.has-cover {
       padding-right: 185px;
     }
     .post-cover {
@@ -122,6 +122,7 @@ article {
   color: #565656;
   line-height: 1.6em;
   position: relative;
+  hr { border-color: #efefef; }
   p {
     margin: 0.6em 0;
   }
@@ -162,8 +163,15 @@ article {
 .pagination {
   margin-top: 25px;
   padding: 25px;
+  .tip {
+    padding-bottom: 20px;
+  }
+  .small-title, .tip {
+    font-size: 11px;
+    color: #888;
+  }
   h4 {
-    margin: 0 0 5px;
+    margin: 5px 0;
   }
 }
 

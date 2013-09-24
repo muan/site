@@ -86,6 +86,13 @@ blockquote {
   blockquote small {
     color: #aaa; }
 
+.fork-me {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }
+
 .posts, .posts li {
   list-style: none; }
 

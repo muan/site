@@ -5,7 +5,7 @@ layout: index
 <ul class="posts">
   {% for post in site.posts %}
   <li class="post">
-    <a href="{{ post.url }}" class="post-link {% if post.cover %}padded-right{% endif %}">
+    <a href="{{ post.url }}" class="post-link {% if post.cover %}has-cover{% endif %}">
       {% if post.cover %}
         <div class="post-cover" style="background-image: url({{ post.cover }});" /></div>
       {% endif %}

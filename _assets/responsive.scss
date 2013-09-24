@@ -1,20 +1,68 @@
 @media (max-width: 480px) {
-  body {
-    padding: 0 10px;
-    #container {
-      ul.posts {
-        .datetime { float: none; display: block; width: auto; text-align: left; }
 
-      }
-      #ind-instagram, #ind-linkedin { display: none; }
-      .links, .content {
-        padding: 15px;
-        section.post { 
-          margin: 0 -15px; 
-          > p, h1, h2, h3, h4, .signoff, blockquote, .highlight { padding: 0 15px; }
-          > ul, > ol { padding: 0 30px; }
+  body {
+    padding: 0 0 10px;
+    .content {
+      padding: 10px;
+    }
+    .site-header {
+      margin: 0;
+      padding: 15px;
+      background-color: #202020;
+      text-align: center;
+      .site-title {
+        color: #eee;
+        margin-bottom: 0;
+        margin-right: 20px;
+        font-size: 14px;
+        display: inline-block;
+        .firstname:after {
+          content: "'s";
+          color: #aaa;
+        }
+        .lastname {
+          display: none;
         }
       }
+      nav { display: inline-block; } 
+      a {
+        line-height: 1em;
+        border: 0;
+      }
+    }
+    .fork-me, .tip {
+      display: none;
+    }
+    .pagination {
+      text-align: center;
+    }
+    .post {
+      .post-link {
+        // border: 0;
+        margin-bottom: 10px;
+        &:hover {
+          // border: 0;
+          box-shadow: none;
+          .post-cover {
+            opacity: 1;
+          }
+        }
+        &.has-cover {
+          padding-right: 25px;
+          .mark {
+            top: 210px;
+          }
+        }
+        .post-cover {
+          opacity: 1;
+          position: static;
+          height: 200px;
+          margin: -25px -25px 25px;
+          width: auto;
+          border-width: 1px;
+        }
+      }
+      
     }
   }
 }
