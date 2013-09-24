@@ -4,6 +4,16 @@ title: Jekyll Themes?
 date: 2013-04-08 14:53:13
 ---
 
+**Update: 25 Sep 2012**
+
+I decided it was too much work to add a new theme, and rather not destroy the joy of redesigning blogs by constraining myself with frameworks, so.. from now on the themes will be in [the repository of this blog](https://github.com/muan/muan.github.com), meaning if you do want to use it, it's going to take you some setup time, migrating posts or however you do it. 
+
+One thing remains to be true: you're all welcome to use the themes I made, edit it however you like, only that I will not be doing support. 
+
+Browse the design changes using this neat [release view](https://github.com/muan/muan.github.com/releases) of the repository. ♥
+
+---
+
 **Update: 20 May 2013**
 
 As Jekyll 1.0 released this post is getting a lot more traffic, therefore just so you know upfront, I made a stand-alone theme [Scribble](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/) which is available on [GitHub](https://github.com/muan/scribble). And, I am now working on **Wardrobe**, which would be a jekyll setup with 3-5 themes to start with, it is currently work in progress but you can have [a sneak preview here](http://themes.muan.co/), of one of the themes. 
