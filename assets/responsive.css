@@ -1,10 +1,14 @@
+@media (max-device-width: 768px) {
+  .tip {
+    display: none; } }
+@media (max-width: 768px) {
+  .fork-me {
+    display: none; } }
 @media (max-width: 480px) {
   body {
     padding: 10px; }
     body .site-header {
       margin-bottom: 10px; }
-    body .fork-me, body .tip {
-      display: none; }
     body .pagination {
       text-align: center; }
     body .post .post-link {

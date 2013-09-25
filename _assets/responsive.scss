@@ -1,12 +1,19 @@
+@media (max-device-width: 768px) {
+  .tip { display: none; }
+}
+
+@media (max-width: 768px) {
+  .fork-me {
+    display: none;
+  }
+}
+
 @media (max-width: 480px) {
 
   body {
     padding: 10px;
     .site-header {
       margin-bottom: 10px;
-    }
-    .fork-me, .tip {
-      display: none;
     }
     .pagination {
       text-align: center;
