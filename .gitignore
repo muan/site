@@ -7,3 +7,4 @@ _site/
 .rvmrc
 *.psd
 *~
+.ruby-version
