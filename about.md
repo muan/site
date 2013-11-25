@@ -1,21 +1,24 @@
 ---
 layout: post
-title: Just an ordinary about page
+title: <img src="https://1.gravatar.com/avatar/3aeb5655cf56bb8cc5583da71c757dc4?d=https%3A%2F%2Fidenticons.github.com%2Ff1834dbb1aec7fa9355ef4da9d254b62.png&r=x&s=300" class="avatar" />About 
 ---
 
-**Mu-An Chiou** <small>(**邱慕安**)</small>. 
+**Mu-An Chiou** <small>(**邱慕安**)</small>. <br />
+[Design Superhero](https://github.com/blog/1568-mu-an-chiou-is-a-githubber) at [GitHub](https://github.com) and co-founder of [Zeczec](http://zeczec.com). 
 
-I am a designer at [GitHub](https://github.com) and co-founder of [Zeczec](http://zeczec.com). 
+Originally from Taipei, lived in the UK for 5 years, currently based nowhere.
 
-I am a **Taiwanese** from Taipei, have been in the UK for the past 5 years, currently based in **London**.
+<br />
 
-I started (trying) to do what I do now when I was 11, got into **French** in university but quickly dropped out, studied **Product Design** later instead, then went back doing web after graduated. 
+[GitHub](https://github.com/muan)
 
-I like web much more, because on the internet you **see the result much quicker**, and I don't have patience. You can find some of my product design works [here](http://be.net/muan).
+[Twitter](https://twitter.com/muanchiou)
 
-For my fellow internet dwellers, I'm on 
-[Twitter](https://twitter.com/muanchiou),
-[GitHub](https://github.com/muan),
-[Dribbble](http://dribbble.com/muan), and
-[Instagram](http://instagram.com/muanchiou).
-There's a [XML Feed](/feed.xml) for my posts, and [this site is opensource](https://github.com/muan/muan.github.com) on GitHub.
+[Dribbble](http://dribbble.com/muan)
+
+[Speakerdeck](http://speakerdeck.com/muan)
+
+[Blog feed](/feed.xml)
+
+
+<br />

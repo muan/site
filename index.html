@@ -13,7 +13,10 @@ layout: index
       <h2 class="post-title">
         {{ post.title }}<br />
       </h2>
-      <span class="meta">Posted <time data-time="{{ post.date }}" title="{{ post.date }}">{{ post.date | date_to_string }}</time></span>
+      <span class="meta">
+        {{post.content | number_of_words}} words<br />
+        Posted <time data-time="{{ post.date }}" title="{{ post.date }}">{{ post.date | date_to_string }}</time>
+      </span>
       <p class="excerpt">{{ post.excerpt | strip_html | strip_newlines }}</p>
     </a>
   </li>

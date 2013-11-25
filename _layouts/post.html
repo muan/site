@@ -14,31 +14,24 @@
             <div class="mark"></div>
             <header>
               <h2 class="post-title">{{ page.title }}</h2>
-              {% if page.date %}
-                <small class="datetime muted">{{ page.date | date_to_string }}</small>
-              {% endif %}
+              <small class="datetime muted">
+                {% if page.date %}
+                  {{ page.date | date_to_string }} - 
+                {% endif %}
+                by <a href="/about">muan</a>
+              </small>
             </header>
             {{ content }}
             {% unless page.url == "/about/" %}{% include signoff.html %}{% endunless %}
           </article>
           {% if page.previous or page.next %}
           <div class="pagination">
-            {% if page.previous %}
-              <div class="tip">Use ← and → to navigate between posts.</div>
-              <a href="{{ page.previous.url }}" id="js-previous-post">
-                <span class="small-title">Previous Post</span>
-                <h4>{{ page.previous.title }}</h4>
-                <span class="small upcase datetime muted">{{ page.previous.date | date_to_string }}</span>
-              </a>
-            {% endif %}
-            {% if page.next %}
-              <hr />
-              <a href="{{ page.next.url }}" id="js-next-post">
-                <span class="small-title">Next Post</span>
-                <h4>{{ page.next.title }}</h4>
-                <span class="small upcase datetime muted">{{ page.next.date | date_to_string }}</span>
-              </a>
-            {% endif %}
+            <a class="square" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
+              &lt;
+            </a>
+            <a class="square" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
+              &gt;
+            </a>
           </div>
           {% endif %}
         </section>

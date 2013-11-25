@@ -1,189 +1,198 @@
 @import "bourbon/bourbon";
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
 
 body {
-  background-color: #f4f4f4;
   color: #343434;
-  line-height: 1.6em;
-  font-family: Ubuntu;
-  padding: 20px 10px;
+  line-height: 1.45em;
+  font-family: "Helvetica Neue", helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 a {
-  color: #6AD;
-  font-weight: 700;
+  color: #48a;
 }
 
 b, strong, h1, h2, h3, h4, h5 {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 hr { border: 0; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; margin: 20px 0; height: 6px; }
 
 .wrapper {
-  max-width: 620px;
   width: 100%;
+  max-width: 700px;
+  padding: 40px 15px;
   margin: auto;
 }
 
 .site-footer {
-  text-align: center;
-  padding: 25px;
+}
+
+.square {
+  border: 1px solid #eee;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  min-width: 42px;
+  padding: 6px 16px;
+  display: inline-block;
+  @include transition(.4s); 
+  &:hover, &.active { background-color: #369; color: #fff; border-color: #369; }
 }
 
 .site-header {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: right;
+  margin-bottom: 40px;
+  text-align: center;
   .site-title {
     &:hover {
-      .block { background-color: #6AD; }
-      .lastname { opacity: .7; color: #59b; }
-      color: #59b;
     }
     .block {
-      display: inline-block;
-      width: 30px;
-      height: 9px;
-      margin-top: 1px;
-      background-color: #ddd;
-      margin-right: 10px;
-      @include transition(.4s);
     }
-    float: left;
-    color: #676767;
-    @include transition(.4s);
-    text-transform: uppercase;
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
     .firstname { margin-right: 5px; }
     .lastname { opacity: .4; @include transition(.4s); }
   }
 }
 
 .posts {
-  text-align: center;
   font-size: 0;
-  .post-link {
-    color: inherit;
-    font-size: 13px;
-    display: block;
-    text-align: left;
+  .post {
+    font-size: 15px;
+    vertical-align: top;
+    margin-right: 20px;
     margin-bottom: 20px;
-    background-color: #fff;
-    padding: 25px;
-    border: 1px solid transparent;
-    overflow: hidden;
+  }
+  .post-link {
     position: relative;
-    @include transition(.5s);
+    display: block;
+    padding: 25px 0 60px;
+    min-height: 100px;
+    text-align: center;
+    border: 1px solid #eee;
+    color: #333;
+    @include transition(.5s linear);
+    &:hover {
+      border: 1px solid #cdf;
+    }
     &.has-cover {
-      padding-right: 185px;
+      background-color: rgba(255, 255 ,255,.9);
+      text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
     }
     .post-cover {
-      @include transition(.5s);
+      z-index: -1;
+      background-position: 50% 0%;
       position: absolute;
-      width: 160px;
-      top: 0;
-      right: 0;
-      background-size: cover;
-      background-position: 50% 50%;
-      border: 10px solid #fff;
-      height: 100%;
-      opacity: .3;
+      top: 0; left: 0; right: 0; bottom: 0;
+      @include transition(5s linear);
+      background-size: 100%;
+    }
+    &:hover {
+      background-color: rgba(255, 255 ,255,.7);
+      border-color: #ccc;
+      .post-cover {
+        background-position: 100% 100%;
+        background-size: 120%;
+      }
     }
     .post-title {
-      margin: 0 0 5px;
+      margin: auto;
     }
     .meta {
-      opacity: .4;
+      position: absolute;
+      bottom: 10px;
+      left: 0; right: 0;
       font-size: 10px;
+      line-height: 1.3em;
     }
     .excerpt {
-      color: #888;
-      margin: 20px 0 0;
-      max-height: 100px;
-      overflow: hidden;
-      font-weight: normal;
+      display: none;
     }
-    .mark { opacity: 0; }
+    .mark {
+    }
     &:hover {
-      .mark { opacity: 1; }
-      .post-cover { opacity: .6; }
-      border: 1px solid #eee;
-      box-shadow: 0 0 25px #eee;
     }
   }
 }
 
-.mark {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  border: 5px solid #eee;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  @include transition(.5s);
+.avatar {
+  border-radius: 200px;
+  width: 200px;
+  display: block;
+  margin: auto auto 10px;
 }
 
 article {
-  padding: 25px;
-  background-color: #fff;
-  font-size: 14px;
-  color: #565656;
-  line-height: 1.6em;
-  position: relative;
-  hr { border-color: #efefef; }
+  hr {
+  }
   p {
-    margin: 0.6em 0;
   }
   header {
-    margin-bottom: 30px;
+    margin: 60px 0;
+    text-align: center;
     .post-title {
-      font-weight: 700;
+      font-size: 50px;
+      font-weight: 400;
       margin: 0;
+      line-height: 1.3em;
     }
   }
   .signoff {
-    margin-top: 30px;
-    color: #777;
   }
   * {
-    max-width: 100%;
   }
-  img:not([height]) {
-    margin: 10px 0;
+
+  img {
     width: 100%;
+    margin: 10px 0;
     border-radius: 4px;
   }
-  blockquote {
-    font-style: normal;
-    margin: 20px 0 20px -30px;
+
+  img[height] {
     width: auto;
-    display: block;
-    padding: 5px 25px 5px 20px;
-    border-left: 10px solid #e0e9ed;
-    box-shadow: -5px 0 0 white,  -5px 5px 0 white,  -5px -5px 0 white;
+  }
+
+  .f-right {
+    float: right;
+    margin-right: -30px;
+    margin-left: 20px;
+    max-width: 400px;
+    &.small {
+      max-width: 260px;
+    }
+  }
+
+  .f-left {
+    float: left;
+    margin-left: -30px;
+    margin-right: 20px;
+    max-width: 400px;
+  }
+  
+  .small {
+    max-width: 260px;
+  }
+
+  blockquote {
+    border-left: 10px solid #eee;
+    padding-left: 20px;
+    font-style: normal;
+    color: #444;
+    margin: 30px 0;
     p:first-child, p:last-child { margin: 0; }
   }
   ul, ol {
-    margin: 20px 0 20px 20px;
   }
 }
 
 .pagination {
-  margin-top: 25px;
-  padding: 25px;
-  .tip {
-    padding-bottom: 20px;
+  margin: 50px auto;
+  text-align: center;
+  a { 
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+    font-size: 30px;
   }
-  .small-title, .tip {
-    font-size: 11px;
-    color: #888;
-  }
-  h4 {
-    margin: 5px 0;
+  a:not([href]) {
+    color: #eee;
+    pointer-events: none;
   }
 }
 

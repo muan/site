@@ -1,50 +1,22 @@
-@media (max-device-width: 768px) {
-  .tip { display: none; }
-}
-
 @media (max-width: 768px) {
   .fork-me {
     display: none;
+  }
+  .wrapper {
+    overflow: hidden;
   }
 }
 
 @media (max-width: 480px) {
 
-  body {
-    padding: 10px;
-    .site-header {
-      margin-bottom: 10px;
-    }
-    .pagination {
-      text-align: center;
-    }
-    .post {
-      .post-link {
-        // border: 0;
-        margin-bottom: 10px;
-        &:hover {
-          // border: 0;
-          box-shadow: none;
-          .post-cover {
-            opacity: 1;
-          }
-        }
-        &.has-cover {
-          padding-right: 25px;
-          .mark {
-            top: 210px;
-          }
-        }
-        .post-cover {
-          opacity: 1;
-          position: static;
-          height: 200px;
-          margin: -25px -25px 25px;
-          width: auto;
-          border-width: 1px;
-        }
-      }
-      
-    }
+  .wrapper {
+    padding: 15px;
   }
+
+  article img {
+    margin: 0 !important;
+    float: none !important;
+    min-width: 100% !important;
+  }
+
 }

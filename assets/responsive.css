@@ -1,30 +1,14 @@
-@media (max-device-width: 768px) {
-  .tip {
-    display: none; } }
 @media (max-width: 768px) {
   .fork-me {
-    display: none; } }
+    display: none; }
+
+  .wrapper {
+    overflow: hidden; } }
 @media (max-width: 480px) {
-  body {
-    padding: 10px; }
-    body .site-header {
-      margin-bottom: 10px; }
-    body .pagination {
-      text-align: center; }
-    body .post .post-link {
-      margin-bottom: 10px; }
-      body .post .post-link:hover {
-        box-shadow: none; }
-        body .post .post-link:hover .post-cover {
-          opacity: 1; }
-      body .post .post-link.has-cover {
-        padding-right: 25px; }
-        body .post .post-link.has-cover .mark {
-          top: 210px; }
-      body .post .post-link .post-cover {
-        opacity: 1;
-        position: static;
-        height: 200px;
-        margin: -25px -25px 25px;
-        width: auto;
-        border-width: 1px; } }
+  .wrapper {
+    padding: 15px; }
+
+  article img {
+    margin: 0 !important;
+    float: none !important;
+    min-width: 100% !important; } }
