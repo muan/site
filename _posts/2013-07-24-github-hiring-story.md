@@ -65,7 +65,7 @@ After a few days of relaxing and meeting friends, here comes the first part of t
 
 Next up was the interview day, I had breakfast with [@tclem](https://twitter.com/tclem), whom I have already talked to online so I wasn't too nervous, and the [badass](https://github.com/blog/1519-jesse-toth-is-a-githubber) [@jesseplusplus](https://twitter.com/jesseplusplus). They walked me to the office afterwards.
 
-![](/images/13072202.png)
+<img src="http://distilleryimage8.ak.instagram.com/c0f6f2e2d4a511e2952222000ae912d7_7.jpg" class="f-right small" />
 
 Over the course of the day, I talked to about some 10 people, 2 at a time. It was super laid-back, just chatting. There was one thing surprised me the most -- everyone already knows a lot about me. They know about my recent projects, things I have built and shipped(not just the ones on my resume), they know how I got in touch, they know I am from Taiwan but I live in London and so on. It is surprising how rare this is the case, and this tells me that they took the time to get to know me, not just by looking at my resume, but actually took the time to read through stuff I have done.
 
@@ -75,7 +75,7 @@ The day finished at 3pm, which was rather early. At the end of it, I had a desig
 
 That was the first and the only 'technical' interview I had with GitHub, so I asked: "How are you guys sure about my coding ability?" and well, they told me that obviously they have read through my GitHub profile, and they meant it. Just on top of his head, [@mdo](https://twitter.com/mdo) listed almost all of my project repositories and told me how each one showed them what I can do. Wow.
 
-![](/images/13072203.png)
+<img src="http://distilleryimage8.ak.instagram.com/3e0f33d6d51211e2b4ea22000a1fbdb0_7.jpg" class="f-left" />
 
 Lucky for me, in the evening one of the [passion projects](http://passion-projects.github.com/) was being held, so I hang out more that night to check it out, chatted with some more people, met [@bleikamp](https://twitter.com/bleikamp). And that was the end of the onsite interview.., almost!
 
@@ -90,7 +90,7 @@ It could be because the interview was over, I had the illusion that I can now be
 
 [@mtodd](http://twitter.com/mtodd) ended up spending a whole Saturday afternoon with me in the GitHub office, just answering my endless questions about GitHub and chatting with me about basically everything. 
 
-![Octocat pillow](/images/13072204.png)
+<img src="http://distilleryimage10.ak.instagram.com/78862d22d69211e2a0bf22000aa80261_7.jpg" class="f-left small"  />
 
 I was really glad to have the chance spending time with him that afternoon, I got to know so much more about GitHub. I had a peek of the weekend office, sat in an egg chair hugging an octocat pillow, and hung out in the guitar room. Without the pressure of it being an interview (although it definitely still counted), I was a whole lot more relaxed!
 
@@ -120,6 +120,5 @@ Obviously not having actually worked in GitHub yet, there could be a possibility
 
 This week is my first week at GitHub, good luck to me. <br />
 [May the octocats be with you](http://octodex.github.com/). &hearts;<br />
-Have you heard that [we are currently hiring](https://github.com/about/jobs)?
 
 p.s. Thank you [Julie](https://twitter.com/nrrrdcore) for everything. You are so awesome. &hearts; &hearts; &hearts; &hearts; &hearts;
