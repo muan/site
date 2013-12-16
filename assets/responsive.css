@@ -11,4 +11,10 @@
   article img {
     margin: 0 !important;
     float: none !important;
-    min-width: 100% !important; } }
+    min-width: 100% !important; }
+
+  .pagination {
+    font-size: 0;
+    overflow: hidden; }
+    .pagination code {
+      display: none; } }

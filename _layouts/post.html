@@ -18,7 +18,7 @@
                 {% if page.date %}
                   {{ page.date | date_to_string }} - 
                 {% endif %}
-                by <a href="/about">muan</a>
+                {% unless page.url == "/about/" %}by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>{% endunless %}
               </small>
             </header>
             {{ content }}
@@ -26,10 +26,11 @@
           </article>
           {% if page.previous or page.next %}
           <div class="pagination">
-            <a class="square" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
+            You can use keyboard shortcuts <code>◀</code> and <code>▶</code> to navigate.
+            <a class="page-nav previous" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
               &lt;
             </a>
-            <a class="square" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
+            <a class="page-nav next" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
               &gt;
             </a>
           </div>

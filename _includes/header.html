@@ -1,9 +1,9 @@
 <header class="site-header">
-  <a href="/" class="site-title square{% if page.url == '/' %} active{% endif %}">
-    /
-  </a>
-  <a href="/about" class="site-title square{% if page.url == '/about/' %} active{% endif %}">
-    About
-  </a>
+  <a href="/about" class="site-title{% if page.url == '/about/' %} active{% endif %}">
+    Mu-An Chiou <span>邱慕安</span>
+  </a><br />
+  {% unless page.url == "/" %}
+  <a href="/">Home</a>
+  {% endunless %}
 </header>
 <a id="fork-me" class="fork-me" href="https://github.com/muan/muan.github.com"><img src="/images/fmog.png" alt="Fork me on GitHub"></a>

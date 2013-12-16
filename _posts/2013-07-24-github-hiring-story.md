@@ -73,9 +73,9 @@ I talked to developers, designers and also to my surprise -- the finance team! N
 
 The day finished at 3pm, which was rather early. At the end of it, I had a design session with [@nrrrdcore](https://twitter.com/nrrrdcore) and [@mdo](https://twitter.com/mdo), it was unexpectedly not as intimidating as I imagined, [@nrrrdcore drew a Clippy](http://instagram.com/p/ag-UenJanP/). 
 
-That was the first and the only 'technical' interview I had with GitHub, so I asked: "How are you guys sure about my coding ability?" and well, they told me that obviously they have read through my GitHub profile, and they meant it. Just on top of his head, [@mdo](https://twitter.com/mdo) listed almost all of my project repositories and told me how each one showed them what I can do. Wow.
+<img src="http://distilleryimage8.ak.instagram.com/3e0f33d6d51211e2b4ea22000a1fbdb0_7.jpg" class="f-left small" />
 
-<img src="http://distilleryimage8.ak.instagram.com/3e0f33d6d51211e2b4ea22000a1fbdb0_7.jpg" class="f-left" />
+That was the first and the only 'technical' interview I had with GitHub, so I asked: "How are you guys sure about my coding ability?" and well, they told me that obviously they have read through my GitHub profile, and they meant it. Just on top of his head, [@mdo](https://twitter.com/mdo) listed almost all of my project repositories and told me how each one showed them what I can do. Wow.
 
 Lucky for me, in the evening one of the [passion projects](http://passion-projects.github.com/) was being held, so I hang out more that night to check it out, chatted with some more people, met [@bleikamp](https://twitter.com/bleikamp). And that was the end of the onsite interview.., almost!
 

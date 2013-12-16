@@ -5,19 +5,13 @@ layout: index
 <ul class="posts">
   {% for post in site.posts %}
   <li class="post">
-    <a href="{{ post.url }}" class="post-link {% if post.cover %}has-cover{% endif %}">
-      {% if post.cover %}
-        <div class="post-cover" style="background-image: url({{ post.cover }});" /></div>
-      {% endif %}
-      <div class="mark"></div>
-      <h2 class="post-title">
+    <a href="{{ post.url }}" class="post-link">
+      <h2 class="post-title" title="{{ post.title }}">
         {{ post.title }}<br />
       </h2>
       <span class="meta">
-        {{post.content | number_of_words}} words<br />
-        Posted <time data-time="{{ post.date }}" title="{{ post.date }}">{{ post.date | date_to_string }}</time>
+        <time>{{ post.date | date_to_string }}</time>
       </span>
-      <p class="excerpt">{{ post.excerpt | strip_html | strip_newlines }}</p>
     </a>
   </li>
   {% endfor %}
