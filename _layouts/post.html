@@ -7,34 +7,51 @@
   <body>
     <div class="wrapper">
 
-      {% include header.html %}
+      <header class="site-header">
+        <div class="container">
+          <nav>
+            <a href="/" class="{% if page.url == '/' %} active{% endif %}">Home</a>
+            <a href="/about" class="{% if page.url == '/about/' %} active{% endif %}">
+            <span>About</span> Mu-An
+            </a>
+          </nav>
+          <br />
+          {% unless page.date %}
+            <img src="https://1.gravatar.com/avatar/3aeb5655cf56bb8cc5583da71c757dc4?d=https%3A%2F%2Fidenticons.github.com%2Ff1834dbb1aec7fa9355ef4da9d254b62.png&r=x&s=300" class="avatar" />
+          {% endunless %}
+          <h2 class="post-title">{{ page.title }}</h2>
+          {% if page.date %}
+            <small class="datetime muted">
+              {{ page.date | date_to_string }} - 
+              by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
+            </small>
+            <div class="pagination">
+              {% if page.previous %}
+                <a class="page-nav previous" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
+                  &lt;
+                </a>
+              {% endif %}
+              {% if page.next %}
+                <a class="page-nav next" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
+                  &gt;
+                </a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </header>
 
         <section class="content">
-          <article>
-            <div class="mark"></div>
-            <header>
-              <h2 class="post-title">{{ page.title }}</h2>
-              <small class="datetime muted">
-                {% if page.date %}
-                  {{ page.date | date_to_string }} - 
-                {% endif %}
-                {% unless page.url == "/about/" %}by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>{% endunless %}
-              </small>
-            </header>
-            {{ content }}
-            {% unless page.url == "/about/" %}{% include signoff.html %}{% endunless %}
-          </article>
-          {% if page.previous or page.next %}
-          <div class="pagination">
-            You can use keyboard shortcuts <code>◀</code> and <code>▶</code> to navigate.
-            <a class="page-nav previous" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
-              &lt;
-            </a>
-            <a class="page-nav next" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
-              &gt;
-            </a>
+          <div class="container">
+            <article>
+              <div class="mark"></div>
+              <header>
+              </header>
+              {{ content }}
+              {% unless page.url == "/about/" %}{% include signoff.html %}{% endunless %}
+            </article>
+            <div class="tip">You can use <code>◀</code> and <code>▶</code> keys to navigate between posts.</div>
           </div>
-          {% endif %}
         </section>
 
       {% include footer.html %}
