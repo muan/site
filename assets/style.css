@@ -1,25 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body {
-  color: #111;
+  color: #dADADB;
   line-height: 1.45em;
-  background-color: #f9f9f9;
   font-family: 'Open Sans', helvetica, sans-serif;
   font-weight: 400;
-  font-size: 14px; }
+  font-size: 14px;
+  background-color: #1C1F21; }
 
 a {
-  color: #48a; }
+  color: #7ad; }
 
 b, strong, h1, h2, h3, h4, h5 {
-  font-weight: 700; }
+  font-weight: 700;
+  color: #efefeb; }
 
 hr {
   border: 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
   margin: 30px auto;
   height: 0;
   width: 50%;
-  border-bottom: 2px solid #fff; }
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
 
 .container {
   width: 100%;
@@ -28,19 +29,14 @@ hr {
   position: relative; }
 
 .site-footer {
-  background-color: #f5f5f5;
   padding: 50px 0 50px;
-  border-top: 1px solid #e0e0e0;
-  font-size: 15px;
   margin-top: 100px; }
 
 .site-header {
   *zoom: 1;
   padding: 20px 0;
-  background-color: #fff;
   margin-bottom: 40px;
-  border-bottom: 1px solid #ddd;
-  font-size: 15px; }
+  font-size: 12px; }
   .site-header:before, .site-header:after {
     content: " ";
     display: table; }
@@ -57,27 +53,23 @@ hr {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    color: #666;
-    padding: 0 9px;
-    border-radius: 2px;
-    border: 1px solid #eee;
     font-weight: 700;
-    margin-right: 10px; }
+    margin-right: 10px;
+    color: #aaa;
+    border-bottom: 1px solid #343434; }
     .site-header nav a.active, .site-header nav a:hover {
-      border-color: #cde;
-      box-shadow: inset 0 0 2px #def, inset 0 0 2px #def; }
+      border-color: #9df;
+      color: #eee; }
 
 .posts .post {
-  font-size: 15px;
   vertical-align: top;
-  margin-right: 20px;
-  margin-bottom: 20px; }
+  margin-right: 10px;
+  margin-bottom: 10px; }
   .posts .post:last-child .post-link {
     border-bottom: 0; }
 .posts .post-link {
   display: block;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e8e8e8; }
+  padding-bottom: 10px; }
   .posts .post-link .post-title {
     -webkit-transition: 0.4s linear;
     -moz-transition: 0.4s linear;
@@ -86,13 +78,17 @@ hr {
     transition: 0.4s linear;
     font-weight: 700;
     margin: 0;
-    color: #444; }
+    font-size: 16px;
+    line-height: 1.5;
+    color: #48a; }
     .posts .post-link .post-title:hover {
-      color: #48a; }
+      color: #7ad; }
   .posts .post-link .meta {
     display: block;
-    font-size: 12px;
-    color: #888;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #434343;
+    font-weight: 700;
     line-height: 1.3em; }
 
 .avatar {
@@ -104,7 +100,8 @@ hr {
   *display: inline;
   *vertical-align: auto;
   vertical-align: middle;
-  margin-right: 15px; }
+  margin-right: 15px;
+  border: 0; }
   .avatar.big {
     width: 136px; }
   .avatar + .post-title {
@@ -124,53 +121,39 @@ header .post-title {
   z-index: 1;
   line-height: 1em; }
 
-article {
-  color: #010102;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
-  article img {
-    width: 100%;
-    margin: 10px 0;
-    border-radius: 4px; }
-  article img[height] {
-    width: auto; }
-  article .f-right {
-    float: right;
-    margin-left: 20px;
-    max-width: 400px; }
-    article .f-right.small {
-      max-width: 260px; }
-  article .f-left {
-    float: left;
-    margin-right: 20px;
-    max-width: 400px; }
-  article .small {
-    max-width: 260px; }
-  article blockquote {
-    border-left: 1px solid #e8e8e8;
-    box-shadow: -2px 0 0 #fff;
-    padding-left: 20px;
-    font-style: normal;
-    color: #444;
-    margin: 30px 0 30px -20px; }
-    article blockquote p:first-child, article blockquote p:last-child {
-      margin: 0; }
+article header {
+  margin-bottom: 20px; }
+article img {
+  max-width: 20%;
+  margin: 10px 0; }
+article .small {
+  max-width: 260px; }
+article blockquote {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: -2px 0 0 rgba(255, 255, 255, 0.1);
+  padding-left: 20px;
+  font-style: normal;
+  margin: 30px 0 30px -20px; }
+  article blockquote p:first-child, article blockquote p:last-child {
+    margin: 0; }
 
 .tip {
   font-size: 14px;
-  color: #666;
   margin: 40px 0 0; }
   .tip code {
     font-size: 9px;
-    color: #aaa;
     border-radius: 2px;
     padding: 2px 4px 1px;
-    background-color: #fff; }
+    background-color: transparent;
+    border: 0;
+    color: #fff; }
 
 .pagination {
   height: 20px;
   position: absolute;
   top: 62px;
-  width: 100%; }
+  width: 100%;
+  display: none; }
   .pagination .page-nav {
     font-size: 0;
     display: inline-block;
