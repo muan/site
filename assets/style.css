@@ -30,7 +30,17 @@ hr {
 
 .site-footer {
   padding: 50px 0 50px;
-  margin-top: 100px; }
+  margin-top: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: .6;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+  .site-footer:hover {
+    opacity: 1; }
 
 .site-header {
   *zoom: 1;
@@ -48,11 +58,11 @@ hr {
     zoom: 1;
     *display: inline;
     *vertical-align: auto;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
     font-weight: 700;
     margin-right: 10px;
     color: #aaa;
@@ -71,18 +81,19 @@ hr {
   display: block;
   padding-bottom: 10px; }
   .posts .post-link .post-title {
-    -webkit-transition: 0.4s linear;
-    -moz-transition: 0.4s linear;
-    -ms-transition: 0.4s linear;
-    -o-transition: 0.4s linear;
-    transition: 0.4s linear;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
     font-weight: 700;
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
     color: #48a; }
-    .posts .post-link .post-title:hover {
-      color: #7ad; }
+  .posts .post-link:hover .post-title {
+    color: #8cf;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5); }
   .posts .post-link .meta {
     display: block;
     font-size: 11px;
@@ -133,7 +144,7 @@ article blockquote {
   box-shadow: -2px 0 0 rgba(255, 255, 255, 0.1);
   padding-left: 20px;
   font-style: normal;
-  margin: 30px 0 30px -20px; }
+  margin: 30px 0 30px; }
   article blockquote p:first-child, article blockquote p:last-child {
     margin: 0; }
 

@@ -31,6 +31,13 @@ hr { border: 0; border-top: 1px solid rgba(255, 255, 255, .3); margin: 30px auto
 .site-footer {
   padding: 50px 0 50px;
   margin-top: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: .6;
+  @include transition(1s);
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .site-header {
@@ -40,7 +47,7 @@ hr { border: 0; border-top: 1px solid rgba(255, 255, 255, .3); margin: 30px auto
   font-size: 12px;
   nav a { 
     @include inline-block;
-    @include transition(.3s);
+    @include transition(1s);
     font-weight: 700;
     margin-right: 10px;
     color: #aaa;
@@ -60,14 +67,14 @@ hr { border: 0; border-top: 1px solid rgba(255, 255, 255, .3); margin: 30px auto
     display: block;
     padding-bottom: 10px;
     .post-title {
-      @include transition(.4s linear);
+      @include transition(1s);
       font-weight: 700;
       margin: 0;
       font-size: 16px;
       line-height: 1.5;
       color: #48a;
-      &:hover { color: #7ad; }
     }
+    &:hover .post-title { color: #8cf; text-shadow: 0 0 4px rgba(255, 255, 255, .5); }
     .meta {
       display: block;
       font-size: 11px;
@@ -125,7 +132,7 @@ article {
     box-shadow: -2px 0 0 rgba(255, 255, 255, .1);
     padding-left: 20px;
     font-style: normal;
-    margin: 30px 0 30px -20px;
+    margin: 30px 0 30px;
     p:first-child, p:last-child { margin: 0; }
   }
   ul, ol {
