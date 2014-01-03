@@ -58,7 +58,7 @@ p {
   float: right; }
 
 .muted {
-  color: #606060; }
+  opacity: .6; }
 
 .colour-1 {
   color: #cc9944; }

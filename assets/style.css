@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body {
   color: #111;
   line-height: 1.45em;
-  font-family: 'Source Sans Pro', helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  font-family: 'Open Sans', helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
 
 a {
   color: #48a; }
