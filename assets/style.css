@@ -8,7 +8,15 @@ body {
   background-color: #1C1F21; }
 
 a {
-  color: #7ad; }
+  color: #7ad;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear; }
+  a:hover {
+    color: #8cf;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5); }
 
 b, strong, h1, h2, h3, h4, h5 {
   font-weight: 700;
@@ -80,22 +88,28 @@ hr {
   display: block;
   padding-bottom: 10px; }
   .posts .post-link .post-title {
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
     font-weight: 700;
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
     color: #48a; }
   .posts .post-link:hover .post-title {
-    color: #8cf;
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5); }
+    color: #8cf; }
+  .posts .post-link:hover .meta {
+    color: #5f5f5f; }
   .posts .post-link .meta {
-    display: block;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
     font-size: 11px;
+    text-shadow: none;
     text-transform: uppercase;
     color: #434343;
     font-weight: 700;

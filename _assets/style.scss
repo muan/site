@@ -12,6 +12,10 @@ body {
 
 a {
   color: #7ad;
+  @include transition(.5s linear);
+  &:hover {
+    color: #8cf; text-shadow: 0 0 4px rgba(255, 255, 255, .5); 
+  }
 }
 
 b, strong, h1, h2, h3, h4, h5 {
@@ -66,17 +70,19 @@ hr { border: 0; border-top: 1px solid rgba(255, 255, 255, .3); margin: 30px auto
     display: block;
     padding-bottom: 10px;
     .post-title {
-      @include transition(1s);
+      @include transition(.5s linear);
       font-weight: 700;
       margin: 0;
       font-size: 16px;
       line-height: 1.5;
       color: #48a;
     }
-    &:hover .post-title { color: #8cf; text-shadow: 0 0 4px rgba(255, 255, 255, .5); }
+    &:hover .post-title { color: #8cf; }
+    &:hover .meta { color: #5f5f5f; }
     .meta {
-      display: block;
+      @include transition(.5s linear);
       font-size: 11px;
+      text-shadow: none;
       text-transform: uppercase;
       color: #434343;
       font-weight: 700;
