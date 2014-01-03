@@ -43,7 +43,6 @@ hr { border: 0; border-top: 1px solid rgba(255, 255, 255, .3); margin: 30px auto
 .site-header {
   @include clearfix;
   padding: 20px 0;
-  margin-bottom: 40px;
   font-size: 12px;
   nav a { 
     @include inline-block;

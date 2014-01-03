@@ -45,7 +45,6 @@ hr {
 .site-header {
   *zoom: 1;
   padding: 20px 0;
-  margin-bottom: 40px;
   font-size: 12px; }
   .site-header:before, .site-header:after {
     content: " ";

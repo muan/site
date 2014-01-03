@@ -2,12 +2,10 @@
   .fork-me {
     display: none; }
 
-  .wrapper {
-    overflow: hidden; } }
+  body {
+    overflow: hidden;
+    padding: 0 15px; } }
 @media (max-width: 480px) {
-  .wrapper {
-    padding: 15px; }
-
   article img {
     margin: 0 !important;
     float: none !important;

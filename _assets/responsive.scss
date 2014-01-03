@@ -2,17 +2,13 @@
   .fork-me {
     display: none;
   }
-  .wrapper {
+  body {
     overflow: hidden;
+    padding: 0 15px;
   }
 }
 
 @media (max-width: 480px) {
-
-  .wrapper {
-    padding: 15px;
-  }
-
   article img {
     margin: 0 !important;
     float: none !important;
@@ -20,5 +16,4 @@
   }
 
   .pagination { font-size: 0; code { display: none; } overflow: hidden; }
-
 }
