@@ -8,3 +8,4 @@ _site/
 *.psd
 *~
 .ruby-version
+_old_posts/
