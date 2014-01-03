@@ -30,7 +30,11 @@ Just drag any of the buttons below to your bookmark bar, and with a click you ca
 
 Here's the actual code for it if you're curious:
 
-{% gist muan/4de4b806c4db59285beb place-cage.js %}
+
+{% highlight javascript %}
+javascript:for(var i=0,item;item=document.getElementsByTagName("img")[i];i++) 
+{item.setAttribute("src","http://placecage.com/"+item.clientWidth+"/"+item.clientHeight)}
+{% endhighlight %}
 
 ---
 

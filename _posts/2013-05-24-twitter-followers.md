@@ -12,6 +12,8 @@ I noticed how it drops sometimes.
 
 When it happens one too many times, I hid it with CSS.
 
-{% gist muan/4de4b806c4db59285beb twitter-followers.css %}
+{% highlight css %}
+[href='/followers'] { display: none; }
+{% endhighlight %}
 
 That'll be all. As you were.

@@ -38,7 +38,7 @@ However, there are a lot of errors for you to find along the path. Here's some o
 3. 500 Internal Server error with Heroku: Could not find a JavaScript runtime. Added these lines to your Gemfile:
   {% highlight ruby %}
   group :production do
-    gem ‘therubyracer’
+    gem 'therubyracer'
   end{% endhighlight %}
   As I run sqlite on development and PG on production, I put `gem ‘pg’` in the group as well. Push, and remember to restart the server.
 

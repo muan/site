@@ -49,7 +49,8 @@ code { white-space: nowrap; color: #000; }
 pre code { white-space: pre; background: transparent; border: 0; padding: 0; }
 
 pre, code {
-  background-color: #F8F8FF;
+  font-family: 'Monaco', monospace;
+  background-color: #fff;
   border: 1px solid #DDDDDD;
   font-size: 13px; padding: 3px 5px;
   border-radius: 3px;

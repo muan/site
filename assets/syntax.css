@@ -1,5 +1,10 @@
 .highlight { font-size: 14px; }
-article > div.highlight pre { padding: 5px 7px; margin: 10px 0; border: 1px solid #eee; }
+article > div.highlight pre { 
+  padding: 5px 7px; margin: 10px 0; 
+  border: 1px solid #eee;
+  overflow: auto;
+}
+pre code { line-height: 1.5; }
 .hll { background-color: #ffffcc }
 .c { color: #999988; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */

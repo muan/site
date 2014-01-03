@@ -111,7 +111,8 @@ pre code {
   padding: 0; }
 
 pre, code {
-  background-color: #F8F8FF;
+  font-family: 'Monaco', monospace;
+  background-color: #fff;
   border: 1px solid #DDDDDD;
   font-size: 13px;
   padding: 3px 5px;
