@@ -1,17 +1,13 @@
 $(document).on "keydown", (e) ->
   if e.keyCode == 39 && $("#js-next-post").length
-    location.href = $("#js-next-post").attr("href")
+    $("#js-next-post").click()
   if e.keyCode == 37 && $("#js-previous-post").length
-    location.href = $("#js-previous-post").attr("href")
+    $("#js-previous-post").click()
 
 $(document).on "click", "a[id]", (e) ->
-  e.stopImmediatePropagation()
   _gaq.push ["_trackEvent", "Clicks", "clicked on " + e.target.id]
 
 $(document).on "click", "a:not([id])", (e) ->
-  e.stopImmediatePropagation()
   _gaq.push ["_trackEvent", "Clicks", "clicked on " + $(this).text()]
 
-$ ->
-  $.each $("[data-time]"), ( index, ele ) ->
-    $(ele).html( prettyDate( new Date( $(this).data("time") ) ) )
+$(document).pjax 'a', 'body', { fragment: 'body', timeout: 3000 }
