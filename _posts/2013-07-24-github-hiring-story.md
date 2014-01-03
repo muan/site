@@ -5,13 +5,11 @@ title: GitHub Hiring Story
 cover: /images/13072203.png
 ---
 
-Most of us have heard how incredibly relaxed GitHub's culture is, but not many people have actually experienced it first hand to be able to confirm it. After going through GitHub's hiring process, I have to say it was honestly the best experience I have ever had. <span class="muted">Though bear in mind that I am still early in my years.</span>
+Most of us have heard how incredibly relaxed GitHub's culture is, but not many people have actually experienced it first hand to be able to confirm it. After going through GitHub's hiring process, I have to say it was honestly the best experience I have ever had. 
 
 Reading [The GitHub hiring experience](https://github.com/blog/1269-the-github-hiring-experience) by [Coby](https://twitter.com/cobyism) certainly helped me a lot in understanding GitHub's process while I was in it. GitHub is so out of the ordinary that you do need to study up in order to get a grasp on where you are at. And here's my take on everything. :)
 
 ---
-
-![London Drinkup](/images/13072200.png)
 
 ### First Contact
 
@@ -51,8 +49,6 @@ GitHubbers talked with me like real people, like friends. They asked "human" and
 
 ---
 
-![Flight](/images/13072201.png)
-
 ### Onsite Interview
 
 After a bunch of skype/FaceTime calls, they invited me to fly over from London to San Francisco for an onsite interview.
@@ -65,15 +61,11 @@ After a few days of relaxing and meeting friends, here comes the first part of t
 
 Next up was the interview day, I had breakfast with [@tclem](https://twitter.com/tclem), whom I have already talked to online so I wasn't too nervous, and the [badass](https://github.com/blog/1519-jesse-toth-is-a-githubber) [@jesseplusplus](https://twitter.com/jesseplusplus). They walked me to the office afterwards.
 
-<img src="http://distilleryimage8.ak.instagram.com/c0f6f2e2d4a511e2952222000ae912d7_7.jpg" class="f-right small" />
-
 Over the course of the day, I talked to about some 10 people, 2 at a time. It was super laid-back, just chatting. There was one thing surprised me the most -- everyone already knows a lot about me. They know about my recent projects, things I have built and shipped(not just the ones on my resume), they know how I got in touch, they know I am from Taiwan but I live in London and so on. It is surprising how rare this is the case, and this tells me that they took the time to get to know me, not just by looking at my resume, but actually took the time to read through stuff I have done.
 
 I talked to developers, designers and also to my surprise -- the finance team! Normally when interviewing at a company, I will expect seeing developers, project managers or so, not people from a whole different department, but this was brilliant! People were not hard-divided into certain groups simply because they were non-techs working in a tech company or something. I enjoyed very much talking to [@hotbootymasala](https://twitter.com/hotbootymasala), who used to live in London like me, and [@TaxAly](https://twitter.com/TaxAly), who codes quite a lot now!
 
 The day finished at 3pm, which was rather early. At the end of it, I had a design session with [@nrrrdcore](https://twitter.com/nrrrdcore) and [@mdo](https://twitter.com/mdo), it was unexpectedly not as intimidating as I imagined, [@nrrrdcore drew a Clippy](http://instagram.com/p/ag-UenJanP/). 
-
-<img src="http://distilleryimage8.ak.instagram.com/3e0f33d6d51211e2b4ea22000a1fbdb0_7.jpg" class="f-left small" />
 
 That was the first and the only 'technical' interview I had with GitHub, so I asked: "How are you guys sure about my coding ability?" and well, they told me that obviously they have read through my GitHub profile, and they meant it. Just on top of his head, [@mdo](https://twitter.com/mdo) listed almost all of my project repositories and told me how each one showed them what I can do. Wow.
 
@@ -89,8 +81,6 @@ It could be because the interview was over, I had the illusion that I can now be
 
 
 [@mtodd](http://twitter.com/mtodd) ended up spending a whole Saturday afternoon with me in the GitHub office, just answering my endless questions about GitHub and chatting with me about basically everything. 
-
-<img src="http://distilleryimage10.ak.instagram.com/78862d22d69211e2a0bf22000aa80261_7.jpg" class="f-left small"  />
 
 I was really glad to have the chance spending time with him that afternoon, I got to know so much more about GitHub. I had a peek of the weekend office, sat in an egg chair hugging an octocat pillow, and hung out in the guitar room. Without the pressure of it being an interview (although it definitely still counted), I was a whole lot more relaxed!
 
@@ -116,9 +106,13 @@ I started writing this blog post before they flew me to San Francisco, and I fin
 
 Obviously not having actually worked in GitHub yet, there could be a possibility that everyone is secretly annoying, @mtodd lied about how TPW really is, and I just couldn't see all these things from the outside. Although I highly doubt these, I do only speak for what I've already known. :)
 
+---
+
 <img src="/images/muan-fast.gif" alt="Spinning, I am spinning!" width="100%" />
+
+---
 
 This week is my first week at GitHub, good luck to me. <br />
 [May the octocats be with you](http://octodex.github.com/). &hearts;<br />
 
-p.s. Thank you [Julie](https://twitter.com/nrrrdcore) for everything. You are so awesome. &hearts; &hearts; &hearts; &hearts; &hearts;
+p.s. Thank you [Julie](https://twitter.com/nrrrdcore) for everything. You are so awesome. &hearts; &hearts; &hearts;
