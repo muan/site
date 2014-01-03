@@ -112,7 +112,7 @@ article {
     margin-bottom: 20px;
   }  
   img {
-    max-width: 20%;
+    max-width: 100%;
     margin: 10px 0;
   }
 
@@ -169,4 +169,9 @@ article {
   text-align: left;
   color: #999;
   display: inline-block;
+}
+
+
+.contribution {
+  margin: 0 -100px;
 }

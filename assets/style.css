@@ -124,7 +124,7 @@ header .post-title {
 article header {
   margin-bottom: 20px; }
 article img {
-  max-width: 20%;
+  max-width: 100%;
   margin: 10px 0; }
 article .small {
   max-width: 260px; }
@@ -182,3 +182,6 @@ article blockquote {
   text-align: left;
   color: #999;
   display: inline-block; }
+
+.contribution {
+  margin: 0 -100px; }
