@@ -27,7 +27,8 @@
                 {% if page.date %}
                   <small class="datetime muted">
                     {{ page.date | date_to_string }} - 
-                    by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
+                    by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a> -
+                    {{ content | reading_time_as_i }}
                   </small>
                   <div class="pagination">
                     {% if page.previous %}
