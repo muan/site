@@ -150,6 +150,8 @@ article header {
 article img {
   max-width: 100%;
   margin: 10px 0; }
+  article img.emoji {
+    margin: 0; }
 article .small {
   max-width: 260px; }
 article blockquote {

@@ -126,6 +126,9 @@ article {
   img {
     max-width: 100%;
     margin: 10px 0;
+    &.emoji {
+      margin: 0;
+    }
   }
 
   .small {
