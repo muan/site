@@ -6,17 +6,17 @@ date: 2012-06-03 22:35:02
 
 I had a great day, and here’s the journey:
 
-Started by wandering on Twitter trying to catch the end of the endless twitter feed, I saw someone's conversation with [@victorlin](https://twitter.com/victorlin)(founder of Now.in - online broadcasting site). I followed Victor, and he followed me back shortly. Emm, then I decided to read through his previous tweets, and found [Inventing on Principle](https://vimeo.com/36579366) by Bret Victor [@worrydream](https://twitter.com/#!/worrydream). And then I went on reading through Bret’s tweets.. Amazing how internet works, isn’t it? (Or amazing how time just vanishes..)
+Started by wandering on Twitter trying to catch the end of the endless twitter feed, I saw someone's conversation with @victorlin(founder of Now.in - online broadcasting site). I followed Victor, and he followed me back shortly. Emm, then I decided to read through his previous tweets, and found [Inventing on Principle](https://vimeo.com/36579366) by Bret Victor @worrydream. And then I went on reading through Bret’s tweets.. Amazing how internet works, isn’t it? (Or amazing how time just vanishes..)
 
 ---
 
-Then at [@worrydream](https://twitter.com/#!/worrydream) I found Jon Blow and [Braid](http://www.youtube.com/watch?v=iIfZAab4Oh0) through [this tweet](https://twitter.com/worrydream/status/190498158873288704) [this article](http://www.theatlantic.com/magazine/archive/2012/05/the-most-dangerous-gamer/8928/3/?single_page=true).
+Then at @worrydream I found Jon Blow and [Braid](http://www.youtube.com/watch?v=iIfZAab4Oh0) through [this tweet](https://twitter.com/worrydream/status/190498158873288704) [this article](http://www.theatlantic.com/magazine/archive/2012/05/the-most-dangerous-gamer/8928/3/?single_page=true).
 
 > He has famously branded so-called social games like FarmVille “evil” because their whole raison d’être is to maximize corporate profits by getting players to check in obsessively and buy useless in-game items. (In one talk, Blow managed to compare FarmVille’s developers to muggers, alcoholic-enablers, Bernie Madoff, and brain-colonizing ant parasites.) Once, during an online discussion about the virtues of short game-playing experiences, Blow wrote, “Gamers seem to praise games for being addicting, but doesn’t that feel a bit like Stockholm syndrome?”
-> 
+
 > <small>Taylor Clark on Jon Blow</small>
 
-In the article, I found this paragraph most interesting for it reminds me of the talk from [@nireyal](https://twitter.com/#!/nireyal) on [Behavior by Design](http://goo.gl/qU9tp) at [500](https://twitter.com/500Startups), he mentioned how FarmVille works in terms of getting people obsessive through habit (#part2 12m30s). At the time I thought of the desire engine as purely a tactic, and didn’t actually give any thoughts on the morality behind it.
+In the article, I found this paragraph most interesting for it reminds me of the talk from [nireyal](https://twitter.com/#!/nireyal) on [Behavior by Design](http://goo.gl/qU9tp) at [500](https://twitter.com/500Startups), he mentioned how FarmVille works in terms of getting people obsessive through habit (#part2 12m30s). At the time I thought of the desire engine as purely a tactic, and didn’t actually give any thoughts on the morality behind it.
 
 > I am here to inspire people to use habit design and behavior design to do good.
 > 
@@ -50,7 +50,7 @@ In the end of Bret Victor’s talk, he tried to elaborate why he believes in wha
 
 > When I see s violation of this principle, I don’t think of that as an opportunity. When I see creators constrained by their tools, and ideas compromised, I don’t say “oh good, an opportunity to make a product, opportunity to start a business.”
 > 
-> <small>Bret Victor @CUSEC</small>
+> <small>Bret Victor at CUSEC</small>
 
 He compared inventing on principle with working on social causes. People don’t see a wrong in public wellness as an “opportunity,” an activist would feel it’s his responsibility to change the fact. An activist life-style can apply to people in the tech world as well. In his case, seeing ideas compromised by insufficient tools is an injustice that needs to be set straight.
 
@@ -66,4 +66,4 @@ Oh well.
 > 
 > If there’s something in the world that you feel is a wrong, and you have a vision for what a better world could be, you can find your guiding principle, and you can fight for a cause.
 > 
-> <small>Bret Victor @CUSEC</small>
+> <small>Bret Victor at CUSEC</small>

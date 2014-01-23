@@ -26,4 +26,4 @@ I don't know Japanese, but I know the fragmented Kanji(漢字), and it looks so 
 
 Here's my sister's [Traditional Chinese translation](https://github.com/muan/wedding-party-speech/blob/master/speech-zh-tw.md), and an [English translation](https://github.com/muan/wedding-party-speech/blob/master/speech-en.md) by myself. The English translation I feel lack of the original cuteness and the jokingly-warning impressions, which was a shame; so, pull requests please. :)
 
-&hearts;
+:heart:
