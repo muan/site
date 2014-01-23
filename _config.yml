@@ -9,8 +9,5 @@ google_analytics: UA-21332781-7
 timezone:         Europe/London
 paginate: 5
 gems:
-  - powered-by-pages
-  - jekyll-redirect-from
   - jemoji
   - jekyll-mentions
-  - jekyll-time-to-read 

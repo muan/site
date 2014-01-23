@@ -45,10 +45,6 @@ GEM
     jekyll-mentions (0.0.4)
       html-pipeline (~> 1.5.0)
       jekyll (~> 1.4.3)
-    jekyll-redirect-from (0.3.0)
-      jekyll (~> 1.4)
-    jekyll-time-to-read (0.1.1)
-      jekyll
     jemoji (0.0.8)
       gemoji
       html-pipeline
@@ -68,8 +64,6 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
-    powered-by-pages (0.0.2)
-      jekyll
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
@@ -94,7 +88,4 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-mentions
-  jekyll-redirect-from
-  jekyll-time-to-read
   jemoji
-  powered-by-pages
