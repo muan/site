@@ -10,6 +10,8 @@
     margin: 0 !important;
     float: none !important;
     min-width: 100% !important; }
+  article img.emoji {
+    min-width: 0 !important; }
 
   .pagination {
     font-size: 0;

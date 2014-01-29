@@ -13,6 +13,9 @@
     margin: 0 !important;
     float: none !important;
     min-width: 100% !important;
+    &.emoji {
+      min-width: 0 !important;
+    }
   }
 
   .pagination { font-size: 0; code { display: none; } overflow: hidden; }
