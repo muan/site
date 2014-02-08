@@ -4,7 +4,7 @@ title: Optimising for Less Minus Points
 date: 2013-02-13 23:19:10
 ---
 
-The other day, after reading [Phases](/2013/02/07/phase/), [Rob](http://robertheaton.com/) said to me:
+The other day, my friend said to me:
 > You need to stop optimising for less minus points.
 
 He meant, I do this - I want more of "less bad things happening" than "more good things happening." Since I never looked at things this way, it took me a while to get my head around what he was implying. And as it turns out, he was right. On that, I do.
@@ -18,7 +18,7 @@ There had been good times, of course, good things happening, things that brought
 
 I've recently had this discussion with someone, and the only conclusion we came to was, what's worthwhile or not is purely base on the individual. But then again, as Rob insists, some things are just not relative.
 
-I find it even harder to wrap my head around the idea of there is this goal that we the people in the right mind must work towards. Can I not just prefer less sadness over risking for more happiness? Can I not just prefer to have an adequate amount of money rather than trying to filthily rich? Does thinking this way means I am wrong?
+I find it even harder to wrap my head around the idea of there is this goal that we the people in the right mind must work towards. Can I not just prefer less sadness over risking for more happiness? Can I not just prefer to have an adequate amount of money rather than trying to be filthily rich? Does thinking this way means I am wrong?
 
 Being not sad or frustrated is enough for me. Yes I do want all the fun in the world you're having, but looking at the risks, I don't think they are worth it.
 
