@@ -7,46 +7,37 @@
   <body>
     <div class="wrapper">
 
-      <header class="site-header">
+      {% include header.html %}
+
+      <section class="content">
         <div class="container">
-          <nav>
-            <a href="/" class="{% if page.url == '/' %} active{% endif %}">Home</a>
-            <a href="/about" class="{% if page.url == '/about/' %} active{% endif %}">
-            <span>About</span> Mu-An
-            </a>
-          </nav>
+          <article>
+            <header>
+
+              <h2 class="post-title">{{ page.title }}</h2>
+              {% if page.date %}
+                <small class="datetime muted">
+                  {{ page.date | date_to_string }} -
+                  by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
+                </small>
+                <div class="pagination">
+                  {% if page.previous %}
+                    <a class="page-nav previous" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
+                      &lt;
+                    </a>
+                  {% endif %}
+                  {% if page.next %}
+                    <a class="page-nav next" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
+                      &gt;
+                    </a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </header>
+            {{ content }}
+          </article>
         </div>
-      </header>
-
-        <section class="content">
-          <div class="container">
-            <article>
-              <header>
-
-                <h2 class="post-title">{{ page.title }}</h2>
-                {% if page.date %}
-                  <small class="datetime muted">
-                    {{ page.date | date_to_string }} - 
-                    by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
-                  </small>
-                  <div class="pagination">
-                    {% if page.previous %}
-                      <a class="page-nav previous" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
-                        &lt;
-                      </a>
-                    {% endif %}
-                    {% if page.next %}
-                      <a class="page-nav next" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
-                        &gt;
-                      </a>
-                    {% endif %}
-                  </div>
-                {% endif %}
-              </header>
-              {{ content }}
-            </article>
-          </div>
-        </section>
+      </section>
 
       {% include footer.html %}
     </div>
