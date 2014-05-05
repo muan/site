@@ -117,3 +117,8 @@ pre, code {
   font-size: 13px;
   padding: 3px 5px;
   border-radius: 3px; }
+
+.dark pre, .dark code {
+  color: #ffffff;
+  background-color: #122024;
+  border: 0px solid; }

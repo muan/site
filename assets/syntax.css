@@ -66,3 +66,40 @@ pre code { line-height: 1.5; }
 .vg { color: #008080 } /* Name.Variable.Global */
 .vi { color: #008080 } /* Name.Variable.Instance */
 .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+.dark pre code { line-height: 1.5; }
+.dark pre code { background-color: #122024; }
+.dark pre code { color: #93a1a1; }
+.dark .hll { background-color: #002b36 }
+.dark .c { color: #586e75; font-style: italic } /* Comment */
+.dark .err { color: #93a1a1; background-color: #e3d2d2 } /* Error */
+.dark .k { color: #859900; font-weight: bold } /* Keyword */
+.dark .o { color: #859900; font-weight: bold } /* Operator */
+.dark .cm { color: #586e75; font-style: italic } /* Comment.Multiline */
+.dark .c1 { color: #586e75; font-style: italic } /* Comment.Single */
+.dark .gd { color: #2aa198; background-color: #ffdddd } /* Generic.Deleted */
+.dark .ge { color: #2aa198; font-style: italic } /* Generic.Emph */
+.dark .gh { color: #cb4b16 } /* Generic.Heading */
+.dark .gi { color: #2aa198; background-color: #ddffdd } /* Generic.Inserted */
+.dark .gu { color: #cb4b16 } /* Generic.Subheading */
+.dark .k { color: #859900 }
+.dark .kc { color: #cb4b16; font-weight: bold } /* Keyword.Constant */
+.dark .kd { color: #2aa198; font-weight: bold } /* Keyword.Declaration */
+.dark .kn { color: #2aa198; font-weight: bold } /* Keyword.Namespace */
+.dark .kp { color: #2aa198; font-weight: bold } /* Keyword.Pseudo */
+.dark .kr { color: #2aa198; font-weight: bold } /* Keyword.Reserved */
+.dark .nb { color: #b58900 } /* Name.Builtin */
+.dark .no { color: #cb4b16 } /* Name.Constant */
+.dark .ni { color: #cb4b16 } /* Name.Entity */
+.dark .ne { color: #cb4b16; font-weight: bold } /* Name.Exception */
+.dark .nf { color: #cb4b16; font-weight: bold } /* Name.Function */
+.dark .nl { color: #cb4b16; font-weight: bold } /* Name.Label */
+.dark .ow { color: #2aa198; font-weight: bold } /* Operator.Word */
+.dark .sb { color: #586e75 } /* Literal.String.Backtick */
+.dark .sc { color: #586e75 } /* Literal.String.Char */
+.dark .sd { color: #586e75 } /* Literal.String.Doc */
+.dark .s2 { color: #586e75 } /* Literal.String.Double */
+.dark .se { color: #586e75 } /* Literal.String.Escape */
+.dark .sh { color: #586e75 } /* Literal.String.Heredoc */
+.dark .si { color: #586e75 } /* Literal.String.Interpol */
+.dark .sx { color: #586e75 } /* Literal.String.Other */
