@@ -1,22 +1,22 @@
-@media (max-width: 768px) {
-  .fork-me {
-    display: none;
-  }
-  body {
-    overflow: hidden;
-    padding: 0 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  article img {
-    margin: 0 !important;
-    float: none !important;
-    min-width: 100% !important;
-    &.emoji {
-      min-width: 0 !important;
-    }
-  }
-
-  .pagination { font-size: 0; code { display: none; } overflow: hidden; }
-}
+// @media (max-width: 768px) {
+//   .fork-me {
+//     display: none;
+//   }
+//   body {
+//     overflow: hidden;
+//     padding: 0 15px;
+//   }
+// }
+//
+// @media (max-width: 480px) {
+//   article img {
+//     margin: 0 !important;
+//     float: none !important;
+//     min-width: 100% !important;
+//     &.emoji {
+//       min-width: 0 !important;
+//     }
+//   }
+//
+//   .pagination { font-size: 0; code { display: none; } overflow: hidden; }
+// }

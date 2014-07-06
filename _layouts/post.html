@@ -14,9 +14,9 @@
           <article>
             <header>
 
-              <h2 class="post-title">{{ page.title }}</h2>
+              <div class="post-title">{{ page.title }}</div>
               {% if page.date %}
-                <small class="datetime muted">
+                <small class="meta">
                   {{ page.date | date_to_string }} -
                   by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
                 </small>

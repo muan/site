@@ -1,10 +1,10 @@
 <header class="site-header">
+  <div class="instagram"></div>
   <div class="container">
     <nav>
-      <a href="/" class="{% if page.url == '/' %} active{% endif %}">Home</a>
-      <a href="/about" class="{% if page.url == '/about/' %} active{% endif %}">
-      <span>About</span> Mu-An
-      </a>
+      <a href="/" class="{% if page.url == '/' %} active{% endif %}"><div class="a-house"></div></a>
+      <a href="/2013/07/24/github-hiring-story/" class="{% if page.url != '/' and page.url != '/about/' %} active{% endif %}"><div class="a-page"></div></a>
+      <a href="/about" class="{% if page.url == '/about/' %} active{% endif %}"><div class="a-person"></div></a>
     </nav>
   </div>
 </header>

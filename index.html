@@ -5,10 +5,8 @@ layout: index
 <ul class="posts">
   {% for post in site.posts %}
   <li class="post">
-    <a href="{{ post.url }}" class="post-link">
-      <h2 class="post-title" title="{{ post.title }}">
-        {{ post.title }}<br />
-      </h2>
+    <a href="{{ post.url }}" class="post-link post-title">
+      {{ post.title }}<br />
       <span class="meta">
         <time>{{ post.date | date_to_string }}</time>
       </span>
