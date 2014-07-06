@@ -40,7 +40,7 @@ a {
       opacity: .2;
       border-bottom: 1px solid #333;
     }
-    &:last-of-type {
+    &:last-child {
       margin-right: 0;
     }
   }
@@ -126,10 +126,35 @@ article {
   }
 }
 
-.a-house, .a-person, .a-page {
+.a-cat, .a-house, .a-person, .a-page {
   display: inline-block;
   background: #333;
   position: relative;
+}
+
+.a-cat {
+  background: #333;
+  height: 13px;
+  width: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 -2px #333;
+  &:before, &:after {
+    content: ''; display: block;
+  }
+  &:before { //ears
+    width: 10px; height: 10px;
+    background: #eceff1;
+    -webkit-transform: rotate(45deg) skew(-20deg, -20deg);
+    margin-top: -6px;
+  }
+  &:after { //whiskers
+    height: 1px; width: 16px;
+    margin-left: -3px;
+    margin-top: 2px;
+    box-shadow: 0 2px 0 #333;
+    background: #333;
+  }
 }
 
 .a-house {

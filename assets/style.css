@@ -37,7 +37,7 @@ a {
     .site-header a.active {
       opacity: .2;
       border-bottom: 1px solid #333; }
-    .site-header a:last-of-type {
+    .site-header a:last-child {
       margin-right: 0; }
 
 .instagram {
@@ -104,10 +104,34 @@ article h3 {
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff,0 0 1px #fff,0 0 1px #fff,0 0 1px #fff,0 0 1px #fff;
   display: inline-block; }
 
-.a-house, .a-person, .a-page {
+.a-cat, .a-house, .a-person, .a-page {
   display: inline-block;
   background: #333;
   position: relative; }
+
+.a-cat {
+  background: #333;
+  height: 13px;
+  width: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 -2px #333; }
+  .a-cat:before, .a-cat:after {
+    content: '';
+    display: block; }
+  .a-cat:before {
+    width: 10px;
+    height: 10px;
+    background: #eceff1;
+    -webkit-transform: rotate(45deg) skew(-20deg, -20deg);
+    margin-top: -6px; }
+  .a-cat:after {
+    height: 1px;
+    width: 16px;
+    margin-left: -3px;
+    margin-top: 2px;
+    box-shadow: 0 2px 0 #333;
+    background: #333; }
 
 .a-house {
   width: 10px;
