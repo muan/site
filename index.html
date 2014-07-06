@@ -4,12 +4,12 @@ layout: index
 
 <ul class="posts">
   {% for post in site.posts %}
-  <li class="post">
+  <li class="post post-header">
     <a href="{{ post.url }}" class="post-link post-title">
       {{ post.title }}<br />
-      <span class="meta">
+      <small class="meta">
         <time>{{ post.date | date_to_string }}</time>
-      </span>
+      </small>
     </a>
   </li>
   {% endfor %}

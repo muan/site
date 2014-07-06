@@ -75,9 +75,9 @@ a {
 .posts {
   list-style: none;
   padding-left: 0;
+  margin-top: 0;
 
   .post {
-    line-height: 1;
     margin-bottom: 30px;
   }
 }
@@ -92,29 +92,30 @@ a {
   color: #a0a0a0;
 }
 
+.post-title {
+  font-size: 20px;
+}
+.post-header {
+  text-align: center;
+  border-bottom: 1px solid #eceff1;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  &:after {
+    content: "";
+    display: block;
+    width: 6px; height: 6px;
+    background: #eee;
+    position: absolute;
+    border: 6px solid #fff;
+    left: 50%;
+    border-radius: 15px;
+    margin-left: -9px;
+    bottom: -9px;
+  }
+}
+
 article {
-  .post-title {
-    font-size: 20px;
-  }
-  header {
-    text-align: center;
-    border-bottom: 1px solid #eceff1;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    position: relative;
-    &:after {
-      content: "";
-      display: block;
-      width: 6px; height: 6px;
-      background: #eee;
-      position: absolute;
-      border: 6px solid #fff;
-      left: 50%;
-      border-radius: 15px;
-      margin-left: -9px;
-      bottom: -9px;
-    }
-  }
   img {
     max-width: 100%;
   }

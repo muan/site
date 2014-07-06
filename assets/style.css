@@ -63,9 +63,9 @@ a {
 
 .posts {
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-top: 0; }
   .posts .post {
-    line-height: 1;
     margin-bottom: 30px; }
 
 .content {
@@ -76,15 +76,16 @@ a {
   font-size: 9px;
   color: #a0a0a0; }
 
-article .post-title {
+.post-title {
   font-size: 20px; }
-article header {
+
+.post-header {
   text-align: center;
   border-bottom: 1px solid #eceff1;
   padding-bottom: 30px;
   margin-bottom: 30px;
   position: relative; }
-  article header:after {
+  .post-header:after {
     content: "";
     display: block;
     width: 6px;
@@ -96,6 +97,7 @@ article header {
     border-radius: 15px;
     margin-left: -9px;
     bottom: -9px; }
+
 article img {
   max-width: 100%; }
 article h3 {
