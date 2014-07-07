@@ -27,10 +27,9 @@ load = ->
     $(this).closest(".img").addClass("show")
 
 putImages = (pics) ->
-  pics = [pics[0]]
+  pic = pics[Math.floor(Math.random() * pics.length)]
   box = $(".instagram")
   box.html ""
-  pics.map (pic) ->
-    box.append "<a target='_blank' href='#{pic.link}' class=img><img src='#{pic.images.low_resolution.url}'></div>"
+  box.append "<a target='_blank' href='#{pic.link}' class=img><img src='#{pic.images.low_resolution.url}'></div>"
 
   load()

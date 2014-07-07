@@ -13,11 +13,6 @@ a {
   }
 }
 
-.fork-me {
-  position: absolute;
-  top: 0; right: 0;
-}
-
 .site-header {
   text-align: center;
   font-size: 12px;
@@ -60,7 +55,8 @@ a {
 }
 
 .wrapper {
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
   margin: auto;
 }
 
@@ -220,7 +216,7 @@ article {
 
 .site-footer {
   font-size: 11px;
-  padding: 30px 0 50px;
+  padding: 30px 30px 50px;
   text-align: center;
 }
 
@@ -321,8 +317,11 @@ hr {
   color: #fff;
   text-align: center;
   background: #333;
+  position: absolute;
+  right: 0;
   top: 30px;
   font-size: 12px;
+  overflow: hidden;
   transition: all .3s;
 
   &:before, &:after {

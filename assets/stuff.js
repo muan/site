@@ -45,12 +45,10 @@ load = function() {
 };
 
 putImages = function(pics) {
-  var box;
-  pics = [pics[0]];
+  var box, pic;
+  pic = pics[Math.floor(Math.random() * pics.length)];
   box = $(".instagram");
   box.html("");
-  pics.map(function(pic) {
-    return box.append("<a target='_blank' href='" + pic.link + "' class=img><img src='" + pic.images.low_resolution.url + "'></div>");
-  });
+  box.append("<a target='_blank' href='" + pic.link + "' class=img><img src='" + pic.images.low_resolution.url + "'></div>");
   return load();
 };
