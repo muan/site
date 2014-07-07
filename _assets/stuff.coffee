@@ -27,6 +27,7 @@ load = ->
     $(this).closest(".img").addClass("show")
 
 putImages = (pics) ->
+  pics = [pics[0]]
   box = $(".instagram")
   box.html ""
   pics.map (pic) ->

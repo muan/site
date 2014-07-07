@@ -1,26 +1,15 @@
-@import "bourbon/bourbon";
-
 body {
   line-height: 1.65em;
   font-family: Merriweather, serif;
   font-weight: 400;
   font-size: 13px;
-  background-color: #eceff1;
-}
-
-.post-page {
-  background: #fff;
-  .content {
-    border: 1px solid #eceff1;
-  }
+  background-color: #fff;
 }
 
 a {
-  color: #375066;
+  color: #8f65ca;
   text-decoration: none;
-  @include transition(.5s linear);
   &:hover {
-    color: #3d5664; text-shadow: 0 0 4px rgba(255, 255, 255, .5);
   }
 }
 
@@ -49,8 +38,11 @@ a {
 .instagram {
   text-align: center;
   margin-bottom: 20px;
-  height: 90px;
+  height: 140px;
   .img {
+    &:hover {
+      box-shadow: inset 0 0 5px #000;
+    }
     &.show {
       opacity: 1;
     }
@@ -59,11 +51,11 @@ a {
     display: inline-block;
     background: #eee;
     margin-right: 20px;
-    border: 5px solid #fff;
   }
   .img, img {
-    width: 80px;
-    height: 80px;
+    border-radius: 200px;
+    width: 140px;
+    height: 140px;
   }
 }
 
@@ -77,19 +69,21 @@ a {
   padding-left: 0;
   margin-top: 0;
 
+  a {
+    color: #333;
+  }
   .post {
     margin-bottom: 30px;
   }
 }
 
 .content {
-  background: #fff;
   padding: 35px;
 }
 
 .meta {
   font-size: 9px;
-  color: #a0a0a0;
+  &, * { color: #a0a0a0; }
 }
 
 .post-title {
@@ -97,7 +91,7 @@ a {
 }
 .post-header {
   text-align: center;
-  border-bottom: 1px solid #eceff1;
+  border-bottom: 1px solid #eee;
   padding-bottom: 30px;
   margin-bottom: 30px;
   position: relative;
@@ -122,8 +116,9 @@ article {
   h3 {
     border-bottom: 1px solid #777;
     line-height: 0.9em;
-    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff,0 0 1px #fff,0 0 1px #fff,0 0 1px #fff,0 0 1px #fff;
     display: inline-block;
+    // so hip
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff,0 0 1px #fff,0 0 1px #fff,0 0 1px #fff,0 0 1px #fff;
   }
 }
 
@@ -134,6 +129,7 @@ article {
 }
 
 .a-cat {
+  opacity: .1;
   background: #333;
   height: 13px;
   width: 10px;
@@ -144,8 +140,9 @@ article {
     content: ''; display: block;
   }
   &:before { //ears
-    width: 10px; height: 10px;
-    background: #eceff1;
+    width: 10px;
+    height: 10px;
+    background: #fff;
     -webkit-transform: rotate(45deg) skew(-20deg, -20deg);
     margin-top: -6px;
   }
@@ -181,8 +178,8 @@ article {
   &:before {
     position: absolute;
     border: 2px solid transparent;
-    border-top-color: #eceff1;
-    border-right-color: #eceff1;
+    border-top-color: #fff;
+    border-right-color: #fff;
     width: 0;
     right: 0;
   }
@@ -191,8 +188,8 @@ article {
     width: 7px;
     margin: auto;
     margin-top: 4px;
-    box-shadow: 0 2px 0 #eceff1, 0 4px 0 #eceff1, 0 6px 0 #eceff1;
-    background: #eceff1;
+    box-shadow: 0 2px 0 #fff, 0 4px 0 #fff, 0 6px 0 #fff;
+    background: #fff;
   }
 }
 
@@ -231,16 +228,21 @@ article {
   position: relative;
   margin: auto;
   text-align: center;
+  opacity: .4;
+  transition: opacity .4s;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .page-nav {
   display: inline-block;
-  height: 10px;
+  height: 9px;
   width: 10px;
   background: #333;
   font-size: 0;
   border-radius: 3px;
-  top: 0;
+  top: -30px;
   position: absolute;
   &:before, &:after {
     content: ''; display: block;
@@ -249,17 +251,17 @@ article {
   &:before {
     width: 6px;
     left: -3px;
-    height: 3px;
+    height: 2px;
     border-radius: 4px;
     background: #333;
   }
   &:after {
     height: 1px;
-    top: 3px;
+    top: 2px;
     width: 3px;
     margin: auto;
-    box-shadow: 0 2px 0 #eceff1, 0 4px 0 #eceff1;
-    background: #eceff1;
+    box-shadow: 0 2px 0 #fff, 0 4px 0 #fff;
+    background: #fff;
   }
 }
 
@@ -311,5 +313,45 @@ hr {
     padding: 1px 3px;
     background: #fff;
     display: inline-block;
+  }
+}
+
+.fork-me {
+  padding: 5px 45px 3px 10px;
+  color: #fff;
+  text-align: center;
+  background: #333;
+  top: 30px;
+  font-size: 12px;
+  transition: all .3s;
+
+  &:before, &:after {
+    transition: all .3s;
+    content: ''; display: block;
+    position: absolute;
+  }
+
+  &:hover:before, &:hover:after {
+    right: 20px;
+  }
+
+  &:before { //fork
+    width: 13px;
+    height: 9px;
+    border: 1px solid #eee;
+    border-left: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    top: 9px;
+    right: 10px;
+  }
+  &:after { //handle
+    height: 1px;
+    width: 50px;
+    background: #eee;
+    top: 9px;
+    right: 10px;
+    margin-top: 5px;
+    margin-right: -36px;
   }
 }

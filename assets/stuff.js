@@ -46,6 +46,7 @@ load = function() {
 
 putImages = function(pics) {
   var box;
+  pics = [pics[0]];
   box = $(".instagram");
   box.html("");
   pics.map(function(pic) {
