@@ -5,7 +5,7 @@ layout: about
 **Mu-An Chiou**<br />
 Designer at [GitHub](https://github.com/about), co-founder of [Zeczec](http://zeczec.com).
 
-Currently travel from Taipei.
+Currently traveling from Taipei.
 
 ---
 
