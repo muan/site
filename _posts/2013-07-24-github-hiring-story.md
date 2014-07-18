@@ -5,7 +5,7 @@ title: GitHub Hiring Story
 cover: /images/13072203.png
 ---
 
-Most of us have heard how incredibly relaxed GitHub's culture is, but not many people have actually experienced it first hand to be able to confirm it. After going through GitHub's hiring process, I have to say it was honestly the best experience I have ever had. 
+Most of us have heard how incredibly relaxed GitHub's culture is, but not many people have actually experienced it first hand to be able to confirm it. After going through GitHub's hiring process, I have to say it was honestly the best experience I have ever had.
 
 Reading [The GitHub hiring experience](https://github.com/blog/1269-the-github-hiring-experience) by [Coby](https://twitter.com/cobyism) certainly helped me a lot in understanding GitHub's process while I was in it. GitHub is so out of the ordinary that you do need to study up in order to get a grasp on where you are at. And here's my take on everything. :)
 
@@ -29,11 +29,11 @@ Soon after, we started emailing back and forth.
 
 ### Interviewing
 
-Hiring takes time, and it's time from both ends. In the first one and a half month I had some emails/Skype/FaceTime calls with a bunch of GitHubbers. 
+Hiring takes time, and it's time from both ends. In the first one and a half month I had some emails/Skype/FaceTime calls with a bunch of GitHubbers.
 
 It wasn't moving fast, from time to time I waited for more than a week to get a response or to schedule a call time. I'll be lying if I say I wasn't bothered by that, but it was really pleasant nonetheless, here's why: when people replied me late, they told me they were going to be late, and why they were. They make the effort to drop me a short email only to make sure I know what is going on. (Thank you especially @tclem :heart:)
 
-Different from the usual interview setup, people I talked to made the purpose of the calls very clear to me. 
+Different from the usual interview setup, people I talked to made the purpose of the calls very clear to me.
 
 > We want to get to know you, and we want you to know us, so you can be sure you would like to work with us personally.
 
@@ -41,7 +41,7 @@ Most of my developer friends love GitHub, and almost everyone would like to work
 
 All of the calls were super casual, we talk about personal experiences, my usual design process, preprocessors I love and hate, joked about how me loving HAML (just for not having to close tags) is plain lazy. :P I was super nervous, but it was great fun at the same time.
 
-Lots of companies talk to you about what frameworks you use/they use, what would you choose out of Backbone, Angular and Ember, what is the most difficult technical puzzle you've solved recently and even ask you where would you want to be in 5 years, or who do you follow on Twitter. (Yes, I have been asked.) 
+Lots of companies talk to you about what frameworks you use/they use, what would you choose out of Backbone, Angular and Ember, what is the most difficult technical puzzle you've solved recently and even ask you where would you want to be in 5 years, or who do you follow on Twitter. (Yes, I have been asked.)
 
 Not GitHub.
 
@@ -65,7 +65,7 @@ Over the course of the day, I talked to about some 10 people, 2 at a time. It wa
 
 I talked to developers, designers and also to my surprise -- the finance team! Normally when interviewing at a company, I will expect seeing developers, project managers or so, not people from a whole different department, but this was brilliant! People were not hard-divided into certain groups simply because they were non-techs working in a tech company or something. I enjoyed very much talking to @hotbootymasala, who used to live in London like me, and @alysonla, who codes quite a lot now!
 
-The day finished at 3pm, which was rather early. At the end of it, I had a design session with @nrrrdcore and @mdo, it was unexpectedly not as intimidating as I imagined, @nrrrdcorecom/p/ag-UenJanP/). 
+The day finished at 3pm, which was rather early. At the end of it, I had a design session with @nrrrdcore and @mdo, it was unexpectedly not as intimidating as I imagined. @nrrrdcore [drew a clippy](https://instagram.com/p/ag-UenJanP/). 
 
 That was the first and the only 'technical' interview I had with GitHub, so I asked: "How are you guys sure about my coding ability?" and well, they told me that obviously they have read through my GitHub profile, and they meant it. Just on top of his head, @mdo listed almost all of my project repositories and told me how each one showed them what I can do. Wow.
 
@@ -80,7 +80,7 @@ The day after, I received an email from someone I met briefly but didn't get a c
 It could be because the interview was over, I had the illusion that I can now begin to ask a bunch of silly questions and not get judged by, so I replied asking if he'll be able to meet and have a chat, and he said yes right away.
 
 
-@mtodd ended up spending a whole Saturday afternoon with me in the GitHub office, just answering my endless questions about GitHub and chatting with me about basically everything. 
+@mtodd ended up spending a whole Saturday afternoon with me in the GitHub office, just answering my endless questions about GitHub and chatting with me about basically everything.
 
 I was really glad to have the chance spending time with him that afternoon, I got to know so much more about GitHub. I had a peek of the weekend office, sat in an egg chair hugging an octocat pillow, and hung out in the guitar room. Without the pressure of it being an interview (although it definitely still counted), I was a whole lot more relaxed!
 
@@ -90,13 +90,13 @@ Then I flew back to London a day later.
 
 ### At the end of everything
 
-During the whole process, I did not talk to any "HR people." I met and talked to people who actually work in GitHub doing the same thing as what I will be doing, and people who will be working with me if I got hired. There was really an impressive amount of engineering time set aside purely for hiring. 
+During the whole process, I did not talk to any "HR people." I met and talked to people who actually work in GitHub doing the same thing as what I will be doing, and people who will be working with me if I got hired. There was really an impressive amount of engineering time set aside purely for hiring.
 
 Watching from the outside, I saw GitHub being this great company that builds a much loved product, and I thought they must have everything all figured out; but I came to realise, **they do not have everything figured out**, and it is so awesome. :heart:
 
 GitHub is the people, and obviously people make mistakes, no one is ever perfect, and they are not afraid to show it. They recognise their weaknesses and try to better everything all the time.
 
-Before the interview I couldn't help but feeling out of place, simply because GitHub is GitHub; but after the whole interview process, GitHub is no longer the entity I used to think it was. GitHub is that group of people I met with; they are approachable, friendly, and no different to you and I. 
+Before the interview I couldn't help but feeling out of place, simply because GitHub is GitHub; but after the whole interview process, GitHub is no longer the entity I used to think it was. GitHub is that group of people I met with; they are approachable, friendly, and no different to you and I.
 
 ---
 
