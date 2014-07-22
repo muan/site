@@ -30,7 +30,7 @@ In the process, there were times when I feel so overwhelmed and frustrated that 
 
 But, I am all good now.
 
-In this past year I have also heard so many praises and kind words from coworkers who I didn't even know or may have never worked with. They made me realised that I can really contribute, and the work I do is appreciated. So much so that they may *hear* about my work without having seeing it themselves.
+In this past year I have also heard so many praises and kind words from coworkers who I didn't even know or may have never worked with. They made me realise that I can really contribute, and the work I do is appreciated. So much so that they may *hear* about my work without having seeing it themselves.
 
 And the people I work closely with, they make me feel fortunate each day, for that I get to work with and learn from them, these genuinely nice and super talented individuals, who blow my mind all the time.
 
