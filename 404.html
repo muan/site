@@ -1,93 +1,73 @@
 <html>
   <head>
-    <meta content='Mu-An Chiou - @muanchiou or @muan' property='og:title' />
-    <title>Mu-An Chiou - @muanchiou || @muan</title>
+    <meta content='@muanchiou' property='og:title' />
+    <title>@muanchiou</title>
     <link href='/images/fav.png' rel='shortcut icon'>
-    <link href='/assets/global.css' rel='stylesheet' type='text/css' />
     <link href='/assets/style.css' rel='stylesheet' type='text/css' />
-    <link href='/assets/responsive.css' rel='stylesheet' type='text/css' />
+    <!-- - -->
+    <script src='/assets/jquery.js' type='text/javascript'></script>
+    <script src='/assets/pjax.js' type='text/javascript'></script>
+    <script src='/assets/stuff.js' type='text/javascript'></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700' rel='stylesheet' type='text/css'>
     <!-- - -->
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
     <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-    <meta content='http://muan.co/' property='og:url' />
-    <meta content="This is Mu-An's bloooooog. :cooooooooool:" property='og:description' />
+    <meta content="http://muan.co/images/og.png" property="og:image" />
+    <meta content='http://muan.co' property='og:url' />
+    <meta content="A blog." property='og:description' />
     <meta content="blog" property="og:type" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container">
-        <nav>
-          <a href="/" class="{% if page.url == '/' %} active{% endif %}">Home</a>
-          <a href="/about" class="{% if page.url == '/about/' %} active{% endif %}">
-          <span>About</span> Mu-An
-          </a>
-        </nav>
-        <h1>404 <span class="muted">Not found.</span></h1>
-      </div>
-    </header>
-    <div class="container">
-      <p>Rumor has it that these posts are quite popular:</p>
-      <br />
-      <ul class="posts">
-        <li class="post">
-          <a href="/2013/07/24/github-hiring-story/" class="post-link">
-            <h2 class="post-title" title="GitHub Hiring Story">
-              GitHub Hiring Story<br>
-            </h2>
-            <span class="meta">
-              <time>24 Jul 2013</time>
-            </span>
-          </a>
-        </li>
-        
-        <li class="post">
-          <a href="/2013/05/21/noise/" class="post-link">
-            <h2 class="post-title" title="Noise">
-              Noise<br>
-            </h2>
-            <span class="meta">
-              <time>21 May 2013</time>
-            </span>
-          </a>
-        </li>
-        
-        <li class="post">
-          <a href="/2013/05/05/scribble-the-jekyll-theme/" class="post-link">
-            <h2 class="post-title" title="Scribble, a Jekyll Theme">
-              Scribble, a Jekyll Theme<br>
-            </h2>
-            <span class="meta">
-              <time>05 May 2013</time>
-            </span>
-          </a>
-        </li>
-        
-        <li class="post">
-          <a href="/2013/05/05/scribble/" class="post-link">
-            <h2 class="post-title" title="Scribble">
-              Scribble<br>
-            </h2>
-            <span class="meta">
-              <time>05 May 2013</time>
-            </span>
-          </a>
-        </li>
-        <li class="post">
-          <a href="/2013/03/07/place-cage/" class="post-link">
-            <h2 class="post-title" title="Place Cage Everywhere">
-              Place Cage Everywhere<br>
-            </h2>
-            <span class="meta">
-              <time>07 Mar 2013</time>
-            </span>
-          </a>
-        </li>
-      </ul>
+    <div class="wrapper">
+      <header class="site-header">
+        <div class="instagram"></div>
+        <div class="container">
+          <nav>
+            <a href="/" class=" active"><div class="a-person"></div></a>
+            <a href="/archive" class=""><div class="a-page"></div></a>
+            <div class="a-cat"></div>
+          </nav>
+        </div>
+        <h1>404 Not found.</h1>
+      </header>
+      <a id="fork-me" class="fork-me" href="https://github.com/muan/muan.github.com">Fork this site on GitHub</a>
+      <section class="content">
+        <div class="container">
+          <ul class="posts">
+            <li class="post post-header">
+              <a href="/2014/07/22/hubberversary/" class="post-link post-title">
+                Happy Hubberversary<br />
+                <small class="meta">
+                  <time>22 Jul 2014</time>
+                </small>
+              </a>
+            </li>
+            <li class="post post-header">
+              <a href="/2013/07/24/github-hiring-story/" class="post-link post-title">
+                GitHub Hiring Story<br />
+                <small class="meta">
+                  <time>24 Jul 2013</time>
+                </small>
+              </a>
+            </li>
+            <li class="post post-header">
+              <a href="/2013/05/21/noise/" class="post-link post-title">
+                Noise<br />
+                <small class="meta">
+                  <time>21 May 2013</time>
+                </small>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container">
+          The theme of this blog is open sourced <a href="https://github.com/muan/muan.github.com" target="_blank" id="repo">on GitHub</a> by <a href="https://twitter.com/muanchiou" target="_blank" id="twitter">@muanchiou</a>.
+        </div>
+      </footer>
     </div>
-    <footer class="site-footer">
-      <div class="container">
-        The theme of this blog is open sourced <a href="https://github.com/muan/muan.github.com" target="_blank" id="repo">on GitHub</a> by <a href="https://twitter.com/muanchiou" target="_blank" id="twitter">@muanchiou</a>.
-      </div>
-    </footer>
   </body>
 </html>

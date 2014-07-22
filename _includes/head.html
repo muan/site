@@ -14,7 +14,11 @@
   <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
   <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
   <meta content="article" property="og:type" />
+  <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+  <title>{{ page.title }} - {{ site.title }}</title>
 {% else %}
+  <title>{{ site.title }}</title>
+  <meta content='{{ site.title }}' property='og:title' />
   <meta content='{{ site.url }}' property='og:url' />
   <meta content="{{ site.description }}" property='og:description' />
   <meta content="blog" property="og:type" />
