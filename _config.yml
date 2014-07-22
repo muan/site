@@ -2,8 +2,7 @@ title:            "@muanchiou"
 url:              http://muan.co
 permalink:        pretty
 highlighter:      pygments
-rdiscount:
-  extensions:     [smart]
+markdown:         kramdown
 google_analytics: UA-21332781-7
 timezone:         Europe/London
 paginate: 5

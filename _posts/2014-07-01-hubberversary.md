@@ -57,6 +57,6 @@ Mu-An
 
 ---
 
-![photobooth](/images/photobooth.jpg)
+![](/images/photobooth.jpg)
 
 <small><i>Many of the said lovely people are not in these photos.</i></small>
