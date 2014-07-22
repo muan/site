@@ -10,7 +10,7 @@ $(document).on "click", "a[id]", (e) ->
 $(document).on "click", "a:not([id])", (e) ->
   _gaq.push ["_trackEvent", "Clicks", "clicked on " + $(this).text()]
 
-$(document).pjax 'a', '.wrapper', { fragment: 'body', timeout: 3000 }
+# $(document).pjax 'a', '.wrapper', { fragment: 'body', timeout: 3000 }
 
 $(document).on "ready pjax:end", ->
   if window.pics

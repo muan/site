@@ -18,11 +18,6 @@ $(document).on("click", "a:not([id])", function(e) {
   return _gaq.push(["_trackEvent", "Clicks", "clicked on " + $(this).text()]);
 });
 
-$(document).pjax('a', '.wrapper', {
-  fragment: 'body',
-  timeout: 3000
-});
-
 $(document).on("ready pjax:end", function() {
   var feed;
   if (window.pics) {
