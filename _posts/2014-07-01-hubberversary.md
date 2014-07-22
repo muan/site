@@ -24,7 +24,7 @@ My first few months at GitHub weren't smooth. It took me months to finally feel 
 
 The Education site took way longer than I had expected, because of which I was frustrated with myself and was scared to do more. Getting into github.com's code base was such a challenge that I doubted if I ever really know anything about Rails. And, working with amazing designers/developers means I'd constantly feel like I can't ever do either well enough.
 
-The thought of _"Ugh, \[\_\_\_\_\_\] must thinks I am an idiot. Gonna hide in a hole and never come out."_ pops into my head constantly.
+The thought of _"Ugh, \[\_\_\_\_\_\] must think I am an idiot. Gonna hide in a hole and never come out."_ pops into my head constantly.
 
 In the process, there were times when I feel so overwhelmed and frustrated that I thought I should stop pretending I am good enough to be here, all this faking just wasn't going to cut it. Sounds familiar? the ever so annoying Imposter Syndrome.
 
