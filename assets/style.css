@@ -12,10 +12,15 @@ a {
 
 .site-header {
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   padding: 30px 0; }
   .site-header a {
-    margin-right: 20px; }
+    padding-bottom: 4px;
+    color: #555;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    white-space: nowrap;
+    font-family: helvetica, sans-serif; }
     .site-header a.active {
       opacity: .2;
       border-bottom: 1px solid #333; }
@@ -96,10 +101,11 @@ article h3 {
 .a-cat, .a-house, .a-person, .a-page {
   display: inline-block;
   background: #333;
+  vertical-align: middle;
+  margin-bottom: 2px;
   position: relative; }
 
 .a-cat {
-  opacity: .1;
   background: #333;
   height: 13px;
   width: 10px;
@@ -351,3 +357,5 @@ hr {
       transform: rotate(-135deg) skew(-10deg, -10deg);
       left: -15px;
       margin-top: 6px !important; } }
+
+/*# sourceMappingURL=style.css.map */
