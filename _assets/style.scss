@@ -47,6 +47,7 @@ a {
     &.show {
       opacity: 1;
     }
+    padding: 0;
     transition: all 1s;
     opacity: 0;
     display: inline-block;
