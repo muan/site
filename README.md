@@ -2,6 +2,12 @@
 
 This is where Mu-An writes her stuff and messes around every once in a while. See the messes [here](https://github.com/muan/muan.github.com/releases).
 
+## Complie
+
+```
+jekyll server -w
+```
+
 ## License
 
 The following directories and their contents are Copyright Mu-An Chiou. You may not reuse anything therein without my permission:
