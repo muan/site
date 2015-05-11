@@ -35,7 +35,7 @@ I wasn't stupid, I knew the code, I doubted myself indeed, but that was a confid
 
 Having another person also doubt my debugging outcome made me angry, and I wanted to stand up for myself. It was silly really, I was doing the exact same thing to myself, but I didn't feel it.
 
-So, I got the courage and opened up the pull request on Bootstrap. As you can see on [twbs/bootstrap#6703](https://github.com/twbs/bootstrap/pull/6703). The fix was dead simple, but I still probably rewrote the PR body and redid the example tens of times. The jsbin URL was at the 10th revision! I read so many other pull requests trying to spot common mistakes, and thought I had covered them all, but as it turned out I missed one thing – `CONTRIBUTING.md`<sup>*</sup> said you'd need to add tests and compile the code. Accordingly my pull request was closed by @fat, asking for a test.
+So, I got the courage and opened up the pull request on Bootstrap. As you can see on [twbs/bootstrap#6703](https://github.com/twbs/bootstrap/pull/6703). The fix was dead simple, but I still probably rewrote the PR body and redid the example tens of times. The jsbin URL was at the 10th revision! I read so many other pull requests trying to spot common mistakes, and thought I had covered them all, but as it turned out I missed one important thing – `CONTRIBUTING.md`<sup>*</sup>. It said you'd need to add tests and compile the code, so accordingly my pull request was closed by @fat, asking for a test.
 
 OK, it was a setback, but that didn't mean I was wrong, I just missed something. I wasn't going to give up that easily.
 
