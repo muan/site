@@ -1,3 +1,4 @@
+<!doctype>
 <html>
   <head>
     {% include head.html %}
@@ -6,7 +7,8 @@
     <header class="header">
       Hi.
     </header>
-    <div class="wrapper {% if page.date %}post{% endif %}">
+
+    <div class="wrapper {% if page.date %}post-layout{% endif %}">
       <div class="sidebar">
         <a class="name" href="/"><span class="mu-an">MU-AN</span><span class="chiou">CHIOU</span> !</a>
 
@@ -70,7 +72,7 @@
           <a href="https://speakerdeck.com/muan">Speakerdeck</a>.
         </p>
       </div>
-      <div class="column">
+      <div class="column js-content">
         {% if page.date %}
           <article>
             <header class="post-header">
