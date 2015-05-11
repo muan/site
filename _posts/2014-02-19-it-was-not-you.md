@@ -3,7 +3,7 @@ layout: post
 title: It Was Not You
 ---
 
-At 19, I moved to the UK to get my bachelor degree. I scored 108 out of 120 in TOEFL; for a high schooler this score was very high, usually master program ask that you score above 100. But, it meant nothing after I landed in this strong-accent-English-speaking foreign island. – I was in Birmingham.
+At 19, I moved to the UK to get my bachelor degree. I scored 108 out of 120 in TOEFL; for a high schooler this score was very high, usually master programs ask that you score above 100. But, it meant nothing after I landed in this strong-accent-English-speaking foreign island. – I was in Birmingham.
 
 I struggled to understand the words coming out of my classmates' mouths, struggled to keep up, and struggled to form any responses. Even when I barely understood and replied, they seldom got what I was saying.
 
@@ -17,7 +17,7 @@ They said, actually, there was nothing wrong with my English. They weren't excep
 
 It was at that point, I started to see, it was probably not my problem most of the time.
 
-There are just people are convinced I can't do certain things because of the way I am. So even when I did them, they still find a way in their mind to reject or ignore the facts. They are not bad people, probably, it is just the way things are for them.
+There are just people who are convinced that I can't do certain things because of the way I am. So even when I did them, they'd still find a way in their mind to reject or ignore the facts. They are not bad people, probably, it is just the way things are for them.
 
 So, until I can prove myself again, again, and again, til they notice, or until there are other people who'd help convincing them, they will keep on rejecting me.
 
