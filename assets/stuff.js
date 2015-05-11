@@ -8,7 +8,9 @@ $(document).on("click", "a:not([id])", function (e) {
   _gaq.push ["_trackEvent", "Clicks", "clicked on " + $(this).text()]
 })
 
-$(document).on("read pjax:end", function () {
+$(document).on("ready pjax:end", function () {
+  var heads = ["👋", "🍉", "🐝", "💥", "🌵", "🎈", "🐧", "👓", "💎", "🐞", "🐬", "🐈", "🌳", "👻", "🍟", "🍅", "🍐", "⚓", "️🏡", "🚷"]
+  $(".js-head").text(heads[Math.floor(Math.random() * heads.length)])
   $(".wrapper").toggleClass("post-layout", Boolean($("article").length))
 })
 
