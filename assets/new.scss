@@ -174,10 +174,10 @@ article {
     height: 50px;
   }
 
-  &.p1:hover ~ .c1,
-  &.p2:hover ~ .c2,
-  &.p3:hover ~ .c3,
-  &.p4:hover ~ .c4 {
+  &.p-1:hover ~ .c-1,
+  &.p-2:hover ~ .c-2,
+  &.p-3:hover ~ .c-3,
+  &.p-4:hover ~ .c-4 {
     display: block;
   }
 }
