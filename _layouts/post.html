@@ -5,13 +5,15 @@
   </head>
   <body>
     <header class="header">
-      <a href="/" class="js-head">&nbsp;</a>
+      <a href="/" class="home js-head">&nbsp;</a>
     </header>
 
     <div class="wrapper {% if page.date %}post-layout{% endif %}">
       <div class="sidebar">
-        <a class="name" href="/"><span class="mu-an">MU-AN</span><span class="chiou">CHIOU</span> !</a>
-
+        <a class="name" href="/"><span class="mu-an">MU-AN</span><span class="chiou">CHIOU</span> ! !</a>
+        <p>
+          I work at <mark>GitHub</mark> as a designer/developer. My primary responsibility is feeding the octocats 5 times a day.
+        </p>
         <h4 class="title-pictures">Important pictures.</h4>
         <div class="photos">
           <a href="https://instagram.com/p/S1diYTJarJ/" class="p1 photo" target="_blank"><img alt="I lived in the U.K. for 5 years." src="https://distilleryimage9-a.akamaihd.net/b16324ca3e7511e2864822000a9f09cf_7.jpg"></a>
@@ -42,7 +44,7 @@
             <a href="https://wwww.zeczec.com" target="_blank">
               zeczec.com
             </a><br>
-            A Taiwanese crowdfunding website focusing on creative projects. I founded zeczec with some friends in 2011. I did *all* of the design and development.
+            A Taiwanese crowdfunding website focusing on creative projects. I founded zeczec with some friends in 2011. I did all of the design and development.
           </li>
           <li>
             <a href="https://github.com/muan/megamoji" target="_blank">
@@ -76,9 +78,9 @@
         {% if page.date %}
           <article>
             <header class="post-header">
-              <h4 class="post-title">{{ page.title }}</h4>
+              <h3 class="post-title">{{ page.title }}</h4>
               {% if page.date %}
-                <small class="meta">
+                <small>
                   {{ page.date | date_to_string }} -
                   by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
                 </small>

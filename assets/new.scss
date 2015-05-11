@@ -22,8 +22,12 @@ a {
   &.page-nav {
     margin-right: 30px;
     padding: 0 10px;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #489CCB;
     font-size: 0.8em;
+  }
+
+  &.home {
+    padding: 10px;
   }
 }
 
@@ -33,10 +37,10 @@ h4 {
   &:first-child {
     margin-top: 0;
   }
+}
 
-  &.post-title {
-    margin-bottom: 0;
-  }
+.post-title {
+  margin: 0;
 }
 
 mark {
@@ -241,8 +245,10 @@ blockquote {
 @media (max-width: 540px) {
   .column,
   .sidebar {
-    width: 100%;
+    width: 100% !important;
     padding: 20px;
-    &:last-child { border: 0; }
   }
+
+  .column { border: 0; }
+  .post-layout .sidebar { display: none; }
 }
