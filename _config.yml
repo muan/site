@@ -2,9 +2,11 @@ title:            "@muanchiou"
 url:              http://muan.co
 permalink:        pretty
 highlighter:      pygments
-markdown:         kramdown
 google_analytics: UA-21332781-7
-timezone:         Europe/London
+timezone:         Asia/Taipei
+sass:
+  sass_dir: _assets
+  style: :compressed
 gems:
   - jemoji
   - jekyll-mentions

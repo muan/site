@@ -1,0 +1,15 @@
+---
+layout: post
+---
+
+<h4>Sentences.</h4>
+<ul class="list">
+{% for post in site.posts %}
+  <li class="">
+    <time>{{ post.date | date_to_string }}</time><br>
+    <a href="{{ post.url }}" class="">
+      {{ post.title }}
+    </a><br />
+  </li>
+  {% endfor %}
+</ul>

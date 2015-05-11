@@ -3,41 +3,102 @@
     {% include head.html %}
   </head>
   <body>
-    <div class="wrapper">
+    <header class="header">
+      Hi.
+    </header>
+    <div class="wrapper {% if page.date %}post{% endif %}">
+      <div class="sidebar">
+        <a class="name" href="/"><span class="mu-an">MU-AN</span><span class="chiou">CHIOU</span> !</a>
 
-      {% include header.html %}
+        <h4 class="title-pictures">Important pictures.</h4>
+        <div class="photos">
+          <a href="https://instagram.com/p/S1diYTJarJ/" class="p1 photo" target="_blank"><img alt="I lived in the U.K. for 5 years." src="https://distilleryimage9-a.akamaihd.net/b16324ca3e7511e2864822000a9f09cf_7.jpg"></a>
+          <a href="https://instagram.com/p/rDq_yxpal4/" class="p2 photo" target="_blank"><img alt="A Taiwanese breakfast item – danbing." src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/t51.2885-15/10536827_775632325823007_701362453_n.jpg"></a>
+          <a href="https://instagram.com/p/0PGc06pauS/" class="p3 photo" target="_blank"><img alt="I used to think Club Mate is overrated." src="https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/11005159_661481433977905_853097566_n.jpg"></a>
+          <a href="https://instagram.com/p/joCAsOJakQ/" class="p4 photo" target="_blank"><img alt="I started playing bass 10 years ago." src="https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/1739737_524501130997550_1911599777_n.jpg"></a>
+          <div class="caption c1">I lived in England from 2008 to 2013.</div>
+          <div class="caption c2">A Taiwanese breakfast item – danbing.</div>
+          <div class="caption c3">I used to think Club Mate is overrated.</div>
+          <div class="caption c4">I started playing bass 10 years ago.</div>
+        </div>
 
-      <section class="content">
-        <div class="container">
+        <h4 class="title-works">Selected works.</h4>
+        <ul class="list">
+          <li>
+            <a href="https://github.com/muan/github-gmail" target="_blank">
+              github-gmail
+            </a><br>
+            A Chrome/Firefox extension that adds shortcuts for links in your GitHub notifications in Gmail.
+          </li>
+          <li>
+            <a href="https://github.com/muan/emoji" target="_blank">
+              emoji
+            </a><br>
+            Search engine for emoji using whatever keywords you can think of. No one remembers what  is called.
+          </li>
+          <li>
+            <a href="https://wwww.zeczec.com" target="_blank">
+              zeczec.com
+            </a><br>
+            A Taiwanese crowdfunding website focusing on creative projects. I founded zeczec with some friends in 2011. I did *all* of the design and development.
+          </li>
+          <li>
+            <a href="https://github.com/muan/megamoji" target="_blank">
+              megamoji
+            </a><br>
+            Microsoft Paint but with emoji.
+          </li>
+          <li>
+            <a href="https://github.com/muan/submarine" target="_blank">
+              submarine
+            </a><br>
+            A node module that generates an index and content pages from a directory of markdown files. <del>Basically Jekyll but in node</del>.
+          </li>
+        </ul>
+
+        <h4 class="title-contact">Contact &amp; Interwebs.</h4>
+        <p>
+          Via twitter <a href="https://twitter.com/muanchiou">@muanchiou</a> or github <a href="https://github.com/muan">@muan</a>. Must-be-email emails should be sent to hi#muan.co.
+        </p>
+        <p>
+          You can also <a href="https://tinyletter.com/muan">subscribe</a> to my newsletters.
+        </p>
+        <p>
+          Find me on
+          <a href="https://instagram.com/muanchiou">Instagram</a>,
+          <a href="https://dribbble.com/muan">Dribbble</a>, or
+          <a href="https://speakerdeck.com/muan">Speakerdeck</a>.
+        </p>
+      </div>
+      <div class="column">
+        {% if page.date %}
           <article>
             <header class="post-header">
-
-              <div class="post-title">{{ page.title }}</div>
+              <h4 class="post-title">{{ page.title }}</h4>
               {% if page.date %}
                 <small class="meta">
                   {{ page.date | date_to_string }} -
                   by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
                 </small>
-                <div class="pagination">
-                  {% if page.previous %}
-                    <a class="page-nav previous" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
-                      &lt;
-                    </a>
-                  {% endif %}
-                  {% if page.next %}
-                    <a class="page-nav next" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
-                      &gt;
-                    </a>
-                  {% endif %}
-                </div>
               {% endif %}
             </header>
             {{ content }}
           </article>
-        </div>
-      </section>
-
-      {% include footer.html %}
+          <div class="pagination">
+            {% if page.previous %}
+              <a class="page-nav" href="{{ page.previous.url }}" id="js-previous-post">PREV</a>
+            {% endif %}
+            {% if page.next %}
+              <a class="page-nav" href="{{ page.next.url }}" id="js-next-post">NEXT</a>
+            {% endif %}
+          </div>
+        {% else %}
+          {{ content }}
+        {% endif %}
+      </div>
     </div>
+    <footer class="footer">
+      The end.
+    </footer>
   </body>
 </html>
