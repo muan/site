@@ -60,8 +60,8 @@ div {
   border: 0 solid #eee;
 }
 
-.sidebar {
-  border-right-width: 1px;
+.column {
+  border-left-width: 1px;
 }
 
 .header,
@@ -115,12 +115,10 @@ article {
 
   .sidebar {
     width: 18%;
-    border-right: 0;
   }
 
   .column {
     width: 82%;
-    border-left-width: 1px;
   }
 
   .name ~ * {
