@@ -1,73 +1,71 @@
+<!doctype>
 <html>
   <head>
-    <meta content='@muanchiou' property='og:title' />
-    <title>@muanchiou</title>
+    <link href='/assets/new.css' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+    <link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Economica&amp;text=!MU-ANCHIOU' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:700&amp;text=404' rel='stylesheet' type='text/css'>
+
     <link href='/images/fav.png' rel='shortcut icon'>
-    <link href='/assets/style.css' rel='stylesheet' type='text/css' />
-    <!-- - -->
     <script src='/assets/jquery.js' type='text/javascript'></script>
     <script src='/assets/pjax.js' type='text/javascript'></script>
     <script src='/assets/stuff.js' type='text/javascript'></script>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700' rel='stylesheet' type='text/css'>
-    <!-- - -->
+
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
     <meta content='text/html; charset=utf-8' http-equiv='content-type' />
     <meta content="http://muan.co/images/og.png" property="og:image" />
-    <meta content='http://muan.co' property='og:url' />
-    <meta content="A blog." property='og:description' />
+    <title>{{ site.title }}</title>
+    <meta content='{{ site.title }}' property='og:title' />
+    <meta content='{{ site.url }}' property='og:url' />
+    <meta content="{{ site.description }}" property='og:description' />
     <meta content="blog" property="og:type" />
+    <!-- - -->
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-21332781-7']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      //]]>
+    </script>
+
   </head>
   <body>
-    <div class="wrapper">
-      <header class="site-header">
-        <div class="instagram"></div>
-        <div class="container">
-          <nav>
-            <a href="/" class=" active"><div class="a-person"></div></a>
-            <a href="/archive" class=""><div class="a-page"></div></a>
-            <div class="a-cat"></div>
-          </nav>
-        </div>
-        <h1>404 Not found.</h1>
-      </header>
-      <a id="fork-me" class="fork-me" href="https://github.com/muan/muan.github.com">Fork this site on GitHub</a>
-      <section class="content">
-        <div class="container">
-          <ul class="posts">
-            <li class="post post-header">
-              <a href="/2014/07/22/hubberversary/" class="post-link post-title">
-                Happy Hubberversary<br />
-                <small class="meta">
-                  <time>22 Jul 2014</time>
-                </small>
-              </a>
-            </li>
-            <li class="post post-header">
-              <a href="/2013/07/24/github-hiring-story/" class="post-link post-title">
-                GitHub Hiring Story<br />
-                <small class="meta">
-                  <time>24 Jul 2013</time>
-                </small>
-              </a>
-            </li>
-            <li class="post post-header">
-              <a href="/2013/05/21/noise/" class="post-link post-title">
-                Noise<br />
-                <small class="meta">
-                  <time>21 May 2013</time>
-                </small>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <header class="header">
+      <a href="/" class="home js-head">&nbsp;</a>
+    </header>
 
-      <footer class="site-footer">
-        <div class="container">
-          The theme of this blog is open sourced <a href="https://github.com/muan/muan.github.com" target="_blank" id="repo">on GitHub</a> by <a href="https://twitter.com/muanchiou" target="_blank" id="twitter">@muanchiou</a>.
-        </div>
-      </footer>
+    <div class="wrapper">
+      <div class="sidebar">
+        <div style="font-family: 'Dosis'; font-size: 100px; line-height: 1;">404</div>
+        <p>What? There's nothing here.</p>
+        <br><br><br><br><br><br>
+      </div>
+      <div class="column js-content">
+        <h4 class="title-contact">Contact &amp; Interwebs.</h4>
+        <p>
+          Via twitter <a href="https://twitter.com/muanchiou">@muanchiou</a> or github <a href="https://github.com/muan">@muan</a>. Must-be-email emails should be sent to hi#muan.co.
+        </p>
+        <p>
+          You can also <a href="https://tinyletter.com/muan">subscribe</a> to my newsletters.
+        </p>
+        <p>
+          Find me on
+          <a href="https://instagram.com/muanchiou">Instagram</a>,
+          <a href="https://dribbble.com/muan">Dribbble</a>, or
+          <a href="https://speakerdeck.com/muan">Speakerdeck</a>.
+        </p>
+      </div>
     </div>
+    <footer class="footer">
+      The end.
+    </footer>
   </body>
 </html>
