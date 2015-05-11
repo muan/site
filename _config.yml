@@ -5,7 +5,7 @@ highlighter:      pygments
 google_analytics: UA-21332781-7
 timezone:         Asia/Taipei
 sass:
-  sass_dir: _assets
+  sass_dir: assets
   style: :compressed
 gems:
   - jemoji
