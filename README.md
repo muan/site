@@ -5,7 +5,8 @@ This is where Mu-An writes her stuff and messes around every once in a while. Se
 ## Complie
 
 ```
-jekyll server -w
+$ bundle install
+$ jekyll server -w
 ```
 
 ## License
