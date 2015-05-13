@@ -17,11 +17,11 @@ Reading [The GitHub hiring experience](https://github.com/blog/1269-the-github-h
 
 Lots of people talk about how interview should be a two-way process, but there is a problem: most interviews are not set up to be a two-way process. It wouldn't be about people meeting people, but purely about the company screening you.
 
-I initially got in contact at :uk: [GitHub London drinkup](https://github.com/blog/1471-london-drinkup) :uk: after [BACON](http://devslovebacon.com/). I have almost never been to these kind of social events, because I am genuinely afraid of **strangers in bulk**. I somehow got the courage that day, most likely because it was my birthday, and I went alone!!! I met Julie (@nrrrdcore) and Zach (@holman). :heart:
+I initially got in contact at [GitHub London drinkup](https://github.com/blog/1471-london-drinkup) after [BACON](http://devslovebacon.com/). I have almost never been to these kind of social events, because I am genuinely afraid of **strangers in bulk**. I somehow got the courage that day, most likely because it was my birthday, and I went alone!!! I met Julie (@nrrrdcore) and Zach (@holman).
 
 We talked about various things for a good chunk of time. Having saw both of their talks before, and being a female designer/developer like Julie, there were lots of questions I wanted to ask, things about how designer should code, how all web designers code in GitHub, what are passion projects like, what the bigger vision is and so on, I even told them that drinkups frighten me. It was a really nice, casual chat, they were both super friendly and easy to talk to, **and I really can't stress this enough.**
 
-At the end of the night, I mentioned my interest in GitHub to Julie, she asked me to drop her an email so we can talk more. I really didn't want to be abrupt, but I thought it was appropriate at the time; she reminded me to send that email again right before I took off. :heart: How nice!
+At the end of the night, I mentioned my interest in GitHub to Julie, she asked me to drop her an email so we can talk more. I really didn't want to be abrupt, but I thought it was appropriate at the time; she reminded me to send that email again right before I took off. How nice!
 
 Soon after, we started emailing back and forth.
 
@@ -31,7 +31,7 @@ Soon after, we started emailing back and forth.
 
 Hiring takes time, and it's time from both ends. In the first one and a half month I had some emails/Skype/FaceTime calls with a bunch of GitHubbers.
 
-It wasn't moving fast, from time to time I waited for more than a week to get a response or to schedule a call time. I'll be lying if I say I wasn't bothered by that, but it was really pleasant nonetheless, here's why: when people replied me late, they told me they were going to be late, and why they were. They make the effort to drop me a short email only to make sure I know what is going on. (Thank you especially @tclem :heart:)
+It wasn't moving fast, from time to time I waited for more than a week to get a response or to schedule a call time. I'll be lying if I say I wasn't bothered by that, but it was really pleasant nonetheless, here's why: when people replied me late, they told me they were going to be late, and why they were. They make the effort to drop me a short email only to make sure I know what is going on. (Thank you especially @tclem)
 
 Different from the usual interview setup, people I talked to made the purpose of the calls very clear to me.
 
@@ -55,7 +55,7 @@ After a bunch of skype/FaceTime calls, they invited me to fly over from London t
 
 > By the time we’re flying someone out, we mean business.<br /> <small>The GitHub Hiring Experience - Coby</small>
 
-They offered to fly me in for extra days prior/following just to relax and adjust to jet lag before the interview, which was super nice. They booked me airport pickup services with a limo. I am not some hotshot like many of you, it was the first time I have people holding my name sign at the gate. After I checked in at the hotel, they got in touch to see if I am doing OK and if I need anything. ([Emma](http://twitter.com/WassupBryant) :heart:)
+They offered to fly me in for extra days prior/following just to relax and adjust to jet lag before the interview, which was super nice. They booked me airport pickup services with a limo. I am not some hotshot like many of you, it was the first time I have people holding my name sign at the gate. After I checked in at the hotel, they got in touch to see if I am doing OK and if I need anything. ([Emma](http://twitter.com/WassupBryant) <3)
 
 After a few days of relaxing and meeting friends, here comes the first part of the onsite interview: @nrrrdcore, @jakeboxer and @mdo took me out for dinner. It was just a casual welcome dinner, and by casual, I mean CASUAL casual, as in they were talking about love for Chicken Nuggets, and how tiny humans make their apartment seem big. :) I was nervous and shy so didn't talk much, but they were so funny and you can see that they get along really well.
 
@@ -65,7 +65,7 @@ Over the course of the day, I talked to about some 10 people, 2 at a time. It wa
 
 I talked to developers, designers and also to my surprise -- the finance team! Normally when interviewing at a company, I will expect seeing developers, project managers or so, not people from a whole different department, but this was brilliant! People were not hard-divided into certain groups simply because they were non-techs working in a tech company or something. I enjoyed very much talking to @hotbootymasala, who used to live in London like me, and @alysonla, who codes quite a lot now!
 
-The day finished at 3pm, which was rather early. At the end of it, I had a design session with @nrrrdcore and @mdo, it was unexpectedly not as intimidating as I imagined. @nrrrdcore [drew a clippy](https://instagram.com/p/ag-UenJanP/). 
+The day finished at 3pm, which was rather early. At the end of it, I had a design session with @nrrrdcore and @mdo, it was unexpectedly not as intimidating as I imagined. @nrrrdcore [drew a clippy](https://instagram.com/p/ag-UenJanP/).
 
 That was the first and the only 'technical' interview I had with GitHub, so I asked: "How are you guys sure about my coding ability?" and well, they told me that obviously they have read through my GitHub profile, and they meant it. Just on top of his head, @mdo listed almost all of my project repositories and told me how each one showed them what I can do. Wow.
 
@@ -92,7 +92,7 @@ Then I flew back to London a day later.
 
 During the whole process, I did not talk to any "HR people." I met and talked to people who actually work in GitHub doing the same thing as what I will be doing, and people who will be working with me if I got hired. There was really an impressive amount of engineering time set aside purely for hiring.
 
-Watching from the outside, I saw GitHub being this great company that builds a much loved product, and I thought they must have everything all figured out; but I came to realise, **they do not have everything figured out**, and it is so awesome. :heart:
+Watching from the outside, I saw GitHub being this great company that builds a much loved product, and I thought they must have everything all figured out; but I came to realise, **they do not have everything figured out**, and it is so awesome.
 
 GitHub is the people, and obviously people make mistakes, no one is ever perfect, and they are not afraid to show it. They recognise their weaknesses and try to better everything all the time.
 
@@ -102,7 +102,7 @@ Before the interview I couldn't help but feeling out of place, simply because Gi
 
 My concern as a candidate was to make sure I will love my job, I will get excited at what I'll be doing, I will like the company and most importantly, enjoy working with the people. And from what I have learned from the process, the people and the culture, I find everything at GitHub extremely appealing to me.
 
-I started writing this blog post before they flew me to San Francisco, and I finished the post on the plane back to London. I didn't know if I was going to get an offer while writing this initially, it almost felt like a stupid teenage crush; fortunately for me, turns out in the end our love was mutual :heart:, I got an offer a couple days after I got back to London.
+I started writing this blog post before they flew me to San Francisco, and I finished the post on the plane back to London. I didn't know if I was going to get an offer while writing this initially, it almost felt like a stupid teenage crush; fortunately for me, turns out in the end our love was mutual <3, I got an offer a couple days after I got back to London.
 
 Obviously not having actually worked in GitHub yet, there could be a possibility that everyone is secretly annoying, @mtodd lied about how Tom really is, and I just couldn't see all these things from the outside. Although I highly doubt these, I do only speak for what I've already known. :)
 
@@ -113,6 +113,6 @@ Obviously not having actually worked in GitHub yet, there could be a possibility
 ---
 
 This week is my first week at GitHub, good luck to me. <br />
-[May the octocats be with you](http://octodex.github.com/). :heart:<br />
+[May the octocats be with you](http://octodex.github.com/).<br />
 
-p.s. Thank you @nrrrdcore for everything. You are so awesome. :heart: :heart: :heart:
+p.s. Thank you @nrrrdcore for everything. You are so awesome.
