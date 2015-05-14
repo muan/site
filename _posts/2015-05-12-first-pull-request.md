@@ -1,17 +1,17 @@
 ---
 layout: post
-title: My First Pull Request (twbs/bootstrap!)
+title: My First Pull Request
 ---
 
-I think it'd be fun to share my first open source experience, and perhaps my story can encourage people to get into open source, so here goes!
+I still remember how hard it was to open my first pull request, but when I eventually did, it became probably one of the most rewarding things I've done. I wanted to share my story, in the hope of helping people getting over the first mental hurdle.
+
+@andrew built this handy tool for looking up your first public pull request, and mine was to Bootstrap!
 
 [![My first pull request as found on http://firstpr.me/#muan](/images/20150512-firstpr.png)](http://firstpr.me#muan)
 
-@andrew built this handy tool for looking up your first public pull request, and mine was to Bootstrap! I thought it was very gutsy of me trying for the first time *on Bootstrap*. Heh.
-
 ---
 
-At that time I was working in a 4-person startup where I was a designer and front-end developer. We weren't using the GitHub flow, instead we mainly just rebased all the things. Therefore I wasn't familiar with branching or the GitHub UI, I didn't even visit github.com for work, let alone participate in the open source community.
+At the time, I was working in a 4-person startup where I was a designer and front-end developer. We weren't using the GitHub flow, instead we mainly just rebased all the things. Therefore I wasn't familiar with branching or the GitHub UI, I didn't even visit github.com for work, let alone participate in the open source community.
 
 We wanted all of our app's right-hand side tooltips to be one line, despite their length, so I added a workaround to override the max-width Bootstrap sets by default:
 
@@ -35,7 +35,7 @@ I wasn't stupid, I knew the code, I doubted myself indeed, but that was a confid
 
 Having another person also doubt my debugging outcome made me angry, and I wanted to stand up for myself. It was silly really, I was doing the exact same thing to myself, but I didn't feel it.
 
-So, I got the courage and opened up the pull request on Bootstrap. As you can see on [twbs/bootstrap#6703](https://github.com/twbs/bootstrap/pull/6703). The fix was dead simple, but I still probably rewrote the PR body and redid the example tens of times. The jsbin URL was at the 10th revision! I read so many other pull requests trying to spot common mistakes, and thought I had covered them all, but as it turned out I missed one important thing – `CONTRIBUTING.md`<sup>*</sup>. It said you'd need to add tests and compile the code, so accordingly my pull request was closed by @fat, asking for a test.
+So, I got the courage and opened up the pull request on Bootstrap. As you can see on [twbs/bootstrap#6703](https://github.com/twbs/bootstrap/pull/6703). The fix was dead simple, but I still probably rewrote the PR body and redid the example tens of times. The jsbin URL was at the 10th revision! I read so many other pull requests trying to spot common mistakes, and thought I had covered them all, but as it turned out I missed one important thing – `CONTRIBUTING.md`[<sup>*</sup>](https://github.com/blog/1184-contributing-guidelines). It said you'd need to add tests and compile the code, so accordingly my pull request was closed by @fat, asking for a test.
 
 OK, it was a setback, but that didn't mean I was wrong, I just missed something. I wasn't going to give up that easily.
 
@@ -61,10 +61,4 @@ I used to think I was really far from this world of people worthy and capable of
 
 ---
 
-[What's your first pull request?](http://firstpr.me) Would you share your story? :)
-
-&nbsp;
-
-&nbsp;
-
-\* `CONTRIBUTING.md` helps communicate how best to contribute to a project, [learn more](https://github.com/blog/1184-contributing-guidelines).
+[What's your first pull request?](http://firstpr.me) Would you share your story? If/when you do, please do let me know, and I will include them here.
