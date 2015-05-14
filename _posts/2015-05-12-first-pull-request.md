@@ -5,7 +5,7 @@ title: My First Pull Request
 
 I still remember how hard it was to open my first pull request, but when I eventually did, it became probably one of the most rewarding things I've done. I wanted to share my story, in the hope of helping people getting over the first mental hurdle.
 
-@andrew built this handy tool for looking up your first public pull request, and mine was to Bootstrap!
+@andrew built this handy tool – [firstpr.me](http://firstpr.me), for looking up your first public pull request, and mine was to Bootstrap!
 
 [![My first pull request as found on http://firstpr.me/#muan](/images/20150512-firstpr.png)](http://firstpr.me#muan)
 
