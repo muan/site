@@ -22,7 +22,15 @@ But every once in a while, you get a new designer onboard, say, someone like me,
 
 I learned that the rule was something that all the CSS-writers working in the github.com code base want, and we just needed to find a way to do it and not break the internet (well, github.com) at the same time.
 
-After some deliberations, we decided that we would team-ship the rule `* { box-sizing: border-box; }` to just a group of people that volunteered to be in the `@github/box-model-shipperheros` team. These people would live with the broken layout everyday as we use GitHub to build GitHub, and try to fix them one at a time.
+After some deliberations, we decided that we would team-ship the rule `* { box-sizing: border-box; }` to just a group of people that volunteered to be in the `@github/box-model-shipperheros` team. These people would live with the broken layout everyday as we use GitHub to build GitHub, and try to fix them one at a time. The code looked like this:
+
+{% highlight erb linenos %}
+# in the head of application.erb
+<%= render :partial => "box_model_css" if team_access?(:box_model) %>
+
+# in _box_model_css.erb
+<style type="text/css"> * { box-sizing: border-box; } </style>
+{% endhighlight %}
 
 While adding a fix, we would slap on <code>&#64;include box-sizing</code>, with the idea that when we're done, we'd remove them all.
 
