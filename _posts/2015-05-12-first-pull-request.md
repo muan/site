@@ -15,7 +15,7 @@ At the time, I was working in a 4-person startup where I was a designer and fron
 
 We wanted all of our app's right-hand side tooltips to be one line, despite their length, so I added a workaround to override the max-width Bootstrap sets by default:
 
-{% highlight css %}
+{% highlight css linenos %}
 .tooltip.right .tooltip-inner {
   max-width: none;
 }

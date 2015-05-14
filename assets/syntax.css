@@ -1,10 +1,20 @@
-.highlight { font-size: 14px; }
-article > div.highlight pre { 
-  padding: 5px 7px; margin: 10px 0; 
-  border: 1px solid #eee;
+.highlight {
+  font-size: 0.9em;
+  overflow: hidden;
+  position: relative;
+}
+
+.lineno {
+  position: absolute;
+  margin-left: -54px;
+}
+
+.highlight pre {
+  padding: 0 7px 0 15px; margin: 10px 0 10px 35px;
+  border-left: 4px double #eee;*/
   overflow: auto;
 }
-pre code { line-height: 1.5; }
+
 .hll { background-color: #ffffcc }
 .c { color: #999988; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */
