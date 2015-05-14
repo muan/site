@@ -25,10 +25,10 @@ I learned that the rule was something that all the CSS-writers working in the gi
 After some deliberations, we decided that we would team-ship the rule `* { box-sizing: border-box; }` to just a group of people that volunteered to be in the `@github/box-model-shipperheros` team. These people would live with the broken layout everyday as we use GitHub to build GitHub, and try to fix them one at a time. The code looked like this:
 
 {% highlight erb linenos %}
-# in the head of application.erb
+<%# in the head of application.erb %>
 <%= render :partial => "box_model_css" if team_access?(:box_model) %>
 
-# in _box_model_css.erb
+<%# in _box_model_css.erb %>
 <style type="text/css"> * { box-sizing: border-box; } </style>
 {% endhighlight %}
 
