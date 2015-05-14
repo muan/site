@@ -15,6 +15,14 @@
   overflow: auto;
 }
 
+code {
+  background: #f0f0f0;
+}
+
+pre code {
+  background: transparent;
+}
+
 .hll { background-color: #ffffcc }
 .c { color: #999988; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */
