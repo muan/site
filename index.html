@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<h4 class="title-works">Selected works.</h4>
+<h3 class="title-works">Fun open source projects.</h3>
 <ul class="list">
   <li>
     <a href="https://github.com/muan/github-gmail" target="_blank">
@@ -17,12 +17,6 @@ layout: post
     Search engine for emoji using whatever keywords you can think of. No one remembers what 🔪 is called.
   </li>
   <li>
-    <a href="https://www.zeczec.com" target="_blank">
-      zeczec.com
-    </a><br>
-    A Taiwanese crowdfunding website focusing on creative projects. I founded zeczec with some friends in 2011. I did all of the design and development.
-  </li>
-  <li>
     <a href="https://megamoji.muan.co" target="_blank">
       megamoji
     </a><br>
@@ -35,14 +29,13 @@ layout: post
     A node module that generates an index and content pages from a directory of markdown files. <del>Basically Jekyll but in node</del>.
   </li>
 </ul>
-<h4>Sentences.</h4>
+<h3>Writings.</h3>
 <ul class="list">
 {% for post in site.posts %}
   <li class="">
     <a href="{{ post.url }}">
       {{ post.title }}
-    </a><br />
-    <small>{{ post.date | date_to_string }}</small>
+    </a>
   </li>
   {% endfor %}
 </ul>
