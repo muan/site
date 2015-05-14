@@ -21,7 +21,7 @@ We wanted all of our app's right-hand side tooltips to be one line, despite thei
 }
 {% endhighlight %}
 
-It did kind of help, but then some of the tooltips became mispositioned for some reason. The problematic tooltips were the ones longer than the default, while the short ones were fine. After a bit of digging I *kind of* decided that this bug lies within Bootstrap.
+It did kind of help, but then some of the tooltips became mispositioned. The problematic tooltips were the ones longer than the default, while the short ones were fine. After a bit of digging I *kind of* decided that this bug lies within Bootstrap.
 
 But, what's the possibility of :crown: the authors of Bootstrap :crown: not knowing this already? Or that they did this intentionally? They know their shit, and do I?... well definitely not as much. I must have missed something, right?
 
