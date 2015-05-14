@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How We border-boxed All The Things in GitHub
+title: border-box All The Things
 ---
 
 ![layout borken by border-boxing](/images/20150514-box-model.png)
