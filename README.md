@@ -6,7 +6,7 @@ This is where Mu-An writes her stuff and messes around every once in a while. Se
 
 ```
 $ bundle install
-$ jekyll server -w
+$ jekyll server -w --baseurl=''
 ```
 
 ## License
