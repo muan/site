@@ -4,7 +4,7 @@
     {% include head.html %}
   </head>
   <body>
-    <header class="header">
+    <header class="header" data-pjax>
       <a href="/" class="home js-head">&nbsp;</a>
     </header>
 
@@ -62,7 +62,7 @@
             </header>
             {{ content }}
           </article>
-          <div class="pagination">
+          <div class="pagination" data-pjax>
             {% if page.previous %}
               <a class="page-nav" href="{{ page.previous.url }}" id="js-previous-post">
                 &lt; {{ page.previous.title }}
