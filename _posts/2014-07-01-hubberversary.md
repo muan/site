@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2014-07-22 17:44:00
+date: 2014-07-22
 title: Happy Hubberversary
 ---
 
