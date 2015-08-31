@@ -5,7 +5,9 @@ title: GitHub Hiring Story
 cover: /images/13072203.png
 ---
 
-_Disclaimer from Aug 2015_: This post was written in mid 2013, things have changed quite a bit obviously.
+_Disclaimer from Aug 2015_: This post was written in mid 2013, things have changed quite a bit. ;)
+
+---
 
 Most of us have heard how incredibly relaxed GitHub's culture is, but not many people have actually experienced it first hand to be able to confirm it. After going through GitHub's hiring process, I have to say it was honestly the best experience I have ever had.
 
