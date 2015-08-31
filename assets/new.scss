@@ -194,6 +194,17 @@ article img:not(.emoji) {
 
   a {
     font-weight: bold;
+
+    &:visited:before {
+      content: "✔️ ";
+    }
+  }
+
+  time {
+    font-size: 12px;
+    margin-top: -8px;
+    display: block;
+    color: #999;
   }
 }
 
