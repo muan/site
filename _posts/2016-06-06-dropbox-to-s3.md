@@ -4,7 +4,7 @@ date: 2016-06-06
 title: Moving assets from Dropbox to S3
 ---
 
-Way back in the days when I was first building this Rails app, not knowing much about Amazon services, I decided to use Dropbox's Public folder to store and serve all the images (it was bad, I know). As time passes by, Public folder is no more, and I had to do the grownup thing and migrate files to a real CDN/storage service. I just did it, and it was surprisingly painless.
+Way back in the days when I was first building this Rails app, not knowing much about Amazon services, I decided to use Dropbox's Public folder to store and serve all the images (it was bad, I know). As time passes by, Public folder is no more, and I had to do the grownup thing and migrate files to a real CDN/storage service. I had just finally done it, and it was surprisingly painless.
 
 First I took the chance to upgrade [Paperclip](https://github.com/thoughtbot/paperclip), cleaned up the path constructor to fix some unideal paths, and changed the storage settings to S3.
 
