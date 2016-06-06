@@ -14,8 +14,8 @@ During this time, I made an inventory of all the file name differences, and wrot
 
 Once the sync was completed, I pushed the changes to heroku as a review app, sharing the production database. Connecting to the review app console, I did a dry run of the renaming script, which uncovered a bunch of unexpected file names... I made a bunch more changes and did a few more dry-runs, and eventually successfully renamed all the files. Using the review app, I confirmed all the links were indeed working.
 
-Then I tried syncing again with rclone to see what files were uploaded since the last run. Rclone allowed me to do a dry-run to see what changes would be made, making I realized that given all the name changes rclone wanted to copy/remove all the changed files, so it was a no-go. Worst case scenario, I can still manaully copy all the files. So I logged into Dropbox and checked the recent file changes. Luckily it was quite manageable, so I copied and renamed them one by one.
+Then I tried syncing again with rclone to see what files had been uploaded since the last run. With `rclone sync --dry-run` I found out because of the name changes, rclone will copy/remove all the changed files, so it obviously wouldn't work. Well, worst case scenario, I can still manaully copy all the files. So, I logged into Dropbox and checked the recent file changes. Luckily there were many, so I just copied and renamed them one by one.
 
-Finally I set up Cloudfront and changed the app settings, and that was all!
+Lastly, I set up Cloudfront and changed the s3 alias, and that was all!
 
-All in all I was really surprised at how smooth the process was, so this is a note to self that things aren't always as tedious as I imagine them to be. 😂
+I was really surprised at how smooth the process was, so this is a note to self that things aren't always as tedious as I imagine them to be. 😂
