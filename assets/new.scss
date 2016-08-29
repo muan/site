@@ -3,7 +3,7 @@
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 30px 0;
   line-height: 1.8em;
   font-family: 'Cutive Mono', "YuMincho", monospace;
   font-size: 16px;
@@ -35,7 +35,6 @@ p {
 
 .pagination {
   margin: 100px 0 40px;
-  text-align: center;
 }
 
 a {
@@ -77,46 +76,21 @@ div, a, img {
   box-sizing: border-box;
 }
 
-.sidebar,
-.column {
-  width: 100%;
-  padding: 30px 0;
-}
-
 .header,
 .footer,
 .wrapper {
   width: 100%;
   margin: 0 auto;
-}
-
-.footer,
-.header {
-  text-align: center;
-  padding: 30px 0;
-}
-
-.wrapper {
   max-width: 660px;
-
-  &:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
 }
 
-.header {
-  border-bottom: 1px solid #eee;
-}
-
-.footer {
-  background: #f9f9f9;
+.wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .post-header {
-  text-align: center;
-
   &:after {
     display: block;
     content: "";
@@ -124,7 +98,7 @@ div, a, img {
     height: 5px;
     width: 20px;
     background-size: 100%;
-    margin: 30px auto 0;
+    margin: 30px 0;
   }
 }
 
@@ -225,11 +199,4 @@ blockquote {
 
   p:first-child { margin-top: 0; }
   p:last-child { margin-bottom: 0; }
-}
-
-@media (max-width: 540px) {
-  .column,
-  .sidebar {
-    padding: 30px 20px;
-  }
 }
