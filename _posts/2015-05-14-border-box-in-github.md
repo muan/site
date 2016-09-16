@@ -18,7 +18,7 @@ The main problem was that it wasn't easy to find out which bit of code would nee
 
 But every once in a while, you get a new designer onboard, say, someone like me, trying to disturb the water. In my first month, I sent at least 5 pull requests trying to fix box-model weirdnesses in `github/github`.
 
-**We really need it.**
+**We really needed it.**
 
 I learned that the rule was something that all the CSS-writers working in the github.com code base want, and we just needed to find a way to do it and not break the internet (well, github.com) at the same time.
 
