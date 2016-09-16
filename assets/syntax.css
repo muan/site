@@ -6,10 +6,11 @@
 
 .lineno {
   position: absolute;
+  top: -2px;
   margin-left: -54px;
 }
 
-.highlight pre {
+.highlight > pre {
   padding: 0 7px 0 15px; margin: 10px 0 10px 35px;
   border-left: 4px double #eee;
   overflow: auto;
