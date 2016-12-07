@@ -1,19 +1,20 @@
 <!doctype>
-<html>
+<html lang="en">
   <head>
     {% include head.html %}
   </head>
   <body>
     <header class="header" data-pjax>
       <a href="/" class="home js-head" aria-label="Go to home page and switch emoji">&nbsp;</a>
+      <h1 class="sr-only">muan.co</h1>
     </header>
 
     <div class="wrapper">
       {% unless page.date %}
       <div class="sidebar">
-        <h3>
+        <h2>
           Hello hi!
-        </h3>
+        </h2>
         <p>
           I'm Mu-An. I love building things with code.
         </p>
@@ -21,7 +22,7 @@
           I work at <a href="https://github.com/"><mark>GitHub</mark></a> as a designer and developer.
           I co-founded and built <a href="https://www.zeczec.com/"><mark>zeczec</mark></a>, a crowdfunding site.
         </p>
-        <h3 class="title-pictures">Pictures with fun facts.</h3>
+        <h2 class="title-pictures">Pictures with fun facts.</h2>
         <div class="photos">
           <a href="https://instagram.com/p/S1diYTJarJ/" class="p-1 photo" target="_blank"><img alt="I lived in the U.K. for 5 years." src="/images/brixton.jpg"></a>
           <a href="https://instagram.com/p/rDq_yxpal4/" class="p-2 photo" target="_blank"><img alt="A Taiwanese breakfast item – danbing." src="/images/danbing.jpg"></a>
@@ -33,7 +34,7 @@
           <div class="caption c-4">I started playing bass 10 years ago.</div>
         </div>
 
-        <h3 class="title-contact">Contact &amp; Interwebs.</h3>
+        <h2 class="title-contact">Contact &amp; Interwebs.</h2>
         <p>
           Via twitter <a href="https://twitter.com/muanchiou">@muanchiou</a> or github <a href="https://github.com/muan">@muan</a>. Must-be-email emails should be sent to hi#muan.co.
         </p>
@@ -52,7 +53,7 @@
         {% if page.date %}
           <article>
             <header class="post-header">
-              <h3 class="post-title">{{ page.title }}</h3>
+              <h2 class="post-title">{{ page.title }}</h2>
               {% if page.date %}
                 <small>
                   {{ page.date | date_to_string }} -

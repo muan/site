@@ -15,12 +15,12 @@ code {
   font-family: 'Cutive Mono', "YuMincho", monospace;
 }
 
-h3, .name {
+h2, .name {
   font-family: "Halant";
   font-weight: normal;
 }
 
-h3 {
+h2 {
   background: url('fun-line.png') 0 100% no-repeat;
   margin-left: -2px;
   padding-left: 2px;
@@ -50,7 +50,7 @@ a {
   }
 }
 
-h3 {
+h2 {
   margin-top: 50px;
 
   &:first-child {
@@ -179,7 +179,7 @@ article img:not(.emoji) {
     font-size: 12px;
     margin-top: -8px;
     display: block;
-    color: #999;
+    color: #767676;
   }
 }
 
@@ -200,4 +200,9 @@ blockquote {
 
   p:first-child { margin-top: 0; }
   p:last-child { margin-bottom: 0; }
+}
+
+.sr-only {
+  position: absolute;
+  left: -99999px;
 }
