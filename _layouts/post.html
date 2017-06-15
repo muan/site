@@ -4,44 +4,43 @@
     {% include head.html %}
   </head>
   <body>
-    <header class="header" data-pjax>
+    <header class="header">
       <h1><a href="/" class="js-head" aria-label="Home">&nbsp;</a> Mu-An Chiou</h1>
+      <button class="js-toggle-dark-mode" type="button">Dark mode</button>
     </header>
 
     <div class="wrapper">
-      <div class="column js-content">
-        {% if page.date %}
-          <article>
-            <header class="post-header">
-              <h2>{{ page.title }}</h2>
-              {% if page.date %}
-                <small>
-                  {{ page.date | date_to_string }} -
-                  by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
-                </small>
-              {% endif %}
-            </header>
-            {{ content }}
-          </article>
-          <div class="pagination" data-pjax>
-            {% if page.previous %}
-              <div><a class="page-nav" href="{{ page.previous.url }}" id="js-previous-post">
-                &lt; {{ page.previous.title }}
-              </a></div>
+      {% if page.date %}
+        <article>
+          <header class="post-header">
+            <h2>{{ page.title }}</h2>
+            {% if page.date %}
+              <small>
+                {{ page.date | date_to_string }} -
+                by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
+              </small>
             {% endif %}
-            {% if page.next %}
-              <div><a class="page-nav" href="{{ page.next.url }}" id="js-next-post">
-                {{ page.next.title }} &gt;
-              </a></div>
-            {% endif %}
-          </div>
-        {% else %}
+          </header>
           {{ content }}
-        {% endif %}
-      </div>
+        </article>
+        <div class="pagination">
+          {% if page.previous %}
+            <div><a class="page-nav" href="{{ page.previous.url }}" id="js-previous-post">
+              &lt; {{ page.previous.title }}
+            </a></div>
+          {% endif %}
+          {% if page.next %}
+            <div><a class="page-nav" href="{{ page.next.url }}" id="js-next-post">
+              {{ page.next.title }} &gt;
+            </a></div>
+          {% endif %}
+        </div>
+      {% else %}
+        {{ content }}
+      {% endif %}
     </div>
     <footer class="footer">
-      The end.
+      The end.&middot;
     </footer>
     <script src='/assets/stuff.js' type='text/javascript'></script>
   </body>

@@ -1,9 +1,40 @@
 ---
+modes:
+  light:
+    foreground: "#353735"
+    background: "#fdfdfd"
+    link_foreground: "#070c10"
+    mark_background: "#efefef"
+  dark:
+    foreground: "#fdfdfd"
+    background: "#1b1b1b"
+    link_foreground: "#fafff7"
+    mark_background: "#303030"
 ---
 
+.dark-mode {
+  color: {{ page.modes.dark.foreground }};
+  background: {{ page.modes.dark.background }};
+
+  mark {
+    color: {{ page.modes.dark.foreground }};
+    background: {{ page.modes.dark.mark_background }};
+  }
+
+  a {
+    color: {{ page.modes.dark.link_foreground }};
+  }
+
+  button {
+    background-color: {{ page.modes.dark.foreground }};
+    color: {{ page.modes.dark.background }};
+    border: 0;
+  }
+}
+
 body {
-  background: #fdfdfd;
-  color: #353735;
+  background: {{ page.modes.light.background }};
+  color: {{ page.modes.light.foreground }};
   padding: 1em;
   line-height: 1.8em;
   font-family: 'Droid Sans Mono', monospace;
@@ -37,11 +68,16 @@ p {
 }
 
 a {
-  color: #070c10;
+  color: {{ page.modes.light.link_foreground }};
+
+  &:visited:before {
+    content: "✔️ ";
+  }
 }
 
 mark {
-  background-color: #efefef;
+  color: {{ page.modes.light.foreground }};
+  background-color: {{ page.modes.light.mark_background }};
   padding: 0 0.3em;
 
   a { text-decoration: none; }
@@ -83,18 +119,18 @@ article img:not(.emoji) {
 
 .list {
   margin-top: 0.8em;
-  padding-left: 15px;
-  list-style-image: url('x.png');
+  padding-left: 1.5em;
+  list-style: none;
+}
 
-  li {
-    padding: 0;
-    margin-bottom: 15px;
-  }
+li {
+  padding: 0;
+  margin-bottom: 15px;
 
-  a {
-    &:visited:before {
-      content: "✔️ ";
-    }
+  &:before {
+    content: '•';
+    position: absolute;
+    margin-left: -1.5em;
   }
 }
 
@@ -105,14 +141,20 @@ img {
 hr {
   margin: 40px 70% 40px 0;
   border: 0;
-  border-top: 1px solid #353735;
+  border-top: 1px solid;
 }
 
 blockquote {
   margin: 40px 0px;
   padding: 0 1em;
-  border-left: 4px double #ddd;
+  border-left: 4px double;
 
   p:first-child { margin-top: 0; }
   p:last-child { margin-bottom: 0; }
+}
+
+button {
+  background-color: {{ page.modes.light.foreground }};
+  color: {{ page.modes.light.background }};
+  border: 0;
 }
