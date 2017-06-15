@@ -1,4 +1,4 @@
-title:            "@muanchiou"
+title:            "muan.co"
 url:              http://muan.co
 permalink:        pretty
 google_analytics: UA-21332781-7
@@ -8,4 +8,4 @@ sass:
   style: :compressed
 gems:
   - jemoji
-  
+
