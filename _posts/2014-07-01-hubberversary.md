@@ -26,7 +26,7 @@ The Education site took way longer than I had expected, because of which I was f
 
 The thought of _"Ugh, \[\_\_\_\_\_\] must think I am an idiot. Gonna hide in a hole and never come out."_ pops into my head constantly.
 
-In the process, there were times when I feel so overwhelmed and frustrated that I thought I should stop pretending I am good enough to be here, all this faking just wasn't going to cut it. Sounds familiar? the ever so annoying Impostor Syndrome.
+In the process, there were times when I feel so overwhelmed and frustrated that I thought I should stop pretending I was good enough to be here. All this faking just wasn't going to cut it. Sounds familiar? the ever so annoying Impostor Syndrome.
 
 But, I am all good now.
 

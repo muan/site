@@ -2,65 +2,55 @@
 layout: post
 ---
 
-<h2 class="title-works">Fun open source projects.</h2>
 <ul class="list">
-  <li>
-    <a href="http://github.com/muan/confetti/releases" target="_blank">
-      confetti
-    </a><br>
-    A menubar app that serves as the single source of truth for a question humankind has been asking for centuries – who's awesome? <a href="https://github.com/muan/confetti" target="_blank">confetti on GitHub</a>.
+  <li>Web Systems Engineer at <mark><a href="https://github.com/">GitHub</a></mark> since 2013, previously Product Designer</li>
+  <li>Cofounded <mark><a href="https://www.zeczec.com/">嘖嘖 zeczec.com</a></mark> in 2011</li>
+  <li>Design &times; Ruby &times; JavaScript &times; Accessibility &times; CSS</li>
+  <li>Studied furniture design and then worked in England in 2009-2013. <a href="https://www.instagram.com/p/b4Gsh4paqI/">[pic]</a></li>
+  <li>This is for breakfast – 蛋餅 /dàn bǐng/. <a href="https://instagram.com/p/rDq_yxpal4/">[pic]</a></li>
+  <li>I play bass. <a href="https://instagram.com/p/joCAsOJakQ/">[pic]</a></li>
+  <li>@muanchiou at <mark><a href="https://twitter.com/muanchiou">Twitter</a></mark></li>
+  <li>@muanchiou at <mark><a href="https://instagram.com/muanchiou">Instagram</a></mark></li>
+  <li>@muan at <mark><a href="https://github.com/muan">GitHub</a></mark></li>
+  <li>@muan at <mark><a href="https://dribbble.com/muan">Dribbble</a></mark></li>
+  <li>@muan at <mark><a href="https://tinyletter.com/muan">Tinyletter</a></mark></li>
+  <li><mark>hi@</mark> this domain via email</li>
+  <li>Projects
+    <ul class="list">
+      <li>
+        <a href="https://github.com/muan/romanize-names">romanize-names</a> romanizes Traditional Chinese / Taiwanese names. There are 4 different officially recognized spellings for my surname.
+      </li>
+      <li>
+        <a href="http://github.com/muan/mojibar">mojibar</a> is a menubar app that lets you search for emoji with keywords.
+      </li>
+      <li>
+        <a href="http://muan.co/emoji-minesweeper">emoji-minesweeper</a> 💣 is self explainatory.
+      </li>
+      <li>
+        <a href="https://github.com/muan/github-gmail">github-gmail</a> is a Chrome/Firefox extension that adds shortcuts for GitHub notification links in Gmail.
+      </li>
+      <li>
+        <a href="http://emoji.muan.co">emoji.muan.co</a> lets you search for emoji with keywords. No one remembers what 🔪 is called.
+      </li>
+      <li>
+        <a href="http://github.com/muan/confetti">confetti</a> is a menubar app that serves as the single source of truth for a question humankind has been asking for centuries – who's awesome?
+      </li>
+      <li>
+        <a href="http://megamoji.muan.co">megamoji</a> is like Microsoft Paint but with emoji.
+      </li>
+      <li>
+        <a href="https://github.com/muan/submarine">submarine</a> is a node module that generates an index and content pages from a directory of markdown files.
+      </li>
+    </ul>
   </li>
-  <li>
-    <a href="https://github.com/muan/romanize-names" target="_blank">
-      romanize-names
-    </a><br>
-    Romanizing Traditional Chinese / Taiwanese names. There are 4 different spellings for my surname, some more popular than others. People often assume I typoed. NO, I DIDN'T.
+  <li>Posts
+    <ul class="list">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <time>{{ post.date | date: "%b %d, %Y" }}</time>
+      </li>
+      {% endfor %}
+    </ul>
   </li>
-  <li>
-    <a href="http://github.com/muan/mojibar/releases" target="_blank">
-      mojibar
-    </a><br>
-    Just like my <a href="http://emoji.muan.co" target="_blank">emoji searcher</a>, but as a menubar app. <a href="https://github.com/muan/mojibar" target="_blank">mojibar on GitHub</a>.
-  </li>
-  <li>
-    <a href="http://muan.co/emoji-minesweeper" target="_blank">
-      emoji-minesweeper
-    </a><br>
-    💣💣💣💣 most fun project of the year 2015. <a href="https://github.com/muan/emoji-minesweeper" target="_blank">emoji-minesweeper on GitHub</a>.
-  </li>
-  <li>
-    <a href="https://github.com/muan/github-gmail" target="_blank">
-      github-gmail
-    </a><br>
-    A Chrome/Firefox extension that adds shortcuts for links in your GitHub notifications in Gmail.
-  </li>
-  <li>
-    <a href="http://emoji.muan.co" target="_blank">
-      emoji
-    </a><br>
-    Search engine for emoji using whatever keywords you can think of. No one remembers what 🔪 is called. <a href="https://github.com/muan/emoji" target="_blank">emoji on GitHub</a>.
-  </li>
-  <li>
-    <a href="http://megamoji.muan.co" target="_blank">
-      megamoji
-    </a><br>
-    Microsoft Paint but with emoji. <a href="https://github.com/muan/megamoji" target="_blank">megamoji on GitHub</a>.
-  </li>
-  <li>
-    <a href="https://github.com/muan/submarine" target="_blank">
-      submarine
-    </a><br>
-    A node module that generates an index and content pages from a directory of markdown files. <del>Basically Jekyll but in node</del>.
-  </li>
-</ul>
-<h2>Writings.</h2>
-<ul class="list" data-pjax>
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">
-      {{ post.title }}
-      <time>{{ post.date | date: "%b %d, %Y" }}</time>
-    </a>
-  </li>
-  {% endfor %}
 </ul>

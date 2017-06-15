@@ -2,30 +2,29 @@
 ---
 
 body {
-  padding: 0;
-  margin: 30px 0;
+  background: #fdfdfd;
+  color: #353735;
+  padding: 1em;
   line-height: 1.8em;
-  font-family: 'Cutive Mono', "YuMincho", monospace;
-  font-size: 16px;
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 13px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
 }
 
-code {
-  font-family: 'Cutive Mono', "YuMincho", monospace;
-}
-
-h2, .name {
-  font-family: "Halant";
-  font-weight: normal;
+code,
+button {
+  font-family: 'Droid Sans Mono', monospace;
 }
 
 h2 {
-  background: url('fun-line.png') 0 100% no-repeat;
-  margin-left: -2px;
-  padding-left: 2px;
-  background-size: 20px;
+  font-weight: normal;
   font-size: 1.2em;
+  margin-top: 50px;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 p {
@@ -38,34 +37,14 @@ p {
 }
 
 a {
-  color: #1D75AB;
-  text-decoration: none;
-
-  &.page-nav {
-    white-space: nowrap;
-    margin-right: 30px;
-    padding: 0 10px;
-    border-bottom: 1px solid #489CCB;
-    font-size: 0.8em;
-  }
-}
-
-h2 {
-  margin-top: 50px;
-
-  &:first-child {
-    margin-top: 0;
-  }
-}
-
-.post-title {
-  background: none;
-  margin: 0;
-  font-size: 1.5em;
+  color: #070c10;
 }
 
 mark {
-  background-color: #F5FFCD;
+  background-color: #efefef;
+  padding: 0 0.3em;
+
+  a { text-decoration: none; }
 }
 
 div, a, img, header, footer {
@@ -76,8 +55,8 @@ div, a, img, header, footer {
 .footer,
 .wrapper {
   width: 100%;
-  margin: 0 auto;
-  max-width: 660px;
+  margin: auto;
+  max-width: 600px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -88,22 +67,8 @@ div, a, img, header, footer {
   padding-bottom: 30px;
 }
 
-.wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .post-header {
-  &:after {
-    display: block;
-    content: "";
-    background: url('fun-line.png') no-repeat;
-    height: 5px;
-    width: 20px;
-    background-size: 100%;
-    margin: 30px 0;
-  }
+  margin: 30px 0;
 }
 
 .post-header,
@@ -112,77 +77,24 @@ article {
 }
 
 article img:not(.emoji) {
-  padding: 20px;
-  border: 1px solid #eee;
-}
-
-.photos,
-.caption {
-  &:before, &:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-}
-
-.photos {
-  position: relative;
-  margin-bottom: 15px;
-}
-
-.photo {
-  display: inline-block;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  float: left;
-
-  img {
-    background-color: #f0f0f0;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-  }
-
-  &.p-1:hover ~ .c-1,
-  &.p-2:hover ~ .c-2,
-  &.p-3:hover ~ .c-3,
-  &.p-4:hover ~ .c-4 {
-    display: block;
-  }
-}
-
-.caption {
-  display: none;
-  top: 100%;
-  line-height: 1;
-  font-size: 0.8em;
-  position: absolute;
+  padding: 10px;
+  background: #fff;
 }
 
 .list {
+  margin-top: 0.8em;
   padding-left: 15px;
   list-style-image: url('x.png');
 
   li {
     padding: 0;
-    font-size: 0.9em;
-    color: #4B4640;
     margin-bottom: 15px;
   }
 
   a {
-    font-weight: bold;
-
     &:visited:before {
       content: "✔️ ";
     }
-  }
-
-  time {
-    font-size: 12px;
-    margin-top: -8px;
-    display: block;
-    color: #767676;
   }
 }
 
@@ -193,19 +105,14 @@ img {
 hr {
   margin: 40px 70% 40px 0;
   border: 0;
-  border-top: 1px solid #A6D2E2;
+  border-top: 1px solid #353735;
 }
 
 blockquote {
   margin: 40px 0px;
-  padding: 10px 20px 10px 50px;
+  padding: 0 1em;
   border-left: 4px double #ddd;
 
   p:first-child { margin-top: 0; }
   p:last-child { margin-bottom: 0; }
-}
-
-.sr-only {
-  position: absolute;
-  left: -99999px;
 }

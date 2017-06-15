@@ -7,7 +7,7 @@ At 19, I moved to the UK to get my bachelor degree. I scored 108 out of 120 in T
 
 I struggled to understand the words coming out of my classmates' mouths, struggled to keep up, and struggled to form any responses. Even when I barely understood and replied, they seldom got what I was saying.
 
-It was very frustrating. It got more so when I started double, triple check the words I was using, and the grammar of every single sentence, to no avail. Even when I thought I said everything right, they still did not understand me.
+It was very frustrating. It got more so when I started to double, triple check the words I was using, and the grammar of every single sentence, to no avail. Even when I thought I said everything right, they still did not understand me.
 
 Was it my non-British accent? Or was it that the English ability I was proud of simply wasn't enough?
 
