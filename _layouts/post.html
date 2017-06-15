@@ -5,11 +5,11 @@
   </head>
   <body>
     <header class="header">
-      <h1><span class="js-head"></span> Mu-An Chiou</h1>
+      <h1><span class="js-random-emoji"></span> Mu-An Chiou</h1>
       <button class="js-toggle-dark-mode" type="button">Dark mode</button>
     </header>
 
-    <div class="wrapper">
+    <main class="wrapper">
       {% if page.date %}
         <article>
           <header class="post-header">
@@ -38,7 +38,7 @@
       {% else %}
         {{ content }}
       {% endif %}
-    </div>
+    </main>
     <footer class="footer">
       The end.&middot;
     </footer>
