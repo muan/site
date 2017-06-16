@@ -23,6 +23,11 @@ modes:
 
   a {
     color: {{ page.modes.dark.link_foreground }};
+
+    &:hover {
+      background: {{ page.modes.dark.foreground }};
+      color: {{ page.modes.dark.background }};
+    }
   }
 
   button {
@@ -69,14 +74,19 @@ p {
 
 a {
   color: {{ page.modes.light.link_foreground }};
+
+  &:hover {
+    text-decoration: none;
+    background: {{ page.modes.light.foreground }};
+    color: {{ page.modes.light.background }};
+  }
 }
 
 mark {
   color: {{ page.modes.light.foreground }};
   background-color: {{ page.modes.light.mark_background }};
-  padding: 0 0.3em;
 
-  a { text-decoration: none; }
+  a { text-decoration: none; padding: 0 0.3em; }
 }
 
 div, a, img, header, footer, main {
