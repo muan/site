@@ -69,10 +69,6 @@ p {
 
 a {
   color: {{ page.modes.light.link_foreground }};
-
-  &:visited:before {
-    content: "✔️ ";
-  }
 }
 
 mark {
