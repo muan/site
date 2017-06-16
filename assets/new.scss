@@ -35,6 +35,14 @@ modes:
     color: {{ page.modes.dark.background }};
     border: 0;
   }
+
+  .highlight {
+    background-color: {{ page.modes.dark.foreground}};
+  }
+
+  code, pre {
+    color: {{ page.modes.dark.background }}
+  }
 }
 
 body {
