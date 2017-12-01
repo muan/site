@@ -31,9 +31,8 @@ modes:
   }
 
   button {
-    background-color: {{ page.modes.dark.foreground }};
-    color: {{ page.modes.dark.background }};
-    border: 0;
+    &::before {content: 'Not '}
+    color: {{ page.modes.dark.foreground }};
   }
 
   .highlight {
@@ -50,7 +49,7 @@ body {
   color: {{ page.modes.light.foreground }};
   padding: 1em;
   line-height: 1.8em;
-  font-family: 'Droid Sans Mono', monospace;
+  font-family: Cousine, monospace;
   font-size: 13px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
@@ -58,11 +57,10 @@ body {
 
 code,
 button {
-  font-family: 'Droid Sans Mono', monospace;
+  font-family: Cousine, monospace;
 }
 
 h2 {
-  font-weight: normal;
   font-size: 1.2em;
   margin-top: 50px;
 
@@ -105,16 +103,10 @@ div, a, img, header, footer, main {
 .footer,
 .wrapper {
   width: 100%;
-  margin: auto;
+  margin: 0 0 30px;
   max-width: 600px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.footer,
-.header {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .post-header {
@@ -168,11 +160,17 @@ blockquote {
 }
 
 button {
-  background-color: {{ page.modes.light.foreground }};
-  color: {{ page.modes.light.background }};
-  border: 0;
+  padding: 2px 3px;
+  border-radius: 0;
+  border: 1px solid;
+  background: transparent;
+  color: {{ page.modes.light.foreground }};
 }
 
 .no-underline {
   text-decoration: none;
+}
+
+.as-text {
+  font-size: inherit;
 }

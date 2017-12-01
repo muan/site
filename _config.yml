@@ -6,6 +6,3 @@ timezone:         Asia/Taipei
 sass:
   sass_dir: assets
   style: :compressed
-gems:
-  - jemoji
-
