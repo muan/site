@@ -2,7 +2,7 @@
 
 This is where Mu-An writes her stuff and messes around every once in a while. See the messes [here](https://github.com/muan/muan.github.com/releases).
 
-## Complie
+## Development
 
 ```
 $ gem install github-pages
