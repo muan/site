@@ -1,12 +1,12 @@
-const emoji = ["🐝", "🌵", "🐧", "🥑", "🍅", "🏡", "👩‍💻", "🎮"]
-const randomEmoji = document.querySelector(".js-random-emoji")
+const emoji = ['🐝', '🌵', '🐧', '🥑', '🍅', '🏡', '👩‍💻', '🎮']
+const randomEmoji = document.querySelector('.js-random-emoji')
 
 if (randomEmoji) {
   randomEmoji.textContent = emoji[Math.floor(Math.random() * emoji.length)]
 }
 
 const supportsLocalStorage = 'localStorage' in window
-const darkModeButton = document.querySelector(".js-toggle-dark-mode")
+const darkModeButton = document.querySelector('.js-toggle-dark-mode')
 
 if (darkModeButton) {
   darkModeButton.addEventListener('click', switchMode)
@@ -25,5 +25,3 @@ function switchMode () {
     on ? localStorage.setItem('darkMode', true) : localStorage.removeItem('darkMode')
   }
 }
-
-_gaq.push(['_trackPageview'])
