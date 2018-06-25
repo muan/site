@@ -50,9 +50,14 @@ body {
   padding: 1em;
   line-height: 1.8em;
   font-family: Cousine, monospace;
-  font-size: 13px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
+}
+
+:focus {
+  outline: 1px solid #a22308;
+  outline-offset: 4px;
 }
 
 code,
