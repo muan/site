@@ -50,14 +50,23 @@ body {
   padding: 1em;
   line-height: 1.8em;
   font-family: Cousine, monospace;
-  font-size: 14px;
+  font-size: 13px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
 }
 
 :focus {
-  outline: 1px solid #a22308;
+  outline: 1px solid #79d688;
   outline-offset: 4px;
+}
+
+details {
+  margin: 1em 0;
+}
+
+summary::-webkit-details-marker {
+  font-size: 0.8em;
+  margin-right: 0.8em;
 }
 
 code,
@@ -109,7 +118,7 @@ div, a, img, header, footer, main {
 .wrapper {
   width: 100%;
   margin: 0 0 30px;
-  max-width: 600px;
+  max-width: 50em;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -129,6 +138,7 @@ article img:not(.emoji) {
 }
 
 .list {
+  margin-left: 1.5em;
   margin-top: 0.8em;
   padding-left: 1.5em;
   list-style: none;
@@ -177,5 +187,6 @@ button {
 }
 
 .as-text {
+  display: inline;
   font-size: inherit;
 }
