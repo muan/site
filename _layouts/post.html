@@ -1,23 +1,25 @@
 <!doctype>
 <html lang="en">
   <head>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <link rel="alternate" type="application/rss+xml" href="/notes.xml">
+    <link rel="shortcut icon" href="/assets/fav.png">
     {% if page.date %}
-      <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
-      <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
-      <meta content="article" property="og:type" />
-      <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+      <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property="og:description">
+      <meta content="article" property="og:type">
+      <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
       {% if page.image %}
-        <meta content="http://muan.co/images/{{ page.image }}" property="og:image" />
+        <meta content="http://muan.co/images/{{ page.image }}" property="og:image">
       {% endif %}
       <title>{{ page.title }} - {{ site.title }}</title>
     {% else %}
       <title>{{ site.title }}</title>
-      <meta content='{{ site.title }}' property='og:title' />
-      <meta content='{{ site.url }}' property='og:url' />
-      <meta content="{{ site.description }}" property='og:description' />
-      <meta content="blog" property="og:type" />
+      <meta content="{{ site.title }}" property="og:title">
+      <meta content="{{ site.url }}" property="og:url">
+      <meta content="{{ site.description }}" property="og:description">
+      <meta content="blog" property="og:type">
     {% endif %}
     <!-- - -->
   </head>
@@ -32,12 +34,9 @@
       {% if page.date %}
         <article>
           <header class="post-header">
-            <h2>{{ page.title }}</h2>
+            <h2 class="post-title">{{ page.title }}</h2>
             {% if page.date %}
-              <small>
-                {{ page.date | date_to_string }} -
-                by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>
-              </small>
+              <small>{{ page.date | date_to_string }}</small>
             {% endif %}
           </header>
           {{ content }}
@@ -61,16 +60,16 @@
     <footer class="footer">
       That's all.
     </footer>
-    <script src='/assets/stuff.js' type='text/javascript'></script>
-    <link href='/assets/new.css' rel='stylesheet' type='text/css' />
-    <link href='https://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
+    <script src="/assets/stuff.js" type="text/javascript"></script>
+    <link href="/assets/new.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cousine:400,700" rel="stylesheet" type="text/css">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21332781-7"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-21332781-7');
+      gtag("js", new Date());
+      gtag("config", "UA-21332781-7");
     </script>
   </body>
 </html>

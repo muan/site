@@ -5,3 +5,5 @@ timezone:         Asia/Taipei
 sass:
   sass_dir: assets
   style: :compressed
+collections:
+  - notes

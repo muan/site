@@ -25,3 +25,11 @@ function switchMode () {
     on ? localStorage.setItem('darkMode', true) : localStorage.removeItem('darkMode')
   }
 }
+
+document.addEventListener('mousedown', setIntent)
+document.addEventListener('keydown', setIntent)
+
+function setIntent(event) {
+  document.body.classList.toggle('mousedown', 'mousedown' === event.type)
+  document.body.classList.toggle('keydown', 'keydown' === event.type)
+}

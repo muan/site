@@ -33,6 +33,7 @@ modes:
   button {
     &::before {content: 'Not '}
     color: {{ page.modes.dark.foreground }};
+    background-color: {{ page.modes.dark.mark_background }};
   }
 
   .highlight {
@@ -41,6 +42,11 @@ modes:
 
   code, pre {
     color: {{ page.modes.dark.background }}
+  }
+
+  li:not(:last-child) .note {
+    border-bottom: 1px solid {{ page.modes.dark.mark_background }};
+    margin-bottom: 1em;
   }
 }
 
@@ -56,6 +62,10 @@ body {
 }
 
 :focus {
+  outline: none;
+}
+
+.keydown *:focus {
   outline: 1px solid #79d688;
   outline-offset: 4px;
 }
@@ -127,6 +137,11 @@ div, a, img, header, footer, main {
   margin: 30px 0;
 }
 
+.post-title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
 .post-header,
 article {
   margin-bottom: 30px;
@@ -137,23 +152,31 @@ article img:not(.emoji) {
   background: #fff;
 }
 
-.list {
-  margin-left: 1.5em;
+.list-notes {
+  margin-left: 1em;
   margin-top: 0.8em;
-  padding-left: 1.5em;
+  padding-left: 0;
   list-style: none;
 }
 
-li {
-  padding: 0;
-  margin-bottom: 15px;
+.list {
+  margin-left: 2.5em;
+  margin-top: 0.8em;
+  padding-left: 0;
+  list-style: none;
 
-  &:before {
-    content: '•';
-    position: absolute;
-    margin-left: -1.5em;
+  li {
+    padding: 0;
+    margin-bottom: 15px;
+
+    &:before {
+      content: '•';
+      position: absolute;
+      margin-left: -1.5em;
+    }
   }
 }
+
 
 img {
   max-width: 100%;
@@ -177,9 +200,11 @@ blockquote {
 button {
   padding: 2px 3px;
   border-radius: 0;
-  border: 1px solid;
+  border: 0;
   background: transparent;
   color: {{ page.modes.light.foreground }};
+  background-color: {{ page.modes.light.mark_background }};
+  cursor: pointer;
 }
 
 .no-underline {
@@ -189,4 +214,16 @@ button {
 .as-text {
   display: inline;
   font-size: inherit;
+}
+
+.note {
+  li:not(:last-child) & {
+    border-bottom: 1px solid {{ page.modes.light.mark_background }};
+    margin-bottom: 1em;
+  }
+  p:first-child { margin-top: 0; }
+}
+
+.small {
+  font-size: 0.8em;
 }

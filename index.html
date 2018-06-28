@@ -4,14 +4,14 @@ layout: post
 
 <details open>
   <summary><h2 class="as-text">Right now</h2></summary>
-  <ul class="list">
+  <ul class="list list-items">
     <li>2013 ~ Web Systems Engineer at <mark><a href="https://github.com/">GitHub</a></mark>, previously Product Designer</li>
     <li>2011 ~ Cofounder of <mark><a href="https://www.zeczec.com/">嘖嘖</a></mark></li>
   </ul>
 </details>
 <details>
   <summary><h2 class="as-text">Fun facts</h2></summary>
-  <ul class="list">
+  <ul class="list list-items">
     <li>Based in <a href="https://www.instagram.com/p/BiYly8pF9Nu/">New York</a> since 2018</li>
     <li>Studied and worked in <a href="https://www.instagram.com/p/WZ7xGEJarC/">England</a> in 2009-2013</li>
     <li>Majored in <a href="https://www.behance.net/muan">Interior Products Design</a></li>
@@ -22,7 +22,7 @@ layout: post
 </details>
 <details>
   <summary><h2 class="as-text">Open source projects</h2></summary>
-  <ul class="list">
+  <ul class="list list-items">
     <li>
       <a href="https://muan.github.io/sq">sq</a> is a web app for making non-square pictures square. Works on iOS.
     </li>
@@ -57,11 +57,12 @@ layout: post
 </details>
 <details>
   <summary><h2 class="as-text">Social~*</h2></summary>
-  <ul class="list">
+  <ul class="list list-items">
     <li>
-      <mark><a href="https://twitter.com/muanchiou">Twitter</a></mark>,
-      <mark><a href="https://instagram.com/muanchiou">Instagram</a></mark>,
+      By level of activity:
       <mark><a href="https://github.com/muan">GitHub</a></mark>,
+      <mark><a href="https://instagram.com/muanchiou">Instagram</a></mark>,
+      <mark><a href="https://twitter.com/muanchiou">Twitter</a></mark>,
       <mark><a href="https://dribbble.com/muan">Dribbble</a></mark>,
       <mark><a href="https://tinyletter.com/muan">Tinyletter</a></mark>
     </li>
@@ -69,8 +70,23 @@ layout: post
   </ul>
 </details>
 <details>
+  <summary><h2 class="as-text">Not tweets</h2> <a class="small" href="/notes.xml">[xml]</a></summary>
+
+  <ul class="list-notes">
+    {% for note in site.data.notes limit: 3 %}
+      <li>
+        <time class="small">{{ note.date | date: "%b %d, %Y" }}</time>
+        <div class="note">{{ note.content | markdownify }}</div>
+      </li>
+    {% endfor %}
+    {% if site.data.notes.size > 3 %}
+      <li><a class="small" href="/notes.xml">More in this feed.</a></li>
+    {% endif %}
+  </ul>
+</details>
+<details hidden>
   <summary><h2 class="as-text">Posts</h2></summary>
-  <ul class="list">
+  <ul class="list list-items">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
