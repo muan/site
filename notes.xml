@@ -9,6 +9,7 @@ layout:
     <description>notes</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/notes.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>{{ site.data.notes.first.date | date_to_rfc822 }}</lastBuildDate>
     {% for note in site.data.notes limit: 10 %}
       <item>
         <title>{{ note.date | date: "%b %d, %Y" }}</title>

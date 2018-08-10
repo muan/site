@@ -1,7 +1,7 @@
 title:            "muan.co"
 url:              https://muan.co
 permalink:        pretty
-timezone:         Asia/Taipei
+timezone:         America/New_York
 sass:
   sass_dir: assets
   style: :compressed
