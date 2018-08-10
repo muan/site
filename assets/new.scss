@@ -44,9 +44,8 @@ modes:
     color: {{ page.modes.dark.foreground }}
   }
 
-  li:not(:last-child) .note {
+  .note:not(:last-child) {
     border-bottom: 1px solid {{ page.modes.dark.mark_background }};
-    margin-bottom: 1em;
   }
 }
 
@@ -154,7 +153,7 @@ article img:not(.emoji) {
 
 .list-notes {
   margin-left: 1em;
-  margin-top: 0.8em;
+  margin-top: 0;
   padding-left: 0;
   list-style: none;
 }
@@ -217,11 +216,22 @@ button {
 }
 
 .note {
-  li:not(:last-child) & {
+  &:not(:last-child) {
     border-bottom: 1px solid {{ page.modes.light.mark_background }};
-    margin-bottom: 1em;
   }
+
+  &:target {
+    margin: 0 -0.8em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    outline: 1px solid #d0c548;
+    border-bottom: 0;
+  }
+
   p:first-child { margin-top: 0; }
+  p:last-child { margin-bottom: 0; }
+
+  padding: 0.8em 0;
 }
 
 .small {

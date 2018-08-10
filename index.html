@@ -70,17 +70,17 @@ layout: post
   </ul>
 </details>
 <details>
-  <summary><h2 class="as-text">Not tweets</h2> <a class="small" href="/notes.xml">[xml]</a></summary>
+  <summary><h2 class="as-text">Not tweets</h2> <a class="small" href="/notes.xml">[feed]</a></summary>
 
   <ul class="list-notes">
     {% for note in site.data.notes limit: 5 %}
-      <li>
+      <li class="note">
         <time class="small">{{ note.date | date: "%b %d, %Y" }}</time>
-        <div class="note">{{ note.content | markdownify }}</div>
+        <div>{{ note.content | markdownify }}</div>
       </li>
     {% endfor %}
     {% if site.data.notes.size > 5 %}
-      <li><a class="small" href="/notes.xml">More in this feed.</a></li>
+      <li><a class="small" href="/notes">More.</a></li>
     {% endif %}
   </ul>
 </details>
