@@ -2,10 +2,12 @@
 layout: post
 ---
 
+<p><img width="100" src="/assets/valid-rss-rogers.png" alt="[Valid RSS]" valign="middle"> <a href="/notes.xml">feed</a></summary> is very valid.</p>
+
 <ul class="list-notes">
   {% for note in site.data.notes %}
     <li class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}">
-      <time class="small">{{ note.date | date: "%b %d, %Y" }}</time>
+      <time class="small">{{ note.date | date: "%b %d, %Y" }}</time> <a href="#date-{{ note.date | date: "%Y-%m-%d" }}" class="small">#</a>
       <div>{{ note.content | markdownify }}</div>
     </li>
   {% endfor %}
