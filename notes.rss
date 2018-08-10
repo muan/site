@@ -12,7 +12,7 @@ layout:
     <lastBuildDate>{{ site.data.notes.first.date | date_to_rfc822 }}</lastBuildDate>
     {% for note in site.data.notes limit: 10 %}
       <item>
-        <title>{{ note.date | date: "%b %d, %Y" }}</title>
+        <title></title>
         <description>{{ note.content | markdownify | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
         <link>https://muan.co/notes#date-{{ note.date | date: "%Y-%m-%d" }}</link>
