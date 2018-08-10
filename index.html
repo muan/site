@@ -73,13 +73,13 @@ layout: post
   <summary><h2 class="as-text">Not tweets</h2> <a class="small" href="/notes.xml">[xml]</a></summary>
 
   <ul class="list-notes">
-    {% for note in site.data.notes limit: 3 %}
+    {% for note in site.data.notes limit: 5 %}
       <li>
         <time class="small">{{ note.date | date: "%b %d, %Y" }}</time>
         <div class="note">{{ note.content | markdownify }}</div>
       </li>
     {% endfor %}
-    {% if site.data.notes.size > 3 %}
+    {% if site.data.notes.size > 5 %}
       <li><a class="small" href="/notes.xml">More in this feed.</a></li>
     {% endif %}
   </ul>
