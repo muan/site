@@ -1,0 +1,21 @@
+---
+layout:
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{% capture srcbase %}src="{{site.url}}/{% endcapture %}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }} notes</title>
+    <description>notes</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/notes.xml" rel="self" type="application/rss+xml" />
+    {% for note in site.data.notes limit: 10 %}
+      <item>
+        <title>{{ note.date | date: "%b %d, %Y" }}</title>
+        <description><![CDATA[{{ note.content | markdownify }}]]></description>
+        <pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <guid isPermaLink="true">https://muan.co/notes#date-{{ note.date | date: "%Y-%m-%d" }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
