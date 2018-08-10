@@ -8,7 +8,7 @@ layout:
     <title>{{ site.title }} notes</title>
     <description>notes</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/notes.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url }}/notes.rss" rel="self" type="application/rss+xml" />
     {% for note in site.data.notes limit: 10 %}
       <item>
         <title>{{ note.date | date: "%b %d, %Y" }}</title>
