@@ -1,4 +1,9 @@
 - date: 2018/08/10
+  slug: -microblog
+  content: |
+    Some combinations of [these commits](https://github.com/muan/site/compare/83949dc...cbfd209) made the feed work on micro blog. 🤷🏻 :itsamystery:
+
+- date: 2018/08/10
   content: |
     Made a [micro.blog/muan](https://micro.blog/muan) but does it work? 🙍🏻
 

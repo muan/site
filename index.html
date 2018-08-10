@@ -75,7 +75,7 @@ layout: post
   <ul class="list-notes">
     {% for note in site.data.notes limit: 5 %}
       <li class="note">
-        <time class="small">{{ note.date | date: "%b %d, %Y" }}</time> <a href="/notes#date-{{ note.date | date: "%Y-%m-%d" }}" class="small">#</a>
+        <time class="small">{{ note.date | date: "%b %d, %Y" }}</time> <a href="/notes#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}" class="small">#</a>
         <div>{{ note.content | markdownify }}</div>
       </li>
     {% endfor %}

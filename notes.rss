@@ -15,8 +15,8 @@ layout:
         <title></title>
         <description>{{ note.content | markdownify | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
-        <link>https://muan.co/notes#date-{{ note.date | date: "%Y-%m-%d" }}</link>
-        <guid isPermaLink="true">https://muan.co/notes#date-{{ note.date | date: "%Y-%m-%d" }}</guid>
+        <link>https://muan.co/notes#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}</link>
+        <guid isPermaLink="true">https://muan.co/notes#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}</guid>
       </item>
     {% endfor %}
   </channel>
