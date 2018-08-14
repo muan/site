@@ -54,14 +54,19 @@ body {
   color: {{ page.modes.light.foreground }};
   padding: 1em;
   line-height: 1.8em;
+  letter-spacing: -0.01em;
   font-family: Cousine, monospace;
-  font-size: 13px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
 }
 
 :focus {
   outline: none;
+}
+
+::selection {
+  background-color: #79d688;
 }
 
 .keydown *:focus {
@@ -126,7 +131,7 @@ div, a, img, header, footer, main {
 .footer,
 .wrapper {
   width: 100%;
-  margin: 0 0 30px;
+  margin: 0 auto 30px;
   max-width: 50em;
   padding-left: 15px;
   padding-right: 15px;
@@ -152,6 +157,7 @@ article img:not(.emoji) {
 }
 
 .list-notes {
+  opacity: 0.85;
   margin-left: 1em;
   margin-top: 0;
   padding-left: 0;
@@ -159,6 +165,7 @@ article img:not(.emoji) {
 }
 
 .list {
+  opacity: 0.85;
   margin-left: 2.5em;
   margin-top: 0.8em;
   padding-left: 0;
@@ -197,8 +204,8 @@ blockquote {
 }
 
 button {
-  padding: 2px 3px;
-  border-radius: 0;
+  padding: 5px 6px 3px;
+  border-radius: 2px;
   border: 0;
   background: transparent;
   color: {{ page.modes.light.foreground }};
@@ -235,5 +242,15 @@ button {
 }
 
 .small {
-  font-size: 0.8em;
+  font-size: 0.9em;
+}
+
+blink {
+  // color: blue;
+  animation: 1s linear infinite condemned_blink_effect;
+}
+@keyframes condemned_blink_effect {
+  0% { visibility: hidden; }
+  50% { visibility: hidden; }
+  100% { visibility: visible; }
 }

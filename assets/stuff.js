@@ -26,10 +26,18 @@ function switchMode () {
   }
 }
 
-document.addEventListener('mousedown', setIntent)
-document.addEventListener('keydown', setIntent)
+var activeElement = document.activeElement
+var nextIntent = 'mousedown'
 
-function setIntent(event) {
-  document.body.classList.toggle('mousedown', 'mousedown' === event.type)
-  document.body.classList.toggle('keydown', 'keydown' === event.type)
+document.addEventListener('mousedown', setNextIntent)
+document.addEventListener('keydown', setNextIntent)
+document.addEventListener('focusout', setIntent)
+
+function setIntent() {
+  document.body.classList.toggle('mousedown', 'mousedown' === nextIntent)
+  document.body.classList.toggle('keydown', 'keydown' === nextIntent)
+}
+
+function setNextIntent(event) {
+  nextIntent = event.type
 }
