@@ -5,6 +5,11 @@ if (randomEmoji) {
   randomEmoji.textContent = emoji[Math.floor(Math.random() * emoji.length)]
 }
 
+const randomDetails = document.querySelectorAll('details')
+if (randomDetails.length > 0) {
+  randomDetails[Math.floor(Math.random() * randomDetails.length)].open = true
+}
+
 const supportsLocalStorage = 'localStorage' in window
 const darkModeButton = document.querySelector('.js-toggle-dark-mode')
 
