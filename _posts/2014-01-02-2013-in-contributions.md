@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 2013 in Contributions
 ---
 

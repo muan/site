@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Git wedding-speech
 date: 2013-07-21 05:43
 ---

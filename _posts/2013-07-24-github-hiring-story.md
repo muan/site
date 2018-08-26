@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 date: 2013-07-24 14:34:00 PST
 title: GitHub Hiring Story
 cover: /images/13072203.png

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 date: 2016-06-06
 title: Moving assets from Dropbox to S3
 ---

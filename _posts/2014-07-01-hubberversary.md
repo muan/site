@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 date: 2014-07-22
 title: Happy Hubberversary
 ---
