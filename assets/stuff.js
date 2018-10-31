@@ -5,34 +5,22 @@ if (randomEmoji) {
   randomEmoji.textContent = emoji[Math.floor(Math.random() * emoji.length)]
 }
 
-const randomDetails = document.querySelectorAll('details')
-if (randomDetails.length > 0) {
-  randomDetails[Math.floor(Math.random() * randomDetails.length)].open = true
-}
-
 const supportsLocalStorage = 'localStorage' in window
-const darkModeButton = document.querySelector('.js-toggle-dark-mode')
-
-if (darkModeButton) {
-  darkModeButton.addEventListener('click', switchMode)
-}
-
+const darkModeCheckbox = document.querySelector('#dark-mode')
 if (supportsLocalStorage) {
+  darkModeCheckbox.addEventListener('change', rememberMode)
   const darkModeOn = localStorage.getItem('darkMode')
-  if (darkModeOn) switchMode()
-}
+  if (darkModeOn) darkModeCheckbox.checked = true
 
-function switchMode () {
-  const on = document.body.classList.toggle('dark-mode')
-  if (darkModeButton) darkModeButton.setAttribute('aria-pressed', on)
-
-  if (supportsLocalStorage) {
-    on ? localStorage.setItem('darkMode', true) : localStorage.removeItem('darkMode')
+  function rememberMode () {
+    darkModeCheckbox.checked ? localStorage.setItem('darkMode', true) : localStorage.removeItem('darkMode')
   }
 }
 
 var activeElement = document.activeElement
 var nextIntent = 'mousedown'
+
+document.body.classList.add('has-js')
 
 document.addEventListener('mousedown', setNextIntent)
 document.addEventListener('keydown', setNextIntent)

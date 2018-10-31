@@ -28,35 +28,58 @@
     <!-- - -->
   </head>
   <body>
-    <header class="header">
-      <h1 class="as-text">
-        <a href="/" class="no-underline"><span class="js-random-emoji"></span> Mu-An Chiou</a>
-      </h1><br>
-      <button class="js-toggle-dark-mode" type="button">Dark mode</button>
-    </header>
-    <main class="wrapper">
-      {% if page.date %}
-        <article>
-          <header class="post-header">
-            <h2 class="post-title">{{ page.title }}</h2>
-            {% if page.date %}
-              <small>{{ page.date | date_to_string }}</small>
+    <input type="checkbox" id="dark-mode" class="dark-mode-checkbox">
+    <label class="dark-mode-label" for="dark-mode">
+      <div class="dark-mode-inner-content">
+        Dark mode
+      </div>
+    </label>
+    <div class="theme">
+      <header class="header">
+        <h1 class="h1">
+          <a href="/" class="no-underline"><span class="js-random-emoji">👩🏻‍💻</span> Mu-An Chiou</a>
+        </h1>
+      </header>
+      <main class="wrapper">
+        {% if page.date %}
+          <article>
+            <header class="post-header">
+              <h2 class="post-title">{{ page.title }}</h2>
+              {% if page.date %}
+                <small>{{ page.date | date_to_string }}</small>
+              {% endif %}
+            </header>
+            {{ content }}
+          </article>
+          <div class="pagination">
+            {% if page.previous %}
+              <div><a class="page-nav" href="{{ page.previous.url }}" id="js-previous-post">
+                &lt; {{ page.previous.title }}
+              </a></div>
             {% endif %}
-          </header>
+            {% if page.next %}
+              <div><a class="page-nav" href="{{ page.next.url }}" id="js-next-post">
+                {{ page.next.title }} &gt;
+              </a></div>
+            {% endif %}
+          </div>
+        {% else %}
           {{ content }}
         </article>
-        <div class="pagination">
-          {% if page.previous %}
-            <div><a class="page-nav" href="{{ page.previous.url }}" id="js-previous-post">
-              &lt; {{ page.previous.title }}
-            </a></div>
-          {% endif %}
-          {% if page.next %}
-            <div><a class="page-nav" href="{{ page.next.url }}" id="js-next-post">
-              {{ page.next.title }} &gt;
-            </a></div>
-          {% endif %}
-        </div>
+        {% if page.previous or page.next %}
+          <div class="pagination">
+            {% if page.previous %}
+              <div><a class="page-nav" href="{{ page.previous.url }}">
+                &lt; {{ page.previous.title }}
+              </a></div>
+            {% endif %}
+            {% if page.next %}
+              <div><a class="page-nav" href="{{ page.next.url }}">
+                {{ page.next.title }} &gt;
+              </a></div>
+            {% endif %}
+          </div>
+        {% endif %}
       {% else %}
         {{ content }}
       {% endif %}

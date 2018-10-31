@@ -12,47 +12,81 @@ modes:
     mark_background: "#303030"
 ---
 
-.dark-mode {
-  color: {{ page.modes.dark.foreground }};
-  background: {{ page.modes.dark.background }};
-
-  mark {
+#dark-mode:checked {
+  & ~ .theme {
     color: {{ page.modes.dark.foreground }};
-    background: {{ page.modes.dark.mark_background }};
-  }
+    background: {{ page.modes.dark.background }};
 
-  a {
-    color: {{ page.modes.dark.link_foreground }};
+    mark {
+      color: {{ page.modes.dark.foreground }};
+      background: {{ page.modes.dark.mark_background }};
+    }
 
-    &:hover {
-      background: {{ page.modes.dark.foreground }};
-      color: {{ page.modes.dark.background }};
+    a {
+      color: {{ page.modes.dark.link_foreground }};
+
+      &:hover {
+        background: {{ page.modes.dark.foreground }};
+        color: {{ page.modes.dark.background }};
+      }
+    }
+
+
+    .highlight {
+      background-color: {{ page.modes.dark.foreground}};
+    }
+
+    code, pre {
+      color: {{ page.modes.dark.foreground }}
+    }
+
+    .note:not(:last-child) {
+      border-bottom: 1px solid {{ page.modes.dark.mark_background }};
     }
   }
 
-  button {
-    &::before {content: 'Not '}
+  ~ .dark-mode-label {
+    .dark-mode-inner-content::before {content: '☑'}
     color: {{ page.modes.dark.foreground }};
-    background-color: {{ page.modes.dark.mark_background }};
-  }
-
-  .highlight {
-    background-color: {{ page.modes.dark.foreground}};
-  }
-
-  code, pre {
-    color: {{ page.modes.dark.foreground }}
-  }
-
-  .note:not(:last-child) {
-    border-bottom: 1px solid {{ page.modes.dark.mark_background }};
+    // background-color: {{ page.modes.dark.mark_background }};
   }
 }
 
-body {
+.dark-mode-checkbox {
+  position: absolute;
+  top: -5em;
+}
+
+.dark-mode-label {
+  .dark-mode-inner-content::before {content: '☐'; font-size: 1.3em; }
+  padding-left: 1em;
+  padding-right: 1em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  top: 2em;
+  margin-bottom: 0;
+  pointer-events: none;
+}
+
+.dark-mode-inner-content {
+  pointer-events: all;
+}
+
+.theme {
   background: {{ page.modes.light.background }};
   color: {{ page.modes.light.foreground }};
   padding: 1em;
+  padding-top: 6em;
+  flex: 1 1 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
   line-height: 1.8em;
   letter-spacing: -0.01em;
   font-family: Cousine, monospace;
@@ -61,7 +95,7 @@ body {
   word-wrap: break-word;
 }
 
-:focus {
+body.has-js *:focus {
   outline: none;
 }
 
@@ -69,7 +103,8 @@ body {
   background-color: #79d688;
 }
 
-.keydown *:focus {
+body.keydown *:focus,
+body:not(.has-js) *:focus {
   outline: 1px solid #79d688;
   outline-offset: 4px;
 }
@@ -127,14 +162,13 @@ div, a, img, header, footer, main {
   box-sizing: border-box;
 }
 
+.dark-mode-inner-content,
 .header,
 .footer,
 .wrapper {
   width: 100%;
   margin: 0 auto 30px;
   max-width: 50em;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .post-header {
@@ -220,6 +254,11 @@ button {
 .as-text {
   display: inline;
   font-size: inherit;
+}
+
+.h1 {
+  margin: 0;
+  font-size: 1.5em;
 }
 
 .note {
