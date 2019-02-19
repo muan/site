@@ -118,6 +118,10 @@ summary::-webkit-details-marker {
   margin-right: 0.8em;
 }
 
+summary {
+  cursor: pointer;
+}
+
 code,
 button {
   font-family: Cousine, monospace;
@@ -281,7 +285,7 @@ button {
 }
 
 .small {
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 blink {

@@ -1,4 +1,4 @@
-const emoji = ['🌚', '🌵', '🐧', '🙈', '🍅', '🍳', '🙎🏻', '🎮']
+const emoji = ['🌚', '🌵', '🦔', '🤷🏻', '🆗', '👩🏻‍💻', '🎮']
 const randomEmoji = document.querySelector('.js-random-emoji')
 
 if (randomEmoji) {
