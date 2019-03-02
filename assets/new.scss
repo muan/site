@@ -77,7 +77,6 @@ modes:
 .theme {
   background: {{ page.modes.light.background }};
   color: {{ page.modes.light.foreground }};
-  padding: 1em;
   padding-top: 6em;
   flex: 1 1 auto;
 }
@@ -170,9 +169,19 @@ div, a, img, header, footer, main {
 .header,
 .footer,
 .wrapper {
-  width: 100%;
-  margin: 0 auto 30px;
-  max-width: 50em;
+  margin: 0 0 30px;
+  max-width: 100%;
+  width: 46em;
+}
+
+.dark-mode-inner-content {
+  padding: 0 1em;
+}
+
+.header,
+.footer,
+.wrapper {
+  padding: 0 2em;
 }
 
 .post-header {
@@ -271,7 +280,7 @@ button {
   }
 
   &:target {
-    margin: 0 -0.8em;
+    margin: 0 0 0 -0.8em;
     padding-left: 0.8em;
     padding-right: 0.8em;
     outline: 1px solid #d0c548;
@@ -282,6 +291,8 @@ button {
   p:last-child { margin-bottom: 0; }
 
   padding: 0.8em 0;
+  box-sizing: border-box;
+  margin-left: -0.8em;
 }
 
 .small {
