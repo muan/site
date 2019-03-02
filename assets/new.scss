@@ -279,8 +279,8 @@ button {
     border-bottom: 1px solid {{ page.modes.light.mark_background }};
   }
 
-  &:target {
-    margin: 0 0 0 -0.8em;
+  &:target, &.target {
+    margin: 0 -0.8em 0 -1.6em;
     padding-left: 0.8em;
     padding-right: 0.8em;
     outline: 1px solid #d0c548;
@@ -290,9 +290,9 @@ button {
   p:first-child { margin-top: 0; }
   p:last-child { margin-bottom: 0; }
 
-  padding: 0.8em 0;
+  padding: 0.8em 0.8em 0.8em 0;
   box-sizing: border-box;
-  margin-left: -0.8em;
+  margin: 0 -0.8em;
   scroll-margin: 2em;
 }
 
