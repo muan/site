@@ -14,6 +14,7 @@ $ jekyll server -w --baseurl=''
 The following directories and their contents are Copyright Mu-An Chiou. You may not reuse anything therein without my permission:
 
 ```
+_data/
 _posts/
 images/
 ```
