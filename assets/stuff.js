@@ -1,4 +1,4 @@
-const emoji = ['🌚', '🌵', '🦔', '🤷🏻', '🆗', '👩🏻‍💻', '🎮']
+const emoji = ['☁️', '🆗', '👩🏻‍💻', '🎮']
 const randomEmoji = document.querySelector('.js-random-emoji')
 
 if (randomEmoji) {
@@ -11,7 +11,14 @@ const darkModeCheckbox = document.querySelector('#dark-mode')
 if (supportsLocalStorage) {
   darkModeCheckbox.addEventListener('change', rememberMode)
   const darkMode = localStorage.getItem('darkMode')
-  if (darkMode === '1' || (osDarkMode && darkMode === null)) darkModeCheckbox.checked = true
+  if (darkMode !== null) {
+    // Has set preference
+    darkModeCheckbox.checked = darkMode === '1'
+  } else if (osDarkMode && darkMode === null) {
+    // OS default dark mode
+    // This doesn't matter now I want to default dark mode
+    darkModeCheckbox.checked = true
+  }
 
   function rememberMode () {
     darkModeCheckbox.checked ? localStorage.setItem('darkMode', '1') : localStorage.setItem('darkMode', '0')

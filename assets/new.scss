@@ -1,15 +1,15 @@
 ---
 modes:
   light:
-    foreground: "#2e462f"
+    foreground: "#2a3a2b"
     background: "#fdfdfd"
     link_foreground: "#273c28"
     mark_background: "#d6ead7"
   dark:
     foreground: "#fdfdfd"
-    background: "#2e462f"
+    background: "#2a3a2b"
     link_foreground: "#e9efe6"
-    mark_background: "#1f2f1f"
+    mark_background: "#131713"
 ---
 
 #dark-mode:checked {
@@ -26,8 +26,8 @@ modes:
       color: {{ page.modes.dark.link_foreground }};
 
       &:hover {
-        background: {{ page.modes.dark.foreground }};
-        color: {{ page.modes.dark.background }};
+        // background: {{ page.modes.dark.foreground }};
+        // color: {{ page.modes.dark.background }};
       }
     }
 
@@ -148,16 +148,22 @@ p {
 a {
   color: {{ page.modes.light.link_foreground }};
 
-  &:hover {
+  &:hover,
+  &:focus {
     text-decoration: none;
-    background: {{ page.modes.light.foreground }};
-    color: {{ page.modes.light.background }};
   }
 }
 
 mark {
   color: {{ page.modes.light.foreground }};
   background-color: {{ page.modes.light.mark_background }};
+  transition: transform 0.2s;
+  display: inline-block;
+  line-height: initial;
+
+  &:hover {
+    transform: scale(1.05, 1.05)
+  }
 
   a { text-decoration: none; padding: 0 0.3em; }
 }
