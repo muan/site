@@ -1,17 +1,16 @@
 ---
 modes:
   light:
-    foreground: "#2a3a2b"
-    background: "#fdfdfd"
-    link_foreground: "#273c28"
+    foreground: "#3d4a3e"
+    background: "#b8c7b9"
+    link_foreground: "#131b13"
     mark_background: "#d6ead7"
   dark:
-    foreground: "#fdfdfd"
-    background: "#2a3a2b"
+    foreground: "#b1bdac"
+    background: "#1a271b"
     link_foreground: "#e9efe6"
     mark_background: "#131713"
 ---
-
 #dark-mode:checked {
   & ~ .theme {
     color: {{ page.modes.dark.foreground }};
@@ -22,13 +21,9 @@ modes:
       background: {{ page.modes.dark.mark_background }};
     }
 
-    a {
+    a,
+    details[open] > summary {
       color: {{ page.modes.dark.link_foreground }};
-
-      &:hover {
-        // background: {{ page.modes.dark.foreground }};
-        // color: {{ page.modes.dark.background }};
-      }
     }
 
 
@@ -40,15 +35,14 @@ modes:
       color: {{ page.modes.dark.foreground }}
     }
 
-    .note:not(:last-child) {
-      border-bottom: 1px solid {{ page.modes.dark.mark_background }};
+    .note:not(:first-child) {
+      border-top-color: {{ page.modes.dark.foreground }};
     }
   }
 
   ~ .dark-mode-label {
     .dark-mode-inner-content::before {content: '☑'}
     color: {{ page.modes.dark.foreground }};
-    // background-color: {{ page.modes.dark.mark_background }};
   }
 }
 
@@ -100,12 +94,12 @@ body.has-js *:focus {
 }
 
 ::selection {
-  background-color: #9dc5a3;
+  background-color: #5d8e64;
 }
 
 body.keydown *:focus,
 body:not(.has-js) *:focus {
-  outline: 1px solid #9dc5a3;
+  outline: 1px solid #5d8e64;
   outline-offset: 4px;
 }
 
@@ -113,18 +107,25 @@ details {
   margin: 1em 0;
 }
 
-summary::-webkit-details-marker {
-  font-size: 0.8em;
-  margin-right: 0.8em;
-}
-
+// Remove marker added by the display: list-item browser default
 summary {
-  cursor: pointer;
+  list-style: none;
+  transition: color 0.2s;
 }
+// Remove marker added by Chrome
+summary::-webkit-details-marker { display: none; }
+details > summary::before { content: "\\ "; }
+details[open] > summary::before { content: "/ "; }
+summary { cursor: pointer; }
 
 code,
 button {
   font-family: Cousine, monospace;
+}
+
+h1,
+h2 {
+  font-weight: 400;
 }
 
 h2 {
@@ -145,13 +146,14 @@ p {
   margin: 100px 0 40px;
 }
 
-a {
+a,
+details[open] > summary {
   color: {{ page.modes.light.link_foreground }};
+}
 
-  &:hover,
-  &:focus {
-    text-decoration: none;
-  }
+a:hover,
+a:focus {
+  text-decoration: none;
 }
 
 mark {
@@ -278,20 +280,24 @@ button {
 
 .h1 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .note {
-  &:not(:last-child) {
-    border-bottom: 1px solid {{ page.modes.light.mark_background }};
+  &:not(:first-child) {
+    border-top: 1px dashed {{ page.modes.light.foreground }};
   }
 
   &:target, &.target {
     margin: 0 -0.8em 0 -1.6em;
     padding-left: 0.8em;
     padding-right: 0.8em;
-    outline: 1px solid #d0c548;
-    border-bottom: 0;
+    outline: 1px dashed #5d8e64;
+    border-top: 0;
+
+    + * {
+      border-top: 0;
+    }
   }
 
   p:first-child { margin-top: 0; }
