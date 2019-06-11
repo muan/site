@@ -92,6 +92,7 @@ body {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
+  min-height: 100vh;
 }
 
 body.has-js *:focus {
