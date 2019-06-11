@@ -1,15 +1,15 @@
 ---
 modes:
   light:
-    foreground: "#353735"
+    foreground: "#2e462f"
     background: "#fdfdfd"
-    link_foreground: "#070c10"
-    mark_background: "#efefef"
+    link_foreground: "#273c28"
+    mark_background: "#d6ead7"
   dark:
     foreground: "#fdfdfd"
-    background: "#1b1b1b"
-    link_foreground: "#fafff7"
-    mark_background: "#303030"
+    background: "#2e462f"
+    link_foreground: "#e9efe6"
+    mark_background: "#1f2f1f"
 ---
 
 #dark-mode:checked {
@@ -100,12 +100,12 @@ body.has-js *:focus {
 }
 
 ::selection {
-  background-color: #79d688;
+  background-color: #9dc5a3;
 }
 
 body.keydown *:focus,
 body:not(.has-js) *:focus {
-  outline: 1px solid #79d688;
+  outline: 1px solid #9dc5a3;
   outline-offset: 4px;
 }
 
