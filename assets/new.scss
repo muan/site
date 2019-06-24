@@ -1,15 +1,15 @@
 ---
 modes:
   light:
-    foreground: "#3d4a3e"
-    background: "#b8c7b9"
+    foreground: "#2a312f"
+    background: "#d5dcd6"
     link_foreground: "#131b13"
-    mark_background: "#d6ead7"
+    mark_background: "#bccabc"
   dark:
-    foreground: "#b1bdac"
+    foreground: "#d7e4d2"
     background: "#152c23"
     link_foreground: "#e9efe6"
-    mark_background: "#131713"
+    mark_background: "#43564e"
 ---
 #dark-mode:checked {
   & ~ .theme {
@@ -37,6 +37,11 @@ modes:
 
     .note:not(:first-child) {
       border-top-color: {{ page.modes.dark.foreground }};
+    }
+
+    .heading {
+      background: {{ page.modes.dark.foreground }};
+      color: {{ page.modes.dark.background }};
     }
   }
 
@@ -94,7 +99,8 @@ body.has-js *:focus {
 }
 
 ::selection {
-  background-color: #5d8e64;
+  background-color: #43564e;
+  color: #ffffff;
 }
 
 body.keydown *:focus,
@@ -170,15 +176,16 @@ mark {
   a { text-decoration: none; padding: 0 0.3em; }
 }
 
-div, a, img, header, footer, main {
+div, a, img, header, footer, main, label {
   box-sizing: border-box;
 }
 
 .dark-mode-inner-content,
+.dark-mode-label,
 .header,
 .footer,
 .wrapper {
-  margin: 0 0 30px;
+  margin: 0 auto 30px;
   max-width: 100%;
   width: 46em;
 }
@@ -213,11 +220,7 @@ article img:not(.emoji) {
 }
 
 .list-notes {
-  opacity: 0.85;
-  margin-left: 1em;
   margin-top: 0;
-  padding-left: 0;
-  list-style: none;
 }
 
 .list {
@@ -253,7 +256,7 @@ hr {
 blockquote {
   margin: 40px 0px;
   padding: 0 1em;
-  border-left: 4px double;
+  border-left: 1px solid #43564e47;
 
   p:first-child { margin-top: 0; }
   p:last-child { margin-bottom: 0; }
@@ -284,15 +287,11 @@ button {
 }
 
 .note {
-  &:not(:first-child) {
-    border-top: 1px dashed {{ page.modes.light.foreground }};
-  }
-
   &:target, &.target {
-    margin: 0 -0.8em 0 -1.6em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    outline: 1px dashed #5d8e64;
+    list-style: none;
+    margin: 0 0 0.8em -2.4em;
+    padding: 1.6em;
+    outline: 1px solid #43564e47;
     border-top: 0;
 
     + * {
@@ -306,8 +305,16 @@ button {
 
   padding: 0.8em 0.8em 0.8em 0;
   box-sizing: border-box;
-  margin: 0 -0.8em;
+  margin: 0 -0.8em 0.8em;
   scroll-margin: 2em;
+}
+
+.heading {
+  line-height: 1.3em;
+  display: inline-block;
+  padding: 0 0.2em;
+  background: {{ page.modes.light.foreground }};
+  color: {{ page.modes.light.background }};
 }
 
 .small {
@@ -315,7 +322,6 @@ button {
 }
 
 blink {
-  // color: blue;
   animation: 1s linear infinite condemned_blink_effect;
 }
 @keyframes condemned_blink_effect {
