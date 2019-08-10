@@ -1,29 +1,20 @@
 ---
 modes:
   light:
-    foreground: "#2a312f"
-    background: "#d5dcd6"
-    link_foreground: "#131b13"
-    mark_background: "#bccabc"
+    foreground: "#000"
+    background: "#fff"
   dark:
-    foreground: "#d7e4d2"
-    background: "#152c23"
-    link_foreground: "#e9efe6"
-    mark_background: "#43564e"
+    foreground: "#fff"
+    background: "#000"
 ---
 #dark-mode:checked {
   & ~ .theme {
     color: {{ page.modes.dark.foreground }};
     background: {{ page.modes.dark.background }};
 
-    mark {
-      color: {{ page.modes.dark.foreground }};
-      background: {{ page.modes.dark.mark_background }};
-    }
-
     a,
     details[open] > summary {
-      color: {{ page.modes.dark.link_foreground }};
+      color: {{ page.modes.dark.foreground }};
     }
 
 
@@ -99,14 +90,19 @@ body.has-js *:focus {
 }
 
 ::selection {
-  background-color: #43564e;
+  background-color: #ddd;
   color: #ffffff;
 }
 
 body.keydown *:focus,
 body:not(.has-js) *:focus {
-  outline: 1px solid #5d8e64;
+  outline: 1px solid;
   outline-offset: 4px;
+}
+
+body:not(.has-js) .dark-mode-checkbox:focus ~ .dark-mode-label .dark-mode-inner-content,
+body.keydown .dark-mode-checkbox:focus ~ .dark-mode-label .dark-mode-inner-content {
+  outline: 1px solid;
 }
 
 details {
@@ -154,26 +150,7 @@ p {
 
 a,
 details[open] > summary {
-  color: {{ page.modes.light.link_foreground }};
-}
-
-a:hover,
-a:focus {
-  text-decoration: none;
-}
-
-mark {
   color: {{ page.modes.light.foreground }};
-  background-color: {{ page.modes.light.mark_background }};
-  transition: transform 0.2s;
-  display: inline-block;
-  line-height: initial;
-
-  &:hover {
-    transform: scale(1.05, 1.05)
-  }
-
-  a { text-decoration: none; padding: 0 0.3em; }
 }
 
 div, a, img, header, footer, main, label {
@@ -192,6 +169,7 @@ div, a, img, header, footer, main, label {
 
 .dark-mode-inner-content {
   padding: 0 1em;
+  margin-bottom: 0;
 }
 
 .header,
@@ -268,7 +246,7 @@ button {
   border: 0;
   background: transparent;
   color: {{ page.modes.light.foreground }};
-  background-color: {{ page.modes.light.mark_background }};
+  background-color: {{ page.modes.light.background }};
   cursor: pointer;
 }
 
@@ -291,7 +269,7 @@ button {
     list-style: none;
     margin: 0 0 0.8em -2.4em;
     padding: 1.6em;
-    outline: 1px solid #43564e47;
+    outline: 1px dotted;
     border-top: 0;
 
     + * {
@@ -319,13 +297,4 @@ button {
 
 .small {
   font-size: 0.85em;
-}
-
-blink {
-  animation: 1s linear infinite condemned_blink_effect;
-}
-@keyframes condemned_blink_effect {
-  0% { visibility: hidden; }
-  50% { visibility: hidden; }
-  100% { visibility: visible; }
 }
