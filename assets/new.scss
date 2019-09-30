@@ -78,11 +78,12 @@ body {
   margin: 0;
   line-height: 1.8em;
   letter-spacing: -0.01em;
-  font-family: Cousine, monospace;
+  font-family: monospace;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   min-height: 100vh;
+  text-underline-position: under;
 }
 
 body.has-js *:focus {
@@ -122,7 +123,7 @@ summary { cursor: pointer; }
 
 code,
 button {
-  font-family: Cousine, monospace;
+  font-family: monospace;
 }
 
 h1,
