@@ -1,3 +1,7 @@
+- date: 2019/10/28 16:13
+  content: |
+    Switched to Firefox, already had to modify a bunch of things in `about:config` that ~ might void my warranty ~. `apz.allow_zooming`– enable pinch to zoom, `accessibility.tabFocus`- enable tab focus on links (system setting is overriden by Firefox :(), and `mousewheel.with_meta.action`- disable meta + scroll zoom.
+
 - date: 2019/10/27 10:36
   content: |
     [Worth It’s Taiwan episode on dumplings](https://youtu.be/w3XS900kg1U) went to my go-to places and made me so homesick 😭. January can’t come around quick enough. “Damn it! I don’t live in Taiwan!” Same, Andrew, same.
