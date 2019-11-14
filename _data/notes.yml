@@ -1,3 +1,7 @@
+- date: 2019/11/14 13:22
+  content: |
+    Kojima is overrated sent tweet.
+
 - date: 2019/10/28 16:13
   content: |
     Switched to Firefox, already had to modify a bunch of things in `about:config` that ~ might void my warranty ~. `apz.allow_zooming`– enable pinch to zoom, `accessibility.tabFocus`- enable tab focus on links (system setting is overriden by Firefox :(), and `mousewheel.with_meta.action`- disable meta + scroll zoom.
