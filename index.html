@@ -1,47 +1,22 @@
 ---
+title: Hey, this is Mu-An.
 layout: default
 ---
 
-<h2 class="heading">Current work</h2>
-<ul class="list list-items">
-  <li>
-    2013 ~ Web Systems Engineer at <a href="https://github.com/">GitHub</a>
-    <div class="small">Frontend, Web Components, Accessibility</div>
-  </li>
-  <li>
-    2011 ~ Cofounder of <a href="https://www.zeczec.com/">嘖嘖</a>
-    <div class="small">Design, Frontend, Backend (Rails)</div>
-  </li>
+<ul class="terminal">
+  <li>I currently work at <a href="https://github.com/">GitHub</a> as a Senior Software Engineer.</li>
+  <li>I cofounded <a href="https://www.zeczec.com/">嘖嘖</a>, a Taiwanese crowdfunding platform for creatives.</li>
+  <li>I am based in <a href="https://www.instagram.com/p/Brn5p01Huga/">New York</a>.</li>
+  <li>I once lived in <a href="https://www.instagram.com/p/SA0L5tpaqE/">the U.K.</a></li>
+  <li>I was born and raised <a href="https://www.instagram.com/p/B7NDr7YJ_Od/">Taiwanese</a>.</li>
+  <li>Check out my open source work on <a href="https://github.com/muan" rel="me">GitHub</a>.</li>
+  <li>I <a href="/notes">write random notes here</a>. Subscribe to them with <a href="/notes.xml">RSS</a> or on <a href="https://micro.blog/muan">micro.blog</a>.</li>
+  <li>I try my best to stay away from <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>.</li>
+  <li>My email is hi @ this domain.</li>
 </ul>
 
-<h2 class="heading">Fun facts</h2>
-<ul class="list list-items">
-  <li><a href="https://www.instagram.com/p/Brn5p01Huga/">New York (2018-)</a></li>
-  <li><a href="https://www.instagram.com/p/SA0L5tpaqE/">London + Birmingham (2009-2013)</a></li>
-  <li><a href="https://www.instagram.com/p/joCAsOJakQ/">Plays bass</a></li>
-  <li><a href="https://www.instagram.com/p/BchP8NXBiDy/">Taiwanese</a></li>
-</ul>
-
-<h2 class="heading">Social &amp; contact</h2>
-<ul class="list list-items">
-  <li>
-    <a href="https://github.com/muan" rel="me">GitHub</a>,
-    <a href="https://instagram.com/muanchiou" rel="me">Instagram</a>,
-    <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>
-  </li>
-  <li>Email is hi at this domain</li>
-</ul>
-
-<h2 class="heading">Notes</h2> <a class="small" href="/notes.xml">feed</a>
-<ul class="list-notes">
-  {% for note in site.data.notes limit: 5 %}
-    <li class="note">
-      <time class="small">{{ note.date | date: "%b %d, %Y" }}</time> <a href="/notes#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}" class="small">#</a>
-      <div>{{ note.content | markdownify }}</div>
-    </li>
-  {% endfor %}
-</ul>
-
-{% if site.data.notes.size > 5 %}
-  <a class="small" href="/notes">All notes</a>
-{% endif %}
+{% assign note = site.data.notes[0] %}
+<div class="note">
+  <div class="note-heading">Latest note # {{ note.date | date: "%b %d, %Y" }}</div>
+  {{ note.content | markdownify }}
+</div>

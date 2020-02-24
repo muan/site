@@ -1,14 +1,13 @@
 ---
 layout: default
+title: Notes
 ---
 
-<p><img width="100" src="/assets/valid-rss-rogers.png" alt="[Valid RSS]" valign="middle"> <a href="/notes.xml">feed</a></summary> is very valid.</p>
-
-<ul class="list-notes">
-  {% for note in site.data.notes %}
-    <li class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
-      <time class="small">{{ note.date | date: "%b %d, %Y" }}</time> <a href="#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}" class="small">#</a>
-      <div>{{ note.content | markdownify }}</div>
-    </li>
-  {% endfor %}
-</ul>
+{% for note in site.data.notes %}
+<div class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
+  <h2 class="note-heading">
+    <a href="#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">{{ note.date | date: "%b %d, %Y" }} #</a>
+  </h2>
+  {{ note.content | markdownify }}
+</div>
+{% endfor %}
