@@ -112,6 +112,11 @@ blockquote {
 img {
   max-width: 100%;
   margin: 1em 0;
+  
+  &[width] {
+    margin: 0;
+    vertial-align: middle;
+  }
 }
 
 hr {
