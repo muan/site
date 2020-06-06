@@ -14,7 +14,7 @@ a {
   color: #a0bfd0;
 
   &:visited {
-    color: #baa6bd;
+    color: #8096a2;
   }
 }
 
@@ -30,7 +30,7 @@ a {
 header,
 main,
 footer {
-  max-width: 45em;
+  max-width: 50em;
   margin: auto;
 }
 
@@ -39,6 +39,10 @@ footer {
   margin-bottom: 0;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.text {
+  font-size: inherit;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -54,7 +58,6 @@ footer {
 
 .terminal {
   list-style: none;
-  margin-bottom: 3em;
   padding-left: 1.1rem;
 
   li:before {
@@ -112,7 +115,7 @@ blockquote {
 img {
   max-width: 100%;
   margin: 1em 0;
-  
+
   &[width] {
     margin: 0;
     vertical-align: middle;
