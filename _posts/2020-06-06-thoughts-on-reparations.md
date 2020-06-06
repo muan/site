@@ -17,7 +17,7 @@ On one hand, I can see how some Taiwanese people could make the case of supporti
 
 I am referring to the young, woke, activist-minded Taiwanese people, who have seen the harm of colonization, who had taken active parts in Taiwanese social movements in the past 10 years, who's parents lived through 38 years of martial law and white terror, who's been deprived of their native tongue and culture, following the massacre of countless Taiwanese activists, as people who should understand freedom, justice, and equality. But it seems like that might not be the case.
 
-我在 Twitter 上透過演算法看到了很多人說「我們受迫害的時候，他們沒為我們發聲，現在他家的事與我何干？」以及在暴風雪支持 #BlackLivesMatter 的聲明下留言「香港抗爭的時候你們幹嘛了？」還有「新疆人受苦受難時候你只空講什麼都不做，現在一個黑人死掉有什麼大不了？」
+我在 Twitter 上透過演算法看到了很多人說「我們受迫害的時候，他們沒為我們發聲，現在他家的事與我何干？」以及在暴風雪支持 #BlackLivesMatter 的聲明下留言「香港抗爭的時候你們幹嘛了？」還有「東突厥斯坦人受苦受難時候你只空講什麼都不做，現在一個黑人死掉有什麼大不了？」
 
 As I've seen from Twitter, through algorithms, people have been saying things like "they didn't care for our sufferings, why should I care about theirs?" and in reply to Blizzard's #BlackLivesMatter tweets, things like "Where was this support for Hong Kong?", and remarks against liberal medias like "paying lip services to the Uyghur while inflating one Black life?"
 
