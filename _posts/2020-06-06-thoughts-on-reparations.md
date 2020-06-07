@@ -9,7 +9,7 @@ feature: 1
 
 Over the past few weeks I've been feeling conflicted, as a newly nonimmigrant in the U.S., I found myself torn between my Trump-supporting Taiwanese friends and my friends in America of different ethnicities.
 
-我能夠理解台灣獨派基於川普反中的理由而支持它，但同時我也無法理解為什麼了解社會自由、公平、正義的重要性的大家，可以忽視川普毫無掩飾地鼓吹暴力、性別歧視、種族歧視、且推崇極權政府。
+我能夠理解台灣獨派基於川普反中的理由而支持它，但同時我又無法理解為什麼了解社會自由、公平、正義的重要性的大家，可以假裝看不見川普毫無遮掩地一再鼓吹暴力、性別歧視、種族歧視、並且推崇極權政府。
 
 On one hand, I can see how some Taiwanese people could make the case of supporting Trump on the basis of his stance against the CPC, the forever oppressor of Taiwanese people and many others; on the other hand, I just can't comprehend how anyone who understands freedom, justice, and equality can in good conscience disregard Trump's blatant advocacy for violence, sexism, racism, and authoritarianism.
 
