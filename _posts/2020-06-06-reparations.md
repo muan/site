@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2020-06-06
-title: "Translation: Reparations"
+title: Reparations (zh-TW)
 feature: 1
 ---
 

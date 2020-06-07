@@ -1,9 +1,11 @@
 ---
 layout: default
 date: 2020-06-06
-title: Thoughts on "Reparations"
+title: Thoughts on Reparations
 feature: 1
 ---
+
+[Reparations (zh-TW)]({% link _posts/2020-06-06-reparations.md %})
 
 有著一個美國的非移民工作者身份，在過去這幾週，我內心一直感到很掙扎。我看到越來越多台灣朋友熱烈地支持川普，但同時近距離的看到美國各種族裔朋友們在這樣社會動盪下的不安。
 

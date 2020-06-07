@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2020-06-06
-title: "Translation: How Can We Win"
+title: How Can We Win, transcript (zh-TW)
 feature: 1
 ---
 
