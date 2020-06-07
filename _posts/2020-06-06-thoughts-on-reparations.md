@@ -25,18 +25,17 @@ As I've seen from Twitter, through algorithms, people have been saying things li
 
 I had wished these comments came from fringe groups, but contrary to what I had hoped, they showed up on my timeline, shared by my immediate friends.
 
+如果每一個迫害的群體都希望別人「先」幫助他，迫害者贏定了啊。如果我們自己都不能對其他被迫害的群體發揮同理心，我們還期待誰能夠理解我們遭受的壓迫？
+
+If every oppressed group wants someone else to care for them *first*, the oppressors will always win. If we can't empathize with others who's been oppressed, who do we expect to be able to understand the struggles and difficulties we all battle against?
+
 我們不該在這個時間點比較我們的遭遇、比較誰的正義比較值得、需要被聲張。我們應該利用我們對過去的理解、對自己族群所遭遇過的不平等經驗、對社會轉型正義一直以來不斷努力的理解來看待、理解其他不公義的事件，並發揮同理心。
 
 This should not, and can not be made to be about what happened to us, or the justice that we want. However, it should be about us using what we know about the past, about the injustice that we/our ancestors have faced, and about the Transitional Justice work that we have to push for continuously within our society, and applying them to the injustice around us and around the world, to empathize with each other.
 
-如果每一個迫害的群體都希望別人「先」幫助他，迫害者贏定了啊。如果我們自己都不能對其他被迫害的群體發揮同理心，我們還期待誰能夠理解我們遭受的壓迫？
-
-If every oppressed group wants someone else to care for them *first*, the oppressors will always win. If we can't empathize with others who's been oppressed, who are we expecting to be able to understand the struggle and difficulties we battle against?
-
 我知道每個人的能力、心力有限，無法關心所有社會、世界上的不公不義，但這不該被當成忽略、輕視其他不公義事件和被迫害群體的理由。最最基本，我們也要能夠分清是非黑白，誰義或不義。
 
-I understand we all have a limited number of things that we can care for and fight for at any given time, but that should not be an excuse for not making judgments through empathy first.
-
+I understand we all have a limited number of things that we can care for and fight for at any given time, but that should not be an excuse for not making judgments from a place of empathy.
 
 我的亞美尼亞人好朋友 [Garen Torikian](https://www.gjtorikian.com/) 跟我分享了[這篇文章]({% link _posts/2020-06-06-reparations.md %})，讓我有深深的共鳴。我們一樣，長大過程中走過一個又一個立著殺人魔雕像的廣場。我們一樣，在教科書裡只學到他們「光復台灣」的豐功偉業。這一切都不是新事情，歷史早有教訓。有著類似文化背景的我們應該要更能理解、更能付出。
 
