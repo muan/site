@@ -35,7 +35,7 @@ If every oppressed group wants someone else to care for them *first*, the oppres
 
 This should not, and can not be made to be about what happened to us, or the justice that we want. However, it should be about us using what we know about the past, about the injustice that we/our ancestors have faced, and about the Transitional Justice work that we have to push for continuously within our society, and applying them to the injustice around us and around the world, to empathize with each other.
 
-我知道每個人的能力、心力有限，無法關心所有社會、世界上的不公不義，但這不該被當成忽略、輕視其他不公義事件和被迫害群體的理由。最最基本，我們也要能夠分清是非黑白，誰義或不義。
+我知道每個人的能力、心力有限，無法關心所有社會、世界上的不公不義，但這不該被當成忽略、輕視其他不公義事件和被迫害群體的理由。最最基本，我們也要能夠分清是非、誰義與誰不義。
 
 I understand we all have a limited number of things that we can care for and fight for at any given time, but that should not be an excuse for not making judgments from a place of empathy.
 
