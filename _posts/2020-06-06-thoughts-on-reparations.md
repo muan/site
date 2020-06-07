@@ -7,15 +7,15 @@ feature: 1
 
 [Reparations (zh-TW)]({% link _posts/2020-06-06-reparations.md %})
 
-有著一個美國的非移民工作者身份，在過去這幾週，我內心一直感到很掙扎。我看到越來越多台灣朋友熱烈地支持川普，但同時近距離的看到美國各種族裔朋友們在這樣社會動盪下的不安。
+有著一個美國的非移民工作者身份，在過去這幾週，我內心一直感到很掙扎。我看到越來越多台灣朋友熱烈地支持川普，但同時近距離看到美國各族裔朋友們在這樣社會動盪下的不安。
 
-Over the past few weeks I've been feeling conflicted, as a newly nonimmigrant in the U.S., I found myself torn between my Trump-supporting Taiwanese friends and my friends in America of different ethnicities.
+Over the past few weeks I've been feeling conflicted, as a newly nonimmigrant in the U.S., I found myself torn between my Trump-supporting Taiwanese friends and my friends in the U.S. of different ethnicities.
 
-我能夠理解台灣獨派基於川普反中的理由而支持它，但同時我又無法理解為什麼了解社會自由、公平、正義的重要性的大家，可以假裝看不見川普毫無遮掩地一再鼓吹暴力、性別歧視、種族歧視、並且推崇極權政府。
+我能夠體會台灣獨派為什麼會基於川普反中的態度而想支持他，但同時我又無法理解為什麼了解社會自由、公平、正義的重要性的大家，可以假裝看不見川普毫無遮掩地一再鼓吹暴力、性別歧視、種族歧視、並且推崇極權政府。
 
 On one hand, I can see how some Taiwanese people could make the case of supporting Trump on the basis of his stance against the CPC, the forever oppressor of Taiwanese people and many others; on the other hand, I just can't comprehend how anyone who understands freedom, justice, and equality can in good conscience disregard Trump's blatant advocacy for violence, sexism, racism, and authoritarianism.
 
-我這裡所指的「大家」是台灣這些在過去十年參加或許多社會運動的年輕人，這些清楚知道解殖的重要性、這些父母親活過二二八後的戒嚴、白色恐怖的人、這些知道台灣人受過哪些壓迫的人、這些知道台語、客語、原住民語及其文化怎麼樣被壓迫噤聲的人。這些人應該要了解社會自由、公平、正義的重要性。不只之於自己，之於所有人類。
+我這裡所指的「大家」是台灣這些在過去十年參加或許多社會運動的青年，這些清楚知道解殖的重要性、這些父母親活過二二八後的戒嚴、白色恐怖的人、這些知道台灣人受過哪些壓迫的人、這些知道台語、客語、原住民語及其文化怎麼樣被壓迫噤聲的人。這些人應該要了解社會自由、公平、正義的重要性。不只之於自己，之於所有人類。
 
 I am referring to the young, woke, activist-minded Taiwanese people, who have seen the harm of colonization, who had taken active parts in Taiwanese social movements in the past 10 years, who's parents lived through 38 years of martial law and white terror, who's been deprived of their native tongue and culture, following the massacre of countless Taiwanese activists, as people who should understand freedom, justice, and equality. But it seems like that might not be the case.
 
