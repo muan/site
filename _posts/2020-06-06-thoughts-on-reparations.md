@@ -13,7 +13,7 @@ Over the past few weeks I've been feeling conflicted, as a newly nonimmigrant in
 
 On one hand, I can see how some Taiwanese people could make the case of supporting Trump on the basis of his stance against the CPC, the forever oppressor of Taiwanese people and many others; on the other hand, I just can't comprehend how anyone who understands freedom, justice, and equality can in good conscience disregard Trump's blatant advocacy for violence, sexism, racism, and authoritarianism.
 
-我這裡所指的「大家」是台灣那些在過去十年參加或許多社會運動的年輕人，這些清楚知道解殖的重要性、這些父母親活過二二八後的戒嚴、白色恐怖的人、這些知道台灣人受過哪些壓迫的人、這些知道台語、客語、原住民語及其文化怎麼樣被壓迫噤聲的人。這些人應該要了解社會自由、公平、正義的重要性。不只之於自己，之於所有人類。
+我這裡所指的「大家」是台灣這些在過去十年參加或許多社會運動的年輕人，這些清楚知道解殖的重要性、這些父母親活過二二八後的戒嚴、白色恐怖的人、這些知道台灣人受過哪些壓迫的人、這些知道台語、客語、原住民語及其文化怎麼樣被壓迫噤聲的人。這些人應該要了解社會自由、公平、正義的重要性。不只之於自己，之於所有人類。
 
 I am referring to the young, woke, activist-minded Taiwanese people, who have seen the harm of colonization, who had taken active parts in Taiwanese social movements in the past 10 years, who's parents lived through 38 years of martial law and white terror, who's been deprived of their native tongue and culture, following the massacre of countless Taiwanese activists, as people who should understand freedom, justice, and equality. But it seems like that might not be the case.
 
@@ -33,7 +33,7 @@ This should not, and can not be made to be about what happened to us, or the jus
 
 If every oppressed group wants someone else to care for them *first*, the oppressors will always win. If we can't empathize with others who's been oppressed, who are we expecting to be able to understand the struggle and difficulties we battle against?
 
-我知道每個人的能力心、力有限，無法關心所有社會、世界上的不公不義，但這不該被當成忽略、輕視其他不公義事件和被迫害群體的理由。最最基本，我們也要能夠分清是非黑白，誰義或不義。
+我知道每個人的能力、心力有限，無法關心所有社會、世界上的不公不義，但這不該被當成忽略、輕視其他不公義事件和被迫害群體的理由。最最基本，我們也要能夠分清是非黑白，誰義或不義。
 
 I understand we all have a limited number of things that we can care for and fight for at any given time, but that should not be an excuse for not making judgments through empathy first.
 
@@ -46,7 +46,7 @@ I understand we all have a limited number of things that we can care for and fig
 
 In closing, allow me to appropriate Garen's message as I couldn't phrase it better:
 
-> 我們最缺乏的就是這個—跨族群的團結力量。
+> 我們最缺乏的就是這個—跨越文化的團結力量。
 
 > This is what I want to see more of—cross cultural unity.
 
