@@ -9,7 +9,7 @@ Translation for [Reparations——What being Armenian taught me about #BlackLive
 
 ---
 
-> Transitional justice consists of judicial and non-judicial measures implemented in order to redress legacies of human rights abuses. Such measures "include criminal prosecutions, truth commissions, reparations programs, and various kinds of institutional reforms". [Wikipedia: Transitional Justice](https://en.wikipedia.org/wiki/Transitional_justice)
+> Transitional justice consists of judicial and non-judicial measures implemented in order to redress legacies of human rights abuses. Such measures "include criminal prosecutions, truth commissions, **reparations** programs, and various kinds of institutional reforms". [Wikipedia: Transitional Justice](https://en.wikipedia.org/wiki/Transitional_justice)
 
 ---
 
