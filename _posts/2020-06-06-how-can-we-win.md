@@ -393,7 +393,7 @@ Translated transcripts below:
     <tr>
       <td>02:47</td>
       <td>opportunity to spend time at PUSH where</td>
-      <td>有機會進到 PUSH</td>
+      <td>有機會進到 <a href="https://en.wikipedia.org/wiki/Rainbow/PUSH">PUSH</a></td>
     </tr>
     <tr>
       <td>02:49</td>
