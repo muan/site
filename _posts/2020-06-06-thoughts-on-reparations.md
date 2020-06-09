@@ -29,7 +29,7 @@ I had wished these comments came from fringe groups, but contrary to what I had 
 
 如果每一個迫害的群體都希望別人「先」幫助他，迫害者贏定了啊。如果我們自己都不能對其他被迫害的群體發揮同理心，我們還期待誰能夠理解我們遭受的壓迫？
 
-If every oppressed group wants someone else to care for them *first*, the oppressors will always win. If we can't empathize with others who's been oppressed, who do we expect to be able to understand the struggles and difficulties we all battle against?
+If every oppressed group wants someone else to care for them *first*, the oppressors will always win. If we can't empathize with others who've been oppressed, who do we expect to be able to understand the struggles and difficulties we all battle against?
 
 我們不該在這個時間點比較誰得到更多支持、比較誰的正義比較需要被聲張。我們應該利用我們對過去的理解、對自己族群所遭遇過的不平等經驗、對社會轉型正義一直以來不斷努力的這些認知來看待、解讀其他不公義的事件，並發揮同理心。
 
