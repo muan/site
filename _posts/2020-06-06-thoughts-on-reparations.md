@@ -17,9 +17,9 @@ On one hand, I can see how some Taiwanese people could make the case of supporti
 
 我這裡所指的「大家」是台灣這些在過去十年參加或許多社會運動的青年，這些清楚知道解殖的重要性、這些父母親活過二二八後的戒嚴、白色恐怖的人、這些知道台灣人受過哪些壓迫的人、這些知道台語、客語、原住民語及其文化怎麼樣被壓迫噤聲的人。這些人應該要了解社會自由、公平、正義的重要性。不只之於自己，之於所有人類。
 
-I am referring to the young, woke, activist-minded Taiwanese people, who have seen the harm of colonization, who had taken active parts in Taiwanese social movements in the past 10 years, who's parents lived through 38 years of martial law and white terror, who's been deprived of their native tongue and culture, following the massacre of countless Taiwanese activists, as people who should understand freedom, justice, and equality. But it seems like that might not be the case.
+I am referring to the young, woke, activist-minded Taiwanese people, who have seen the harm of colonization, who had taken active parts in Taiwanese social movements in the past 10 years, whose parents lived through 38 years of martial law and white terror, who've been deprived of their native tongue and culture, following the massacre of countless Taiwanese activists, as people who should understand freedom, justice, and equality. But it seems like that might not be the case.
 
-我在 Twitter 上透過演算法看到了很多人說「我們受迫害的時候，他們沒為我們發聲，現在他家的事與我何干？」以及在暴風雪支持 #BlackLivesMatter 的聲明下留言「香港抗爭的時候你們幹嘛了？」還有「東突厥斯坦人受苦受難時候你只空講什麼都不做，現在一個黑人死掉有什麼大不了？」
+我在 Twitter 上透過演算法看到了很多人說「我們受迫害的時候，他們沒為我們發聲，現在他家的事與我何干？」、在暴風雪支持 #BlackLivesMatter 的聲明下留言「香港抗爭的時候你們幹嘛了？」、更用「東突厥斯坦人受苦受難時候你只空講什麼都不做，現在一個黑人死掉有什麼大不了？」來反駁左派媒體聲援 BLM 的報導。
 
 As I've seen from Twitter, through algorithms, people have been saying things like "they didn't care for our sufferings, why should I care about theirs?" and in reply to Blizzard's #BlackLivesMatter tweets, things like "Where was this support for Hong Kong?", and remarks against liberal medias like "paying lip services to the Uyghur while inflating one Black life?"
 
