@@ -9,6 +9,8 @@ Translation for [Reparations——What being Armenian taught me about #BlackLive
 
 ---
 
+> 轉型正義是民主國家對過去獨裁政府實施的違法和不正義行為的**彌補**，通常具有司法、歷史、行政、憲法、賠償等面向。其根本基礎在還原歷史真相。...改變體制、避免重蹈覆轍、與最終的和解、撫平傷痛。 [維基百科：轉型正義](https://zh.wikipedia.org/zh-tw/轉型正義)
+
 > Transitional justice consists of judicial and non-judicial measures implemented in order to redress legacies of human rights abuses. Such measures "include criminal prosecutions, truth commissions, **reparations** programs, and various kinds of institutional reforms". [Wikipedia: Transitional Justice](https://en.wikipedia.org/wiki/Transitional_justice)
 
 ---
