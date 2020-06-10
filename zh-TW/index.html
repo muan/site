@@ -1,0 +1,33 @@
+---
+title: 嗨，我是慕安。
+layout: default
+---
+
+<span class="smol"><a href="/">[English]</a> <u>[正體中文]</u></span>
+
+<ul class="terminal">
+  <li>我在 <a href="https://github.com/">GitHub</a> 擔任資深軟體工程師。</li>
+  <li>我共同創辦了<a href="https://www.zeczec.com/">嘖嘖</a>，一個台灣的群眾集資網站。</li>
+  <li>我住在<a href="https://www.instagram.com/p/Brn5p01Huga/">紐約</a>。</li>
+  <li>我曾在<a href="https://www.instagram.com/p/SA0L5tpaqE/">英國</a>住了五年。</li>
+  <li>我是土生土長的<a href="https://www.instagram.com/p/B7NDr7YJ_Od/">台灣人</a>。</li>
+  <li>我的開源作品和貢獻可以在 <a href="https://github.com/muan" rel="me">GitHub</a> 上找到。</li>
+  <li>我在這裡<a href="/notes">寫些有的沒的</a>。你可以透過 <a href="/notes.xml">RSS feed</a> 或 <a href="https://micro.blog/muan">micro.blog</a> 訂閱它們。</li>
+  <li>我很努力地遠離 <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>。</li>
+  <li>我的信箱是 hi @ 這個網域。</li>
+</ul>
+
+<h2 class="text">文章 <span class="smol"><a href="/feed.xml">[feed]</a></span></h2>
+
+<ul aria-label="posts">
+{% assign posts = site.posts | where: "feature", 1 %}
+{% for post in posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date_to_string }}</time></li>
+{% endfor %}
+</ul>
+
+{% assign note = site.data.notes[0] %}
+<div class="note">
+  <div class="note-heading">最新的筆記 # {{ note.date | date: "%b %d, %Y" }}</div>
+  {{ note.content | markdownify }}
+</div>
