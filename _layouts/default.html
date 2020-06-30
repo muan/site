@@ -10,6 +10,7 @@
     <link rel="authorization_endpoint" href="https://github-indieauth.herokuapp.com/auth">
     <link rel="token_endpoint" href="https://github-indieauth.herokuapp.com/token">
     <link rel="micropub" href="https://site-endpoint.herokuapp.com/micropub">
+    <link href="/assets/new.css" rel="stylesheet" type="text/css">
     {% if page.date %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
       <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
@@ -55,7 +56,6 @@
         {{ content }}
       {% endif %}
     </main>
-    <link href="/assets/new.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet">
     <script type="text/javascript">
       function track() {
