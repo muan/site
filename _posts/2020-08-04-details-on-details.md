@@ -6,7 +6,7 @@ title: Details on &lt;details&gt; (transcript)
 
 Find links and references mentioned in this post at [muan/details-on-details](https://github.com/muan/details-on-details).
 
-<iframe src="https://anchor.fm/muan/embed/episodes/Details-on-details-English-ehlu8i/a-a2s4pnu" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/muan/embed/episodes/Details-on-details-English-ehlu8i/a-a2s4pnu" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
 
 ## Intro
 
