@@ -46,7 +46,7 @@ At GitHub, we value progressive enhancement, not because we think a lot of peopl
 
 In 2017 we started a project to ensure that critical paths on github.com can be used with JavaScript. The first obstacle we faced was all the dropdown menus on the site. To go to the user settings page, you need to open a dropdown menu, which back then was powered by JavaScript.
 
-We initially investigated the CSS checkbox approach, but it was clear that approach won't be accessible. That's when <details> came into play.
+We initially investigated the CSS checkbox approach, but it was clear that approach won't be accessible. That's when `<details>` came into play.
 
 We quickly started prototyping a dropdown menu with the details element. There were only two features missing: first, the ability to click anywhere to close a menu, and second, pressing escape to close a menu.
 
