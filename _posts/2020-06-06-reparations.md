@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2020-06-06
-title: Reparations (zh-TW)
+title: Reparations（中文）
 feature: 1
 ---
 

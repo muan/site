@@ -80,9 +80,10 @@ footer {
 .terminal .line {
   display: flex;
   padding: 0;
+  line-height: 1.6em;
 
   > * {
-    padding: .1rem 1rem;
+    padding: .4rem 1rem;
   }
 
   .line-link {
