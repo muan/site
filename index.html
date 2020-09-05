@@ -1,32 +1,75 @@
 ---
 title: Hey, this is Mu-An.
 layout: default
+header_content: |
+  <span class="smol"><a href="/zh-TW">正體中文</a> / English</span>
 ---
 
-<span class="smol"><u>[English]</u> <a href="/zh-TW">[正體中文]</a></span>
-
 <ul class="terminal">
-  <li>I currently work at <a href="https://github.com/">GitHub</a> as a Senior Software Engineer.</li>
-  <li>I cofounded <a href="https://www.zeczec.com/">嘖嘖</a>, a Taiwanese crowdfunding platform for creatives.</li>
-  <li>I am based in <a href="https://www.instagram.com/p/Brn5p01Huga/">New York</a>.</li>
-  <li>I had lived in <a href="https://www.instagram.com/p/SA0L5tpaqE/">the U.K.</a> for 5 years.</li>
-  <li>I was born and raised <a href="https://www.instagram.com/p/B7NDr7YJ_Od/">Taiwanese</a>.</li>
-  <li>Check out my open source work on <a href="https://github.com/muan" rel="me">GitHub</a>.</li>
-  <li>I <a href="/notes">write random notes here</a>. Subscribe to them with <a href="/notes.xml">RSS feed</a> or on <a href="https://micro.blog/muan">micro.blog</a>.</li>
-  <li>I try my best to stay away from <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>.</li>
-  <li>My email is hi @ this domain.</li>
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    I work at <a href="https://github.com/">GitHub</a> as a Senior Software Engineer. I mostly write JavaScript and Ruby.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    I cofounded <a href="https://www.zeczec.com/">嘖嘖</a>, a Taiwanese crowdfunding platform for creatives.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    I am based in Brooklyn, <a href="https://www.instagram.com/p/Brn5p01Huga/">New York</a>.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    I studied furniture design in <a href="https://www.instagram.com/p/SA0L5tpaqE/">the UK</a> and had lived there for 5 years.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    I am <a href="https://www.instagram.com/p/B7NDr7YJ_Od/">Taiwanese</a>.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    Check out my open source work on <a href="https://github.com/muan" rel="me">GitHub</a>.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    I <a href="/notes">write random notes here</a>. Subscribe to them with <a href="/notes.xml">RSS feed</a> or on <a href="https://micro.blog/muan">micro.blog</a>.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    I try my best to stay away from <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    My email is hi @ this domain.
+  {% endcapture %}{% include line.html i=i content=content %}
+
 </ul>
 
+<hr class="hr">
+
 <h2 class="text">Posts <span class="smol"><a href="/feed.xml">[feed]</a></span></h2>
-<ul aria-label="posts">
+<ul aria-label="posts" class="terminal">
 {% assign posts = site.posts | where: "feature", 1 %}
 {% for post in posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date_to_string }}</time></li>
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    <a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date_to_string }}</time>
+  {% endcapture %}{% include line.html i=i content=content %}
 {% endfor %}
 </ul>
 
+<hr class="hr">
+
 {% assign note = site.data.notes[0] %}
+<h2 class="text">Latest note  <span class="smol">[{{ note.date | date: "%b %d, %Y" }}]</span></h2>
 <div class="note">
-  <div class="note-heading">Latest note # {{ note.date | date: "%b %d, %Y" }}</div>
   {{ note.content | markdownify }}
 </div>

@@ -3,11 +3,13 @@ layout: default
 title: Notes
 ---
 
+<ul class="notes">
 {% for note in site.data.notes %}
-<div class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
+<li class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
   <h2 class="note-heading">
-    <a href="#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">{{ note.date | date: "%b %d, %Y" }} #</a>
+    <a href="#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">{{ note.date | date: "%B %d, %Y" }} #</a>
   </h2>
   {{ note.content | markdownify }}
-</div>
+</li>
 {% endfor %}
+<ul>
