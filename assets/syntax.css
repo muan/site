@@ -1,31 +1,38 @@
+
+pre, code {
+  font-size: 0.8rem;
+}
+
 .highlight {
-  font-size: 0.9em;
   overflow: hidden;
   position: relative;
   margin: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
 }
 
-.lineno {
-  position: absolute;
-  top: -2px;
-  margin-left: -54px;
+.highlight .gutter {
+  padding-right: 1em;
+  color: #aaa;
+  border-right: 3px solid #ddd;
 }
 
-.highlight > pre {
-  padding: 0 7px 0 15px; margin: 10px 0 10px 35px;
-  border-left: 4px double #eee;
+.highlight .code {
+  padding-left: 1em;
+}
+
+.highlight pre {
   overflow: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 code {
   background: #f0f0f0;
+  padding: .2em .3em;
+  vertical-align: middle;
 }
 
 pre code {
+  padding: 0;
   word-wrap: initial;
   background: transparent;
 }

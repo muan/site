@@ -10,6 +10,9 @@
     <link rel="authorization_endpoint" href="https://github-indieauth.herokuapp.com/auth">
     <link rel="token_endpoint" href="https://github-indieauth.herokuapp.com/token">
     <link rel="micropub" href="https://site-endpoint.herokuapp.com/micropub">
+    {% if page.collection == "posts" %}
+      <link href="/assets/syntax.css" rel="stylesheet" type="text/css">
+    {% endif %}
     <link href="/assets/new.css" rel="stylesheet" type="text/css">
     {% if page.date %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
