@@ -5,9 +5,9 @@ title: Notes
 
 <ul class="notes">
 {% for note in site.data.notes %}
-<li class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
+<li class="note" id="t{{ note.date | date: "%Y%m%d%I%M" }}">
   <h2 class="note-heading">
-    <a href="#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">{{ note.date | date: "%B %d, %Y" }} #</a>
+    <a href="#t{{ note.date | date: "%Y%m%d%I%M" }}">{{ note.date | date: "%B %d, %Y" }} #</a>
   </h2>
   {{ note.content | markdownify }}
 </li>
