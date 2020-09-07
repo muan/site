@@ -138,8 +138,8 @@ footer {
   background: #fcfcfc;
   border-radius: 3px;
   font-family: system-ui, sans-serif;
-  transition: all .8s;
-  &:target, &:hover { border-color: transparent; box-shadow: 0 0 50px 40px #f5f5f5; }
+  transition: box-shadow .8s;
+  &:target, &:hover { box-shadow: 0 0 50px 40px #f5f5f5; }
   p:first-child, blockquote:first-child { margin-top: 0; }
   p:last-child, blockquote:last-child, img:last-child { margin-bottom: 0; }
 }
