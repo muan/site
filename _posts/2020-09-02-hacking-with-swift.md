@@ -7,6 +7,20 @@ feature: 1
 
 Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). This would probably be my 5th attempt for learning iOS/macOS development. 🤞 [Hopefully I keep this up](https://mobile.twitter.com/muanchiou/status/1302195083333206017).
 
+## Day 5
+2020/09/07
+
+- Day 10 – classes and inheritance
+- Day 11 – protocols, extensions, and protocol extensions
+
+🤔 I don't think I've ever wanted something like `final class`.
+
+`protocols` are like type definitions? except you can define protocol extensions which would actually give objects that conforms to those protocol methods and vars? and extensions defaults can be overriden without `override`––Turns out this was explained in the next part, POP (11/5).
+
+`extensions` with mutatability wasn't really explained but was tested. Specifically I thought `Int` being a class doesn't need the `mutating` keyword when being extended in order to perform mutation, but it did?!
+
+I haven't watched any of the videos since they take much longer than reading.
+
 ## Day 4
 2020/09/06
 
