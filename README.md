@@ -1,6 +1,6 @@
-# A blog
+# muan.co
 
-This is where Mu-An writes her stuff and messes around every once in a while. See the messes [here](https://github.com/muan/muan.github.com/releases).
+Code for https://muan.co/. Some of the content is updated via [a micropub server](https://github.com/muan/micropub-endpoint#micropub-endpoint).
 
 ## Development
 
@@ -20,8 +20,3 @@ images/
 ```
 
 All other directories and files are MIT Licensed (where applicable).
-
-## Me
-
-:wave: [@muanchiou](http://twitter.com/muanchiou)
-:panda_face:
