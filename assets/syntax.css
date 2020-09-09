@@ -1,18 +1,23 @@
 
 pre, code {
-  font-size: 0.8rem;
+  font-size: 0.8em;
+  font-family: 'Cousine', monospace;
 }
 
-.highlight {
+div.highlight {
   overflow: hidden;
   position: relative;
   margin: 0;
+  background-color: #fff;
+  padding: .4em .8em;
+  border-radius: 3px;
+  tab-size: 2;
 }
 
 .highlight .gutter {
   padding-right: 1em;
   color: #aaa;
-  border-right: 3px solid #ddd;
+  border-right: 3px solid #fff;
 }
 
 .highlight .code {
@@ -26,9 +31,13 @@ pre, code {
 }
 
 code {
-  background: #f0f0f0;
+  background: #fff;
   padding: .2em .3em;
   vertical-align: middle;
+}
+
+p code {
+  vertical-align: inherit;
 }
 
 pre code {
