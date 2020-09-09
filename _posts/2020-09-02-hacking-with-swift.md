@@ -7,6 +7,19 @@ feature: 1
 
 Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). This would probably be my 5th attempt for learning iOS/macOS development. 🤞 [Hopefully I keep this up](https://mobile.twitter.com/muanchiou/status/1302195083333206017).
 
+## Day 6
+2020/09/08
+
+- Day 12 – optionals, unwrapping, and typecasting
+
+🤔🤔 **Unwrapping** 🤔🤔
+Why create another variable just to check if a variable held value? 
+Why is `func foo (number: Number?) { guard let number = number else { ... } }` OK?
+
+Seems like `!` is never a good idea when the result is crashing. `try?` is cool though.
+
+Without actually writing the code every day I don't feel like I'm memorizing the syntax. 
+
 ## Day 5
 2020/09/07
 
