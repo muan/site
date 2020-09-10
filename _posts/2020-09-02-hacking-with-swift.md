@@ -7,6 +7,15 @@ feature: 1
 
 Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). This would probably be my 5th attempt for learning iOS/macOS development. 🤞 [Hopefully I keep this up](https://mobile.twitter.com/muanchiou/status/1302195083333206017).
 
+## Day 7
+2020/09/09
+
+- Day 13 – Swift review, day one
+- Day 14 – Swift review, day two
+
+I went through the topics through tests, and noticed that I missed `fallthrough` completely the first time around, probably because there wasn't a code example for it.. so here's [the official doc for `fallthrough`](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID140). I like this a lot more for the explicitness.
+
+
 ## Day 6
 2020/09/08
 
@@ -14,7 +23,7 @@ Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). 
 
 🤔🤔 **Unwrapping** 🤔🤔
 Why create another variable just to check if a variable held value? 
-Why is `func foo (number: Number?) { guard let number = number else { ... } }` OK?
+Why is `func foo (number: Number?) { guard let number = number else { ... } }` OK? Is variable shadowing not a thing?
 
 Seems like `!` is never a good idea when the result is crashing. `try?` is cool though.
 
