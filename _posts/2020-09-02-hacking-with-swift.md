@@ -7,6 +7,13 @@ feature: 1
 
 Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). This would probably be my 5th attempt for learning iOS/macOS development. 🤞 [Hopefully I keep this up](https://mobile.twitter.com/muanchiou/status/1302195083333206017).
 
+## Day 8
+2020/09/10
+
+- Day 15 – Swift review, day three
+
+Nothing new. Gonna save day 16 for tomorrow since that's when actually code writing starts.
+
 ## Day 7
 2020/09/09
 
