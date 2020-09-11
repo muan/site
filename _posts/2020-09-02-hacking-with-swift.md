@@ -12,7 +12,7 @@ Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). 
 
 - Day 15 – Swift review, day three
 
-Nothing new. Gonna save day 16 for tomorrow since that's when actually code writing starts.
+Nothing new. Gonna save day 16 for tomorrow since that's when I'll have to start to use Xcode.
 
 ## Day 7
 2020/09/09
