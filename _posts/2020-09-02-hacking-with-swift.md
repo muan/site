@@ -7,6 +7,23 @@ feature: 1
 
 Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). This would probably be my 5th attempt for learning iOS/macOS development. 🤞 [Hopefully I keep this up](https://mobile.twitter.com/muanchiou/status/1302195083333206017).
 
+## Day 9
+2020/09/14
+
+- Day 16 – Project 1, part one
+
+I didn't open my laptop at all for the weekend. ✌️ Hopefully I still remember how things work.
+
+It did seem like I managed to build some UI, but I totally got turned around. The `Picker` example in the demo code doesn't work, and turns out it was because [SwiftUI expects the containing view to be inside a `NavigationView`](https://www.hackingwithswift.com/quick-start/swiftui/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable). But why? and why didn't Xcode tell me this? And why is this the case—
+
+> Closure containing control flow statement cannot be used with function builder 'ViewBuilder'
+
+Why can I only use the language's forloop syntax in some cases and not all? why is `ForEach` different/significant? and why is `PreviewProvider` code a thing? I know what it's for but it seems weird that it's code that _lives in your feature code_ solely meant for the IDE.
+
+I don't want to simply accept and memorize these. I want to understand them. `:old_man_yells_at_cloud:` I stopped at this point for the day.
+
+On the plus side though, this time I was indeed less overwhelmed by Xcode.
+
 ## Day 8
 2020/09/10
 
