@@ -1,7 +1,6 @@
 ---
 layout: default
-date: 2020-09-03
-title: Notes for Hacking with Swift
+title: Hacking with Swift
 feature: 1
 ---
 

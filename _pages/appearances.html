@@ -1,0 +1,23 @@
+---
+layout: default
+title: Appearances
+---
+
+{% assign data = site.data.appearances | sort: 'date' | reverse %}
+{% for entry in data %}
+<div class="entry">
+  <h3 class="entry-title">
+    {{ entry.subject }}
+    @ {{ entry.at }}
+  </h3>
+  <div class="smol">[{{ entry.type }}] on <time>{{ entry.date }}</time>{% if entry.loc %} - {{ entry.loc }}{% endif %}</div>
+  <p>{{ entry.excerpt }}</p>
+  {% if entry.links.size > 0 %}
+    <ul aria-label="related links">
+      {% for link in entry.links %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
+{% endfor %}

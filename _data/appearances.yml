@@ -1,0 +1,78 @@
+- subject: A dialog on &lt;dialog>
+  at: Brooklyn JS
+  loc: Brooklyn, New York
+  date: 2019/04/18
+  type: talk
+  excerpt: Everything you need to know about the HTML &lt;dialog> element.
+  links:
+    - title: Deck
+      url: https://docs.google.com/presentation/d/1BOfauRVTJnGGBQUeNa75N5AzoHCX_sFHpmxcKEKMEB8/edit
+
+- subject: Details on &lt;details>
+  at: Brooklyn JS
+  loc: Brooklyn, New York
+  date: 2018/07/19
+  type: talk
+  excerpt: Everything you need to know about the HTML &lt;details> element.
+  links:
+    - title: Repository
+      url: https://github.com/muan/details-on-details
+    - title: Deck
+      url: https://docs.google.com/presentation/d/1hvnPpsJo44BTPfJx28CV95vqk_dt6na1awUbk0kmZYM/edit
+    - title: Podcast in Mandarin
+      url: https://anchor.fm/muan/episodes/Details-on-details-ehn7mf/a-a2sc9qe
+
+- subject: Furniture Nomadic
+  at: Design Details
+  date: 2018/06/20
+  type: podcast
+  excerpt: My career and Web Components.
+  links:
+    - title: Podcast
+      url: https://designdetails.fm/episodes/157748
+
+- subject: Publishing and Hosting on GitHub pages
+  at: Mozfest 2015
+  loc: London, UK
+  date: 2015/11/07
+  type: talk
+  links: 
+    - title: Deck
+      url: https://speakerdeck.com/muan/publishing-and-hosting-on-github-pages
+
+- subject: GitHub adventure (GitHub 大冒險)
+  at: JSDC
+  loc: Taipei, Taiwan
+  date: 2014/10/12
+  type: talk
+  links: 
+    - title: Deck
+      url: https://speakerdeck.com/muan/jsdc
+
+- subject: Design with Code
+  at: Code Conf
+  loc: Hong Kong
+  date: 2014/09/06
+  type: talk
+  links: 
+    - title: Deck
+      url: https://speakerdeck.com/muan/design-with-code
+
+- subject: Design & open source
+  at: Aarhus Alpha
+  loc: Aarhus, Denmark
+  date: 2014/06/11
+  type: talk
+  excerpt: Leaving your code out in the open for everyone to copy, develop, and criticize is both gratifying and scary.
+  links: 
+    - title: Deck
+      url: https://speakerdeck.com/muan/design-in-github
+
+- subject: A girl with no patience
+  at: Rails Girls
+  loc: Milan, Italy
+  date: 2013/11/16
+  type: talk
+  links: 
+    - title: Deck
+      url: https://speakerdeck.com/muan/a-girl-with-no-patience

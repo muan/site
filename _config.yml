@@ -9,4 +9,7 @@ sass:
   sass_dir: assets
   style: :compressed
 collections:
-  - notes
+  notes:
+    output: false
+  pages:
+    output: true
