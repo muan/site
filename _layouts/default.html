@@ -20,6 +20,8 @@
       <meta content="article" property="og:type">
       {% if page.image %}
         <meta content="http://muan.co/images/{{ page.image }}" property="og:image">
+      {% elsif page.image_text %}
+        <meta content="https://muan-text-image.herokuapp.com/title?text={{ page.image_text | strip | url_encode }}" property="og:image">
       {% endif %}
       <title>{{ page.title }} - {{ site.title }}</title>
     {% else %}

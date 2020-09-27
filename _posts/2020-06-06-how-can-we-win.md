@@ -3,6 +3,9 @@ layout: default
 date: 2020-06-06
 title: How Can We Win, transcript（中文）
 feature: 1
+image_text: |
+  How Can We Win
+  (zh-TW transcript)
 ---
 
 <style>th { font-size: 10px; } td { word-break: keep-all; } .embed-container { margin: 20px 0; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/sb9_qGOa9Go' frameborder='0' allowfullscreen></iframe></div>

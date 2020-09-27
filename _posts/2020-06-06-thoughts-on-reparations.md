@@ -3,6 +3,7 @@ layout: default
 date: 2020-06-06
 title: Thoughts on Reparations
 feature: 1
+image_text: Thoughts on Reparations
 ---
 
 [Reparations (zh-TW)]({% link _posts/2020-06-06-reparations.md %})

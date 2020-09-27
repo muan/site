@@ -1,7 +1,8 @@
 ---
 layout: default
 date: 2020-08-04
-title: Details on &lt;details&gt;（中文）
+title: Details on &lt;details&gt;
+image_text: Details on <details>
 ---
 
 Find links and references mentioned in this post at [muan/details-on-details](https://github.com/muan/details-on-details).
