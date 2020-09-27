@@ -8,6 +8,14 @@
     - title: Deck
       url: https://docs.google.com/presentation/d/1BOfauRVTJnGGBQUeNa75N5AzoHCX_sFHpmxcKEKMEB8/edit
 
+- subject: Judge for 2020 Presidential Hackathon
+  loc: Taipei, Taiwan
+  date: 2020
+  type: hackathon
+  links:
+    - title: Website
+      url: https://presidential-hackathon.taiwan.gov.tw/en/
+
 - subject: Details on &lt;details>
   at: Brooklyn JS
   loc: Brooklyn, New York
@@ -21,6 +29,14 @@
       url: https://docs.google.com/presentation/d/1hvnPpsJo44BTPfJx28CV95vqk_dt6na1awUbk0kmZYM/edit
     - title: Podcast in Mandarin
       url: https://anchor.fm/muan/episodes/Details-on-details-ehn7mf/a-a2sc9qe
+
+- subject: Judge for 2019 Presidential Hackathon
+  loc: Taipei, Taiwan
+  date: 2019
+  type: hackathon
+  links:
+    - title: Website
+      url: https://presidential-hackathon.taiwan.gov.tw/en/
 
 - subject: Furniture Nomadic
   at: Design Details

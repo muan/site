@@ -8,7 +8,7 @@ title: Appearances
 <div class="entry">
   <h3 class="entry-title">
     {{ entry.subject }}
-    @ {{ entry.at }}
+    {% if entry.at %}@ {{ entry.at }}{% endif %}
   </h3>
   <div class="smol">[{{ entry.type }}] on <time>{{ entry.date }}</time>{% if entry.loc %} - {{ entry.loc }}{% endif %}</div>
   <p>{{ entry.excerpt }}</p>
