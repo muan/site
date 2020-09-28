@@ -60,6 +60,14 @@ header_content: |
 <h2 class="text">文章 <span class="smol"><a href="/feed.xml">[feed]</a></span></h2>
 
 <ul aria-label="posts" class="terminal">
+{% assign posts = site.pages | where: "feature", 1 %}
+{% for post in posts %}
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  {% endcapture %}{% include line.html i=i content=content %}
+{% endfor %}
+
 {% assign posts = site.posts | where: "feature", 1 %}
 {% for post in posts %}
   {% assign i = i | plus: 1 %}
