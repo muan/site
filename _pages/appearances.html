@@ -3,14 +3,14 @@ layout: default
 title: Appearances
 ---
 
-{% assign data = site.data.appearances | sort: 'date' | reverse %}
+{% assign data = site.data.appearances %}
 {% for entry in data %}
 <div class="entry">
   <h3 class="entry-title">
     {{ entry.subject }}
     {% if entry.at %}@ {{ entry.at }}{% endif %}
   </h3>
-  <div class="smol">[{{ entry.type }}] on <time>{{ entry.date }}</time>{% if entry.loc %} - {{ entry.loc }}{% endif %}</div>
+  <div class="smol">[{{ entry.type }}] <time>{{ entry.date }}</time>{% if entry.loc %} - {{ entry.loc }}{% endif %}</div>
   <p>{{ entry.excerpt }}</p>
   {% if entry.links.size > 0 %}
     <ul aria-label="related links">
