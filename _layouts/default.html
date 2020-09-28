@@ -27,8 +27,10 @@
         <meta content="https://muan-text-image.herokuapp.com/title?v=1&text={{ page.image_text | strip | url_encode }}" property="twitter:image">
       {% endif %}
       <title>{{ page.title }} - {{ site.title }}</title>
+      <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
     {% else %}
       <title>{{ site.title }}</title>
+      <meta content="{{ site.title }}" property="og:title">
       <meta content="{{ site.description }}" name="description">
       <meta content="blog" property="og:type">
     {% endif %}
