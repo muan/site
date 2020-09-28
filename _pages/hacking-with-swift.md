@@ -6,6 +6,11 @@ feature: 1
 
 Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). This would probably be my 5th attempt for learning iOS/macOS development. 🤞 [Hopefully I keep this up](https://mobile.twitter.com/muanchiou/status/1302195083333206017).
 
+## Day 10
+TBD.
+
+I didn't forget about this. I have been busy.
+
 ## Day 9
 2020/09/14
 
