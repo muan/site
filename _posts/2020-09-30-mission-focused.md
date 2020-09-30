@@ -17,7 +17,7 @@ footer_content: ""
 
 Last night, one of the people in my US Overwatch squad asked when I will move back to *China* while we were queuing for a game. I refuted, saying “well, I am from Taiwan”. Two other people in the group backed me up immediately and said “sorry he’s pro the Chinese government” jokingly.
 
-I know he just didn’t know, but it hurts as much. This isn’t the first instance and it won’t be the last. Once again, I would not be able to stop thinking about this for a while.
+I know he just didn’t know, but it hurts as much. This isn’t the first instance and it won’t be the last. Once again, I will not be able to stop thinking about this for a while.
 
 As I contemplate escaping the US, I look towards my homeland that is constantly and currently being terrorized by the Chinese government [every day](https://www.reuters.com/article/us-taiwan-security/taiwans-armed-forces-strain-in-undeclared-war-of-attrition-with-china-idUSKCN26H08X). I found myself wondering where the line is as we continued with the games last night. How can I make sure that at the very least, people I consider as friends know that this is an issue near and dear to my heart and take the effort to understand it? But at the same time, how can I also avoid being the person who is “making everything political” and ruining the fun?
 
