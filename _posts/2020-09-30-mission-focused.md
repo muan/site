@@ -27,4 +27,4 @@ I can’t check politics at the door when I enter this game, this meeting, or th
 
 And what do I do as a woman in tech? what do I do as a person of color in the US? what do I do as an immigrant? what do I do as I see others close to me struggling with similar issues?
 
-I don’t know how they don’t, can’t, won’t see us, or see how mission-focused plainly suggests to ignore your bleeding wound for 8 hours a day while new wounds appear and old wounds deteriorate.
+I don’t know how they don’t, can’t, won’t see us, or see how "mission-focused" plainly suggests to ignore your bleeding wound for 8 hours a day while new wounds appear and old wounds deteriorate.
