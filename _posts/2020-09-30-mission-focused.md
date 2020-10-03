@@ -9,7 +9,7 @@ image_text: |
 footer_content: ""
 ---
 
-<iframe width="240" height="140" src="https://www.youtube.com/embed/Tas1h6rqHDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="240" height="140" src="https://www.youtube.com/embed/Tas1h6rqHDE?playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div style="margin-top: -.7em; font-size: .7em;">
 <a href="https://islandnationblog.wordpress.com/2017/01/19/%E6%BB%85%E7%81%AB%E5%99%A8-%E6%99%9A%E5%AE%89%E5%8F%B0%E7%81%A3good-night-formosa/">Good Night! Formosa!</a> by <a href="https://open.spotify.com/track/1KydWe3ZH7XA0gPrZIO73s">Fire EX.</a>
