@@ -2,6 +2,9 @@
 layout: default
 title: Hacking with Swift
 feature: 1
+image_text: |
+  :red_apple::telephone:
+  Hacking with Swift
 ---
 
 Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). This would probably be my 5th attempt for learning iOS/macOS development. 🤞 [Hopefully I keep this up](https://mobile.twitter.com/muanchiou/status/1302195083333206017).
