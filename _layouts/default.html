@@ -48,7 +48,7 @@
       {{ page.header_content }}
     </header>
     <main>
-      {% if page.date %}
+      {% if page.collection == "posts" or page.collection == "pages" %}
         <article>
           {{ content }}
         </article>
