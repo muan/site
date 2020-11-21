@@ -30,7 +30,7 @@ Life, work, US politics, and their intersection had me wondering was it worth al
 
 The GitHub today isn’t the place that I so excitedly joined back when I was in my early 20s. It shouldn’t and couldn't have stayed the same, but I think it has changed so significantly that I ought to re-evaluate this choice.
 
-There are many decisions made by the US government and by Microsoft GitHub that I disagree with. Leaving wouldn’t change any of them, but between being a temporary immigrant worker in this foreign country and a human resource in a mega corporation, I just feel powerless, and complicit. By leaving, I will be able to direct my time and energy on issues that I have the power to influence, and in democractic processes that I get to participate.
+There are many decisions made by the US government and by Microsoft GitHub that I disagree with. Leaving wouldn’t change any of them, but between being a temporary immigrant worker in this foreign country and a human resource in a mega corporation, I just feel powerless, and complicit. By leaving, I will be able to direct my time and energy on issues that I have the power to influence, and in democratic processes that I get to participate.
 
 I thought I couldn’t afford to leave, but I can. I thought I had no choice but to stay, but I was mostly scared. I was scared because 7 years of GitHub has shaped my adulthood, because leaving a group of people I deeply respect and enjoy working with seems unwise, because making two major life decisions (resigning and moving) at the same time is overwhelming... on top of all of this, isn't everything around us terrifying enough?
 
