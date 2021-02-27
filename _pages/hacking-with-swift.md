@@ -28,7 +28,7 @@ I feel a lot better now, even though I think I still can't be productive yet. Le
 
 - You can also create UI by code, without the GUI, which is a popular approach. (Except, for the launch screen and the main screen, which you *have to* create with the GUI.)
 
-- Think of `*Controller` files like HTML files, except you ignore best practices and write *everything* in the markup. People would obviously extract model code out still, but the point is things start from the page markup. 
+- Think of `*Controller` files like HTML files, except you ignore best practices and write *everything* in the markup. People would obviously extract model code out, but the main point is— development _starts_ from the page markup. 
 
   ```html
   <script>function () dostuff { ... }</script>
@@ -39,13 +39,13 @@ I feel a lot better now, even though I think I still can't be productive yet. Le
   </nav>
   ```
 
-- Using a Rails webapp for example, essentially you will probably end up the same number of `views/**/*.erb` as `*Controller.swift`.
+- To build an app version of a Rails webapp, you will likely end up with the same number of `views/**/*.erb` for `*Controller.swift`.
 
 - `npm` -> `cocoapods` v.s. `yarn`(cache) -> `carthage` 
 
 - Core Data is for database, but you probably don't and shouldn't need it.
 
-- Use _playground_ to REPL stuff because you can't be always comiling everything.
+- Use _playground_ to REPL stuff because you can't be always compiling everything to test.
 
 - `RxSwift` v.s. `combine`.
 
