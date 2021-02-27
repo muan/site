@@ -10,9 +10,48 @@ image_text: |
 Trying out [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui). This would probably be my 5th attempt for learning iOS/macOS development. 🤞 [Hopefully I keep this up](https://mobile.twitter.com/muanchiou/status/1302195083333206017).
 
 ## Day 10
-TBD.
+2021/02/27
 
-I didn't forget about this. I have been busy.
+So, it's been half a year. I am back. Remember how confused I was by everything on Day 9? I decided it's time to get some help. I reached out to my friend [@dlackty](https://twitter.com/dlackty) and got him to give me a 2 hour crash course for iOS development. 
+
+I feel a lot better now, even though I think I still can't be productive yet. Let me just write down the things we covered in the 2 hours.
+
+- Xcode UI walk through.
+
+- Difference between Swift UI and storyboard. Swift UI is cool and new, but 
+
+   1. it won't work on ~iOS 12 (~ iPhone 6)
+   2. there are cross version compatibility issues between iOS 13 and 14
+   3. limited 3rd party libraries
+   
+  It might not be a good idea to use it as of yet. 
+
+- You can also create UI by code, without the GUI, which is a popular approach. (Except, for the launch screen and the main screen, which you *have to* create with the GUI.)
+
+- Think of `*Controller` files like HTML files, except you ignore best practices and write *everything* in the markup. People would obviously extract model code out still, but the point is things start from the page markup. 
+
+  ```html
+  <script>function () dostuff { ... }</script>
+  <nav>
+    <tab-container ontabchange="...">
+      <button onclick="dostuff();"></button>
+    </tab-container>
+  </nav>
+  ```
+
+- Using a Rails webapp for example, essentially you will probably end up the same number of `views/**/*.erb` as `*Controller.swift`.
+
+- `npm` -> `cocoapods` v.s. `yarn`(cache) -> `carthage` 
+
+- Core Data is for database, but you probably don't and shouldn't need it.
+
+- Use _playground_ to REPL stuff because you can't be always comiling everything.
+
+- `RxSwift` v.s. `combine`.
+
+- For API needs, see `Alamofire` & Codable.
+
+That's about everything. But first, I will have to review the stuff from before (9 days lol) and re-learn the Swift syntax. BRB.
 
 ## Day 9
 2020/09/14
