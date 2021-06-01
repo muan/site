@@ -1,3 +1,7 @@
+- date: 2021/06/01 02:50
+  content: |
+    Hello I just spent an hour debugging my gmail extension that was triggering an event twice- turns out I have both the production and development version of the extension enabled. I am very smart ok?
+
 - date: 2021/05/06 11:46
   content: |
     Took me a while but I finally understand why many of the senior people I enjoy working with are no longer active in the tech scene. 
