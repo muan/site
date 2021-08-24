@@ -11,7 +11,7 @@ header_content: |
 <ul class="terminal">
   {% assign i = i | plus: 1 %}
   {% capture content do %}
-    自 2013 到 2020 年底，我曾在 <a href="https://github.com/">GitHub</a> 擔任資深軟體工程師，主要寫 JavaScript 和 Ruby。
+    2013 到 2020 年底我曾在 <a href="https://github.com/">GitHub</a> 擔任資深軟體工程師，主要寫 JavaScript 和 Ruby。
   {% endcapture %}{% include line.html i=i content=content %}
 
   {% assign i = i | plus: 1 %}
@@ -36,17 +36,17 @@ header_content: |
 
   {% assign i = i | plus: 1 %}
   {% capture content do %}
+    我用 <a href="https://read.cv/muan" rel="me">read.cv/muan</a> 作為即時更新的履歷。
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
     我在這裡<a href="/notes">寫些有的沒的</a>。你可以透過 <a href="/notes.xml">RSS</a> 或 <a href="https://micro.blog/muan">micro.blog</a> 訂閱它們。
   {% endcapture %}{% include line.html i=i content=content %}
 
   {% assign i = i | plus: 1 %}
   {% capture content do %}
     我很努力地遠離 <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>。
-  {% endcapture %}{% include line.html i=i content=content %}
-
-  {% assign i = i | plus: 1 %}
-  {% capture content do %}
-    我的信箱是 hi @ 這個網域。
   {% endcapture %}{% include line.html i=i content=content %}
 </ul>
 
@@ -75,7 +75,7 @@ header_content: |
 <hr class="hr">
 
 {% assign note = site.data.notes[0] %}
-<h2 class="text">最新的筆記  <span class="smol">[{{ note.date | date: "%b %d, %Y" }}]</span></h2>
+<h2 class="text">最新的筆記 <a href="/notes" class="smol">(全)</a> <span class="smol">[{{ note.date | date: "%b %d, %Y" }}]</span></h2>
 <div class="note">
   {{ note.content | markdownify }}
 </div>

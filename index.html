@@ -33,6 +33,11 @@ header_content: |
 
   {% assign i = i | plus: 1 %}
   {% capture content do %}
+    You can find a live version of my CV at <a href="https://read.cv/muan" rel="me">read.cv/muan</a>.
+  {% endcapture %}{% include line.html i=i content=content %}
+
+  {% assign i = i | plus: 1 %}
+  {% capture content do %}
     I <a href="/notes">write random notes here</a>. Subscribe to them with <a href="/notes.xml">RSS feed</a> or on <a href="https://micro.blog/muan">micro.blog</a>.
   {% endcapture %}{% include line.html i=i content=content %}
 
@@ -40,12 +45,6 @@ header_content: |
   {% capture content do %}
     I try my best to stay away from <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>.
   {% endcapture %}{% include line.html i=i content=content %}
-
-  {% assign i = i | plus: 1 %}
-  {% capture content do %}
-    My email is hi @ this domain.
-  {% endcapture %}{% include line.html i=i content=content %}
-
 </ul>
 
 <hr class="hr">
@@ -73,7 +72,7 @@ header_content: |
 <hr class="hr">
 
 {% assign note = site.data.notes[0] %}
-<h2 class="text">Latest note  <span class="smol">[{{ note.date | date: "%b %d, %Y" }}]</span></h2>
+<h2 class="text">Latest note <a href="/notes" class="smol">(all)</a> <span class="smol">[{{ note.date | date: "%b %d, %Y" }}]</span></h2>
 <div class="note">
   {{ note.content | markdownify }}
 </div>
