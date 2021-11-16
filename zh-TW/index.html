@@ -24,7 +24,7 @@ layout: default
 <h2 class="text">個人筆記 <a href="/notes" class="styled-link">more</a> <a href="/notes.xml" class="styled-link">feed</a></h2>
 <div class="note">
   <div class="note-heading">
-    Latest: {{ note.date | date: "%B %d, %Y" }}
+    最新：{{ note.date | date: "%B %d, %Y" }}
   </div >
   {{ note.content | markdownify }}
 </div>
