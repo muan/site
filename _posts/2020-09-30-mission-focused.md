@@ -6,7 +6,6 @@ feature: 1
 image_text: |
   :face_without_mouth:
   Mission-focused
-footer_content: ""
 ---
 
 <iframe width="240" height="140" src="https://www.youtube.com/embed/Tas1h6rqHDE?playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Hacking with Swift
+date: 2021-02-27
 feature: 1
+permalink: /pages/hacking-with-swift/
 image_text: |
   :red_apple::telephone:
   Hacking with Swift

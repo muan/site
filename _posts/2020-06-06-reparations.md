@@ -2,7 +2,6 @@
 layout: default
 date: 2020-06-06
 title: Reparations（中文）
-feature: 1
 ---
 
 Translation for [Reparations——What being Armenian taught me about #BlackLivesMatter](https://armenianweekly.com/2020/06/04/reparations-3/).

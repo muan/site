@@ -2,7 +2,6 @@
 layout: default
 date: 2020-06-06
 title: How Can We Win, transcript（中文）
-feature: 1
 image_text: |
   How Can We Win
   (zh-TW transcript)

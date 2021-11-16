@@ -41,9 +41,9 @@
       <h1 class="h1">
         {{ page.title }}<span class="blink">|</span>
       </h1>
-      {% if page.collection == 'posts' %}<small>{{ page.date | date_to_string }}</small><br>{% endif %}
+      {% if page.collection == 'posts' %}<time>{{ page.date | date_to_string }}</time><br>{% endif %}
       {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
-        <small><a href="/"> $ cd ~</a></small>
+        <small><a href="/">&leftarrow;</a></small>
       {% endif %}
       {{ page.header_content }}
     </header>
@@ -69,8 +69,7 @@
       {% endif %}
     </main>
     <footer>
-      {% if page.footer_content %}{{ page.footer_content }}{% else %}Kbye. :){% endif %}
+      By Mu-An Chiou
     </footer>
-    <link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet">
   </body>
 </html>
