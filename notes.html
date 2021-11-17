@@ -1,13 +1,18 @@
 ---
 layout: default
-title: Notes
+title: Short notes
+header_content: Bits and pieces of my life.
 ---
+
 
 <ul class="notes">
 {% for note in site.data.notes %}
 <li class="note" id="t{{ note.date | date: "%Y%m%d%I%M" }}">
   <h2 class="note-heading">
-    <a href="#t{{ note.date | date: "%Y%m%d%I%M" }}">{{ note.date | date: "%B %d, %Y" }} #</a>
+    <a href="#t{{ note.date | date: "%Y%m%d%I%M" }}">
+      <span class="targeted">⬤</span>
+      {{ note.date | date: "%B %d, %Y" }} #
+    </a>
   </h2>
   {{ note.content | markdownify }}
 </li>

@@ -38,14 +38,14 @@
   </head>
   <body>
     <header>
-      <h1 class="h1">
-        {{ page.title }}<span class="blink">|</span>
-      </h1>
-      {% if page.collection == 'posts' %}<time>{{ page.date | date_to_string }}</time><br>{% endif %}
       {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
-        <small><a href="/">&leftarrow;</a></small>
+        <a class="styled-link" href="/" aria-label="Home">&leftarrow;</a>
       {% endif %}
-      {{ page.header_content }}
+      <h1 class="h1">
+        {{ page.title }}
+      </h1>
+      {% if page.collection == 'posts' %}<time>{{ page.date | date_to_string }}</time>{% endif %}
+      <div class="desc">{{ page.header_content }}</div>
     </header>
     <main>
       {% if page.collection == "posts" or page.collection == "pages" %}

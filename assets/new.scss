@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: #329;
+  color: #2357cd;
 }
 
 *:focus {
@@ -56,17 +56,6 @@ footer {
 .text {
   font-size: inherit;
   font-weight: normal;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .blink {
-    animation: blink 1.5s steps(2, end) infinite;
-  }
-}
-
-@keyframes blink {
-  0% {color: transparent; }
-  100% {color: #fff;}
 }
 
 .terminal .line {
@@ -119,6 +108,12 @@ footer {
   }
 }
 
+.targeted {
+  color: salmon;
+  margin-right: .2em;
+  display: inline;
+}
+
 .note {
   scroll-margin: 2em;
 
@@ -126,9 +121,12 @@ footer {
     border-bottom: 0;
   }
 
-  &:target .note-heading {
-    border-left: 1em solid rgb(240, 249, 80);
-    padding-left: 10px;
+  .targeted {
+    display: none; 
+  }
+
+  &:target .targeted {
+    display: inline;
   }
   p:first-child, blockquote:first-child { margin-top: 0; }
   p:last-child, blockquote:last-child, img:last-child { margin-bottom: 0; }
@@ -207,26 +205,33 @@ article {
   border-radius: 4px;
   padding: 4px 10px;
   margin-top: 2em;
-  border: 1px solid #ccc;
+  border: 1px solid #777;
 
   a {
     text-decoration: none;
-    color: inherit;
   }
 }
 
 .styled-link {
-  font-size: .8rem;
   margin-left: .4rem;
+  font-size: .7rem;
   border-radius: 4px;
-  border: 1px solid #ccc;
-  padding: 4px 8px;
-  color: inherit;
+  border: 1px solid;
+  padding: 3px 6px;
   text-decoration: none;
   vertical-align: middle;
 }
 
+header > .styled-link:first-of-type {
+  margin-left: 0;
+}
+
 time {
   font-size: .8em;
-  color: #777;
+  color: #707070;
+}
+
+.desc {
+  color: #707070;
+  font-size: 0.8em;
 }
