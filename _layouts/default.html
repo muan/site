@@ -34,9 +34,12 @@
       <meta content="{{ site.title }}" property="og:title">
       <meta content="{{ site.description }}" name="description">
       <meta content="blog" property="og:type">
+      
     {% endif %}
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+
   </head>
-  <body>
+  <body class="{% if page.collection == 'posts' %}post-body{% endif %}">
     <header>
       {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
         <a class="styled-link" href="/" aria-label="Home">&leftarrow;</a>
@@ -69,7 +72,7 @@
       {% endif %}
     </main>
     <footer>
-      By Mu-An Chiou
+      Mu-An Chiou
     </footer>
   </body>
 </html>

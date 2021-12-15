@@ -47,8 +47,18 @@ footer {
   margin: auto;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Readex Pro', sans-serif;
+  margin: 1.4em 0 1em 0;
+  font-weight: normal;
+}
+
+.post-body .h1 {
+  font-size: 1.5rem;
+}
+
 .h1 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: normal;
   margin-bottom: 0;
 }
