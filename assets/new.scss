@@ -211,14 +211,37 @@ article {
 
 .lang {
   font-size: .8rem;
-  display: inline-block;
-  border-radius: 4px;
-  padding: 4px 10px;
+  display: inline-flex;
+  border-radius: 6px;
+  overflow: hidden;
   margin-top: 2em;
-  border: 1px solid #777;
+  border: 1px solid #ccc;
+  white-space: nowrap;
 
+  a[aria-current] {
+    color: #333;
+    font-weight: bold;
+
+    &:before {
+      color: #74d274;
+    }
+    &:first-child { border-right-width: 1px }
+    &:last-child { border-left-width: 1px }
+  }
+  
   a {
+    border-width: 0;
+    border-color: #ccc;
+    color: #676767;
+    border-style: solid;
+    padding: 2px 14px;
     text-decoration: none;
+
+    &:before {
+      content: "●";
+      color: #ccc;
+      padding-right: 10px;
+    }
   }
 }
 
