@@ -85,6 +85,8 @@
           hour12: false
         }
         const time = new Intl.DateTimeFormat(navigator.languages[0] || "zh-TW", options).format(new Date())
+        // Setting interpolated string instead of just the time because
+        // if there's no JS there wouldn't simply be no mentions of current time
         timestamp.textContent = timestamp.getAttribute('data-timestamp-text').replace('{time}', time)
         setTimeout(settime, (60 - new Date().getSeconds()) * 1000)
       }
