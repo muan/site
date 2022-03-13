@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{% if page.path contains 'zh-TW' %}zh-TW{% else %}en{% endif %}">
   <head>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
@@ -74,5 +74,21 @@
     <footer>
       Mu-An Chiou
     </footer>
+
+    <script>
+      function settime() {
+        const timestamp = document.querySelector('[data-timestamp-text]')
+        if (!timestamp || !('Intl' in window)) return
+        const options = {
+          timeZone: "Asia/Taipei",
+          timeStyle: "short",
+          hour12: false
+        }
+        const time = new Intl.DateTimeFormat(navigator.languages[0] || "zh-TW", options).format(new Date())
+        timestamp.textContent = timestamp.getAttribute('data-timestamp-text').replace('{time}', time)
+        setTimeout(settime, (60 - new Date().getSeconds()) * 1000)
+      }
+      settime()
+    </script>
   </body>
 </html>
