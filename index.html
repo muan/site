@@ -15,13 +15,13 @@ layout: default
 </p>
 
 <div class="lang">
-  <a href="/zh-TW">正體中文</a> &nbsp;&mid;&nbsp; English
+  <a href="/zh-TW">正體中文</a> &nbsp;&mid;&nbsp; <strong>English</strong>
 </div>
 
 <hr class="hr">
 
 {% assign note = site.data.notes[0] %}
-<h2 class="text">Short notes <a href="/notes" class="styled-link">more</a> <a href="/notes.xml" class="styled-link">feed</a></h2>
+<h2 class="text">Short notes <a href="/notes" class="styled-link">all notes</a> <a href="/notes.xml" class="styled-link">RSS</a></h2>
 <div class="note">
   <div class="note-heading">
     Latest: {{ note.date | date: "%B %d, %Y" }}
@@ -31,7 +31,7 @@ layout: default
 
 <hr class="hr">
 
-<h2 class="text">Posts <a href="/feed.xml" class="styled-link">feed</a></span></h2>
+<h2 class="text">Posts <a href="/feed.xml" class="styled-link">RSS</a></span></h2>
 <ul aria-label="posts" class="terminal">
 {% assign posts = site.pages | where: "feature", 1 %}
 {% for post in posts %}
