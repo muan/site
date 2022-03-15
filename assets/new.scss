@@ -2,7 +2,7 @@
 ---
 
 :root {
-  --backgroundColor: #ffffff;
+  --backgroundColor: #fdfdfd;
   --textColor: #303030;
   --secondaryTextColor: #404040;
   --mutedTextColor: #707070;
@@ -11,6 +11,20 @@
   --borderColor: #ccc;
   --hrColor: #888;
   --activeColor: #74d274;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --backgroundColor: #1b1c1b;
+    --textColor: #dbdfdf;
+    --secondaryTextColor: #cfd5d5;
+    --mutedTextColor: #b4b6b8;
+    --subtleBackgroundColor: #ffc;
+    --linkColor: #6eb8ff;
+    --borderColor: #4d4c4c;
+    --hrColor: #888;
+    --activeColor: #74d274;
+  }
 }
 
 body {
