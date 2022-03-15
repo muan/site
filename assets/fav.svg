@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg
-  width="128" height="128" viewport="0 0 128 128"
-  version="1.1" xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
-  <style>
-    path {
-      fill: transparent;
-      stroke: #fff;
-      stroke-width: 10px;
-      stroke-linecap: round;
-    }
-
-    @media (prefers-color-scheme: light) {
-      path { stroke: #333; }
-    }
-  </style>
-  <path d="m 50 44, l 30 20, l -30 20"></path>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <style>@media (prefers-color-scheme: dark) { path { fill: #fff; } }</style>
+  <path d="M21.0607 10.9393C21.6464 11.5251 21.6464 12.4749 21.0607 13.0607L17.0607 17.0607C16.4749 17.6464 15.5251 17.6464 14.9393 17.0607C14.3536 16.4749 14.3536 15.5251 14.9393 14.9393L17.8787 12L14.9393 9.06066C14.3536 8.47487 14.3536 7.52513 14.9393 6.93934C15.5251 6.35355 16.4749 6.35355 17.0607 6.93934L21.0607 10.9393Z" fill="#404040"/>
 </svg>
