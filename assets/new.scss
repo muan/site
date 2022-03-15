@@ -6,7 +6,6 @@
   --textColor: #303030;
   --secondaryTextColor: #404040;
   --mutedTextColor: #707070;
-  --accentColor: #ee8;
   --subtleBackgroundColor: #ffc;
   --linkColor: #2357cd;
   --borderColor: #ccc;
@@ -28,12 +27,6 @@ body {
 a {
   color: var(--linkColor);
 }
-
-*:focus {
-  outline: 3px solid var(--accentColor);
-  outline-offset: 3px;
-}
-
 ::selection {
   background: var(--subtleBackgroundColor);
 }
