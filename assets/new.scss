@@ -11,6 +11,7 @@
   --borderColor: #ccc;
   --hrColor: #888;
   --activeColor: #74d274;
+  --langBackgroundColor: #00000011;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,9 +22,10 @@
     --mutedTextColor: #b4b6b8;
     --subtleBackgroundColor: #19446b;
     --linkColor: #6eb8ff;
-    --borderColor: #4d4c4c;
+    --borderColor: #414141;
     --hrColor: #888;
     --activeColor: #74d274;
+    --langBackgroundColor: #00000023;
   }
 }
 
@@ -219,15 +221,17 @@ article {
   font-size: .8rem;
   display: inline-flex;
   border-radius: 6px;
+  overflow: hidden;
   margin-top: 2em;
   border: 1px solid var(--borderColor);
   white-space: nowrap;
 
   a[aria-current] {
     color: var(--textColor);
-    font-weight: bold;
+    background: var(--langBackgroundColor);
 
     &:before {
+      content: "●";
       color: var(--activeColor);
     }
     &:first-child { border-right-width: 1px }
@@ -241,9 +245,14 @@ article {
     border-style: solid;
     padding: 2px 14px;
     text-decoration: none;
+    transition: background .2s;
+
+    &:hover {
+      background: var(--langBackgroundColor);
+    }
 
     &:before {
-      content: "●";
+      content: "○";
       color: var(--borderColor);
       padding-right: 10px;
     }
