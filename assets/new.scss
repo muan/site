@@ -257,6 +257,10 @@ article {
       background: var(--langBackgroundColor);
     }
 
+    &:focus {
+      z-index: 1;
+    }
+
     &:before {
       content: "○";
       color: var(--borderColor);
