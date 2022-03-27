@@ -5,8 +5,7 @@ Code for https://muan.co/. Some of the content is updated via [a micropub server
 ## Development
 
 ```
-$ bundle
-$ bundle exec jekyll server -w
+$ ./start
 ```
 
 ## License
