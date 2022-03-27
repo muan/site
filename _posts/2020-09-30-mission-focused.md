@@ -2,7 +2,6 @@
 layout: default
 date: 2020-09-30
 title: Mission-focused
-feature: 1
 image_text: |
   :face_without_mouth:
   Mission-focused
