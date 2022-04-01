@@ -20,17 +20,6 @@ layout: default
 
 <hr class="hr">
 
-{% assign note = site.data.notes[0] %}
-<h2 class="text">Short notes <a href="/notes" class="styled-link">All notes</a> <a href="/notes.xml" class="styled-link">RSS</a></h2>
-<div class="note">
-  <div class="note-heading">
-    Latest: {{ note.date | date: "%B %d, %Y" }}
-  </div >
-  {{ note.content | markdownify }}
-</div>
-
-<hr class="hr">
-
 <h2 class="text">Posts <a href="/feed.xml" class="styled-link">RSS</a></span></h2>
 <ul aria-label="posts" class="terminal">
 {% assign posts = site.pages | where: "feature", 1 %}
@@ -45,3 +34,14 @@ layout: default
 {% endfor %}
 
 </ul>
+
+<hr class="hr">
+
+{% assign note = site.data.notes[0] %}
+<h2 class="text">Short notes <a href="/notes" class="styled-link">All notes</a> <a href="/notes.xml" class="styled-link">RSS</a></h2>
+<div class="note">
+  <div class="note-heading">
+    Latest: {{ note.date | date: "%B %d, %Y" }}
+  </div >
+  {{ note.content | markdownify }}
+</div>
