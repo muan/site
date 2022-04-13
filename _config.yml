@@ -1,7 +1,7 @@
 title:            muanchiou
 description:      who is muanchiou
 url:              https://muan.co
-permalink:        pretty
+permalink:        /posts/:title
 timezone:         America/New_York
 kramdown:
   hard_wrap: true
