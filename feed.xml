@@ -1,20 +1,20 @@
 ---
-layout:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 {% capture srcbase %}src="{{site.url}}/{% endcapture %}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <title>@muan's posts</title>
+    <updated>{{ posts.first.date | date_to_xmlschema }}</updated>
+    <lastBuildDate>{{ posts.first.date | date_to_xmlschema }}</lastBuildDate>
+    <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
     {% assign posts = site.posts | where: "feature", 1 %}
     {% for post in posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | replace: 'src="/', srcbase | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>
