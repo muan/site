@@ -4,15 +4,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>@muan's notes</title>
-    <updated>{{ site.data.notes.first.date | date_to_xmlschema }}</updated>
-    <lastBuildDate>{{ site.data.notes.first.date | date_to_xmlschema }}</lastBuildDate>
-    <link href="{{ site.url }}/notes.xml" rel="self" type="application/atom+xml"/>
-    <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+    <description>Micro posts.</description>
+    <lastBuildDate>{{ site.data.notes.first.date | date_to_rfc822 }}</lastBuildDate>
+    <link>{{ site.url }}/notes.xml</link>
+    <atom:link href="{{ site.url }}/notes.xml" rel="self" type="application/rss+xml" />
     {% for note in site.data.notes limit: 10 %}
       <item>
         <title>{{ note.date | date: "%Y-%m-%d" }}</title>
         <description>{{ note.content | markdownify | xml_escape }}</description>
-        <pubDate>{{ note.date | date_to_xmlschema }}</pubDate>
+        <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
         <link>https://muan.co/notes#t{{ note.date | date: "%Y%m%d%I%M" }}</link>
         <guid isPermaLink="true">https://muan.co/notes#t{{ note.date | date: "%Y%m%d%I%M" }}</guid>
       </item>

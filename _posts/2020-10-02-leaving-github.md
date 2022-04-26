@@ -49,7 +49,7 @@ Hope this serves as a reminder that you might have a choice as well, despite how
 If you want to know keep up with what I get up to, here are some subscription options:
 
 - [🖼 Potential pictures of a chill life 🤞🏼 in Taiwan filled with food and nature](https://instagram.com/muanchiou)
-- [🦆 Contextless thoughts I shout into the void](/notes.rss) (RSS)
+- [🦆 Contextless thoughts I shout into the void](https://muan.co/notes.xml) (RSS)
 - [💼 One time email for when I start to look for a job](mailto:hi+bye@muan.co?subject=📫&body=Hi Mu-An. I'd be interested to know when you start to look for a job because [reasons].)
 
 &nbsp;
