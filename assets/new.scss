@@ -13,6 +13,7 @@
   --activeColor: #74d274;
   --langBackgroundColor: #eeeeee;
   --langShadowColor: transparent;
+  --logoColor: #cccccc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +29,7 @@
     --activeColor: #74d274;
     --langBackgroundColor: #2c2c2c;
     --langShadowColor: #0b0c0b33;
+    --logoColor: #555555;
   }
 }
 
@@ -69,14 +71,43 @@ footer {
   margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .font {
   font-family: 'Readex Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
   margin: 1.4em 0 1em 0;
   font-weight: normal;
 }
 
-.post-body .h1 {
-  font-size: 1.5rem;
+.logo {
+  width: 2em;
+
+  path {
+    stroke: var(--logoColor);
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.post-body  {
+  .logo-container {
+    color: var(--logoColor);
+    line-height: 1em;
+  }
+  
+  .logo {
+    width: 1em;
+    margin-left: 1em;
+    margin-right: .4em;
+  }
+
+  .h1 {
+    font-size: 1.5rem;
+  }
 }
 
 .h1 {
@@ -279,7 +310,7 @@ article {
   vertical-align: middle;
 }
 
-header > .styled-link:first-of-type {
+header .styled-link:first-of-type {
   margin-left: 0;
 }
 

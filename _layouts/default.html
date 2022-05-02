@@ -39,24 +39,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
 
   </head>
-  <body class="{% if page.collection == 'posts' %}post-body{% endif %}">
+  <body class="{% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}post-body{% endif %}">
     <header>
-      <svg width="40"  viewBox="0 0 280 244" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <style>
-        @media (prefers-color-scheme: dark) { 
-          path { stroke: #555; }
-        }
-      </style>
-      <title>安</title>
-      <path d="M20 133.109H260" stroke="#cccccc" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M80 76.5543H200" stroke="#cccccc" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M120 20H160" stroke="#cccccc" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M80.5042 224C95.2712 211.74 124.036 187.643 139.23 187.643C159.821 187.643 160.498 224 177.558 224C194.618 224 209.58 216.931 209.58 216.931" stroke="#cccccc" stroke-width="36" stroke-linecap="round"/>
-      </svg>
-
-      {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
-        <a class="styled-link" href="/" aria-label="Home">&leftarrow;</a>
-      {% endif %}
+      <div class="logo-container">
+        {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
+          <a class="styled-link" href="/" aria-label="Home">&leftarrow;</a>
+        {% endif %}
+        <svg class="logo" viewBox="0 0 280 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <title>安</title>
+          <path d="M20 133.109H260" stroke="#cccccc" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M80 76.5543H200" stroke="#cccccc" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M120 20H160" stroke="#cccccc" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M80.5042 224C95.2712 211.74 124.036 187.643 139.23 187.643C159.821 187.643 160.498 224 177.558 224C194.618 224 209.58 216.931 209.58 216.931" stroke="#cccccc" stroke-width="36" stroke-linecap="round"/>
+        </svg>
+        {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
+          <strong class="font">Mu-An Chiou</strong>
+        {% endif %}
+      </div>
       <h1 class="h1">
         {{ page.title }}
       </h1>
