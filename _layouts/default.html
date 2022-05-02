@@ -21,8 +21,8 @@
       <meta content="@muanchiou" property="twitter:site">
       <meta name="twitter:card" content="summary_large_image">
       {% if page.image %}
-        <meta content="http://muan.co/images/{{ page.image }}" property="og:image">
-        <meta content="http://muan.co/images/{{ page.image }}" property="twitter:image">
+        <meta content="https://muan.co/images/{{ page.image }}" property="og:image">
+        <meta content="https://muan.co/images/{{ page.image }}" property="twitter:image">
       {% elsif page.image_text %}
         <meta content="https://muan-text-image.herokuapp.com/title?v=2&text={{ page.image_text | strip | url_encode }}" property="og:image">
         <meta content="https://muan-text-image.herokuapp.com/title?v=2&text={{ page.image_text | strip | url_encode }}" property="twitter:image">
