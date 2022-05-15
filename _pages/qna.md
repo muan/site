@@ -22,8 +22,3 @@ She/her. 他/你 preferred, and <a href="https://mobile.twitter.com/ey_limannie/
 ## Are you Taiwanese?
 
 Yes, born and raised.
-
-## Can I ask more questions?
-
-[q@muan.dev](mailto:q@muan.dev).
-
