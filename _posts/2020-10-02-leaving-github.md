@@ -46,7 +46,7 @@ Hope this serves as a reminder that you might have a choice as well, despite how
 
 ---
 
-If you want to know keep up with what I get up to, here are some subscription options:
+To keep up with what I get up to, here are some subscription options:
 
 - [🖼 Potential pictures of a chill life 🤞🏼 in Taiwan filled with food and nature](https://instagram.com/muanchiou)
 - [🦆 Contextless thoughts I shout into the void](https://muan.co/notes.xml) (RSS)
