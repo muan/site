@@ -25,8 +25,8 @@ layout: default
 
 <h2 class="text">Posts</h2><a href="/feed.xml" class="styled-link">RSS</a>
 <ul aria-label="posts" class="terminal">
-{% assign posts = site.pages | where: "feature", 1 %}
-{% for post in posts %}
+{% assign pages = site.pages | where: "feature", 1 %}
+{% for post in pages %}
   <li class="line"><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
