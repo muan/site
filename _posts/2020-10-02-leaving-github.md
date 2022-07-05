@@ -3,9 +3,6 @@ layout: default
 date: 2020-10-02
 title: Leaving GitHub
 feature: 1
-image_text: |
-  :octopus::cat_face::end_arrow:
-  Leaving GitHub
 ---
 
 <iframe width="240" height="140" src="https://www.youtube-nocookie.com/embed/kuhqvJRt_3E?playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

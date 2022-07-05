@@ -3,9 +3,6 @@ layout: default
 date: 2021-12-15
 title: On looking for a job
 feature: 1
-image_text: |
-  :magnifying_glass_tilted_left::laptop::magnifying_glass_tilted_right:
-  On looking for a job
 ---
 
 After a year of recovering, I finally decided to return to the job market in mid October. It's been 8 years since I last looked for a job, and my outlook on the tech industry has changed so much that past experiences don't seem relevant anymore.
