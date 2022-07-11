@@ -15,6 +15,7 @@ jobs:
         run: curl https://muan.github.io/icloud-github-sync/photos.json > _data/photos.json
 
       - name: Commit and push
-        run: git add .
-        run: git commit -m "Fetch and process iCloud photos" || echo "Nothing to commit"
-        run: git push origin HEAD:main
+        run: |
+          git add .
+          git commit -m "Fetch and process iCloud photos" || echo "Nothing to commit"
+          git push origin HEAD:main
