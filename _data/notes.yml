@@ -3,8 +3,8 @@
     [https://muan.co/photos](https://muan.co/photos) is a new thing! I will definitely forget how this work so here it is:
     
     - I add a photo to an iCloud Shared Album from my phone
-    - A GitHub Action running on a cron schedule fetches from the Shared Album data
-      - Downloads all the images and converts them to an idea format
+    - A GitHub Action running on a schedule (tbd) fetches from the Shared Album data
+      - Downloads all the images and converts them to an ideal format
       - Puts all the data into a JSON file
       - Triggers a `workflow_dispatch` event on `muan/site`
     - Another GitHub Action pulls down the JSON and commits it into `muan/site/_data`
