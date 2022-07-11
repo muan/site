@@ -95,16 +95,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-body  {
   .logo-container {
-    color: var(--logoColor);
     line-height: 1em;
+    color: var(--mutedTextColor);
   }
   
   .logo {
     width: 1em;
-    margin-left: 1em;
+    margin-left: .8em;
     margin-right: .4em;
 
-    path { stroke-width: 22; }
+    path { 
+      stroke: var(--mutedTextColor);
+      stroke-width: 22; 
+    }
   }
 
   .h1 {
@@ -358,4 +361,16 @@ figure {
   main {
     text-align: center;
   }
+}
+
+.back-link {
+  text-decoration: none;
+  color: var(--textColor);
+  background-color: var(--langBackgroundColor);
+  width: 1.6em;
+  text-align: center;
+  line-height: 1.6em;
+  aspect-ratio: 1/1;
+  display: inline-block;
+  border-radius:  4em;
 }
