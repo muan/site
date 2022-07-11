@@ -1,0 +1,26 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{% capture srcbase %}src="{{site.url}}/{% endcapture %}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>@muan's photos</title>
+    <description>Photos.</description>
+    {% assign photos = site.data.photos | slice: 0, 10 %}
+    <lastBuildDate>{{ photos.first.createdAt | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <link>{{ site.url }}/photos.xml</link>
+    {% for photo in photos limit:10 %}
+      <item>
+        <title>{{ photo.caption | xml_escape }}</title>
+        <description>
+          <b>Mu-An</b> posted a new picture:
+          <a href="https://muan.github.io/icloud-github-sync/{{ photo.files.original.path }}">
+            <img src="https://muan.github.io/icloud-github-sync/{{ photo.files.thumbnail.path }}" height="160" alt="{{ photo.caption }}"/>
+          </a>
+        </description>
+        <pubDate>{{ page.createdAt | date_to_rfc822 }}</pubDate>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
