@@ -324,3 +324,15 @@ time {
   vertical-align: super;
   font-size: .6em;
 }
+
+.photos {
+  display: flex;
+  gap: 1em;
+  flex-wrap: nowrap;
+  overflow: auto;
+  align-items: center;
+
+  a {
+    flex-shrink: 0;
+  }
+}

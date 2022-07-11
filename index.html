@@ -35,8 +35,19 @@ layout: default
   <li class="line"><a href="{{ post.url }}">{{ post.title }}</a><br>
     <time>{{ post.date | date_to_string }}</time></li>
 {% endfor %}
-
 </ul>
+
+<hr class="hr">
+
+<h2 class="text">Photos</h2><!--a href="/photos.xml" class="styled-link">RSS</a-->
+<div class="photos">
+{% assign photos = site.data.photos | slice: 0, 5 %}
+{% for photo in photos %}
+  <a href="https://muan.github.io/icloud-github-sync/{{ photo.files.original.path }}">
+    <img src="https://muan.github.io/icloud-github-sync/{{ photo.files.thumbnail.path }}" height="160" alt="{{ photo.caption }}">
+  </a>
+{% endfor %}
+</div>
 
 <hr class="hr">
 
