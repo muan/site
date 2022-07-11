@@ -16,8 +16,8 @@
         <description>
           {% capture content %}
             <b>Mu-An</b> posted a new photo:
-            <a href="https://muan.github.io/icloud-github-sync/{{ photo.files.original.path }}">
-              <img src="https://muan.github.io/icloud-github-sync/{{ photo.files.thumbnail.path }}" height="160" alt="{{ photo.caption }}"/>
+            <a href="{{ photo.path }}/public">
+              <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.caption }}"/>
             </a>
           {% endcapture %}
           {{ content | xml_escape }}

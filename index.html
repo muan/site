@@ -43,8 +43,8 @@ layout: default
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
 {% for photo in photos %}
-  <a href="https://muan.github.io/icloud-github-sync/{{ photo.files.original.path }}">
-    <img src="https://muan.github.io/icloud-github-sync/{{ photo.files.thumbnail.path }}" height="160" alt="{{ photo.caption }}" loading="lazy">
+  <a href="{{ photo.path }}/public">
+    <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.caption }}" loading="lazy">
   </a>
 {% endfor %}
 </div>

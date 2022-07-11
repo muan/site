@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Copy file
-        run: curl https://muan.github.io/icloud-github-sync/photos.json > _data/photos.json
+        run: curl https://photos.muan.dev/photos.json > _data/photos.json
 
       - name: Commit and push
         run: |
