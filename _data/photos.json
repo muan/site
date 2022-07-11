@@ -5,12 +5,12 @@
       "thumbnail": {
         "width": 257,
         "height": 385,
-        "path": "./src/5C15CA07-569D-4D56-91F9-88EC674E372D-thumbnail.avif"
+        "path": "src/5C15CA07-569D-4D56-91F9-88EC674E372D-thumbnail.png"
       },
       "original": {
         "width": 1536,
         "height": 2304,
-        "path": "./src/5C15CA07-569D-4D56-91F9-88EC674E372D-original.avif"
+        "path": "src/5C15CA07-569D-4D56-91F9-88EC674E372D-original.png"
       }
     },
     "caption": "National Taichung Theater.",
@@ -23,12 +23,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/4A8095E4-17A0-4574-AEF1-D8D314475150-thumbnail.avif"
+        "path": "src/4A8095E4-17A0-4574-AEF1-D8D314475150-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/4A8095E4-17A0-4574-AEF1-D8D314475150-original.avif"
+        "path": "src/4A8095E4-17A0-4574-AEF1-D8D314475150-original.png"
       }
     },
     "caption": "National Taichung Theater.",
@@ -41,12 +41,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/CC343FDA-0FD8-45A1-AB3A-50838AB3551C-thumbnail.avif"
+        "path": "src/CC343FDA-0FD8-45A1-AB3A-50838AB3551C-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/CC343FDA-0FD8-45A1-AB3A-50838AB3551C-original.avif"
+        "path": "src/CC343FDA-0FD8-45A1-AB3A-50838AB3551C-original.png"
       }
     },
     "caption": "National Taichung Theater.",
@@ -59,12 +59,12 @@
       "thumbnail": {
         "width": 257,
         "height": 385,
-        "path": "./src/7064F6C5-DE6B-4100-A58E-F954A3178AAE-thumbnail.avif"
+        "path": "src/7064F6C5-DE6B-4100-A58E-F954A3178AAE-thumbnail.png"
       },
       "original": {
         "width": 1536,
         "height": 2304,
-        "path": "./src/7064F6C5-DE6B-4100-A58E-F954A3178AAE-original.avif"
+        "path": "src/7064F6C5-DE6B-4100-A58E-F954A3178AAE-original.png"
       }
     },
     "caption": "綠光 +marutë, one of my favorite spot in Taichung.",
@@ -77,12 +77,12 @@
       "thumbnail": {
         "width": 384,
         "height": 256,
-        "path": "./src/932F636D-406E-4DBD-8FB7-F3E3C32C540F-thumbnail.avif"
+        "path": "src/932F636D-406E-4DBD-8FB7-F3E3C32C540F-thumbnail.png"
       },
       "original": {
         "width": 2304,
         "height": 1536,
-        "path": "./src/932F636D-406E-4DBD-8FB7-F3E3C32C540F-original.avif"
+        "path": "src/932F636D-406E-4DBD-8FB7-F3E3C32C540F-original.png"
       }
     },
     "caption": "Petit été ♥︎.",
@@ -95,12 +95,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/7FBBCE3A-670D-4DFB-88F5-EBC6AD01F9A1-thumbnail.avif"
+        "path": "src/7FBBCE3A-670D-4DFB-88F5-EBC6AD01F9A1-thumbnail.png"
       },
       "original": {
         "width": 2304,
         "height": 1536,
-        "path": "./src/7FBBCE3A-670D-4DFB-88F5-EBC6AD01F9A1-original.avif"
+        "path": "src/7FBBCE3A-670D-4DFB-88F5-EBC6AD01F9A1-original.png"
       }
     },
     "caption": "Old and new friends in Taichung.",
@@ -113,12 +113,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/1A08F8CB-C104-417F-A41D-F7F980CDA689-thumbnail.avif"
+        "path": "src/1A08F8CB-C104-417F-A41D-F7F980CDA689-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/1A08F8CB-C104-417F-A41D-F7F980CDA689-original.avif"
+        "path": "src/1A08F8CB-C104-417F-A41D-F7F980CDA689-original.png"
       }
     },
     "caption": "Petit été ♥︎.",
@@ -131,12 +131,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/622CED0A-1436-450C-BA64-98490ED6B48A-thumbnail.avif"
+        "path": "src/622CED0A-1436-450C-BA64-98490ED6B48A-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/622CED0A-1436-450C-BA64-98490ED6B48A-original.avif"
+        "path": "src/622CED0A-1436-450C-BA64-98490ED6B48A-original.png"
       }
     },
     "caption": "Something’s brewing.",
@@ -149,12 +149,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/F6E244AB-67D4-400B-AACB-4A5593ADEB57-thumbnail.avif"
+        "path": "src/F6E244AB-67D4-400B-AACB-4A5593ADEB57-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/F6E244AB-67D4-400B-AACB-4A5593ADEB57-original.avif"
+        "path": "src/F6E244AB-67D4-400B-AACB-4A5593ADEB57-original.png"
       }
     },
     "caption": "Petit été ♥︎.",
@@ -167,12 +167,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/76BEEEB3-EB8E-4A6D-8CBD-16CB782BAFCE-thumbnail.avif"
+        "path": "src/76BEEEB3-EB8E-4A6D-8CBD-16CB782BAFCE-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/76BEEEB3-EB8E-4A6D-8CBD-16CB782BAFCE-original.avif"
+        "path": "src/76BEEEB3-EB8E-4A6D-8CBD-16CB782BAFCE-original.png"
       }
     },
     "caption": "Petit été ♥︎.",
@@ -185,12 +185,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/2715E458-0AC2-43D9-B578-78684E1B3261-thumbnail.avif"
+        "path": "src/2715E458-0AC2-43D9-B578-78684E1B3261-thumbnail.png"
       },
       "original": {
         "width": 2304,
         "height": 1536,
-        "path": "./src/2715E458-0AC2-43D9-B578-78684E1B3261-original.avif"
+        "path": "src/2715E458-0AC2-43D9-B578-78684E1B3261-original.png"
       }
     },
     "caption": "Petit été ♥︎.",
@@ -203,12 +203,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/2DACD346-375A-41DD-B58F-B3819AFCF32F-thumbnail.avif"
+        "path": "src/2DACD346-375A-41DD-B58F-B3819AFCF32F-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/2DACD346-375A-41DD-B58F-B3819AFCF32F-original.avif"
+        "path": "src/2DACD346-375A-41DD-B58F-B3819AFCF32F-original.png"
       }
     },
     "caption": "Petit été ♥︎.",
@@ -221,12 +221,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/D11AAFAB-B91C-453B-967D-A787C8233F09-thumbnail.avif"
+        "path": "src/D11AAFAB-B91C-453B-967D-A787C8233F09-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/D11AAFAB-B91C-453B-967D-A787C8233F09-original.avif"
+        "path": "src/D11AAFAB-B91C-453B-967D-A787C8233F09-original.png"
       }
     },
     "caption": "KIMU’s new lamps.",
@@ -239,12 +239,12 @@
       "thumbnail": {
         "width": 257,
         "height": 385,
-        "path": "./src/DF541BF5-336C-4CDD-B050-4E68B76D2660-thumbnail.avif"
+        "path": "src/DF541BF5-336C-4CDD-B050-4E68B76D2660-thumbnail.png"
       },
       "original": {
         "width": 1537,
         "height": 2305,
-        "path": "./src/DF541BF5-336C-4CDD-B050-4E68B76D2660-original.avif"
+        "path": "src/DF541BF5-336C-4CDD-B050-4E68B76D2660-original.png"
       }
     },
     "caption": "KIMU Design.",
@@ -257,12 +257,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/15797E0A-DFFE-4351-8F5A-ABDF44383C0C-thumbnail.avif"
+        "path": "src/15797E0A-DFFE-4351-8F5A-ABDF44383C0C-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/15797E0A-DFFE-4351-8F5A-ABDF44383C0C-original.avif"
+        "path": "src/15797E0A-DFFE-4351-8F5A-ABDF44383C0C-original.png"
       }
     },
     "caption": "Kelly, the lovely.",
@@ -275,12 +275,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/99B187B6-6B4C-4AE6-83F1-30BB29D2C2AB-thumbnail.avif"
+        "path": "src/99B187B6-6B4C-4AE6-83F1-30BB29D2C2AB-thumbnail.png"
       },
       "original": {
         "width": 2304,
         "height": 1536,
-        "path": "./src/99B187B6-6B4C-4AE6-83F1-30BB29D2C2AB-original.avif"
+        "path": "src/99B187B6-6B4C-4AE6-83F1-30BB29D2C2AB-original.png"
       }
     },
     "caption": "Faces in Daan Dist, Taipei.",
@@ -293,12 +293,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/DB5BFFF7-7FAB-4862-AF49-60D140BE6444-thumbnail.avif"
+        "path": "src/DB5BFFF7-7FAB-4862-AF49-60D140BE6444-thumbnail.png"
       },
       "original": {
         "width": 2304,
         "height": 1536,
-        "path": "./src/DB5BFFF7-7FAB-4862-AF49-60D140BE6444-original.avif"
+        "path": "src/DB5BFFF7-7FAB-4862-AF49-60D140BE6444-original.png"
       }
     },
     "caption": "Beware.",
@@ -311,12 +311,12 @@
       "thumbnail": {
         "width": 257,
         "height": 385,
-        "path": "./src/74AE9034-8257-4EC7-B528-FE6E78F5B420-thumbnail.avif"
+        "path": "src/74AE9034-8257-4EC7-B528-FE6E78F5B420-thumbnail.png"
       },
       "original": {
         "width": 1536,
         "height": 2304,
-        "path": "./src/74AE9034-8257-4EC7-B528-FE6E78F5B420-original.avif"
+        "path": "src/74AE9034-8257-4EC7-B528-FE6E78F5B420-original.png"
       }
     },
     "caption": "Straws, anyone?",
@@ -329,12 +329,12 @@
       "thumbnail": {
         "width": 384,
         "height": 257,
-        "path": "./src/F645C713-328D-4CB2-B1EA-448276BEA826-thumbnail.avif"
+        "path": "src/F645C713-328D-4CB2-B1EA-448276BEA826-thumbnail.png"
       },
       "original": {
         "width": 2304,
         "height": 1537,
-        "path": "./src/F645C713-328D-4CB2-B1EA-448276BEA826-original.avif"
+        "path": "src/F645C713-328D-4CB2-B1EA-448276BEA826-original.png"
       }
     },
     "caption": "Beitou.",
@@ -347,12 +347,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/A560DAF7-DD2C-404E-8EAE-E6BC815C7042-thumbnail.avif"
+        "path": "src/A560DAF7-DD2C-404E-8EAE-E6BC815C7042-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/A560DAF7-DD2C-404E-8EAE-E6BC815C7042-original.avif"
+        "path": "src/A560DAF7-DD2C-404E-8EAE-E6BC815C7042-original.png"
       }
     },
     "caption": "Park and dog.",
@@ -365,12 +365,12 @@
       "thumbnail": {
         "width": 384,
         "height": 257,
-        "path": "./src/688280E9-90E4-4FBE-B7EB-257A4FC995FC-thumbnail.avif"
+        "path": "src/688280E9-90E4-4FBE-B7EB-257A4FC995FC-thumbnail.png"
       },
       "original": {
         "width": 2304,
         "height": 1537,
-        "path": "./src/688280E9-90E4-4FBE-B7EB-257A4FC995FC-original.avif"
+        "path": "src/688280E9-90E4-4FBE-B7EB-257A4FC995FC-original.png"
       }
     },
     "caption": "Taipei.",
@@ -383,12 +383,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/C9E080B5-32C6-43FB-8BB4-C9027C5427C5-thumbnail.avif"
+        "path": "src/C9E080B5-32C6-43FB-8BB4-C9027C5427C5-thumbnail.png"
       },
       "original": {
         "width": 2305,
         "height": 1537,
-        "path": "./src/C9E080B5-32C6-43FB-8BB4-C9027C5427C5-original.avif"
+        "path": "src/C9E080B5-32C6-43FB-8BB4-C9027C5427C5-original.png"
       }
     },
     "caption": "Fish vendor in Beitou.",
@@ -401,12 +401,12 @@
       "thumbnail": {
         "width": 385,
         "height": 257,
-        "path": "./src/73A802A3-8109-4207-B044-C41AEE4C4332-thumbnail.avif"
+        "path": "src/73A802A3-8109-4207-B044-C41AEE4C4332-thumbnail.png"
       },
       "original": {
         "width": 2304,
         "height": 1536,
-        "path": "./src/73A802A3-8109-4207-B044-C41AEE4C4332-original.avif"
+        "path": "src/73A802A3-8109-4207-B044-C41AEE4C4332-original.png"
       }
     },
     "caption": "Dog is hot.",
@@ -419,12 +419,12 @@
       "thumbnail": {
         "width": 257,
         "height": 385,
-        "path": "./src/CC55E5C7-877B-45A6-ABA6-5EBA2EBD929C-thumbnail.avif"
+        "path": "src/CC55E5C7-877B-45A6-ABA6-5EBA2EBD929C-thumbnail.png"
       },
       "original": {
         "width": 1537,
         "height": 2305,
-        "path": "./src/CC55E5C7-877B-45A6-ABA6-5EBA2EBD929C-original.avif"
+        "path": "src/CC55E5C7-877B-45A6-ABA6-5EBA2EBD929C-original.png"
       }
     },
     "caption": "Taipei.",
