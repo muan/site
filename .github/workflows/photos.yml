@@ -16,6 +16,8 @@ jobs:
 
       - name: Commit and push
         run: |
+          git config --global user.email "1153134+muan@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
           git add .
           git commit -m "Fetch and process iCloud photos" || echo "Nothing to commit"
           git push origin HEAD:main
