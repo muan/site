@@ -7,8 +7,8 @@ title: Photos
 {% for photo in photos %}
 <figure id="P{{ photo.guid }}">
   <img 
-    src="https://muan.github.io/icloud-github-sync/{{ photo.files.original.path }}" 
-    style="aspect-ratio: calc({{ photo.files.original.width }}/{{ photo.files.original.height }});"
+    src="{{ photo.path }}/public"
+    style="aspect-ratio: calc({{ photo.width }}/{{ photo.height }});"
     alt="{{ photo.caption }}" 
     loading="lazy">
   <figcaption>
