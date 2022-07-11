@@ -14,12 +14,17 @@
       <item>
         <title>{{ photo.caption | xml_escape }}</title>
         <description>
-          <b>Mu-An</b> posted a new picture:
-          <a href="https://muan.github.io/icloud-github-sync/{{ photo.files.original.path }}">
-            <img src="https://muan.github.io/icloud-github-sync/{{ photo.files.thumbnail.path }}" height="160" alt="{{ photo.caption }}"/>
-          </a>
+          {% capture content %}
+            <b>Mu-An</b> posted a new photo:
+            <a href="https://muan.github.io/icloud-github-sync/{{ photo.files.original.path }}">
+              <img src="https://muan.github.io/icloud-github-sync/{{ photo.files.thumbnail.path }}" height="160" alt="{{ photo.caption }}"/>
+            </a>
+          {% endcapture %}
+          {{ content | xml_escape }}
         </description>
         <pubDate>{{ page.createdAt | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}/photos#P{{ photo.guid }}</link>
+        <guid isPermaLink="true">{{ site.url }}/photos#P{{ photo.guid }}</guid>
       </item>
     {% endfor %}
   </channel>

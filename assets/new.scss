@@ -336,3 +336,26 @@ time {
     flex-shrink: 0;
   }
 }
+
+figure {
+  margin: 0 0 2em;
+
+  img {
+    max-height: 90vh;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+[data-page-title="Photos"] {
+  header, main, footer {
+    max-width: 100%;
+  }
+
+  main {
+    text-align: center;
+  }
+}

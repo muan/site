@@ -1,0 +1,19 @@
+---
+layout: default
+title: Photos
+---
+
+{% assign photos = site.data.photos %}
+{% for photo in photos %}
+<figure id="P{{ photo.guid }}">
+  <img 
+    src="https://muan.github.io/icloud-github-sync/{{ photo.files.original.path }}" 
+    style="aspect-ratio: calc({{ photo.files.original.width }}/{{ photo.files.original.height }});"
+    alt="{{ photo.caption }}" 
+    loading="lazy">
+  <figcaption>
+    <p>{{ photo.caption }}</p>
+    <span class="desc photo-metadata">{{ photo.createdAt | date: "%Y/%m/%d (%a)" }}</span>
+  </figcaption>
+</figure>
+{% endfor %}

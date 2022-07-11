@@ -48,7 +48,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
 
   </head>
-  <body class="{% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}post-body{% endif %}">
+  <body class="{% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}post-body{% endif %}" data-page-title="{{ page.title }}">
     <header>
       <div class="logo-container">
         {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
