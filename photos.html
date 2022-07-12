@@ -3,7 +3,8 @@ layout: default
 title: Photos
 ---
 
-<input type="radio" name="layout" value="block" id="block" checked> <label for="block">Block</label>
+<input type="radio" name="layout" value="x-scroll" id="x-scroll" checked> <label for="x-scroll">Horizontal scroll</label>
+<input type="radio" name="layout" value="y-scroll" id="y-scroll"> <label for="y-scroll">Vertical scroll</label>
 <input type="radio" name="layout" value="grid" id="grid"> <label for="grid">Grid</label>
 
 <div class="photos-wrapper">
@@ -14,7 +15,7 @@ title: Photos
   <a href="{{ photo.path }}/public">
     <img 
       src="{{ photo.path }}/public"
-      style="aspect-ratio: calc({{ photo.width }}/{{ photo.height }});"
+      style="aspect-ratio: {{ photo.width | times: 1.0 | divided_by: photo.height| round: 3 }};"
       alt="{{ photo.caption }}" 
       loading="lazy">
   </a>
