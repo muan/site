@@ -349,8 +349,10 @@ figure {
   }
 
   a {
-    display: inline-block;
+    display: block;
     line-height: 0;
+    width: fit-content;
+    margin: auto;
   }
 
   p {
@@ -386,6 +388,8 @@ figure {
 }
 
 .photos-wrapper {
+  &:focus { outline: none; }
+  scroll-behavior: smooth;
   margin-top: -40px;
   clear: both;
   text-align: center;
@@ -430,6 +434,11 @@ figure {
     scroll-snap-align: center;
     margin-bottom: 0;
     flex-shrink: 0;
+  }
+
+  figcaption {
+    max-width: fit-content;
+    margin: auto;
   }
 
   img {
