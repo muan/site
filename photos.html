@@ -25,7 +25,7 @@ title: Photos
     <img 
       src="{{ photo.path }}/public"
       style="aspect-ratio: {{ photo.width | times: 1.0 | divided_by: photo.height| round: 3 }};"
-      alt="{{ photo.caption }}" 
+      alt="{{ photo.alt }}"
       loading="lazy">
   </a>
   <figcaption>
