@@ -341,11 +341,16 @@ time {
 }
 
 figure {
-  margin: 0 0 2em;
+  margin: 0 0 3em;
 
   img {
     max-height: 90vh;
     margin-bottom: 0;
+  }
+
+  a {
+    display: block;
+    line-height: 0;
   }
 
   p {
@@ -358,9 +363,17 @@ figure {
     max-width: 100%;
   }
 
-  main {
-    text-align: center;
+  input, label {
+    position: relative;
+    top: -47px;
+    left: 100px;
   }
+}
+
+.photos-wrapper {
+  margin-top: -50px;
+  clear: both;
+  text-align: center;
 }
 
 .back-link {
@@ -373,4 +386,20 @@ figure {
   aspect-ratio: 1/1;
   display: inline-block;
   border-radius:  4em;
+}
+
+[value="grid"]:checked ~ .photos-wrapper {
+  display: grid;
+  column-gap: 2.5em;
+  grid-template-columns: repeat(2, 1fr);
+  // https://caniuse.com/mdn-css_properties_grid-template-rows_masonry
+  grid-template-rows: masonry;
+
+  figure {
+    margin-bottom: 0;
+  }
+
+  img {
+    max-height: none;
+  }
 }

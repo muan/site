@@ -3,17 +3,26 @@ layout: default
 title: Photos
 ---
 
+<input type="radio" name="layout" value="block" id="block" checked> <label for="block">Block</label>
+<input type="radio" name="layout" value="grid" id="grid"> <label for="grid">Grid</label>
+
+<div class="photos-wrapper">
+
 {% assign photos = site.data.photos %}
 {% for photo in photos %}
 <figure id="P{{ photo.guid }}">
-  <img 
-    src="{{ photo.path }}/public"
-    style="aspect-ratio: calc({{ photo.width }}/{{ photo.height }});"
-    alt="{{ photo.caption }}" 
-    loading="lazy">
+  <a href="{{ photo.path }}/public">
+    <img 
+      src="{{ photo.path }}/public"
+      style="aspect-ratio: calc({{ photo.width }}/{{ photo.height }});"
+      alt="{{ photo.caption }}" 
+      loading="lazy">
+  </a>
   <figcaption>
     <p>{{ photo.caption }}</p>
     <span class="desc photo-metadata">{{ photo.createdAt | date: "%Y/%m/%d (%a)" }}</span>
   </figcaption>
 </figure>
 {% endfor %}
+
+</div>
