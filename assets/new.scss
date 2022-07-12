@@ -363,10 +363,25 @@ figure {
     max-width: 100%;
   }
 
-  input, label {
-    position: relative;
+  input {
+    position: absolute;
+    left: -100px;
+
+    &:checked + label path {
+      fill: var(--activeColor);
+    }
+  }
+
+  label {
     top: -47px;
     left: 100px;
+    padding: .5em;
+    cursor: pointer;
+    position: relative;
+  }
+
+  label path {
+    fill: var(--logoColor);
   }
 }
 
