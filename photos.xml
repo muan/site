@@ -15,11 +15,9 @@
         <title>{{ photo.caption | xml_escape }}</title>
         <description>
           {% capture content %}
-            <b>Mu-An</b> posted a new photo:
             <a href="{{ photo.path }}/public">
               <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}"/>
             </a>
-            {{ photo.caption }}
           {% endcapture %}
           {{ content | xml_escape }}
         </description>
