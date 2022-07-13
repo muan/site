@@ -16,7 +16,7 @@
         <description>
           {% capture content %}
             <a href="{{ photo.path }}/public">
-              <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}"/>
+              <img src="{{ photo.path }}/public" width="100%" alt="{{ photo.alt }}"/>
             </a>
           {% endcapture %}
           {{ content | xml_escape }}
