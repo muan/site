@@ -341,10 +341,10 @@ time {
 }
 
 figure {
-  margin: 0 0 3em;
+  margin: 1em 0 3em;
 
   img {
-    margin-bottom: 0;
+    margin: 0 auto;
     max-height: calc(100vh - 6em);
   }
 
@@ -372,14 +372,20 @@ figure {
     &:checked + label path {
       fill: var(--activeColor);
     }
+
+    &:focus + label {
+      outline: auto;
+      outline-color: var(--activeColor);
+    }
   }
 
   label {
-    top: -47px;
+    top: -50px;
     left: 100px;
     padding: .5em;
     cursor: pointer;
     position: relative;
+    display: inline-flex;
   }
 
   label path {
