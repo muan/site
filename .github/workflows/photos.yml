@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Copy file
-        run: curl -L https://photos.muan.dev/photos.json > _data/photos.json
+        run: output=$(curl -L --fail https://photos.muan.dev/photos.json) && echo $output > _data/photos.json
 
       - name: Commit and push
         run: |
