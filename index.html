@@ -27,7 +27,7 @@ layout: default
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
 {% for photo in photos %}
-  <a href="{{ photo.path }}/public">
+  <a href="/photos#P{{ photo.guid}}">
     <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}" loading="lazy">
   </a>
 {% endfor %}
