@@ -14,6 +14,7 @@
   --langBackgroundColor: #eeeeee;
   --langShadowColor: transparent;
   --logoColor: #cccccc;
+  --photoBackground: #f4f4f4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,6 +31,7 @@
     --langBackgroundColor: #2c2c2c;
     --langShadowColor: #0b0c0b33;
     --logoColor: #555555;
+    --photoBackground: #1a1a1a;
   }
 }
 
@@ -346,7 +348,7 @@ figure {
   img {
     margin: 0 auto;
     max-height: calc(100vh - 6em);
-    background-color: var(--subtleBackgroundColor);
+    background-color: var(--photoBackground);
     display: block;
   }
   
