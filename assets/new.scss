@@ -413,7 +413,7 @@ figure {
   border-radius:  4em;
 }
 
-[value="grid"]:checked ~ .photos-wrapper {
+[value*="grid"]:checked ~ .photos-wrapper {
   display: grid;
   column-gap: 2.5em;
   grid-template-columns: repeat(2, 1fr);
@@ -427,6 +427,10 @@ figure {
   img {
     max-height: none;
   }
+}
+
+[value="grid3fr"]:checked ~ .photos-wrapper {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 [value="x-scroll"]:checked ~ .photos-wrapper {
