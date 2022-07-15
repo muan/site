@@ -30,8 +30,10 @@ title: Photos
   <a href="{{ photo.path }}/public">
     <img 
       src="{{ photo.path }}/public"
+      height="{{ photo.height }}"
       style="aspect-ratio: {{ ratio }};"
       alt="{{ photo.alt }}"
+      class="{% if ratio == 1.5 %}landscape{% elsif ratio == 0.667 %}protrait{% endif %}"
       loading="lazy">
   </a>
   <figcaption>

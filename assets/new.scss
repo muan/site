@@ -429,6 +429,7 @@ figure {
 
   img {
     max-height: none;
+    height: auto;
   }
 }
 
@@ -473,6 +474,13 @@ figure {
 
       img {
         max-height: none;
+
+        &.landscape {
+          height: calc(100vw / 1.5);
+        }
+        &.protrait {
+          height: calc(100vw / 0.667);
+        }
       }
     }
     
