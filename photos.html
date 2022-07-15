@@ -26,10 +26,11 @@ title: Photos
 {% assign photos = site.data.photos %}
 {% for photo in photos %}
 <figure id="P{{ photo.guid }}">
+  {% assign ratio = photo.width | times: 1.0 | divided_by: photo.height| round: 3 %}
   <a href="{{ photo.path }}/public">
     <img 
       src="{{ photo.path }}/public"
-      style="aspect-ratio: {{ photo.width | times: 1.0 | divided_by: photo.height| round: 3 }};"
+      style="aspect-ratio: {{ ratio }};"
       alt="{{ photo.alt }}"
       loading="lazy">
   </a>
