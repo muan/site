@@ -340,6 +340,10 @@ time {
   a {
     flex-shrink: 0;
   }
+
+  img {
+    background-color: var(--photoBackground);
+  }
 }
 
 figure {

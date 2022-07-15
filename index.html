@@ -27,8 +27,9 @@ layout: default
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
 {% for photo in photos %}
+  {% assign ratio = photo.width | times: 1.0 | divided_by: photo.height| round: 3 %}
   <a href="/photos#P{{ photo.guid}}">
-    <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}" loading="lazy">
+    <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}" loading="lazy" style="aspect-ratio: {{ ratio }};">
   </a>
 {% endfor %}
 </div>
