@@ -346,6 +346,8 @@ figure {
   img {
     margin: 0 auto;
     max-height: calc(100vh - 6em);
+    background-color: var(--subtleBackgroundColor);
+    display: block;
   }
   
   a {
