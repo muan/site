@@ -472,6 +472,10 @@ figure {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    body {
+      padding: 0 2em;
+    }
+
     .photos-wrapper {
       margin-left: -2.5em;
       margin-right: -2.5em;
