@@ -26,14 +26,14 @@ title: Photos
 {% assign photos = site.data.photos %}
 {% for photo in photos %}
 <figure id="P{{ photo.guid }}">
-  {% assign ratio = photo.width | times: 1.0 | divided_by: photo.height| round: 3 %}
   <a href="{{ photo.path }}/public">
     <img 
       src="{{ photo.path }}/public"
       height="{{ photo.height }}"
-      style="aspect-ratio: {{ ratio }};"
+      style="aspect-ratio: {{ photo.ratio }}"
       alt="{{ photo.alt }}"
-      class="{% if ratio == 1.5 %}landscape{% elsif ratio == 0.667 %}protrait{% endif %}"
+      title="{{ photo.alt }}"
+      class="{{ photo.orientation }}"
       loading="lazy">
   </a>
   <figcaption>
