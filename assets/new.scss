@@ -489,6 +489,9 @@ figure {
         &.protrait {
           height: calc(100vw / 0.667);
         }
+        &.square {
+          height: 100vw;
+        }
       }
     }
     
