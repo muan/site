@@ -466,12 +466,15 @@ figure {
   }
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 1200px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+// This ensures that
+// 1. screens that are too short
+// 2. screens that are not tall enough to display the full width of a 3:2 image
+//    at height: (100v - 6em) height
+// don't get the option to use horizontal scroll.
+
+// https://github.com/web-platform-tests/wpt/pull/34865
+// @media (max-height: 540px), (max-width: calc((100vh - 6em) * 1.5)) {
+@media (max-height: 540px), (max-width: calc(100vh * 1.4)) {
     body {
       padding: 0 2em;
     }
