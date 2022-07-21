@@ -48,10 +48,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
 
   </head>
-  <body class="{% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}post-body{% endif %}" data-page-title="{{ page.title }}">
+  <body class="{% if page.path != 'index.html' and page.path != 'index-zh-TW.html' %}post-body{% endif %}" data-page-title="{{ page.title }}">
     <header>
       <div class="logo-container">
-        {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
+        {% if page.path != 'index.html' and page.path != 'index-zh-TW.html' %}
           <a href="/" aria-label="Home" class="back-link">&leftarrow;</a>
         {% endif %}
         <svg class="logo" viewBox="0 0 196 169" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +61,7 @@
           <path d="M83.0002 8H113" stroke="#cccccc" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M53.3782 160.773C64.4534 151.592 86.0271 133.546 97.4226 133.546C112.866 133.546 113.373 160.773 126.168 160.773C138.963 160.773 150.185 155.479 150.185 155.479" stroke="#cccccc" stroke-width="16" stroke-linecap="round"/>
         </svg>
-        {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
+        {% if page.path != 'index.html' and page.path != 'index-zh-TW.html' %}
           <span class="font">Mu-An Chiou</span>
         {% endif %}
       </div>
@@ -94,7 +94,7 @@
     </main>
     <footer>
       <hr class="hr">
-      {% capture label %}{% if page.path == 'zh-TW/index.html' %}查看原始碼{% else %}View source{% endif %}{% endcapture %}
+      {% capture label %}{% if page.path == 'index-zh-TW.html' %}查看原始碼{% else %}View source{% endif %}{% endcapture %}
       Mu-An Chiou
       (<a href="https://github.com/muan/site">{{ label }}</a>)
     </footer>
