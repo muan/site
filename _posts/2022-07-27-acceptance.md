@@ -4,7 +4,7 @@ date: 2022-07-27
 title: Acceptance
 ---
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4pOGX8Xh7T4ytbiJjZ85lk?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe width="100%" height="100" src="https://www.youtube.com/embed/MWIXWda_YMg" title="Moscato by Kurosuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This is something I’ll probably [regret](https://twitter.com/dumbricardo/status/1550937088039694336) publishing, but here goes.
 
