@@ -16,6 +16,6 @@ In the therapy session we talked about some of my views on death, suicide, relat
 
 I learned that I seek to understand the logic behind things so I can process and accept them to be the laws of the universe, and auto-pilot through life with these principals. However, I started(?) to expect apathy to come after acceptance, and it never did.
 
-Acceptance is like acknowledging a bug. The bug doesn’t go away. If we know how to fix it, great. If we don’t, we find a workaround. If there is no workaround, we learn to live with it. But knowing how to live with it does not mean it would stop affecting us on a daily basis.
+Acceptance works like acknowledging a bug. The bug doesn’t go away. If we know how to fix it, great. If we don’t, we find a workaround. If there is no workaround, we learn to live with it. But knowing how to live with it does not mean it would stop affecting us on a daily basis.
 
 So you accept that the sadness is here to stay.
