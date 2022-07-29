@@ -4,7 +4,7 @@ date: 2022-07-27
 title: Acceptance
 ---
 
-<iframe width="100%" height="100" src="https://www.youtube.com/embed/MWIXWda_YMg" title="Moscato by Kurosuke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2550592361/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2123594389/transparent=true/" seamless><a href="https://kurosukemusic.bandcamp.com/album/the-tales-of-roses-wine">The Tales of Roses &amp; Wine by Kurosuke</a></iframe>
 
 This is something I’ll probably [regret](https://twitter.com/dumbricardo/status/1550937088039694336) publishing, but here goes.
 
