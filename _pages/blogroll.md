@@ -26,11 +26,7 @@ links:
     url: https://alicebartlett.co.uk/
 ---
 
-- The order of this list is randomized on build.
-- This page is under construction. 
-- Only sites that are being actively updated are included (in theory).
-
----
+This page is under construction. Only websites that are being actively updated are included (in theory), and the order is randomized on build. 
 
 {% assign links = page.links | sort: "title" | sample: page.links.size %}
 {%- for item in links %}
