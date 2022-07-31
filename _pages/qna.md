@@ -19,6 +19,6 @@ Try [Google Translate](https://translate.google.com/?sl=zh-TW&tl=en&text=%E9%82%
 
 She/her. 他/你 preferred, and <a href="https://mobile.twitter.com/ey_limannie/status/1328991536902787073">with exceptions</a> 她/妳.
 
-## Are you Taiwanese?
+## Where are you from?
 
-Yes, born and raised.
+I am from Taipei, Taiwan.
