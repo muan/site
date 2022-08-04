@@ -27,8 +27,8 @@ jobs:
 
       - name: Push changes
         run: |
-          git config user.email 'muan [bot]'
-          git config user.name 'bot@muan.dev'
+          git config user.email 'bot@muan.dev'
+          git config user.name 'muan [bot]'
           git add .
           git commit -m "Add photo from Apple shortcuts" || echo "Nothing to commit"
           git fetch origin main
