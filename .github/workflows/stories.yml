@@ -1,3 +1,5 @@
+name: "Sync stories"
+
 on:
   workflow_dispatch:
     inputs:

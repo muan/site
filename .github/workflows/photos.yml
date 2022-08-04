@@ -1,4 +1,4 @@
-name: "photos.yml"
+name: "Sync photos"
 
 on:
   workflow_dispatch:
