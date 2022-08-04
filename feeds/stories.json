@@ -1,18 +1,19 @@
 ---
 permalink: /stories.json
 ---
+{% assign stories = site.data.stories | reverse %}
 {
   "version": "http://jsonfeed.org/version/1",
   "title": "@muan's stories",
   "icon": "http://github.com/muan.png",
   "home_page_url": "https://muan.co/stories.json",
   "description": "Stories.",
-  "items": [{% for story in site.data.stories %}
+  "items": [{% for story in stories limit: 10 %}
     {
       "id": "{{ story.id }}",
       "summary": "{{ story.meta.caption }}",
       "image": "{{ story.variants.first }}",
       "date_published": "{{ story.uploaded }}"
-    }{% if site.data.stories.last != story %},{% endif %}{% endfor %}
+    }{% if stories.last != story %},{% endif %}{% endfor %}
   ]
 }
