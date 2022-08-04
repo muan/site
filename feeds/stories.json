@@ -1,0 +1,18 @@
+---
+permalink: /stories.json
+---
+{
+  "version": "http://jsonfeed.org/version/1",
+  "title": "@muan's stories",
+  "icon": "http://github.com/muan.png",
+  "home_page_url": "https://muan.co/stories.json",
+  "description": "Stories.",
+  "items": [{% for story in site.data.stories %}
+    {
+      "id": "{{ story.id }}",
+      "summary": "{{ story.meta.caption }}",
+      "image": "{{ story.variants.first }}",
+      "date_published": "{{ story.uploaded }}"
+    }{% if site.data.stories.last != story %},{% endif %}{% endfor %}
+  ]
+}
