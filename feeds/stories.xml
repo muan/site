@@ -1,0 +1,34 @@
+---
+permalink: /stories.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{% capture srcbase %}src="{{site.url}}/{% endcapture %}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>@muan's stories</title>
+    <description>Stories.</description>
+    {% assign stories = site.data.stories | sort: "uploaded" | reverse %}
+    <lastBuildDate>{{ stories.first.uploaded | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <link>{{ site.url }}/stories.xml</link>
+    {% assign one_day_ago = site.time | date: "%s" | minus: 86400 %}
+    {% for story in stories limit:10 %}
+      {% assign story_time = story.uploaded | date: "%s" | plus: 0 %}
+      {% if story_time < one_day_ago %}{% continue %}{% endif %}
+      <item>
+        <title>{{ story.meta.caption | xml_escape }}</title>
+        <description>
+          {% capture content %}
+            <a href="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public">
+              <img src="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public" width="100%" alt="{{ story.meta.alt }}"/>
+            </a>
+          {% endcapture %}
+          {{ content | xml_escape }}
+        </description>
+        <pubDate>{{ story.uploaded | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}/#S{{ story.id }}</link>
+        <guid isPermaLink="true">{{ site.url }}/#S{{ story.id }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
