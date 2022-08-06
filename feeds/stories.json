@@ -6,7 +6,7 @@ permalink: /stories.json
 {
   "version": "http://jsonfeed.org/version/1",
   "title": "@muan's stories",
-  "icon": "http://github.com/muan.png",
+  "icon": "https://github.com/muan.png",
   "home_page_url": "https://muan.co/stories.json",
   "description": "Stories.",
   "items": [{% for story in stories limit: 10 %}{% assign story_time = story.uploaded | date: "%s" | plus: 0 %}{% if story_time < one_day_ago %}{% continue %}{% endif %}{% if stories.first != story %},{% endif %}
