@@ -70,5 +70,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cf3a4f09-f9b3-4a0f-488b-1ce7f1785700/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cf3a4f09-f9b3-4a0f-488b-1ce7f1785700/public"
     ]
+  },
+  {
+    "uploaded": "2022-08-06T10:21:01.679Z",
+    "id": "cf82ae30-4969-4aad-3d4f-bcb48bd28a00",
+    "filename": "IMG_9735.jpeg",
+    "meta": {
+      "alt": "A selfie.",
+      "caption": "A selfie.",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cf82ae30-4969-4aad-3d4f-bcb48bd28a00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cf82ae30-4969-4aad-3d4f-bcb48bd28a00/public"
+    ]
   }
 ]
