@@ -6,7 +6,10 @@
     "meta": {
       "alt": "Shadow of palm leaves casting on the ground.",
       "caption": "Shadows.",
-      "tags": ["Life", "Taiwan"]
+      "tags": [
+        "Life",
+        "Taiwan"
+      ]
     },
     "requireSignedURLs": false,
     "variants": [
@@ -21,7 +24,10 @@
     "meta": {
       "alt": "Road intersection with tall trees.",
       "caption": "Tianmu.",
-      "tags": ["Life", "Taiwan"]
+      "tags": [
+        "Life",
+        "Taiwan"
+      ]
     },
     "requireSignedURLs": false,
     "variants": [
@@ -36,12 +42,33 @@
     "meta": {
       "alt": "Mung beans being dried at the back of a scooter.",
       "caption": "Mung beans.",
-      "tags": ["Life", "Food"]
+      "tags": [
+        "Life",
+        "Food"
+      ]
     },
     "requireSignedURLs": false,
     "variants": [
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ec01d969-d241-4f00-7399-cf3bc6ca0900/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ec01d969-d241-4f00-7399-cf3bc6ca0900/thumbnail"
+    ]
+  },
+  {
+    "uploaded": "2022-08-06T07:39:00.564Z",
+    "id": "cf3a4f09-f9b3-4a0f-488b-1ce7f1785700",
+    "filename": "D811F8C2-2F44-4209-B68E-9FEA5C782202.jpeg",
+    "meta": {
+      "alt": "Some fingers gesturing at a batch of otherwise excellent pretzels with bad scoring/cuts.",
+      "caption": "Failed to cut pretzels.",
+      "tags": [
+        "Life",
+        "Food"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cf3a4f09-f9b3-4a0f-488b-1ce7f1785700/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cf3a4f09-f9b3-4a0f-488b-1ce7f1785700/public"
     ]
   }
 ]
