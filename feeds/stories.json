@@ -1,7 +1,7 @@
 ---
 permalink: /stories.json
 ---
-{% assign stories = site.data.stories | reverse %}
+{% assign stories = site.data.stories | sort: "uploaded" | reverse %}
 {
   "version": "http://jsonfeed.org/version/1",
   "title": "@muan's stories",
@@ -12,8 +12,9 @@ permalink: /stories.json
     {
       "id": "{{ story.id }}",
       "summary": "{{ story.meta.caption }}",
-      "image": "{{ story.variants.first }}",
-      "date_published": "{{ story.uploaded }}"
+      "image": "https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public",
+      "date_published": "{{ story.uploaded }}",
+      "tags": "{{ story.meta.tags }}"
     }{% if stories.last != story %},{% endif %}{% endfor %}
   ]
 }

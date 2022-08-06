@@ -25,6 +25,17 @@ root: true
 
 <hr class="hr">
 
+<h2 class="text">Stories</h2> <a href="/stories.json" class="styled-link">Feed</a>
+
+<div class="stories">
+  {% assign story = site.data.stories | sort: "uploaded" | last %}
+  <story-view src="/stories.json">
+    <img src="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/thumbnail" alt="{{ story.alt }}" height="100">
+  </story-view>
+</div>
+
+<hr class="hr">
+
 <h2 class="text">Photos</h2><a href="/photos" class="styled-link">All photos</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}

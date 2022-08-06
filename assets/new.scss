@@ -506,3 +506,38 @@ figure {
       &, + label { visibility: hidden; }
     }
 }
+
+story-view {
+  height: 100px;
+  aspect-ratio: 9 / 16;
+  display: block;
+  border-radius: 3px;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  &.is-empty {
+    border: 1px solid var(--borderColor);
+    position: relative;
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: 20%;
+      background: linear-gradient(60deg, transparent 51%, var(--borderColor) 51%, var(--borderColor) 52.5%, transparent 52.5%)
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  img {
+    margin: 0;
+    max-width: none;
+  }
+}
