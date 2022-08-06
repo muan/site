@@ -4,9 +4,9 @@
     "id": "b48b30c0-3ff9-416b-644f-8c91bb56a200",
     "filename": "4BAB9B0C-5460-4B63-A860-5D183C8930DD.jpeg",
     "meta": {
-      "alt": "Shadow of palm leaves casting on the ground",
-      "caption": "Shadows",
-      "tags": ["Life"]
+      "alt": "Shadow of palm leaves casting on the ground.",
+      "caption": "Shadows.",
+      "tags": ["Life", "Taiwan"]
     },
     "requireSignedURLs": false,
     "variants": [
@@ -20,8 +20,8 @@
     "filename": "155E431D-3B5A-4665-A12E-618C44F827BB.jpeg",
     "meta": {
       "alt": "Road intersection with tall trees.",
-      "caption": "Tianmu",
-      "tags": ["Life"]
+      "caption": "Tianmu.",
+      "tags": ["Life", "Taiwan"]
     },
     "requireSignedURLs": false,
     "variants": [
@@ -34,11 +34,9 @@
     "id": "ec01d969-d241-4f00-7399-cf3bc6ca0900",
     "filename": "6B41554C-17CF-4371-B9C1-B106D2AD46D0.jpeg",
     "meta": {
-      "alt": "mung beans",
-      "caption": "mung beans",
-      "tags": [
-        "Life"
-      ]
+      "alt": "Mung beans being dried at the back of a scooter.",
+      "caption": "Mung beans.",
+      "tags": ["Life", "Food"]
     },
     "requireSignedURLs": false,
     "variants": [
