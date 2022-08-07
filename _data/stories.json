@@ -88,5 +88,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/051efb65-7f90-4a48-5b9a-f8f3612b9a00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/051efb65-7f90-4a48-5b9a-f8f3612b9a00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-08-07T15:40:32.213Z",
+    "id": "9324c569-55a2-4f28-4c0e-dbf5ad04d000",
+    "filename": "R0000743.jpeg",
+    "meta": {
+      "alt": "A crocodile plushy sitting on the back of a scooter.",
+      "caption": "Crocodile.",
+      "tags": [
+        "Taiwan"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public"
+    ]
   }
 ]
