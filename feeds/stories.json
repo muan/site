@@ -14,7 +14,8 @@ permalink: /stories.json
       "id": "{{ story.id }}",
       "summary": "{{ story.meta.caption }}",
       "image": "https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public",
-      "date_published": "{{ story.uploaded }}",
+      "date_published": "{{ story.uploaded | date_to_xmlschema }}", {% assign date_expired = story.uploaded | date: "%s" | plus: 86400 | date_to_xmlschema %}
+      "_date_expires": "{{ date_expired }}",
       "tags": [{% for tag in story.meta.tags %}"{{ tag }}"{% if tag != story.meta.tags.last %}, {% endif %}{% endfor %}]
     }{% endfor %}
   ]
