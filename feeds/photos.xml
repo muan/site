@@ -13,7 +13,7 @@ permalink: /photos.xml
     <link>{{ site.url }}/photos.xml</link>
     {% for photo in photos limit:10 %}
       <item>
-        <title>{{ photo.caption | xml_escape }}</title>
+        <title>{{ photo.caption | markdownify | xml_escape }}</title>
         <description>
           {% capture content %}
             <a href="{{ photo.path }}/public">

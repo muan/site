@@ -37,7 +37,7 @@ title: Photos
       loading="lazy">
   </a>
   <figcaption>
-    <p>{{ photo.caption }}</p>
+    <p>{{ photo.caption | markdownify }}</p>
     <span class="desc photo-metadata">{{ photo.createdAt | date: "%Y/%m/%d (%a)" }}</span>
   </figcaption>
 </figure>
