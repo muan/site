@@ -24,6 +24,8 @@ links:
     url: https://hidde.blog/
   - title: Alice Bartlett
     url: https://alicebartlett.co.uk/
+  - title: Katy DeCorah
+    url: https://katydecorah.com/
 ---
 
 This page is under construction. Only websites that are being actively updated are included (in theory), and the order is randomized on build. 
