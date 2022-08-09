@@ -6,7 +6,9 @@
   --textColor: #303030;
   --secondaryTextColor: #404040;
   --mutedTextColor: #707070;
-  --subtleBackgroundColor: #ffc;
+  --subtleBackgroundColor: #f5f5f5;
+  --heartedBackgroundColor: #ffe2e2;
+  --selectionBackgroundColor: #ffc;
   --linkColor: #2357cd;
   --borderColor: #ccc;
   --hrColor: #888;
@@ -23,7 +25,9 @@
     --textColor: #dbdfdf;
     --secondaryTextColor: #cfd5d5;
     --mutedTextColor: #b4b6b8;
-    --subtleBackgroundColor: #19446b;
+    --subtleBackgroundColor: #3a3b3b;
+    --heartedBackgroundColor: #652222;
+    --selectionBackgroundColor: #19446b;
     --linkColor: #6eb8ff;
     --borderColor: #414141;
     --hrColor: #888;
@@ -50,7 +54,7 @@ a {
   color: var(--linkColor);
 }
 ::selection {
-  background: var(--subtleBackgroundColor);
+  background: var(--selectionBackgroundColor);
 }
 
 header {
@@ -539,5 +543,32 @@ story-view {
   img {
     margin: 0;
     max-width: none;
+  }
+}
+
+.monospace {
+  font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;  
+  font-size: 0.9em;
+}
+
+open-heart.text-open-heart {
+  display: inline;
+  transition: all .4s;
+
+  &:not([disabled]):hover {
+    cursor: pointer;
+    color: var(--activeColor);
+  }
+
+  .on { display: none; }
+
+  &[aria-pressed="true"] {
+    border-color: var(--heartedBackgroundColor);
+    .on { display: initial; }
+    .off { display: none; }
+  }
+
+  &[count]::after {
+    content: "(" attr(count) ")";
   }
 }

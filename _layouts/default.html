@@ -75,6 +75,16 @@
       {% if page.collection == "posts" or page.collection == "pages" %}
         <article>
           {{ content }}
+
+          {% if page.feature == 1 %}
+            <hr class="hr">
+            <div class="monospace">
+              <div id="like-prompt">Liked this post? let me know!</div>
+              &gt;<open-heart class="text-open-heart" href="https://likes.muan.dev" for="{{ page.url }}" emoji="❤️" aria-labelledby="like-prompt">
+                <span class="on">Liked.<br>(Thanks!)</span><span class="off">Sure.</span>
+              </open-heart>
+            </div>
+          {% endif %}
         </article>
         <!--div class="pagination">
           {% if page.previous %}
@@ -121,6 +131,10 @@
     </script>
     {% if page.root %}
       <script defer type="module" src="https://unpkg.com/story-view-element@latest"></script>
+    {% endif %}
+
+    {% if page.feature == 1 or page.url == "/notes" %}
+      <script defer type="module" src="https://unpkg.com/open-heart-element@latest"></script>
     {% endif %}
   </body>
 </html>

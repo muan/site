@@ -6,12 +6,16 @@ header_content: Shouting into the void.
 
 <ul class="notes">
 {% for note in site.data.notes %}
-<li class="note" id="t{{ note.date | date: "%Y%m%d%I%M" }}">
+{% assign id = note.date | date: "%Y%m%d%I%M" %}
+<li class="note" id="t{{ id }}">
   <h2 class="note-heading">
-    <a href="#t{{ note.date | date: "%Y%m%d%I%M" }}">
+    <a href="#t{{ id }}" class=" monospace">
       <span class="targeted">⬤</span>
       {{ note.date | date: "%B %d, %Y" }} #
     </a>
+      <open-heart class="text-open-heart monospace" href="https://likes.muan.dev" for="note-t{{ id }}" emoji="❤️" aria-labelledby="like-prompt">
+        <span class="on">Liked.</span><span class="off">Like?</span>
+      </open-heart>
   </h2>
   {{ note.content | markdownify }}
 </li>
