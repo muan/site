@@ -42,7 +42,6 @@
 body {
   background: var(--backgroundColor);
   color: var(--textColor);
-  font-family: system-ui, sans-serif;
   line-height: 1.7em;
   padding: 0 2.5em;
   margin: 0;
@@ -50,9 +49,14 @@ body {
   word-wrap: break-word;
 }
 
+body, kbd {
+  font-family: system-ui, sans-serif;
+}
+
 a {
   color: var(--linkColor);
 }
+
 ::selection {
   background: var(--selectionBackgroundColor);
 }
@@ -571,4 +575,12 @@ open-heart.text-open-heart {
   &[count]::after {
     content: "(" attr(count) ")";
   }
+}
+
+kbd {
+  border: 1px solid var(--borderColor);
+  padding: 1px 4px;
+  border-radius: 3px;
+  box-shadow: 0 1px;
+  font-size: 0.9em;
 }
