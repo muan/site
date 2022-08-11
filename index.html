@@ -28,7 +28,6 @@ root: true
 <h2 class="text">Stories</h2> <a href="/stories.xml" class="styled-link">RSS</a>
 
 <div class="stories">
-  {% assign story = site.data.stories | sort: "uploaded" | last %}
   <story-view src="/stories.json" show-metadata>
     <div class="highlight"><div class="label">24h</div></div>
   </story-view>
