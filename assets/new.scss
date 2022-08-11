@@ -523,6 +523,11 @@ story-view {
   overflow: hidden;
   box-sizing: border-box;
 
+  &.is-read {
+    opacity: 0.5;
+    filter: grayscale(1);
+  }
+
   &.is-empty {
     border: 1px solid var(--borderColor);
     position: relative;
