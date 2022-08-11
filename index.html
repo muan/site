@@ -29,7 +29,7 @@ root: true
 
 <div class="stories">
   {% assign story = site.data.stories | sort: "uploaded" | last %}
-  <story-view src="/stories.json">
+  <story-view src="/stories.json" metadata>
     <img src="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/thumbnail" alt="{{ story.alt }}" height="100">
   </story-view>
 </div>
