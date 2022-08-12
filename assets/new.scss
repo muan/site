@@ -519,6 +519,7 @@ figure {
   display: flex;
   gap: 1em;
   align-items: center;
+  overflow: auto;
 }
 
 story-view {
