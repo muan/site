@@ -525,52 +525,49 @@ figure {
 }
 
 story-view {
-  transition: transform .3s;
-  border-radius: 50%;
-  padding: 3px;
-  border: 1px solid var(--borderColor);
-
-  &:hover {
-    transform: scale(1.05);
+  &::part(dialog):focus {
+    outline: none;
   }
+
+  &::part(button) {
+    border: 1px solid var(--borderColor);
+    box-shadow: inset 0 0 0 2px var(--backgroundColor);
+    color: var(--textColor);
+    background: var(--subtleBackgroundColor);
+    padding: 1em 0;
+    text-align: center;
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+    font-size: 0.65em;
+    box-sizing: border-box;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    transition: all .3s;
+    text-transform: uppercase;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--linkColor);
+      color: var(--backgroundColor);
+      transform: scale(1.05);
+    }
+  }
+
   
-  &:defined:not([is-highlight]) {
+  &:not([is-highlight])::part(button) {
     border-color: var(--secondaryTextColor);
   }
   
-  &:defined:not(.is-read):not([is-highlight]) {
+  &:not(.is-read):not([is-highlight])::part(button) {
     border-color: var(--linkColor);
   }
 
   &.is-empty {
     pointer-events: none;
     opacity: 0.5;
-  }
-}
-
-.highlight {
-  color: var(--subtleBackgroundColor);
-  background: var(--textColor);
-  padding: 1em 1.5em;
-  height: 76px;
-  width: 76px;
-  border-radius: 50%;
-  font-size: 0.8em;
-  box-sizing: border-box;
-  font-weight: 600;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  transition: all .3s;
-
-  &:hover {
-    background: var(--linkColor);
-    color: var(--backgroundColor);
-  }
-  
-  .label {
-    flex: auto;
-    text-transform: uppercase;
   }
 }
 
