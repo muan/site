@@ -21,7 +21,10 @@ type: "Books"
         "mime_type": "image/jpeg",
         "url": "https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public",
         "alt": "{{ story.meta.alt }}",
-        "caption": "{{ story.meta.caption }}"
+        "caption": "{{ story.meta.caption }}",
+        "reactions": {
+          "open_heart_urls": ["https://likes.muan.dev/?id={{ story.id }}"]
+        }
       }
     }{% endfor %}
   ]
