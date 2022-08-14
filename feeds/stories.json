@@ -1,8 +1,8 @@
 ---
 permalink: /stories.json
 ---
-{% assign stories = site.data.stories | sort: "uploaded" | reverse %}
-{% assign one_day_ago = site.time | date: "%s" | minus: 86400 %}
+{%- assign stories = site.data.stories | sort: "uploaded" | where_exp: "story", "story.meta.tags contains 'Life'" | reverse -%}
+{%- assign one_day_ago = site.time | date: "%s" | minus: 86400 -%}
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "@muan's stories",

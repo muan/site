@@ -7,7 +7,7 @@ permalink: /stories.xml
   <channel>
     <title>@muan's stories</title>
     <description>Stories.</description>
-    {% assign stories = site.data.stories | sort: "uploaded" | reverse %}
+    {% assign stories = site.data.stories | sort: "uploaded" | where_exp: "story", "story.meta.tags contains 'Life'" | reverse %}
     <lastBuildDate>{{ stories.first.uploaded | date_to_rfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/stories.xml" rel="self" type="application/rss+xml" />
     <link>{{ site.url }}/stories.xml</link>
