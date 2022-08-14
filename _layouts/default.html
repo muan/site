@@ -76,7 +76,7 @@
         <article>
           {{ content }}
 
-          {% if page.feature == 1 %}
+          {% if page.feature == 1 or page.open_heart %}
             <hr class="hr">
             <div class="monospace">
               <div id="like-prompt">Like this post? let me know!</div>
@@ -113,7 +113,7 @@
     {% if page.root %}
     <script defer type="module" src="https://unpkg.com/story-view-element@latest"></script>
     {% endif %}
-    {% if page.feature == 1 or page.url == "/notes" %}
+    {% if page.feature == 1 or page.open_heart or page.url == "/notes" %}
     <script defer type="module" src="https://unpkg.com/open-heart-element@latest"></script>
     {% endif %}
   </body>
