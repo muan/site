@@ -16,4 +16,4 @@ function settime() {
   setTimeout(settime, (60 - new Date().getSeconds()) * 1000)
 }
 settime()
-setTimeout(fetch('https://ram.muan.dev', {mode: 'no-cors'}), 1000)
+setTimeout(() => fetch('https://ram.muan.dev', {mode: 'no-cors'}), 1000)
