@@ -251,5 +251,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a672ab0c-28ba-4164-d54e-9aafe13b1200/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a672ab0c-28ba-4164-d54e-9aafe13b1200/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-08-15T11:38:42.401Z",
+    "id": "d27feab9-105b-44a5-6854-8bdebd707e00",
+    "filename": "R0000766.jpeg",
+    "meta": {
+      "alt": "A pile of garbage on the street of Taipei.",
+      "caption": "My thoughts.",
+      "tags": [
+        "Life",
+        "Taiwan"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d27feab9-105b-44a5-6854-8bdebd707e00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d27feab9-105b-44a5-6854-8bdebd707e00/thumbnail"
+    ]
   }
 ]
