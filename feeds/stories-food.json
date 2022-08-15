@@ -16,7 +16,7 @@ type: "Food"
       "tags": [{% for tag in story.meta.tags %}"{{ tag }}"{% if tag != story.meta.tags.last %}, {% endif %}{% endfor %}],
       "content_html": "<img src='https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public' alt='{{ story.meta.alt }}'>",
       "authors": [{"name": "Mu-An Chiou", "url": "https://muan.co"}],
-      "_web_story": {
+      "_open_stories": {
         "type": "image",
         "mime_type": "image/jpeg",
         "url": "https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public",
