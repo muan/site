@@ -340,5 +340,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2c30cf18-3847-49f0-84be-57415dd66100/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2c30cf18-3847-49f0-84be-57415dd66100/public"
     ]
+  },
+  {
+    "uploaded": "2022-08-17T06:01:55.265Z",
+    "id": "61eb36f6-db05-422b-423f-ae680403d600",
+    "filename": "A0E1E9E3-103B-4B50-9AF0-0C5E8B45C6CF-95508-00001FE87885F95E.jpeg",
+    "meta": {
+      "alt": "Danbing on a white plate with soy sauce and chill paste.",
+      "caption": "蛋餅好吃。",
+      "tags": [
+        "Life",
+        "Food",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/61eb36f6-db05-422b-423f-ae680403d600/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/61eb36f6-db05-422b-423f-ae680403d600/public"
+    ]
   }
 ]
