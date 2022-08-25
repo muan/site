@@ -429,5 +429,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/42110ab8-7437-45f4-891b-4293bfb81500/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/42110ab8-7437-45f4-891b-4293bfb81500/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-08-25T02:50:52.632Z",
+    "id": "3acf0055-0548-4740-5fe6-8325ae5fd700",
+    "filename": "R0000909.jpeg",
+    "meta": {
+      "alt": "a cat yelling at me behind covers",
+      "caption": "Apparently this means he likes me.",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3acf0055-0548-4740-5fe6-8325ae5fd700/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3acf0055-0548-4740-5fe6-8325ae5fd700/thumbnail"
+    ]
   }
 ]
