@@ -542,5 +542,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/800a64f1-5b32-40dc-a3fe-7dd8974dbc00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/800a64f1-5b32-40dc-a3fe-7dd8974dbc00/public"
     ]
+  },
+  {
+    "uploaded": "2022-08-26T15:49:24.535Z",
+    "id": "0de451aa-c876-4c6c-64b0-ffdf47131d00",
+    "filename": "R0000966.jpeg",
+    "meta": {
+      "alt": "A bucket of poorly rolled Kümmelstangen under dramatic lighting.",
+      "caption": "Batch 1: I am a failure of a human.",
+      "tags": [
+        "Life",
+        "Cook"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0de451aa-c876-4c6c-64b0-ffdf47131d00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0de451aa-c876-4c6c-64b0-ffdf47131d00/public"
+    ]
   }
 ]
