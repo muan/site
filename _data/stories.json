@@ -523,5 +523,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/41749f89-2939-4a9d-19c3-e0b60b759f00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/41749f89-2939-4a9d-19c3-e0b60b759f00/public"
     ]
+  },
+  {
+    "uploaded": "2022-08-26T10:15:42.843Z",
+    "id": "800a64f1-5b32-40dc-a3fe-7dd8974dbc00",
+    "filename": "R0000962.jpeg",
+    "meta": {
+      "alt": "Hand holding a bread knife made by MOTOHIRO.",
+      "caption": "New weapon acquired. Attack +5.",
+      "tags": [
+        "Life",
+        "Food",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/800a64f1-5b32-40dc-a3fe-7dd8974dbc00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/800a64f1-5b32-40dc-a3fe-7dd8974dbc00/public"
+    ]
   }
 ]
