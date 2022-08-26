@@ -41,7 +41,7 @@ root: true
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
 {% for photo in photos %}
-  <a href="/photos#P{{ photo.guid}}">
+  <a href="/photos#P{{ photo.guid}}" class="image-link">
     <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}" loading="lazy" style="aspect-ratio: {{ photo.ratio }};">
   </a>
 {% endfor %}

@@ -349,7 +349,7 @@ time {
   overflow: auto;
   align-items: center;
 
-  a {
+  .image-link {
     flex-shrink: 0;
   }
 
@@ -368,7 +368,7 @@ figure {
     display: block;
   }
   
-  a {
+  .image-link {
     display: block;
     width: fit-content;
     margin: auto;

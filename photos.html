@@ -26,7 +26,7 @@ title: Photos
 {% assign photos = site.data.photos %}
 {% for photo in photos %}
 <figure id="P{{ photo.guid }}">
-  <a href="{{ photo.path }}/public">
+  <a href="{{ photo.path }}/public" class="image-link">
     <img 
       src="{{ photo.path }}/public"
       height="{{ photo.height }}"
@@ -37,7 +37,7 @@ title: Photos
       loading="lazy">
   </a>
   <figcaption>
-    <p>{{ photo.caption | markdownify }}</p>
+    {{ photo.caption | strip_newlines | markdownify }}
     <span class="desc photo-metadata">{{ photo.createdAt | date: "%Y/%m/%d (%a)" }}</span>
   </figcaption>
 </figure>
