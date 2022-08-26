@@ -560,5 +560,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0de451aa-c876-4c6c-64b0-ffdf47131d00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0de451aa-c876-4c6c-64b0-ffdf47131d00/public"
     ]
+  },
+  {
+    "uploaded": "2022-08-26T15:50:29.580Z",
+    "id": "363f89da-5156-4f41-a4b1-383351a9e200",
+    "filename": "R0000968.jpeg",
+    "meta": {
+      "alt": "A bucket of passable Kümmelstangen under dramatic lighting.",
+      "caption": "Batch 2: Passable?",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Cook"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/363f89da-5156-4f41-a4b1-383351a9e200/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/363f89da-5156-4f41-a4b1-383351a9e200/thumbnail"
+    ]
   }
 ]
