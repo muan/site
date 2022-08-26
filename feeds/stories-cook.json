@@ -1,6 +1,6 @@
 ---
-permalink: /stories-food.json
-type: "Food"
+permalink: /stories-cook.json
+type: "Cook"
 ---
 {% assign stories = site.data.stories | where_exp: "story", "story.meta.tags contains page.type" | where_exp: "story", "story.meta.tags contains 'Highlight'" | reverse %}
 {

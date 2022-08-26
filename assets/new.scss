@@ -525,6 +525,9 @@ figure {
 }
 
 open-stories {
+  .count {
+    font-size: 0.8em;
+  }
   &::part(dialog):focus {
     outline: none;
   }
@@ -543,11 +546,11 @@ open-stories {
     border-radius: 50%;
     font-size: 0.65em;
     box-sizing: border-box;
-    font-weight: 600;
     align-items: center;
     display: flex;
+    flex-direction: column;
     transition: all .3s;
-    text-transform: uppercase;
+    text-transform: lowercase;
     justify-content: center;
     cursor: pointer;
 
