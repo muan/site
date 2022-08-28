@@ -27,21 +27,7 @@ root: true
 
 <h2 class="text">Stories</h2> <a href="/stories.xml" class="styled-link">RSS</a> <a href="https://github.com/dddddddddzzzz/OpenStories" class="styled-link">What are these?</a>
 
-<div class="stories">
-  <open-stories src="/stories.json" show-metadata><span>24h</span></open-stories>
-  {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Travel'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
-  <open-stories src="/stories-travel.json" show-metadata is-highlight>travel<span class="count">&times; {{c}}</span></open-stories>
-  {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Animals'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
-  <open-stories src="/stories-animals.json" show-metadata is-highlight>animals<span class="count">&times; {{c}}</span></open-stories>
-  {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Taiwan'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
-  <open-stories src="/stories-taiwan.json" show-metadata is-highlight>taiwan<span class="count">&times; {{c}}</span></open-stories>
-  {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Books'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
-  <open-stories src="/stories-books.json" show-metadata is-highlight>books<span class="count">&times; {{c}}</span></open-stories>
-  {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Cook'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
-  <open-stories src="/stories-cook.json" show-metadata is-highlight>cook<span class="count">&times; {{c}}</span></open-stories>
-  {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Plants'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
-  <open-stories src="/stories-plants.json" show-metadata is-highlight>plants<span class="count">&times; {{c}}</span></open-stories>
-</div>
+{% include stories.html lang="en" %}
 
 <hr class="hr">
 

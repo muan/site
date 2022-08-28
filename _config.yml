@@ -13,3 +13,11 @@ collections:
     output: false
   pages:
     output: true
+i18n:
+  Travel: 旅
+  Animals: 寵
+  Taiwan: 台
+  Books: 書
+  Cook: 廚
+  Plants: 植
+  24h: 日
