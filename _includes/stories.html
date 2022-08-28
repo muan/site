@@ -18,7 +18,7 @@
   {% for type in new_categories_arr %}
     {% unless categories contains type %}{% continue %}{% endunless %}
     {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains type" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
-    <open-stories src="/stories-{{ type | lowercase }}.json" show-metadata is-highlight>
+    <open-stories src="/stories-{{ type | downcase }}.json" show-metadata is-highlight>
       {% if include.lang == "en" %}{{ type }}{% else %}{{ site.i18n[type] }}{% endif %}
       <span class="count">&times; {{c}}</span></open-stories>
   {% endfor %}
