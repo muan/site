@@ -34,6 +34,8 @@ root: true
   <open-stories src="/stories-travel.json" show-metadata is-highlight>旅<span class="count">&times; {{c}}</span></open-stories>
   {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Animals'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
   <open-stories src="/stories-animals.json" show-metadata is-highlight>寵<span class="count">&times; {{c}}</span></open-stories>
+  {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Taiwan'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
+  <open-stories src="/stories-taiwan.json" show-metadata is-highlight>台<span class="count">&times; {{c}}</span></open-stories>
   {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Books'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
   <open-stories src="/stories-books.json" show-metadata is-highlight>書<span class="count">&times; {{c}}</span></open-stories>
   {% assign c = site.data.stories | where_exp: "s", "s.meta.tags contains 'Cook'" | where_exp: "s", "s.meta.tags contains 'Highlight'" | size %}
