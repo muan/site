@@ -533,7 +533,7 @@
       "caption": "New weapon acquired. Attack +5.",
       "tags": [
         "Life",
-        "Food",
+        "Cook",
         "Highlight"
       ]
     },
@@ -679,7 +679,8 @@
       "caption": "♥︎ 可靠的朋友",
       "tags": [
         "Life",
-        "Books"
+        "Books",
+        "Highlight"
       ]
     },
     "requireSignedURLs": false,
