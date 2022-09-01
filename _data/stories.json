@@ -775,5 +775,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/68e1f04d-1ea4-45fa-3e9f-3ea608ae2a00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/68e1f04d-1ea4-45fa-3e9f-3ea608ae2a00/public"
     ]
+  },
+  {
+    "uploaded": "2022-09-01T03:49:42.798Z",
+    "id": "8b3290ef-59bc-4d61-feb1-f50c116aca00",
+    "filename": "IMG_0760.jpeg",
+    "meta": {
+      "alt": "A dog sitting on a rattan chair in a gazebo(?) in a park.",
+      "caption": "😛",
+      "tags": [
+        "Life",
+        "Animals"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/8b3290ef-59bc-4d61-feb1-f50c116aca00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/8b3290ef-59bc-4d61-feb1-f50c116aca00/thumbnail"
+    ]
   }
 ]
