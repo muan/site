@@ -566,7 +566,7 @@ open-stories {
     border-color: var(--secondaryTextColor);
   }
   
-  &:not(.is-read):not([is-highlight])::part(button) {
+  &:not(.is-read):not(.is-empty):not([is-highlight])::part(button) {
     border-color: var(--linkColor);
   }
 
