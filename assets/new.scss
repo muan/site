@@ -570,9 +570,25 @@ open-stories {
     border-color: var(--linkColor);
   }
 
-  &.is-empty {
+  
+  &.is-empty::part(button) {
     pointer-events: none;
     opacity: 0.5;
+    overflow: hidden;
+    position: relative;
+
+    &:before {
+      display: block;
+      content: '';
+      border-left: 1px solid var(--mutedTextColor);
+      position: absolute;
+      transform: rotate(-45deg);
+      top: 0;
+      left: 0;
+      width: 150%;
+      height: 150%;
+      transform-origin: top left;
+    }
   }
 }
 
