@@ -1197,5 +1197,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/79d0af7a-f647-46e0-6fd0-ba685ca11500/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/79d0af7a-f647-46e0-6fd0-ba685ca11500/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-09-13T01:20:11.024Z",
+    "id": "dff92899-f0af-44be-6b4c-00db08ca0c00",
+    "filename": "R0001252.jpeg",
+    "meta": {
+      "alt": "Kümmelstangen on a baking tray.",
+      "caption": "Did ok.",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Cook"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/dff92899-f0af-44be-6b4c-00db08ca0c00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/dff92899-f0af-44be-6b4c-00db08ca0c00/public"
+    ]
   }
 ]
