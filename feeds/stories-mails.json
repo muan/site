@@ -1,0 +1,31 @@
+---
+permalink: /stories-mails.json
+type: "Mails"
+---
+{% assign stories = site.data.stories | where_exp: "story", "story.meta.tags contains page.type" | where_exp: "story", "story.meta.tags contains 'Highlight'" | reverse %}
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "@muan's stories for {{ page.type }}",
+  "icon": "https://github.com/muan.png",
+  "home_page_url": "https://muan.co/stories.json",
+  "description": "Stories about {{ page.type }}.",
+  "items": [{% for story in stories %}{% if stories.first != story %},{% endif %}
+    {
+      "id": "{{ story.id }}",
+      "date_published": "{{ story.uploaded | date_to_xmlschema }}", {% assign date_expired = story.uploaded | date: "%s" | plus: 86400 | date_to_xmlschema %}
+      "tags": [{% for tag in story.meta.tags %}"{{ tag }}"{% if tag != story.meta.tags.last %}, {% endif %}{% endfor %}],
+      "content_html": "<img src='https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public' alt='{{ story.meta.alt }}'>",
+      "authors": [{"name": "Mu-An Chiou", "url": "https://muan.co"}],
+      "_open_stories": {
+        "type": "image",
+        "mime_type": "image/jpeg",
+        "url": "https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public",
+        "alt": "{{ story.meta.alt }}",
+        "caption": "{{ story.meta.caption }}",
+        "reactions": {
+          "open_heart_urls": ["https://likes.muan.dev/?id={{ story.id }}"]
+        }
+      }
+    }{% endfor %}
+  ]
+}
