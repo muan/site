@@ -1493,5 +1493,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7e329f39-8e35-499b-ae2e-d7f47cac2400/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7e329f39-8e35-499b-ae2e-d7f47cac2400/public"
     ]
+  },
+  {
+    "uploaded": "2022-09-19T22:47:20.364Z",
+    "id": "70d1c4d7-637f-4462-a93c-d686f8ed9100",
+    "filename": "R0001441.jpeg",
+    "meta": {
+      "alt": "Sesame pretzel.",
+      "caption": "This batch was so perfect.",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/70d1c4d7-637f-4462-a93c-d686f8ed9100/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/70d1c4d7-637f-4462-a93c-d686f8ed9100/thumbnail"
+    ]
   }
 ]
