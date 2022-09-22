@@ -1604,5 +1604,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/198df408-3fc3-44ab-85ef-73fb128dbd00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/198df408-3fc3-44ab-85ef-73fb128dbd00/public"
     ]
+  },
+  {
+    "uploaded": "2022-09-22T14:31:56.616Z",
+    "id": "a28c546a-fdb6-41d8-4528-e1653e53f100",
+    "filename": "R0001468.jpeg",
+    "meta": {
+      "alt": "a pie in a tin on the baking tray",
+      "caption": "I put the dish the wrong side up :(",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Cook"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a28c546a-fdb6-41d8-4528-e1653e53f100/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a28c546a-fdb6-41d8-4528-e1653e53f100/thumbnail"
+    ]
   }
 ]
