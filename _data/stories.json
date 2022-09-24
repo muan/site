@@ -1699,5 +1699,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/85ed936c-72a3-44f4-021c-d68919645c00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/85ed936c-72a3-44f4-021c-d68919645c00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-09-24T14:43:11.080Z",
+    "id": "74c149ff-d4d4-4970-2346-53c35ef01600",
+    "filename": "IMG_1925.jpeg",
+    "meta": {
+      "caption": "An abomination.",
+      "alt": "A pineapple bun stuffed with egg salad and a slice of cucumber.",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/74c149ff-d4d4-4970-2346-53c35ef01600/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/74c149ff-d4d4-4970-2346-53c35ef01600/thumbnail"
+    ]
   }
 ]
