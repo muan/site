@@ -1789,5 +1789,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f2c6815e-4528-44bb-9dc9-73de0c906200/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f2c6815e-4528-44bb-9dc9-73de0c906200/public"
     ]
+  },
+  {
+    "uploaded": "2022-09-26T11:17:19.122Z",
+    "id": "931d3ab1-62b4-4337-9b65-35ea70d5e500",
+    "filename": "R0001540.jpeg",
+    "meta": {
+      "caption": "Dobby sleeps.",
+      "alt": "Cat sleeps on a chair, with an assortment of instruments in the background.",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/931d3ab1-62b4-4337-9b65-35ea70d5e500/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/931d3ab1-62b4-4337-9b65-35ea70d5e500/public"
+    ]
   }
 ]
