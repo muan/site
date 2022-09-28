@@ -1884,5 +1884,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/8457ff01-ca45-4ba1-7747-12a0908b8700/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/8457ff01-ca45-4ba1-7747-12a0908b8700/public"
     ]
+  },
+  {
+    "uploaded": "2022-09-28T07:19:59.372Z",
+    "id": "ac5b3f98-9c5e-451a-35d3-ee33cb2e7f00",
+    "filename": "R0001552.jpeg",
+    "meta": {
+      "caption": "name is ông-lâi",
+      "alt": "a cat sitting on a cardboard box on a leash",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ac5b3f98-9c5e-451a-35d3-ee33cb2e7f00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ac5b3f98-9c5e-451a-35d3-ee33cb2e7f00/thumbnail"
+    ]
   }
 ]
