@@ -2085,5 +2085,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7cde05a0-1fbf-4880-e1f5-6b82209b3500/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7cde05a0-1fbf-4880-e1f5-6b82209b3500/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-10-01T11:00:01.781Z",
+    "id": "42855d99-98d7-4739-3242-52ae4d15ed00",
+    "filename": "6624DDB4-2B74-4DE2-96B5-060E5857C583.jpeg",
+    "meta": {
+      "caption": "This little path has my heart.",
+      "alt": "One white car on a narrow lane with trees covering both sides of the road",
+      "tags": [
+        "Life",
+        "Taiwan",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/42855d99-98d7-4739-3242-52ae4d15ed00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/42855d99-98d7-4739-3242-52ae4d15ed00/public"
+    ]
   }
 ]
