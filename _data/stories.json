@@ -2068,5 +2068,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3ed2abc1-a31b-49d3-fd81-f8932309b000/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3ed2abc1-a31b-49d3-fd81-f8932309b000/public"
     ]
+  },
+  {
+    "uploaded": "2022-10-01T10:56:57.953Z",
+    "id": "7cde05a0-1fbf-4880-e1f5-6b82209b3500",
+    "filename": "R0001649.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "A black spider with yellow stripes standing on webs.",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7cde05a0-1fbf-4880-e1f5-6b82209b3500/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7cde05a0-1fbf-4880-e1f5-6b82209b3500/thumbnail"
+    ]
   }
 ]
