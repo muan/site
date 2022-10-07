@@ -2227,5 +2227,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/8ecc347b-8b3f-4d49-4959-36ab885c0e00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/8ecc347b-8b3f-4d49-4959-36ab885c0e00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-10-07T23:37:46.343Z",
+    "id": "afed047d-9d5b-4e8e-3dbf-2557d24cda00",
+    "filename": "IMG_1022.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "A hello kitty shaped mirror selfie of me.",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/afed047d-9d5b-4e8e-3dbf-2557d24cda00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/afed047d-9d5b-4e8e-3dbf-2557d24cda00/public"
+    ]
   }
 ]
