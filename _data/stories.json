@@ -2244,5 +2244,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/afed047d-9d5b-4e8e-3dbf-2557d24cda00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/afed047d-9d5b-4e8e-3dbf-2557d24cda00/public"
     ]
+  },
+  {
+    "uploaded": "2022-10-08T01:34:13.340Z",
+    "id": "615d7dcc-fdfb-4353-8af3-1e9cfb9aad00",
+    "filename": "IMG_2345.jpeg",
+    "meta": {
+      "caption": "Aw dog behind bar is sad.",
+      "alt": "A dog in a barred balcony looking at the camera seemingly sad.",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/615d7dcc-fdfb-4353-8af3-1e9cfb9aad00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/615d7dcc-fdfb-4353-8af3-1e9cfb9aad00/thumbnail"
+    ]
   }
 ]
