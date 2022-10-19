@@ -2608,5 +2608,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ec5cb8a5-0665-4ce1-2193-96268286a900/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ec5cb8a5-0665-4ce1-2193-96268286a900/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-10-19T17:34:18.140Z",
+    "id": "319aeb71-f08f-4f60-aa02-200c6235ec00",
+    "filename": "R0001978.jpeg",
+    "meta": {
+      "caption": "flour, water, oil, salt, egg, scallion.",
+      "alt": "egg wrap/dan bing on a stool",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Cook"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/319aeb71-f08f-4f60-aa02-200c6235ec00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/319aeb71-f08f-4f60-aa02-200c6235ec00/public"
+    ]
   }
 ]
