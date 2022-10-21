@@ -2684,5 +2684,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ee8d51cc-3e93-4d51-c8a3-1f686a7f9b00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ee8d51cc-3e93-4d51-c8a3-1f686a7f9b00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-10-21T21:02:32.844Z",
+    "id": "9b4ee39f-8814-4127-d40f-9e2cb8321f00",
+    "filename": "R0002083.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "A ginger cat in a bush looking away.",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9b4ee39f-8814-4127-d40f-9e2cb8321f00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9b4ee39f-8814-4127-d40f-9e2cb8321f00/public"
+    ]
   }
 ]
