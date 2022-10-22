@@ -2775,5 +2775,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/21a31bb7-8d6f-4b8f-adb0-cca4e6d38c00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/21a31bb7-8d6f-4b8f-adb0-cca4e6d38c00/public"
     ]
+  },
+  {
+    "uploaded": "2022-10-22T05:04:19.218Z",
+    "id": "192fc298-fe25-4d7d-f902-0186b44eca00",
+    "filename": "R0002018.jpeg",
+    "meta": {
+      "caption": "robertheaton.com",
+      "alt": "A man sitting in a restaurant looking at the camera.",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Friends"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/192fc298-fe25-4d7d-f902-0186b44eca00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/192fc298-fe25-4d7d-f902-0186b44eca00/thumbnail"
+    ]
   }
 ]
