@@ -2794,5 +2794,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/192fc298-fe25-4d7d-f902-0186b44eca00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/192fc298-fe25-4d7d-f902-0186b44eca00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-10-22T05:05:14.750Z",
+    "id": "2238ae23-3d4a-466a-1751-745de189e000",
+    "filename": "R0002017.jpeg",
+    "meta": {
+      "caption": "jshakespeare.com",
+      "alt": "Man smiling at the camera sitting in a restaurant.",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Friends"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2238ae23-3d4a-466a-1751-745de189e000/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2238ae23-3d4a-466a-1751-745de189e000/thumbnail"
+    ]
   }
 ]
