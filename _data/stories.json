@@ -2902,5 +2902,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e8c282f6-1b29-4a78-5516-5e8db452da00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e8c282f6-1b29-4a78-5516-5e8db452da00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-10-24T11:27:40.700Z",
+    "id": "0390d706-4fd2-4be9-26f5-3ae915f7e400",
+    "filename": "R0002158.jpeg",
+    "meta": {
+      "caption": "messed up my camera setting but here’s a good pug",
+      "alt": "a blurry pug",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0390d706-4fd2-4be9-26f5-3ae915f7e400/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0390d706-4fd2-4be9-26f5-3ae915f7e400/public"
+    ]
   }
 ]
