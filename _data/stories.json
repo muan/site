@@ -2940,5 +2940,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b6ad9aa7-5d4f-4064-74fb-7ad265f64c00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b6ad9aa7-5d4f-4064-74fb-7ad265f64c00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2022-10-24T11:42:35.991Z",
+    "id": "1de38d4c-42bf-4e0e-c2f6-38be76d0cb00",
+    "filename": "B86D90CE-F89E-4510-8BBB-A4945B9EF9C5.jpeg",
+    "meta": {
+      "caption": "my idea of fun in London :)",
+      "alt": "side by side photo, one side with just the edges completed, the other side a complete puzzle of landmarks from London, Paris, and Brussels.",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/1de38d4c-42bf-4e0e-c2f6-38be76d0cb00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/1de38d4c-42bf-4e0e-c2f6-38be76d0cb00/public"
+    ]
   }
 ]
