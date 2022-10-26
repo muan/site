@@ -1,4 +1,4 @@
-{% assign categories = "Animals,Taiwan,Books,Cook,Plants,Friends,Mails" | split: "," %}
+{% assign categories = "Animals,Travel,Taiwan,Books,Cook,Plants,Friends,Mails" | split: "," %}
 {% assign stories = site.data.stories | sort: "uploaded" | reverse %}
 {% assign new_categories_arr = "" | split: "" | compact %}
 {% for story in stories %}
