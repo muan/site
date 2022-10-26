@@ -14,12 +14,12 @@ collections:
   pages:
     output: true
 i18n:
-  Travel: 旅
-  Animals: 寵
-  Taiwan: 台
-  Books: 書
-  Cook: 廚
-  Plants: 植
-  24h: 日
-  Mails: 郵
-  Friends: 友
+  Travel: 旅行
+  Animals: 動物
+  Taiwan: 台灣
+  Books: 圖書
+  Cook: 廚房
+  Plants: 植物
+  24h: 今天
+  Mails: 郵件
+  Friends: 朋友
