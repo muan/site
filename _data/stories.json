@@ -3089,5 +3089,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a0a646e9-0428-4520-1eea-a9aa96a23e00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a0a646e9-0428-4520-1eea-a9aa96a23e00/public"
     ]
+  },
+  {
+    "uploaded": "2022-10-29T15:38:19.799Z",
+    "id": "7e544a1e-2883-4a32-d181-ca72fbd04500",
+    "filename": "R0002235.jpeg",
+    "meta": {
+      "caption": "This makes me happy.",
+      "alt": "A hotel room door numbered 404.",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7e544a1e-2883-4a32-d181-ca72fbd04500/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7e544a1e-2883-4a32-d181-ca72fbd04500/public"
+    ]
   }
 ]
