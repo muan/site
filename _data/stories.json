@@ -3163,5 +3163,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/00f70d30-778e-406f-92f6-b410dfc09a00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/00f70d30-778e-406f-92f6-b410dfc09a00/public"
     ]
+  },
+  {
+    "uploaded": "2022-10-30T10:47:44.382Z",
+    "id": "5ebcef64-3e61-4fdf-504a-6de394b7f300",
+    "filename": "R0002418.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "A duck chilling on a lawn in front of a building.",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/5ebcef64-3e61-4fdf-504a-6de394b7f300/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/5ebcef64-3e61-4fdf-504a-6de394b7f300/public"
+    ]
   }
 ]
