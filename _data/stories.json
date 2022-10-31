@@ -3277,5 +3277,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/5ffee660-16b6-4b6d-e403-d30f98804800/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/5ffee660-16b6-4b6d-e403-d30f98804800/public"
     ]
+  },
+  {
+    "uploaded": "2022-10-31T07:49:44.006Z",
+    "id": "1cad4292-b954-4a2f-509e-29652d7eb900",
+    "filename": "IMG_3704.jpeg",
+    "meta": {
+      "caption": "Spaceship command panel of an ATM.",
+      "alt": "A yellow ATM with screens, number pad, arrow pad, a keyboard, a separate NFC reader.",
+      "tags": [
+        "Life",
+        "Travel",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/1cad4292-b954-4a2f-509e-29652d7eb900/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/1cad4292-b954-4a2f-509e-29652d7eb900/public"
+    ]
   }
 ]
