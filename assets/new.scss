@@ -478,6 +478,14 @@ figure {
   }
 }
 
+figcaption {
+  padding: .5em 1em;
+
+  p {
+    margin: 0;
+  }
+}
+
 // This ensures that
 // 1. screens that are too short
 // 2. screens that are not tall enough to display the full width of a 3:2 image
