@@ -31,6 +31,17 @@ root: true
 
 <hr class="hr">
 
+{% assign note = site.data.notes[0] %}
+<h2 class="text">Notes</h2><a href="/notes" class="styled-link">All notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
+<div class="note">
+  <div class="note-heading">
+    Latest: {{ note.date | date: "%B %d, %Y" }}
+  </div>
+  {{ note.content | markdownify }}
+</div>
+
+<hr class="hr">
+
 <h2 class="text">Photos</h2><a href="/photos" class="styled-link">All photos</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
@@ -56,14 +67,3 @@ root: true
     <time>{{ post.date | date_to_string }}</time></li>
 {% endfor %}
 </ul>
-
-<hr class="hr">
-
-{% assign note = site.data.notes[0] %}
-<h2 class="text">Notes</h2><a href="/notes" class="styled-link">All notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
-<div class="note">
-  <div class="note-heading">
-    Latest: {{ note.date | date: "%B %d, %Y" }}
-  </div>
-  {{ note.content | markdownify }}
-</div>

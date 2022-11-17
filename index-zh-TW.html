@@ -34,6 +34,17 @@ root: true
 
 <hr class="hr">
 
+{% assign note = site.data.notes[0] %}
+<h2 class="text">個人筆記</h2><a href="/notes" class="styled-link">全部筆記</a> <a href="/notes.xml" class="styled-link">RSS</a>
+<div class="note">
+  <div class="note-heading">
+    最新：{{ note.date | date: "%B %d, %Y" }}
+  </div>
+  {{ note.content | markdownify }}
+</div>
+
+<hr class="hr">
+
 <h2 class="text">照片</h2><a href="/photos" class="styled-link">全部照片</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
@@ -60,14 +71,3 @@ root: true
 {% endfor %}
 
 </ul>
-
-<hr class="hr">
-
-{% assign note = site.data.notes[0] %}
-<h2 class="text">個人筆記</h2><a href="/notes" class="styled-link">全部筆記</a> <a href="/notes.xml" class="styled-link">RSS</a>
-<div class="note">
-  <div class="note-heading">
-    最新：{{ note.date | date: "%B %d, %Y" }}
-  </div>
-  {{ note.content | markdownify }}
-</div>
