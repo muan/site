@@ -1,0 +1,22 @@
+---
+permalink: /blogroll.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{% capture srcbase %}src="{{site.url}}/{% endcapture %}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>@muan's blogroll</title>
+    <description>Links to other people's great blogs/websites.</description>
+    {% assign blogs = site.data.blogroll | sort: "added_at"  %}
+    <lastBuildDate>{{ blogs.last.added_at | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ site.url }}{{ page.permalink }}" rel="self" type="application/rss+xml" />
+    <link>{{ site.url }}{{ page.permalink }}</link>
+    {% for blog in blogs limit:10 %}
+      <item>
+        <title>{{ blog.title | xml_escape }}</title>
+        <link>{{ blog.url }}</link>
+        <guid isPermaLink="true">{{ blog.url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
