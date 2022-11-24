@@ -11,13 +11,9 @@ root: true
   I lived in New York, London, and Birmingham for some years. Now I am based in Taipei, Taiwan<span data-timestamp-text=", where it's currently {time}"></span>.
 </p>
 
-<p>
-  I also hang out on <a href="https://instagram.com/muanchiou" rel="me">Instagram</a>, <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>, and <a href="https://github.com/muan" rel="me">GitHub</a>. And here's my <a href="https://read.cv/muan" rel="me">CV</a>.
-</p>
-
-<p>
-  <a href="{% link _pages/qna.md %}">Q&A</a> / <a href="{% link _pages/blogroll.md %}">Blogroll</a>
-</p>
+<nav aria-label="Q and A, blog roll, and social links">
+  <a href="{% link _pages/qna.md %}">Q&A</a> / <a href="{% link _pages/blogroll.md %}">Blogroll</a> / <a href="https://github.com/muan" rel="me">GitHub</a> / <a href="https://read.cv/muan" rel="me">CV</a> / <a href="https://instagram.com/muanchiou" rel="me">Instagram</a> / <a href="https://twitter.com/muanchiou" rel="me">Twitter</a>
+</nav>
 
 <div class="lang">
   <a href="/zh-TW/">正體中文</a><a href="/" aria-current="true">English</a>
@@ -31,17 +27,6 @@ root: true
 
 <hr class="hr">
 
-{% assign note = site.data.notes[0] %}
-<h2 class="text">Notes</h2><a href="/notes" class="styled-link">All notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
-<div class="note">
-  <div class="note-heading">
-    Latest: {{ note.date | date: "%B %d, %Y" }}
-  </div>
-  {{ note.content | markdownify }}
-</div>
-
-<hr class="hr">
-
 <h2 class="text">Photos</h2><a href="/photos" class="styled-link">All photos</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
@@ -50,6 +35,17 @@ root: true
     <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}" loading="lazy" style="aspect-ratio: {{ photo.ratio }};">
   </a>
 {% endfor %}
+</div>
+
+<hr class="hr">
+
+{% assign note = site.data.notes[0] %}
+<h2 class="text">Notes</h2><a href="/notes" class="styled-link">All notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
+<div class="note">
+  <div class="note-heading">
+    Latest: {{ note.date | date: "%B %d, %Y" }}
+  </div>
+  {{ note.content | markdownify }}
 </div>
 
 <hr class="hr">

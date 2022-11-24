@@ -637,3 +637,9 @@ kbd {
   box-shadow: 0 1px;
   font-size: 0.9em;
 }
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6em;
+}
