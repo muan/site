@@ -9,6 +9,9 @@ type: "Cook"
   "icon": "https://github.com/muan.png",
   "home_page_url": "https://muan.co/stories.json",
   "description": "Stories about {{ page.type }}.",
+  "_open_stories": {
+    "version": "0.0.9"
+  },
   "items": [{% for story in stories %}{% if stories.first != story %},{% endif %}
     {
       "id": "{{ story.id }}",
@@ -17,7 +20,6 @@ type: "Cook"
       "content_html": "<img src='https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public' alt='{{ story.meta.alt }}'>",
       "authors": [{"name": "Mu-An Chiou", "url": "https://muan.co"}],
       "_open_stories": {
-        "type": "image",
         "mime_type": "image/jpeg",
         "url": "https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public",
         "alt": "{{ story.meta.alt }}",
