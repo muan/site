@@ -43,8 +43,7 @@
       "alt": "Mung beans being dried at the back of a scooter.",
       "caption": "Mung beans.",
       "tags": [
-        "Life",
-        "Cook"
+        "Life"
       ]
     },
     "requireSignedURLs": false,
@@ -81,7 +80,8 @@
       "caption": "",
       "tags": [
         "Life",
-        "Taiwan"
+        "Taiwan",
+        "Highlight"
       ]
     },
     "requireSignedURLs": false,
@@ -135,7 +135,8 @@
       "caption": "Making Figma stickers my own~",
       "tags": [
         "Life",
-        "Presence"
+        "Presence",
+        "Highlight"
       ]
     },
     "requireSignedURLs": false,
@@ -208,7 +209,8 @@
       "caption": "Thinking about what to do after quitting tech. This tree found a new job.",
       "tags": [
         "Life",
-        "Taiwan"
+        "Taiwan",
+        "Highlight"
       ]
     },
     "requireSignedURLs": false,
@@ -225,8 +227,7 @@
       "alt": "Worm’s eye view of a massive tree.",
       "caption": "Cool trees.",
       "tags": [
-        "Life",
-        "Taiwan"
+        "Life"
       ]
     },
     "requireSignedURLs": false,
@@ -279,7 +280,8 @@
       "caption": "Treat yo self.",
       "tags": [
         "Life",
-        "Cook"
+        "Taiwan",
+        "Highlight"
       ]
     },
     "requireSignedURLs": false,
@@ -419,9 +421,11 @@
     "filename": "R0000840.jpeg",
     "meta": {
       "alt": "7-11 lunch, nicely plated. Soba, grilled salmon, and egg cute cubes, on a wooden platform.",
-      "caption": "”C’est ce qui fait qu’un jour est différent des autres jours, une heure, des autres heures.”",
+      "caption": "These are from 7-11. ”C’est ce qui fait qu’un jour est différent des autres jours, une heure, des autres heures.”",
       "tags": [
-        "Life"
+        "Life",
+        "Cook",
+        "Highlight"
       ]
     },
     "requireSignedURLs": false,
@@ -478,7 +482,6 @@
       "tags": [
         "Life",
         "Taiwan",
-        "Travel",
         "Highlight"
       ]
     },
@@ -4050,8 +4053,8 @@
     "id": "36740528-696a-42ed-e4f4-97817ca61e00",
     "filename": "R0002763 Edited.jpg",
     "meta": {
-      "caption": "",
-      "alt": "A traditional paper calendar that hasn’t been updated since September 30th.",
+      "caption": "When it became disappointing to find myself in another day.",
+      "alt": "A traditional paper calendar that hasn’t been updated since September 30th, 2022.",
       "tags": [
         "Life"
       ]
