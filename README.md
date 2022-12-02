@@ -5,10 +5,9 @@ Code for https://muan.co/.
 ## Technology
 
 - HTML, CSS
-- [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 - [RSS](https://en.wikipedia.org/wiki/RSS)
-- [OpenStories](https://github.com/dddddddddzzzz/OpenStories)
-- [`<open-stories>`](https://github.com/dddddddddzzzz/open-stories-element)
+- [Jekyll on GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
+- [OpenStories](https://github.com/dddddddddzzzz/OpenStories), [`<open-stories>`](https://github.com/dddddddddzzzz/open-stories-element)
 
 ## Development
 
