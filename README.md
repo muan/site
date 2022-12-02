@@ -1,6 +1,14 @@
 # muan.co
 
-Code for https://muan.co/. Some of the content is updated via [a micropub server](https://github.com/muan/micropub-endpoint#micropub-endpoint).
+Code for https://muan.co/.
+
+## Technology
+
+- HTML, CSS
+- [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
+- [RSS](https://en.wikipedia.org/wiki/RSS)
+- [OpenStories](https://github.com/dddddddddzzzz/OpenStories)
+- [`<open-stories>`](https://github.com/dddddddddzzzz/open-stories-element)
 
 ## Development
 
