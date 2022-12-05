@@ -18,12 +18,15 @@ permalink: /stories.xml
       <item>
         <title>{{ story.meta.caption | xml_escape }}</title>
         <description>
+          {% capture openheart %}
+            <br><a href="https://muan.co{% link _pages/like.html %}?id={{ story.id }}">❤️</a><br><small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
+          {% endcapture %}
           {% capture content %}
             <a href="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public">
               <img src="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public" width="100%" alt="{{ story.meta.alt }}"/>
             </a>
           {% endcapture %}
-          {{ content | xml_escape }}
+          {{ content | xml_escape }}{{ openheart | xml_escape }}
         </description>
         <pubDate>{{ story.uploaded | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}/#{{ story.id }}</link>

@@ -12,9 +12,9 @@ title: Short notes
       <span class="targeted">⬤</span>
       {{ note.date | date: "%B %d, %Y" }} #
     </a>
-      <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=note-t{{ id }}" emoji="❤️" aria-labelledby="like-prompt">
-        <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
-      </open-heart>
+    <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=note-t{{ id }}" emoji="❤️" aria-labelledby="like-prompt">
+      <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
+    </open-heart>
   </h2>
   {{ note.content | markdownify }}
 </li>

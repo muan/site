@@ -13,9 +13,12 @@ permalink: /notes.xml
     {% for note in site.data.notes limit: 10 %}
       {% assign note_time = note.date | date: "%s" | plus: 0 %}
       {% if note_time > one_day_ago %}{% continue %}{% endif %}
+      {% capture openheart %}
+        <br><a href="https://muan.co{% link _pages/like.html %}?id=note-t{{ id }}">Like</a><br><small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
+      {% endcapture %}
       <item>
         <title>{{ note.date | date: "%Y-%m-%d" }}</title>
-        <description>{{ note.content | markdownify | xml_escape }}</description>
+        <description>{{ note.content | markdownify | xml_escape }}{{ openheart | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
         <link>https://muan.co/notes#t{{ note.date | date: "%Y%m%d%I%M" }}</link>
         <guid isPermaLink="true">https://muan.co/notes#t{{ note.date | date: "%Y%m%d%I%M" }}</guid>

@@ -12,9 +12,15 @@ permalink: /feed.xml
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     <link>{{ site.url }}/feed.xml</link>
     {% for post in posts limit:10 %}
+      {% capture openheart %}
+        <hr>
+        Like this post? let me know!<br>
+        <a href="https://muan.co{% link _pages/like.html %}?id={{ post.url }}">Sure.</a><br>
+        <small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
+      {% endcapture %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | replace: 'src="/', srcbase | xml_escape }}</description>
+        <description>{{ post.content | replace: 'src="/', srcbase | xml_escape }}{{ openheart | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>

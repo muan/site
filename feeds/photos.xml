@@ -12,15 +12,18 @@ permalink: /photos.xml
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     <link>{{ site.url }}/photos.xml</link>
     {% for photo in photos limit:10 %}
+      {% capture openheart %}
+        <br><a href="https://muan.co{% link _pages/like.html %}?id=photo-P{{ photo.guid }}">Like</a><br><small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
+      {% endcapture %}
       <item>
-        <title>{{ photo.caption | markdownify | xml_escape }}</title>
+        <title>{{ photo.caption | markdownify | strip_html | xml_escape }}</title>
         <description>
           {% capture content %}
             <a href="{{ photo.path }}/public">
               <img src="{{ photo.path }}/public" width="100%" alt="{{ photo.alt }}"/>
             </a>
           {% endcapture %}
-          {{ content | xml_escape }}
+          {{ content | xml_escape }}{{ openheart | xml_escape }}
         </description>
         <pubDate>{{ photo.createdAt | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}/photos#P{{ photo.guid }}</link>

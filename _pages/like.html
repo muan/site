@@ -1,0 +1,28 @@
+---
+layout: default
+title: Liking via RSS
+---
+
+<style>
+  button {
+
+  }
+</style>
+
+<form method="post" target="frame" enctype="text/plain"><button name="❤️" value="" hidden></button></form>
+<p id="status"></p>
+<iframe name="frame" hidden></iframe>
+<script>
+  const urlBase = 'https://likes.muan.dev/?id='
+  const status = document.querySelector('#status')
+  const id = new URLSearchParams(window.location.search).get('id')
+  console.log(id)
+  if (!id) {
+    status.textContent = 'Nothing to like.'
+  } else {
+    const form = document.querySelector('form')
+    form.action = `${urlBase}${id}`
+    form.querySelector('button').click()
+    status.textContent = `❤️ successful. (${id})`
+  }
+</script>
