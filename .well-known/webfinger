@@ -1,0 +1,23 @@
+{
+  "aliases" : [
+    "https://mastodon.social/@muan",
+    "https://mastodon.social/users/muan"
+  ],
+  "links" : [
+    {
+      "href" : "https://mastodon.social/@muan",
+      "rel" : "http://webfinger.net/rel/profile-page",
+      "type" : "text/html"
+    },
+    {
+      "href" : "https://mastodon.social/users/muan",
+      "rel" : "self",
+      "type" : "application/activity+json"
+    },
+    {
+      "href" : "https://mastodon.social/authorize_interaction?uri={uri}",
+      "rel" : "http://ostatus.org/schema/1.0/subscribe"
+    }
+  ],
+  "subject" : "acct:muan@mastodon.social"
+}
