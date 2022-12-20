@@ -23,3 +23,4 @@ i18n:
   24h: 今天
   Mails: 郵件
   Friends: 朋友
+include: [".well-known"]
