@@ -4483,5 +4483,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0b219ec5-0b68-4e28-9e1d-38ff6df7ff00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0b219ec5-0b68-4e28-9e1d-38ff6df7ff00/public"
     ]
+  },
+  {
+    "uploaded": "2023-01-02T05:17:31.359Z",
+    "id": "8912be88-1fee-49a2-717f-0695bffe4e00",
+    "filename": "R0003055.jpeg",
+    "meta": {
+      "caption": "Success!",
+      "alt": "An espresso tonic in a small glass against a black background.",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Cook"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/8912be88-1fee-49a2-717f-0695bffe4e00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/8912be88-1fee-49a2-717f-0695bffe4e00/thumbnail"
+    ]
   }
 ]
