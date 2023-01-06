@@ -467,7 +467,7 @@ figure {
   }
 
   figcaption {
-    max-width: fit-content;
+    max-width: calc(100vh * 0.667 - 6em);
     margin: auto;
   }
 
