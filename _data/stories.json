@@ -4654,5 +4654,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c1fa119b-2084-414c-f52b-5567a9fa7500/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c1fa119b-2084-414c-f52b-5567a9fa7500/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-01-09T07:01:10.601Z",
+    "id": "cc7adc86-e0d4-44db-ec7e-6c240edaa600",
+    "filename": "IMG_6006.jpeg",
+    "meta": {
+      "caption": "Cute lanterns.",
+      "alt": "Scooters parked in front of a Japanese restaurant with lanterns decorated with repeating red circles in the evening.",
+      "tags": [
+        "Life",
+        "Taiwan",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cc7adc86-e0d4-44db-ec7e-6c240edaa600/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cc7adc86-e0d4-44db-ec7e-6c240edaa600/public"
+    ]
   }
 ]
