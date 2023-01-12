@@ -337,6 +337,28 @@ time {
   font-size: 0.8em;
 }
 
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+
+  49.999% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.timestamp-colon {
+  color: white;
+  animation: flash 2s linear 0s infinite;
+}
+
 .offsetthis {
   vertical-align: super;
   font-size: .6em;

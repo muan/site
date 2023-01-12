@@ -12,7 +12,10 @@ function settime() {
   if (time.match(/^24:/)) time = time.replace('24:', '00:')
   // Setting interpolated string instead of just the time because
   // if there's no JS there should be no mentions of current time
-  timestamp.textContent = timestamp.getAttribute('data-timestamp-text').replace('{time}', time)
+  timestamp.innerHTML = timestamp.getAttribute('data-timestamp-text')
+    .replace('{time}', time)
+    .replace(':', '<span class="timestamp-colon">:</span>')
+
   setTimeout(settime, (60 - new Date().getSeconds()) * 1000)
 }
 settime()
