@@ -342,9 +342,6 @@ time {
     opacity: 0;
   }
 
-  49.999% {
-    opacity: 0;
-  }
   50% {
     opacity: 1;
   }
@@ -355,8 +352,10 @@ time {
 }
 
 .timestamp-colon {
-  color: var(--textColor);
-  animation: flash 2s linear 0s infinite;
+  animation-name: flash;
+  animation-duration:  2s;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
 }
 
 .offsetthis {
