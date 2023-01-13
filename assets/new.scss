@@ -358,6 +358,12 @@ time {
   animation-iteration-count: infinite;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .timestamp-colon {
+    animation-name: none;
+  }
+}
+
 .offsetthis {
   vertical-align: super;
   font-size: .6em;
