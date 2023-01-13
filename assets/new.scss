@@ -337,6 +337,33 @@ time {
   font-size: 0.8em;
 }
 
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.timestamp-colon {
+  animation-name: flash;
+  animation-duration:  2s;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timestamp-colon {
+    animation-name: none;
+  }
+}
+
 .offsetthis {
   vertical-align: super;
   font-size: .6em;
