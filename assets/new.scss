@@ -355,7 +355,7 @@ time {
 }
 
 .timestamp-colon {
-  color: white;
+  color: var(--textColor);
   animation: flash 2s linear 0s infinite;
 }
 
