@@ -674,5 +674,6 @@ kbd {
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: .6em;
+  column-gap: .6em;
+  margin: .6em 0;
 }
