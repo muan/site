@@ -491,12 +491,18 @@ figure {
     scroll-snap-align: center;
     margin-bottom: 0;
     flex-shrink: 0;
+
+    &:has(.portrait) figcaption {
+      max-width: calc(100vh * 0.667 - 6em);
+      margin: auto;
+    }
+
+    &:has(.landscape) figcaption {
+      max-width: calc(100vw * 0.667 - 2em);
+      margin: auto;
+    }
   }
 
-  figcaption {
-    max-width: calc(100vh * 0.667 - 6em);
-    margin: auto;
-  }
 
   img {
     max-height: calc(100vh - 6em);
