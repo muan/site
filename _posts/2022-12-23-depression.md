@@ -143,3 +143,21 @@ I wish you all a peaceful mind.
 
 <br>
 P.S. Many thanks to Domenic, Garen, Hidde, Jessica, Rob B, and Rob H for reading my draft and giving me feedback and the confidence to publish this post.
+
+---
+
+Addendum, January 23, 2023:
+
+## The woman who cries wolf
+
+A month has passed by since publishing this post. Many friends who offered support have sort of... dispersed, which makes sense. I am "better" now. However I also found myself slowly creeping back into the habit of "I should not bother people with my problems", especially not with the same old ones. It is now a personal failure of mine that I am incapable of getting through the same obstacles with ease.
+
+I still have good days and bad days, and some bad days are crippling. 
+
+I want to stress how extremely difficult it was and still is to reach out and ask for help. As someone who lives alone and work remotely, there's really little to no social contact I get unless I go out of my way to seek them, which is terrifying. 
+
+Something I left out in the original post was that I had tried to read a book a friend wrote about his journey through depression. I broke down crying at the preface, written by his loving sister also business partner who saw firsthand how he went from a happy person to a depressed mess. No one would have known what I was going through if I had not simply... told them.
+
+So this is a message to myself as well as to whoever struggling alone too. Perhaps you've experienced this as well—sitting on the floor of your apartment holding your knees tightly together, trying to hold back tears, and wishing that you can just stop feeling, whichever way possible. Unfortunately, the only way out of this is reaching out, owning and facing the vulnerability, and seeking professional help, with whatever that's left in the tank, even if just the fumes. 
+
+I wish you strength.
