@@ -1,3 +1,8 @@
+- date: 2023/02/09 21:10
+  content: |
+    the other night I went to a restaurant with a web dev friend and we started discussing their COVID QR code ordering website because he wanted to know if I would have used the figure element and I went off- "but you could have built this without modals, without tabs, without JavaScript, in a completely accessible manner. not this slow janky inaccessible abomination." and I walked through how I would have markup the site. it was so great.
+
+
 - date: 2023/02/08 21:15
   content: |
     Promising Young Woman (2020): Oh was this contentious. 
