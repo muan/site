@@ -5750,5 +5750,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/90ca52f9-773c-42d8-a629-e36c6588cb00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/90ca52f9-773c-42d8-a629-e36c6588cb00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-02-12T04:02:56.917Z",
+    "id": "673bc416-5ffc-4a70-5a93-8c74a3fe7700",
+    "filename": "R0003990 Edited.jpg",
+    "meta": {
+      "caption": "好きです",
+      "alt": "A top down shot of a black shiba looking up and away from the camera.",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/673bc416-5ffc-4a70-5a93-8c74a3fe7700/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/673bc416-5ffc-4a70-5a93-8c74a3fe7700/public"
+    ]
   }
 ]
