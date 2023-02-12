@@ -5769,5 +5769,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/673bc416-5ffc-4a70-5a93-8c74a3fe7700/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/673bc416-5ffc-4a70-5a93-8c74a3fe7700/public"
     ]
+  },
+  {
+    "uploaded": "2023-02-12T04:04:11.471Z",
+    "id": "83a88647-1eec-4ceb-f993-30d9bad0f200",
+    "filename": "A38D5F87-69C2-4087-969A-449718A4427E.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "Blurry photo of a highway with sunset in the background.",
+      "tags": [
+        "Life",
+        "Taiwan",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/83a88647-1eec-4ceb-f993-30d9bad0f200/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/83a88647-1eec-4ceb-f993-30d9bad0f200/thumbnail"
+    ]
   }
 ]
