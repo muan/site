@@ -5881,5 +5881,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a9dc7559-7426-4889-752b-15c2d2c8e000/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a9dc7559-7426-4889-752b-15c2d2c8e000/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-02-16T15:59:59.821Z",
+    "id": "3c2c29d1-9c3a-4930-b71d-60eb7f046600",
+    "filename": "R0004067.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "A magpie.",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3c2c29d1-9c3a-4930-b71d-60eb7f046600/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3c2c29d1-9c3a-4930-b71d-60eb7f046600/public"
+    ]
   }
 ]
