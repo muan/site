@@ -6304,5 +6304,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/15d6971d-4b69-40b1-b8db-9f7c241d2500/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/15d6971d-4b69-40b1-b8db-9f7c241d2500/public"
     ]
+  },
+  {
+    "uploaded": "2023-03-11T05:12:34.358Z",
+    "id": "b8ab677b-890e-4db1-38b6-9a373ad10200",
+    "filename": "IMG_9160.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "shot of a cat peeking out from behind a chair that he sits on with cushion and a black jacket covered over it.",
+      "tags": [
+        "Life",
+        "Animals",
+        "Highlight"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b8ab677b-890e-4db1-38b6-9a373ad10200/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b8ab677b-890e-4db1-38b6-9a373ad10200/public"
+    ]
   }
 ]
