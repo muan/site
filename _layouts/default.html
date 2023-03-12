@@ -11,7 +11,7 @@
       <link href="/assets/syntax.css" rel="stylesheet" type="text/css">
     {% endif %}
     <link href="/assets/new.css" rel="stylesheet" type="text/css">
-    {% if page.collection == "posts" or page.collection == "pages" %}
+    {% if page.collection == "posts" or page.collection == "pages" or page.collection == "notes" %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
       <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
       <meta content="article" property="og:type">
