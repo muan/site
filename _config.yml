@@ -13,6 +13,8 @@ collections:
     output: true
   pages:
     output: true
+  stories:
+    output: true
 i18n:
   Travel: 旅行
   Animals: 動物

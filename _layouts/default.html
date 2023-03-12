@@ -11,12 +11,14 @@
       <link href="/assets/syntax.css" rel="stylesheet" type="text/css">
     {% endif %}
     <link href="/assets/new.css" rel="stylesheet" type="text/css">
-    {% if page.collection == "posts" or page.collection == "pages" or page.collection == "notes" %}
+    {% if page.collection == "posts" or page.collection == "pages" or page.collection == "notes" or page.collection == "stories" %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
       <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
+      {% if page.collection == "posts" %}
       <meta content="article" property="og:type">
       <meta content="@muanchiou" property="twitter:site">
       <meta name="twitter:card" content="summary_large_image">
+      {% endif %}
       {% if page.image %}
         <meta content="https://muan.co/images/{{ page.image }}" property="og:image">
         <meta content="https://muan.co/images/{{ page.image }}" property="twitter:image">
@@ -29,8 +31,8 @@
         <meta content="https://muan.co/assets/logo.png" property="og:image">
       {% endif %}
       <title>{{ page.title }} - {{ site.title }}</title>
-      <meta content="{{ page.title }}" property="og:title">
-      <meta content="{{ page.title }}" name="twitter:title">
+      <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
+      <meta content="{{ page.title }} - {{ site.title }}" name="twitter:title">
     {% else %}
       <meta content="summary" name="twitter:card">
       <meta content="https://muan.co/assets/logo.png" property="twitter:image">
@@ -45,7 +47,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
 
   </head>
-  <body class="{% if page.root != true %}post-body{% endif %}" data-page-title="{{ page.title }}">
+  <body class="{% if page.root != true %}post-body{% endif %} is-{{ page.collection }}" data-page-title="{{ page.title }}">
     <header>
       <div class="logo-container">
         {% if page.root != true %}
@@ -63,9 +65,10 @@
         {% endif %}
       </div>
       <h1 class="h1">
-        {% if page.collection == "notes" %}{{ page.date | date: "%B %d, %Y" }}{% else %}{{ page.title }}{% endif %}
+        {{ page.title }}
       </h1>
       {% if page.collection == "posts" %}<time>{{ page.date | date: "%Y/%m/%d" }}</time>{% endif %}
+      {% if page.collection == "notes" or page.collection == "stories" %}<time>{{ page.date | date: "%Y/%m/%d %H:%M" }}</time>{% endif %}
       <div class="desc">{{ page.header_content }}</div>
     </header>
     <main>
