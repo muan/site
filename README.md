@@ -22,6 +22,8 @@ The following directories and their contents are Copyright Mu-An Chiou. You may 
 ```
 _data/
 _posts/
+_stories/
+_notes/
 images/
 ```
 
