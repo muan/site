@@ -181,12 +181,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.targeted {
-  color: var(--activeColor);
-  margin-right: .2em;
-  display: inline;
-}
-
 .note {
   scroll-margin: 2em;
 
@@ -194,13 +188,6 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 0;
   }
 
-  .targeted {
-    display: none; 
-  }
-
-  &:target .targeted {
-    display: inline;
-  }
   p:first-child, blockquote:first-child { margin-top: 0; }
   p:last-child, blockquote:last-child, img:last-child { margin-bottom: 0; }
 }

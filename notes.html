@@ -1,22 +1,36 @@
 ---
 layout: default
-title: Short notes
+title: Recent notes
 ---
 
 <ul class="notes">
-{% for note in site.data.notes %}
-{% assign id = note.date | date: "%Y%m%d%I%M" %}
-<li class="note" id="t{{ id }}">
-  <h2 class="note-heading">
-    <a href="#t{{ id }}" class=" monospace">
-      <span class="targeted">⬤</span>
-      {{ note.date | date: "%B %d, %Y" }} #
-    </a>
-    <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=note-t{{ id }}" emoji="❤️" aria-labelledby="like-prompt">
-      <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
-    </open-heart>
-  </h2>
-  {{ note.content | markdownify }}
-</li>
+{% assign notes = site.notes | sort: "date" | reverse %}
+{% for note in notes limit: 100 %}
+  {% assign id = note.date | date: "%Y%m%d%I%M" %}
+  <li class="note">
+    <h2 class="note-heading">
+      <a href="{{ note.url }}" class="monospace">
+        <u>{{ note.date | date: "%B %d, %Y" }}</u>
+      </a>
+      <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">
+        <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
+      </open-heart>
+    </h2>
+    {{ note.content | markdownify }}
+  </li>
 {% endfor %}
-<ul>
+</ul>
+
+{% if notes.size > 100 %}
+  <hr>
+  <p class="desc">Only the most recent 100 notes are shown.</p>
+  {% for note in notes %}
+    {% assign id = note.date | date: "%Y%m%d%I%M" %}
+    <a class="note" id="t{{id}}" href="{{ note.url }}" hidden></a>
+    <script>
+      if (window.location.hash) {
+        document.querySelector(document.location.hash)?.click()
+      }
+    </script>
+  {% endfor %}
+{% endif %}

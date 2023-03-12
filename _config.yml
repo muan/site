@@ -10,7 +10,7 @@ sass:
   style: :compressed
 collections:
   notes:
-    output: false
+    output: true
   pages:
     output: true
 i18n:

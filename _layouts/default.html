@@ -49,7 +49,7 @@
     <header>
       <div class="logo-container">
         {% if page.root != true %}
-          <a href="/" aria-label="Home" class="back-link">&leftarrow;</a>
+          <a href="/{% if page.collection == "notes" %}notes{% endif %}" aria-label="Home" class="back-link">&leftarrow;</a>
         {% endif %}
         <svg class="logo" viewBox="0 0 196 169" fill="none" xmlns="http://www.w3.org/2000/svg">
           <title>安</title>
@@ -63,40 +63,31 @@
         {% endif %}
       </div>
       <h1 class="h1">
-        {{ page.title }}
+        {% if page.collection == "notes" %}{{ page.date | date: "%B %d, %Y" }}{% else %}{{ page.title }}{% endif %}
       </h1>
-      {% if page.collection == 'posts' %}<time>{{ page.date | date_to_string }}</time>{% endif %}
+      {% if page.collection == "posts" %}<time>{{ page.date | date: "%Y/%m/%d" }}</time>{% endif %}
       <div class="desc">{{ page.header_content }}</div>
     </header>
     <main>
       {% if page.collection == "posts" or page.collection == "pages" %}
         <article>
           {{ content }}
-
-          {% if page.feature == 1 or page.open_heart %}
-            <hr class="hr">
-            <div class="monospace">
-              <div id="like-prompt">Like this post? let me know!</div>
-              &gt;<open-heart class="text-open-heart" href="https://likes.muan.dev/?id={{ page.url }}" emoji="❤️" aria-labelledby="like-prompt">
-                <span class="on">Liked.<br>(Thanks!)</span><span class="off">Sure. <kbd>⏎</kbd></span>
-              </open-heart>
-            </div>
-          {% endif %}
         </article>
-        <!--div class="pagination">
-          {% if page.previous %}
-            <div><a href="{{ page.previous.url }}">
-              Prev: {{ page.previous.title }}
-            </a></div>
-          {% endif %}
-          {% if page.next %}
-            <div><a href="{{ page.next.url }}">
-              Next: {{ page.next.title }}
-            </a></div>
-          {% endif %}
-        </div-->
+      {% else if page.collection == "notes" %}
+        {{ content }}
       {% else %}
         {{ content }}
+      {% endif %}
+      {% if page.feature == 1 or page.open_heart %}
+        <hr class="hr">
+        <div class="smol">
+          <div class="monospace">
+            <div id="like-prompt">Like this {% if page.collection == "posts" %}post{% else if page.collection == "notes" %}note{% else %}page{% endif %}? let me know!</div>
+            &gt;<open-heart class="text-open-heart" href="https://likes.muan.dev/?id={{ page.url }}" emoji="❤️" aria-labelledby="like-prompt">
+              <span class="on">Liked.<br>(Thanks!)</span><span class="off">Sure. <kbd>⏎</kbd></span>
+            </open-heart>
+          </div>
+        </div>
       {% endif %}
     </main>
     <footer>

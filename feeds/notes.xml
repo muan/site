@@ -6,11 +6,12 @@ permalink: /notes.xml
   <channel>
     <title>@muan's notes</title>
     <description>Micro posts.</description>
-    <lastBuildDate>{{ site.data.notes.first.date | date_to_rfc822 }}</lastBuildDate>
+    {% assign notes = site.notes | reverse %}
+    <lastBuildDate>{{ notes.first.date | date_to_rfc822 }}</lastBuildDate>
     <link>{{ site.url }}/notes.xml</link>
     <atom:link href="{{ site.url }}/notes.xml" rel="self" type="application/rss+xml" />
     {% assign one_day_ago = site.time | date: "%s" | minus: 86400 %}
-    {% for note in site.data.notes limit: 10 %}
+    {% for note in notes limit: 10 %}
       {% assign note_time = note.date | date: "%s" | plus: 0 %}
       {% if note_time > one_day_ago %}{% continue %}{% endif %}
       {% capture openheart %}
@@ -21,8 +22,8 @@ permalink: /notes.xml
         <title>{{ note.date | date: "%Y-%m-%d" }}</title>
         <description>{{ note.content | markdownify | xml_escape }}{{ openheart | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
-        <link>https://muan.co/notes#t{{ note.date | date: "%Y%m%d%I%M" }}</link>
-        <guid isPermaLink="true">https://muan.co/notes#t{{ note.date | date: "%Y%m%d%I%M" }}</guid>
+        <link>{{ note.url }}</link>
+        <guid isPermaLink="true">{{ note.url }}</guid>
       </item>
     {% endfor %}
   </channel>

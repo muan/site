@@ -42,8 +42,8 @@ root: true
 
 <hr class="hr">
 
-{% assign note = site.data.notes[0] %}
-<h2 class="text">Notes</h2><a href="/notes" class="styled-link">All notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
+{% assign note = site.notes | last %}
+<h2 class="text">Notes</h2><a href="/notes" class="styled-link">Recent notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
 <div class="note">
   <div class="note-heading">
     Latest: {{ note.date | date: "%B %d, %Y" }}

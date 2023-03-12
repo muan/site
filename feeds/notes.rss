@@ -10,17 +10,18 @@ comment: For micro.blog only.
     <description>notes</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/notes.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>{{ site.data.notes.first.date | date_to_rfc822 }}</lastBuildDate>
+    {% assign notes = site.notes | reverse %}
+    <lastBuildDate>{{ notes.first.date | date_to_rfc822 }}</lastBuildDate>
     {% assign one_day_ago = site.time | date: "%s" | minus: 86400 %}
-    {% for note in site.data.notes limit: 10 %}
+    {% for note in notes limit: 10 %}
       {% assign note_time = note.date | date: "%s" | plus: 0 %}
       {% if note_time > one_day_ago %}{% continue %}{% endif %}
       <item>
         <title></title>
         <description>{{ note.content | markdownify | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
-        <link>https://muan.co/notes#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}</link>
-        <guid isPermaLink="true">https://muan.co/notes#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}</guid>
+        <link>{{ note.url }}</link>
+        <guid isPermaLink="true">{{ note.url }}</guid>
       </item>
     {% endfor %}
   </channel>
