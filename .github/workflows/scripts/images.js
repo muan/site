@@ -14,4 +14,26 @@ if (!fileExists && dirName !== '.') {
   fs.mkdirSync(dirName, {recursive: true})
 }
 
+const date = new Date(json.uploaded)
+const content = `---
+layout: story
+date: ${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()} ${date.getHours()}:${date.getMinutes()}
+tags: [ ${json.meta.tags.join(', ')} ]
+title: Story
+image: https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/${json.id}/public
+caption: |
+  ${json.meta.caption}
+alt: |
+  ${json.meta.alt}
+---
+
+![${json.meta.alt}](https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/${json.id}/public)
+
+${json.meta.caption}
+`
+
+if (json.meta.tags.includes('Highlight')) {
+  fs.writeFileSync(`_stories/${json.id}.md`, content)
+}
+
 fs.writeFileSync(filePath, JSON.stringify(photos, null, 2))

@@ -18,8 +18,9 @@ permalink: /stories.json
       "date_published": "{{ story.uploaded | date_to_xmlschema }}", {% assign date_expired = story.uploaded | date: "%s" | plus: 86400 | date_to_xmlschema %}
       "tags": [{% for tag in story.meta.tags %}"{{ tag }}"{% if tag != story.meta.tags.last %}, {% endif %}{% endfor %}],
       "content_html": "<img src='https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public' alt='{{ story.meta.alt }}'>",
-      "authors": [{"name": "Mu-An Chiou", "url": "https://muan.co"}],
-      "_open_stories": {
+      "authors": [{"name": "Mu-An Chiou", "url": "https://muan.co"}],{% if story.meta.tags contains "Highlight" %}
+      "url": "{{ site.url }}/stories/{{ story.id }}",
+      {% endif %}"_open_stories": {
         "mime_type": "image/jpeg",
         "url": "https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public",
         "alt": "{{ story.meta.alt }}",

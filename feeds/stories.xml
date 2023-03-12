@@ -29,8 +29,8 @@ permalink: /stories.xml
           {{ content | xml_escape }}{{ openheart | xml_escape }}
         </description>
         <pubDate>{{ story.uploaded | date_to_rfc822 }}</pubDate>
-        <link>{{ site.url }}/#{{ story.id }}</link>
-        <guid isPermaLink="true">{{ site.url }}/#{{ story.id }}</guid>
+        <link>{{ site.url }}/stories/{{ story.id }}</link>
+        {% if story.meta.tags contains "Highlight" %}<guid isPermaLink="true">{{ site.url }}/stories/{{ story.id }}</guid>{% endif %}
       </item>
     {% endfor %}
   </channel>

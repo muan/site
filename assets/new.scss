@@ -664,3 +664,47 @@ nav {
   column-gap: .6em;
   margin: .6em 0;
 }
+
+.col-stories {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+  header, main, footer {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .story-header {
+    padding: 1em 1.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 5em;
+    row-gap: 0.5em;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+  }
+
+  .story-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+
+  main {
+    min-width: 80vw;
+    text-align: center;
+  }
+
+  main img {
+    max-height: 100vh;
+    margin: 0;
+  }
+}

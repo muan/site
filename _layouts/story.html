@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{% if page.path contains 'zh-TW' %}zh-TW{% else %}en{% endif %}">
+  <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <link rel="me" href="https://micro.blog/muan">
+    <link rel="alternate" type="application/rss+xml" href="/notes.xml">
+    <link rel="icon" href="/assets/fav.svg" type="image/svg+xml" sizes="24x24">
+    <link href="/assets/new.css" rel="stylesheet" type="text/css">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
+    <meta content="{{ page.image }}" property="og:image">
+    <meta content="{{ page.image }}" property="twitter:image">
+    <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
+    <meta content="{{ page.title }} - {{ site.title }}" name="twitter:title">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+  </head>
+  <body class="col-{{ page.collection }}" data-page-title="{{ page.title }}">
+    <header class="story-header smol">
+      <div class="story-meta">
+        <a href="/#{{ page.name }}" aria-label="Home">&leftarrow;</a>
+        <h1 class="text entry-title">
+          {{ page.title }}, {{ page.date | date: "%Y/%m/%d %H:%M" }}
+        </h1>
+        <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">
+          (<span class="on">Liked ♥︎.</span><span class="off">Like?</span>)
+        </open-heart>
+      </div>
+      <div>
+        {{ page.caption }}
+      </div>
+    </header>
+    <main>
+      <img src="{{ page.image }}" alt="{{ page.alt }}" class="story-image">
+    </main>
+
+    <script defer type="module" src="https://unpkg.com/open-heart-element@latest"></script>
+  </body>
+</html>
