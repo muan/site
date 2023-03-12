@@ -1,0 +1,35 @@
+name: "Sync stories"
+
+on:
+  workflow_dispatch:
+    inputs:
+      content:
+        description: "File content"
+        type: string
+        required: true
+      datetime:
+        description: "Datetime"
+        type: string
+        required: true
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 17.7
+
+      - name: Run script
+        run: node .github/workflows/scripts/notes.js '${{ inputs.datetime }}' '${{ inputs.content }}'
+
+      - name: Push changes
+        run: |
+          git config user.email 'bot@muan.dev'
+          git config user.name 'muan [bot]'
+          git add .
+          git commit -m "Add photo from Apple shortcuts" || echo "Nothing to commit"
+          git fetch origin main
+          git push origin HEAD:main
