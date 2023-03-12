@@ -596,11 +596,21 @@ open-stories {
     border-color: var(--secondaryTextColor);
   }
   
-  &:not(.is-read):not(.is-empty):not([is-highlight])::part(button) {
+  &:not(.is-read):not(.is-empty):not([is-highlight]):not(.is-loading)::part(button) {
     border-color: var(--linkColor);
   }
 
   
+  &.is-loading {
+    opacity: .3;
+    animation: loading 1s infinite alternate;
+
+    &::part(button) {
+      pointer-events: none;
+      border: 0;
+    }
+  }
+
   &.is-empty::part(button) {
     pointer-events: none;
     opacity: 0.5;
@@ -620,6 +630,11 @@ open-stories {
       transform-origin: top left;
     }
   }
+}
+
+@keyframes loading {
+  0% { opacity: .3 }
+  100% { opacity: .5 }
 }
 
 .monospace {
