@@ -6,7 +6,6 @@ title: Recent notes
 <ul class="notes">
 {% assign notes = site.notes | sort: "date" | reverse %}
 {% for note in notes limit: 100 %}
-  {% assign id = note.date | date: "%Y%m%d%H%M" %}
   <li class="note">
     <h2 class="note-heading">
       <a href="{{ note.url }}" class="monospace">
@@ -25,7 +24,7 @@ title: Recent notes
   <hr>
   <p class="desc">Only the most recent 100 notes are shown.</p>
   {% for note in notes %}
-    {% assign id = note.date | date: "%Y%m%d%H%M" %}
+    {% assign id = note.date | date: "%Y%m%d%I%M" %}
     <a class="note" id="t{{id}}" href="{{ note.url }}" hidden></a>
     <script>
       if (window.location.hash) {
