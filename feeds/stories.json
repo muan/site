@@ -27,7 +27,7 @@ permalink: /stories.json
         "caption": "{{ story.meta.caption }}",
         "date_expired": "{{ date_expired }}",
         "reactions": {
-          "open_heart_urls": ["https://likes.muan.dev/?id={{ story.id }}"]
+          "open_heart_urls": ["https://likes.muan.dev/?id=/stories/{{ story.id }}"]
         }
       }
     }{% endfor %}

@@ -26,7 +26,7 @@ type: "Cook"
         "alt": "{{ story.meta.alt }}",
         "caption": "{{ story.meta.caption }}",
         "reactions": {
-          "open_heart_urls": ["https://likes.muan.dev/?id={{ story.id }}"]
+          "open_heart_urls": ["https://likes.muan.dev/?id=/stories/{{ story.id }}"]
         }
       }
     }{% endfor %}
