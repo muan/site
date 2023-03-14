@@ -645,7 +645,7 @@ open-stories {
 open-heart.text-open-heart {
   display: inline;
   margin-left: 1em;
-  transition: all .4s;
+  transition: color .4s, border-color .4s;
 
   &:not([disabled]):hover {
     cursor: pointer;
@@ -684,6 +684,8 @@ nav {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  background: black;
+  font-size: 2.2vh;
 
   header, main, footer {
     box-sizing: border-box;
@@ -694,17 +696,18 @@ nav {
   }
 
   .story-header {
-    padding: 1em 1.5em;
+    padding: 1vh 2vh;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 5em;
-    row-gap: 0.5em;
+    column-gap: .5vh;
+    row-gap: 0.2vh;
     align-items: center;
     position: absolute;
     z-index: 1;
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
+    color: #fff;
   }
 
   .story-meta {
@@ -714,12 +717,16 @@ nav {
   }
 
   main {
-    min-width: 80vw;
+    display: flex;
+    height: 100vh;
+    align-items: center;
     text-align: center;
+    justify-content: space-around;
   }
 
   main img {
-    max-height: 100vh;
-    margin: 0;
+    max-height: 96vh;
+    max-width: 98vw;
+    border-radius: .5vh;
   }
 }
