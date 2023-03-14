@@ -1,4 +1,4 @@
-name: "Sync stories"
+name: "Add a note"
 
 on:
   workflow_dispatch:
