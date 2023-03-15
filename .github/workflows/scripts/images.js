@@ -32,8 +32,5 @@ alt: |
 ${json.meta.caption}
 `
 
-if (json.meta.tags.includes('Highlight')) {
-  fs.writeFileSync(`_stories/${json.id}.md`, content)
-}
-
+fs.writeFileSync(`_stories/${json.id}.md`, content)
 fs.writeFileSync(filePath, JSON.stringify(photos, null, 2))
