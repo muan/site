@@ -7,6 +7,7 @@ const idx = fs.readdirSync('_notes').filter(p => p.startsWith(datetime.split(' '
 const a = alphabets[idx]
 const filePath = `_notes/${datetime.split(' ')[0]}-${a}${a}.md`
 const postContent = `---
+title: Note
 layout: default
 open_heart: true
 date: ${datetime}
