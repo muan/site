@@ -6546,5 +6546,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c3ef5a9b-9d66-4463-ba50-9dcf8856ec00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c3ef5a9b-9d66-4463-ba50-9dcf8856ec00/public"
     ]
+  },
+  {
+    "uploaded": "2023-03-20T14:33:26.205Z",
+    "id": "2d7e01ba-b7dd-4f63-7d62-934c0cd94d00",
+    "filename": "764824FE-909A-43A0-B924-3C0618819AE1.jpeg",
+    "meta": {
+      "caption": "gifts/souvenir from chia-wen ♡",
+      "alt": "a bag of pretzels, a book called “don’t name it that” by eli altman, a package, and a cup of pasta.",
+      "tags": [
+        "Life",
+        "Books"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2d7e01ba-b7dd-4f63-7d62-934c0cd94d00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2d7e01ba-b7dd-4f63-7d62-934c0cd94d00/thumbnail"
+    ]
   }
 ]
