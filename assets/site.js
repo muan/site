@@ -37,11 +37,13 @@ try {
     const [datetime, text] = s.split('\n')
     const date = relativeDate(new Date(datetime))
     if (date) {
-      document.querySelector('[data-status]').textContent = text
+      document.querySelector('[data-status-text]').textContent = text
       document.querySelector('[data-status-datetime]').textContent = `(${date})`
     }
   }
+  document.querySelector('[data-status-loading]').removeAttribute('data-status-loading')
 } catch (e) {
+  document.querySelector('[data-status-loading]').remove()
   console.warn(e)
 }
 

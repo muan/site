@@ -506,6 +506,21 @@ figcaption {
   }
 }
 
+[data-status-loading] {
+  margin: .17em 0 0;
+  display: block;
+  opacity: .3;
+  animation: loading .5s infinite alternate;
+
+  [data-status-text]:empty {
+    display: inline-block;
+    width: 100px;
+    height: 1em;
+    border-radius: .3em;
+    background: var(--subtleBackgroundColor);
+  }
+}
+
 // This ensures that
 // 1. screens that are too short
 // 2. screens that are not tall enough to display the full width of a 3:2 image
