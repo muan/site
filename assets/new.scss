@@ -184,6 +184,15 @@ h1, h2, h3, h4, h5, h6 {
 .note {
   scroll-margin: 2em;
 
+  main > & {
+    margin-top: -.6em;
+  }
+
+  & > ul {
+    margin-top: 1.5em;
+    list-style: disc;
+  }
+
   &:last-of-type {
     border-bottom: 0;
   }
@@ -206,12 +215,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 blockquote {
+  color: var(--secondaryTextColor);
+  margin: 2em 0 2em 1.5em;
+
   &::before {
     content: '“';
     font-size: 2rem;
     position: absolute;
     margin-left: -.5em;
-    color: var(--secondaryTextColor);
     font-family: sans-serif;
   }
 }
