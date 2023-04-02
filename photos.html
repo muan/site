@@ -25,7 +25,7 @@ title: Photos
 
 {% assign photos = site.data.photos %}
 {% for photo in photos %}
-<figure id="P{{ photo.guid }}">
+<figure id="P{{ photo.guid }}" class="figure-{{ photo.orientation }}">
   <a href="{{ photo.path }}/public" class="image-link">
     <img 
       src="{{ photo.path }}/public"

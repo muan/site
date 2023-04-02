@@ -462,11 +462,15 @@ figure {
   display: grid;
   column-gap: 2.5em;
   grid-template-columns: repeat(2, 1fr);
-  // https://caniuse.com/mdn-css_properties_grid-template-rows_masonry
-  grid-template-rows: masonry;
+  grid-auto-flow: dense;
+  
+  .figure-landscape {
+    grid-column: span 2;
+  }
 
   figure {
     margin-bottom: 0;
+    align-self: start;
   }
 
   img {
@@ -477,6 +481,10 @@ figure {
 
 [value="grid3fr"]:checked ~ .photos-wrapper {
   grid-template-columns: repeat(3, 1fr);
+
+  .figure-landscape {
+    grid-column: span 3;
+  }
 }
 
 [value="x-scroll"]:checked ~ .photos-wrapper {
