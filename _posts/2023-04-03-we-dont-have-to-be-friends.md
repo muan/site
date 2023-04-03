@@ -25,6 +25,6 @@ Perhaps I should reach out. Perhaps it was I who was being too stubborn to exten
 
 I don't know. I guess we don't have to be friends. Maybe in some small ways, I consider it indignified to have to be the one to have apologized and then also reach out proactively, as if I need them more than they need me. What blasphemy that would be!
 
-Well. We don't have to be friends, because I am apparently considering ridding you out of my life completely. 
+Well. We don't have to be friends, because I am apparently considering ridding you out of my life completely. What is left to be salvaged if we don't even have trust.
 
 By putting this in writing, the burden leaves me.
