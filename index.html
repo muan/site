@@ -46,7 +46,7 @@ root: true
 <h2 class="text">Notes</h2><a href="/notes" class="styled-link">Recent notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
 <div class="note">
   <div class="note-heading">
-    Latest: {{ note.date | date: "%B %d, %Y" }}
+    Latest: {{ note.date | date: "%B %e, %Y" }}
   </div>
   {{ note.content | markdownify }}
 </div>
@@ -63,6 +63,6 @@ root: true
 {% assign posts = site.posts | where: "feature", 1 %}
 {% for post in posts %}
   <li class="line"><a href="{{ post.url }}">{{ post.title }}</a><br>
-    <time>{{ post.date | date_to_string }}</time></li>
+    <time>{{ post.date | date: "%B %e, %Y" }}</time></li>
 {% endfor %}
 </ul>

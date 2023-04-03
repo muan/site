@@ -70,7 +70,7 @@
       {% if page.root == true %}
         <div class="desc" data-status-loading><span data-status-text></span> <span data-status-datetime></span></div>
       {% endif %}
-      {% if page.collection == "posts" %}<time>{{ page.date | date: "%Y/%m/%d" }}</time>{% endif %}
+      {% if page.collection == "posts" %}<time>{{ page.date | date: "%B %e, %Y" }}</time>{% endif %}
       {% if page.collection == "notes" or page.collection == "stories" %}<time>{{ page.date | date: "%Y/%m/%d %H:%M" }}</time>{% endif %}
       <div class="desc">{{ page.header_content }}</div>
     </header>
