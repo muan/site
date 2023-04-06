@@ -405,7 +405,8 @@ figure {
   }
 }
 
-[data-page-title="Photos"] {
+[data-page-title="Photos"],
+[data-page-title="Film"] {
   header, main, footer {
     max-width: 100%;
   }
