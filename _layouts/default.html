@@ -47,7 +47,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
 
   </head>
-  <body class="{% if page.root != true %}post-body{% endif %} col-{{ page.collection }}" data-page-title="{{ page.title }}">
+  <body class="{% if page.root != true %}post-body{% endif %} col-{{ page.collection }}" data-page-type="{{ page.type }}">
     <header>
       <div class="logo-container">
         {% if page.root != true %}
