@@ -7098,5 +7098,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4e6a233d-79e1-4f9f-deab-2ced4e381700/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4e6a233d-79e1-4f9f-deab-2ced4e381700/public"
     ]
+  },
+  {
+    "uploaded": "2023-04-09T02:01:47.400Z",
+    "id": "fad6d1af-32a8-45f1-5ce0-b325e3a04b00",
+    "filename": "IMG_0666.jpeg",
+    "meta": {
+      "caption": "My life.",
+      "alt": "hand holding shattered ceramic pieces",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/fad6d1af-32a8-45f1-5ce0-b325e3a04b00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/fad6d1af-32a8-45f1-5ce0-b325e3a04b00/public"
+    ]
   }
 ]
