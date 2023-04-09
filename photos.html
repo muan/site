@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Photos
 type: photos
+title: Photos
 ---
 
 <div class="photos-wrapper" id="photos">
-
 {% assign photos = site.data.photos %}
 {% for photo in photos %}
 <figure id="P{{ photo.guid }}" class="figure-{{ photo.orientation }}">
