@@ -25,4 +25,6 @@ i18n:
   24h: 今天
   Mails: 郵件
   Friends: 朋友
+  Oven: 烤箱
+  Self: 本人
 include: [".well-known"]
