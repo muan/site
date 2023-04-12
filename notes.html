@@ -7,14 +7,17 @@ title: Recent notes
 {% assign notes = site.notes | sort: "date" | reverse %}
 {% for note in notes limit: 100 %}
   <li class="note">
-    <h2 class="note-heading">
-      <a href="{{ note.url }}" class="monospace">
-        <u>{{ note.date | date: "%B %e, %Y" }}</u>
-      </a>
-      <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">
-        <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
-      </open-heart>
-    </h2>
+    <div class="note-heading" style="display: flex; justify-content: space-between; align-items: center;;">
+      <div>
+        <a href="{{ note.url }}" class="monospace">
+          <h2 class="text"><u>{{ note.date | date: "%B %e, %Y" }}</u></h2>
+        </a>
+        <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">
+          <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
+        </open-heart>
+      </div>
+      <a href="https://github.com/muan/site/edit/main/{{ note.path }}" class="monospace" tabindex="-1" aria-hidden="true">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    </div>
     {{ note.content | markdownify }}
   </li>
 {% endfor %}
