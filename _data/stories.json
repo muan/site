@@ -7262,5 +7262,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/029d51dd-d3ac-4fda-2c80-88f0405d9f00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/029d51dd-d3ac-4fda-2c80-88f0405d9f00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-04-12T15:28:20.758Z",
+    "id": "6d3f757a-20a6-4f44-fe42-ba2f6f20cc00",
+    "filename": "IMG_0830.jpeg",
+    "meta": {
+      "caption": "3rd cake",
+      "alt": "hand holding a white plate with a crusted cheese cake cut in half",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/6d3f757a-20a6-4f44-fe42-ba2f6f20cc00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/6d3f757a-20a6-4f44-fe42-ba2f6f20cc00/public"
+    ]
   }
 ]
