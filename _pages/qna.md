@@ -12,9 +12,10 @@ title: Questions & answers
 
 **M**u-**A**n, or muan (only as a username, _never_ capitalized).
 
-## How is your name in Mandarin pronounced?
+## How is your name pronounced?
 
-Try [Google Translate](https://translate.google.com/?sl=zh-TW&tl=en&text=%E9%82%B1%E3%80%81%E6%85%95%E3%80%81%E5%AE%89&op=translate).
+<audio src="/assets/name.m4a" controls></audio>
+
 
 ## What are your pronouns?
 
