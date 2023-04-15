@@ -518,6 +518,13 @@ figure {
   }
 }
 
+.photo-metadata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5em auto;
+}
+
 figcaption {
   padding: .5em 1em;
 

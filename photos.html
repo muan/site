@@ -19,14 +19,15 @@ title: Photos
       loading="lazy">
   </a>
   <figcaption>
-    {{ photo.caption | strip | markdownify }}
-    <span class="desc photo-metadata">
-      {{ photo.createdAt | date: "%Y/%m/%d (%a)" }}
+    <div class="desc photo-metadata">
+      <div>{{ photo.createdAt | date: "%Y/%m/%d (%a)" }}</div>
 
       <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=photo-P{{ photo.guid }}" emoji="❤️" aria-labelledby="like-prompt">
         <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
       </open-heart>
-    </span>
+    </div>
+    {% capture caption %}{{ photo.caption | strip }}{% endcapture %}
+    {% if caption != "-" and caption != "" %}{{ caption | markdownify }}{% endif %}
   </figcaption>
 </figure>
 {% endfor %}
