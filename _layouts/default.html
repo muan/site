@@ -1,5 +1,10 @@
+{% if page.path contains "zh-TW" %}
+  {% assign lang = "zh-TW" %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
 <!doctype html>
-<html lang="{% if page.path contains 'zh-TW' %}zh-TW{% else %}en{% endif %}">
+<html lang="{{ lang }}">
   <head>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
@@ -47,6 +52,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
 
   </head>
+  
   <body class="{% if page.root != true %}post-body{% endif %} col-{{ page.collection }}" data-page-type="{{ page.type }}">
     <header>
       <div class="logo-container">
@@ -65,10 +71,10 @@
         {% endif %}
       </div>
       <h1 class="h1">
-        {{ page.title }}
+        <span lang="{{lang}}">{{ page.title }}</span>
       </h1>
       {% if page.root == true %}
-        <div class="desc" data-status-loading><span data-status-text></span> <span data-status-datetime></span></div>
+        <div class="desc" lang="en" data-status-loading><span data-status-text></span> <span data-status-datetime></span></div>
       {% endif %}
       {% if page.collection == "posts" %}<time>{{ page.date | date: "%B %e, %Y" }}</time>{% endif %}
       {% if page.collection == "notes" or page.collection == "stories" %}<time>{{ page.date | date: "%Y/%m/%d %H:%M" }}</time>{% endif %}
