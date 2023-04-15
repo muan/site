@@ -18,7 +18,7 @@ Try [Google Translate](https://translate.google.com/?sl=zh-TW&tl=en&text=%E9%82%
 
 ## What are your pronouns?
 
-She/her. 他/你 preferred, and <a href="https://mobile.twitter.com/ey_limannie/status/1328991536902787073">with exceptions</a> 她/妳.
+She/her/她/妳.
 
 ## Where are you from?
 
