@@ -10,7 +10,7 @@ title: Questions & answers
 
 ## How do you preferred to be called?
 
-Mu-An, or muan (only as a username, _never_ capitalized).
+**M**u-**A**n, or muan (only as a username, _never_ capitalized).
 
 ## How is your name in Mandarin pronounced?
 
