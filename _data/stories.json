@@ -7705,5 +7705,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/29c10bd5-fedc-4afa-fd36-4f01d1e33800/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/29c10bd5-fedc-4afa-fd36-4f01d1e33800/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-05-02T15:53:56.874Z",
+    "id": "e3d4271b-8342-4bd4-14a3-7b2afc57a800",
+    "filename": "R0004850.jpeg",
+    "meta": {
+      "caption": "His name is Matcha.",
+      "alt": "A cat sitting in a box with four legs looking downward. ",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Animals"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e3d4271b-8342-4bd4-14a3-7b2afc57a800/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e3d4271b-8342-4bd4-14a3-7b2afc57a800/public"
+    ]
   }
 ]
