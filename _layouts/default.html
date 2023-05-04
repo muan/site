@@ -143,6 +143,12 @@
         const photos = document.querySelector('#photos')
         const xScroll = document.querySelector('#x-scroll')
 
+        document.addEventListener('load', function(event) {
+          if (event.target instanceof HTMLImageElement) {
+            event.target.closest('figure')?.querySelector('open-heart')?.getCount()
+          }
+        }, true)
+
         // move scroll area into viewport and user focus
         document.addEventListener('change', function(event) {
           if (xScroll.checked) {
