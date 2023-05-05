@@ -137,17 +137,26 @@
     {% endif %}
     {% if page.feature == 1 or page.open_heart or page.url == "/notes" or page.url == "/photos" %}
     <script defer type="module" src="https://unpkg.com/open-heart-element@latest"></script>
+    <script>
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(async (entry) => {
+          await customElements.whenDefined('open-heart')
+          if (entry.target instanceof OpenHeartElement && entry.isIntersecting) {
+            entry.target.getCount()
+            observer.unobserve(entry.target)
+          }
+        })
+      })
+
+      for (const oh of document.querySelectorAll('open-heart')) {
+        observer.observe(oh)
+      }
+    </script>
     {% endif %}
     {% if page.type == "photos" %}
       <script>
         const photos = document.querySelector('#photos')
         const xScroll = document.querySelector('#x-scroll')
-
-        document.addEventListener('load', function(event) {
-          if (event.target instanceof HTMLImageElement) {
-            event.target.closest('figure')?.querySelector('open-heart')?.getCount()
-          }
-        }, true)
 
         // move scroll area into viewport and user focus
         document.addEventListener('change', function(event) {
