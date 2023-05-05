@@ -703,7 +703,7 @@ open-heart.text-open-heart {
   }
 
   &[count]:not([count="0"])::after {
-      content: "(" + attr(count) + ")";
+      content: "(" attr(count) ")";
   }
 }
 
