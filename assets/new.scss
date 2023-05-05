@@ -702,8 +702,8 @@ open-heart.text-open-heart {
     .off { display: none; }
   }
 
-  &[count]:not([count="0"]) ::after {
-      content: "(" attr(count) ")";
+  &[count]:not([count="0"])::after {
+      content: "(" + attr(count) + ")";
   }
 }
 
