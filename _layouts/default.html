@@ -107,7 +107,7 @@
         <article>
           {{ content_and_then_some }}
         </article>
-      {% else if page.collection == "notes" %}
+      {% elsif page.collection == "notes" %}
         {{ content_and_then_some }}
       {% else %}
         {{ content_and_then_some }}
@@ -116,7 +116,7 @@
         <hr class="hr">
         <div class="smol">
           <div class="monospace">
-            <div id="like-prompt">Like this {% if page.collection == "posts" %}post{% else if page.collection == "notes" %}note{% else %}page{% endif %}? let me know!</div>
+            <div id="like-prompt">Like this {% if page.collection == "posts" %}post{% elsif page.collection == "notes" %}note{% else %}page{% endif %}? let me know!</div>
             &gt;<open-heart class="text-open-heart" href="https://likes.muan.dev/?id={{ page.url }}" emoji="❤️" aria-labelledby="like-prompt">
               <span class="on">Liked.<br>(Thanks!)</span><span class="off">Sure. <kbd>⏎</kbd></span>
             </open-heart>
