@@ -8240,5 +8240,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f04a5c4d-7e63-4449-6171-55e80a1c7f00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f04a5c4d-7e63-4449-6171-55e80a1c7f00/public"
     ]
+  },
+  {
+    "uploaded": "2023-05-28T11:46:48.840Z",
+    "id": "a2b2b957-3d9e-4588-2a23-97f79f4c3200",
+    "filename": "R0005224.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "a bouquet of white flowers",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Plants"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a2b2b957-3d9e-4588-2a23-97f79f4c3200/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a2b2b957-3d9e-4588-2a23-97f79f4c3200/public"
+    ]
   }
 ]
