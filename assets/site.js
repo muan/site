@@ -31,7 +31,10 @@ function settime() {
 
 settime()
 
+const statusEl = document.querySelector('[data-status-loading]')
+
 try {
+  statusEl.hidden = false
   const s = await (await fetch('https://muan.github.io/status/index.txt')).text()
   if (s.trim() !== '') {
     const [datetime, text] = s.split('\n')
@@ -41,9 +44,9 @@ try {
       document.querySelector('[data-status-datetime]').textContent = `(${date})`
     }
   }
-  document.querySelector('[data-status-loading]').removeAttribute('data-status-loading')
+  statusEl.removeAttribute('data-status-loading')
 } catch (e) {
-  document.querySelector('[data-status-loading]').remove()
+  statusEl.remove()
   console.warn(e)
 }
 

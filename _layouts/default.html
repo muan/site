@@ -74,7 +74,7 @@
         <span lang="{{lang}}">{{ page.title }}</span>
       </h1>
       {% if page.root == true %}
-        <div class="desc" lang="en" data-status-loading><span data-status-text></span> <span data-status-datetime></span></div>
+        <div class="desc" lang="en" data-status-loading hidden><span data-status-text></span> <span data-status-datetime></span></div>
       {% endif %}
       {% if page.collection == "posts" %}<time>{{ page.date | date: "%B %e, %Y" }}</time>{% endif %}
       {% if page.collection == "notes" or page.collection == "stories" %}<time>{{ page.date | date: "%Y/%m/%d %H:%M" }}</time>{% endif %}

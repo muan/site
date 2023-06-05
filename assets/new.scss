@@ -772,3 +772,12 @@ nav {
     border-radius: .5vh;
   }
 }
+
+open-stories:not(:defined), 
+open-heart:not(:defined) {
+  display: none !important;
+}
+
+[hidden] {
+  display: none !important;
+}
