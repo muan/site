@@ -8334,5 +8334,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/21ed40a5-baf8-43f4-96de-140b02036a00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/21ed40a5-baf8-43f4-96de-140b02036a00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-06-07T12:21:47.532Z",
+    "id": "15ac545b-9049-46ad-e955-97041c8d0600",
+    "filename": "tom.gif",
+    "meta": {
+      "caption": "my favorite footage ever captured.",
+      "alt": "Night vision video footage of a cat, jumping into a balcony",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Animals"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/15ac545b-9049-46ad-e955-97041c8d0600/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/15ac545b-9049-46ad-e955-97041c8d0600/public"
+    ]
   }
 ]
