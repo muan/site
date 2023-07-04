@@ -8666,5 +8666,22 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c53efe64-a8fd-490b-da31-b4be73a1d300/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c53efe64-a8fd-490b-da31-b4be73a1d300/public"
     ]
+  },
+  {
+    "uploaded": "2023-07-04T15:53:12.334Z",
+    "id": "4061fd8f-2bbe-4d84-8cc6-e37ab54a7a00",
+    "filename": "IMG_4216.jpeg",
+    "meta": {
+      "caption": "not bad",
+      "alt": "a glass of beer on a table",
+      "tags": [
+        "Life"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4061fd8f-2bbe-4d84-8cc6-e37ab54a7a00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4061fd8f-2bbe-4d84-8cc6-e37ab54a7a00/thumbnail"
+    ]
   }
 ]
