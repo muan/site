@@ -498,6 +498,7 @@ figure {
     scroll-snap-align: center;
     margin-bottom: 0;
     flex-shrink: 0;
+    width: min-content;
 
     &:has(.portrait) figcaption {
       max-width: calc(100vh * 0.667 - 6em);
