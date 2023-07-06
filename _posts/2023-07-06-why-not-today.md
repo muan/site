@@ -27,7 +27,7 @@ You would catch me saying, "sorry, would you say that again?" cause I wasn't the
 
 I have a bag of charcoal in my apartment. So now this question comes to mind on the bad days. "Why not today?"
 
-As [previously discussed](/posts/depression), I don't physically want to kill myself; nevertheless, the bad days have been pushing me to take tiny steps, ones that are easy and far removed enough that don't trigger my survival instinct. Now that I have taken a step, a physical step, both my therapist and psychiatrist upped the frequency of our appointments. 
+As [previously discussed](/posts/depression), I don't physically want to kill myself; nevertheless, the bad days have been pushing me to take tiny steps, ones that are easy and far removed enough that don't trigger my survival instinct. Now that I have taken a step, a physical step, both my therapist and psychiatrist upped the frequency of our appointments and my dosage. 
 
 So why not?
 
@@ -39,9 +39,9 @@ So I don't know why today is not the day. Perhaps the step is still too big. I a
 
 ---
 
-I smiled at you. I laughed with you. I baked you bread. I told you I had an amazing time. I thanked you for the company and/or the conversation. I embraced your children and made them like me. 
+I smiled at you. I laughed with you. I baked you bread. I mailed you a postcard. I went out of my way to find gifts for you. I told you I had an amazing time. I thanked you for the company and/or the conversation. I embraced your children and made them like me. 
 
-That got me through the day.
+And I through the day.
 
 One
 single
