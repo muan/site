@@ -41,7 +41,7 @@ I don't know why today is not the day. Perhaps the step is still too big. I am g
 
 I smiled at you. I laughed with you. I baked you bread. I mailed you a postcard. I went out of my way to find gifts for you. I told you I had an amazing time. I thanked you for the company and/or the conversation. I embraced your children and made them like me. 
 
-And I got through the day.
+And I got through a day.
 
 One
 single
