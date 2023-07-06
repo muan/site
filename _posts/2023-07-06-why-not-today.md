@@ -35,7 +35,7 @@ I think about how I don't have things in order yet. For example, no one has acce
 
 And another part of me think about if I could be like some of my other depressed friends, where [they don't have a problem with living, they suffer due to the status quo.](/notes/2023-05-21-oo) A lot of them have tried, really fucking hard, to make things better for themselves, but life continues to suck, and some of them get into the state of [learned helplessness](https://en.wikipedia.org/wiki/Learned_helplessness). I don't think that applies to me, because I never really tried, by that I mean, I don't have a picture of what a life worth living looks like, so there's nothing to work towards.
 
-So I don't know why today is not the day. Perhaps the step is still too big. I am going to keep thinking about it; meanwhile, I take tiny steps.
+I don't know why today is not the day. Perhaps the step is still too big. I am going to keep thinking about it; meanwhile, I take tiny steps.
 
 ---
 
