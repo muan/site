@@ -27,7 +27,7 @@ You would catch me saying, "sorry, would you say that again?" cause I wasn't the
 
 I have a bag of charcoal in my apartment. So now this question comes to mind on the bad days. "Why not today?"
 
-As [previously discussed](/posts/depression), I don't physically want to kill myself; nevertheless, the bad days have been pushing me to take tiny steps, ones that are easy and far removed enough that don't trigger my survival instinct. Now that I have taken a step, a physical step, both my therapist and psychiatrist upped the frequency of our appointments and my dosage. 
+As [previously discussed](/posts/depression), I don't physically want to kill myself; nevertheless, the bad days have been pushing me to take tiny steps, ones that are easy and far removed enough that don't trigger my survival instinct. Now that I have taken a step, a physical step, both my therapist and psychiatrist upped the frequency of our appointments and my psychiatrist increased my dosage. 
 
 So why not?
 
