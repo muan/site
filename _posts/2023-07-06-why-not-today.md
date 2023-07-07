@@ -46,3 +46,18 @@ And I got through a day.
 One
 single
 day.
+
+---
+
+Addendum:
+
+As you can see this is quite a departure from my last post. This one is, raw, I guess, in comparison. I also did not ask anyone to review it before publishing. Some helpful context for why this is, here's my diary entry from last year after I published the inital post:
+
+> They praised my article, but it made me sad. I have become a person with problems™.
+> He said that maybe my courage to share came from me wanting to help others. As I had packaged it that way. But not really. I honeslty just want to ask for some mercy.
+> I want someone to know that I am trying very hard to not simply fall apart. But that someone does not exist, thankfully we have the internet to overshare to.
+>
+> Would you take the initiative, lend a hand, and let me hold onto it for a bit? Can you see that I'm trying very hard but still having a hard time? 
+> 
+> Y said he wanted to give me a big hug. But in reality, I'm just forever sitting alone here in my apartment.
+> As I continue to live, I must accept that I am just here on my own. I can't fall, not in any direction.
