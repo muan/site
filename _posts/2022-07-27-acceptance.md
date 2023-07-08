@@ -2,6 +2,7 @@
 layout: default
 date: 2022-07-27
 title: Acceptance
+feature: 1
 ---
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2550592361/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2123594389/transparent=true/" seamless><a href="https://kurosukemusic.bandcamp.com/album/the-tales-of-roses-wine">The Tales of Roses &amp; Wine by Kurosuke</a></iframe>
@@ -18,4 +19,4 @@ I learned that I seek to understand the logic behind things so I can process and
 
 Acceptance works like acknowledging a bug. The bug doesn’t go away. If we know how to fix it, great. If we don’t, we find a workaround. If there is no workaround, we learn to live with it. But knowing how to live with it does not mean it would stop affecting us on a daily basis.
 
-So you accept that the sadness is here to stay.
+So we accept that the sadness is here to stay.
