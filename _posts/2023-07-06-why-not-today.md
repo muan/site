@@ -27,7 +27,7 @@ You would catch me saying, "sorry, would you say that again?" cause I wasn't the
 
 I have a bag of charcoal in my apartment. So now this question comes to mind on the bad days. "Why not today?"
 
-As [previously discussed](/posts/depression), I seem to be incapable lf physically killing myself; nevertheless, the bad days have been pushing me to take tiny steps, ones that are easy and far removed enough that don't trigger my survival instinct. Now that I have taken a step, a physical step, both my therapist and psychiatrist upped the frequency of our appointments and my psychiatrist increased the number of pills.
+As [previously discussed](/posts/depression), I seem to be incapable of physically killing myself; nevertheless, the bad days have been pushing me to take tiny steps, ones that are easy and far removed enough that don't trigger my survival instinct. Now that I have taken a step, a physical step, both my therapist and psychiatrist upped the frequency of our appointments and my psychiatrist increased the number of pills.
 
 I think about how I don't have things in order yet. For example, no one has access to one of the accounts that is about to be merged with another company, and if I don't stay alive till then to deal with their merger (inconvenienced by Wall Street, lol), a lot of money goes to waste when it otherwise would have make some people I care about right now very happy. But does it matter if I was dead? Who is left to care? 
 
