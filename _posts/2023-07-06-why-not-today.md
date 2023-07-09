@@ -27,19 +27,19 @@ You would catch me saying, "sorry, would you say that again?" cause I wasn't the
 
 I have a bag of charcoal in my apartment. So now this question comes to mind on the bad days. "Why not today?"
 
-As [previously discussed](/posts/depression), I seem to be incapable of physically killing myself; nevertheless, the bad days have been pushing me to take tiny steps, ones that are easy and far removed enough that don't trigger my survival instinct. Now that I have taken a step, a physical step, both my therapist and psychiatrist upped the frequency of our appointments and my psychiatrist increased the number of pills.
+As [previously discussed](/posts/depression), I seem to be incapable of physically killing myself; nevertheless, the bad days have been pushing me to take tiny steps, ones that are easy and far removed enough that don't trigger my survival instinct. Now that I have taken a step, a physical step, both my therapist and psychiatrist upped the frequency of our appointments and my psychiatrist increased the the dosage of the SSRI.
 
 I think about how I don't have things in order yet. For example, no one has access to one of the accounts that is about to be merged with another company, and if I don't stay alive till then to deal with their merger (inconvenienced by Wall Street, lol), a lot of money goes to waste when it otherwise would have make some people I care about right now very happy. But does it matter if I was dead? Who is left to care? 
 
 And another part of me think about if I could be like some of my other depressed friends, where [they don't have a problem with living, they suffer due to the status quo.](/notes/2023-05-21-oo) A lot of them have tried, really fucking hard, to make things better for themselves, but life continues to suck, and some of them get into the state of [learned helplessness](https://en.wikipedia.org/wiki/Learned_helplessness). I don't think that applies to me, because I never really tried, by that I mean, I don't have a picture of what a life worth living looks like, what a picturesque future can be, so there's nothing to work towards. A friend wears a [cryonics](https://en.m.wikipedia.org/wiki/Cryonics) bracelet, and it truly puzzled me.
 
-I don't know why today is not the day. Perhaps the step is still too big, perhaps I like I said before I don't really want to or is simply incapable of commiting suicide.
+I don't know why today is not the day. Perhaps the step is still too big, perhaps like I said before, I don't really want to or is simply incapable of commiting suicide.
 
 I will inevitably keep thinking about this on the bad days when I am weak, and take those tiny steps.
 
 ---
 
-I smiled at you. I laughed with you. I baked you bread. I sent you memes. I mailed you a postcard. I went out of my way to find gifts for you. I told you I had an amazing time. I thanked you for the company and the conversation. I embraced your children and made them like me. 
+I smiled at you. I laughed with you. I baked you bread. I sent you memes. I mailed you postcards. I went out of my way to find gifts for you. I told you I had an amazing time. I thanked you for the company and the conversation. I embraced your children and made them like me. 
 
 And I got through a day.
 
