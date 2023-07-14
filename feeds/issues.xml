@@ -1,0 +1,22 @@
+---
+permalink: /issues.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{% capture srcbase %}src="{{site.url}}/{% endcapture %}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>@muan's issues</title>
+    <description>GitHub issues on Mu-An's mind.</description>
+    <lastBuildDate>{{ site.data.issues.first.date | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ site.url }}/issues.xml" rel="self" type="application/rss+xml" />
+    <link>{{ site.url }}/issues.xml</link>
+    {% for issue in site.data.issues limit:10 %}
+      <item>
+        <title>{{ issue.title | xml_escape }}</title>
+        <description>{{ issue.note | replace: 'src="/', srcbase | xml_escape }}</description>
+        <pubDate>{{ issue.date | date_to_rfc822 }}</pubDate>
+        <link>{{ issue.url }}</link>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

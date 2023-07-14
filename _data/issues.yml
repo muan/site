@@ -1,0 +1,35 @@
+- date: 2023-07-14
+  repo: whatwg/html
+  title: Consider adding a headinglevelstart attribute
+  note: My proposal! Support it!
+  url: https://github.com/whatwg/html/issues/5033
+- date: 2023-07-14
+  repo: whatwg/html
+  title: Programmatically setting focus navigation start point? 
+  note: See my comments.
+  url: https://github.com/whatwg/html/issues/5326
+- date: 2023-07-14
+  repo: whatwg/html
+  title: "Disallow interactive content in &lt;summary&gt;"
+  note: I think it should be allowed. Search for @muan.
+  url: https://github.com/whatwg/html/issues/2272
+- date: 2023-07-14
+  repo: w3c/clreq
+  title: No bopomofo ruby support
+  note: I like bopomofo.
+  url: https://github.com/w3c/clreq/issues/241
+- date: 2023-07-14
+  repo: getsentry/sentry-javascript
+  title: Package size is massive
+  note: I like Sentry but the package remains massive.
+  url: https://github.com/getsentry/sentry-javascript/issues/2707#issuecomment-1635191167
+- date: 2023-07-14
+  repo: csswg-drafts
+  title: "[css-text-4] Don't provide a language parameter for word-boundary-detection"
+  note: I support.
+  url: https://github.com/w3c/csswg-drafts/issues/7193
+- date: 2023-07-14
+  repo: WebKit/standards-positions
+  title: "text-wrap: balance CSS property"
+  note: I want my text to be wrapped properly, in all langauges.
+  url: https://github.com/WebKit/standards-positions/issues/143
