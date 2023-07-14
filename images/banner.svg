@@ -1,0 +1,53 @@
+  <svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" fill="none">
+  <style>
+    svg {
+      cursor: pointer;
+    }
+    path {
+      stroke-dashoffset: 1px;
+      stroke-dasharray: 1px 130px;
+      animation: grow 4s ease-in-out forwards infinite;
+      transform-origin: center;
+    }
+    .path1 {
+      animation-delay: 0s;
+    }
+    .path2 {
+      animation-delay: 0.5s;
+    }
+    .path3 {
+      animation-delay: 0.8s;
+    }
+    .path4 {
+      animation-delay: 1.4s;
+    }
+    @keyframes grow {
+      from { opacity: 0 }
+      10% { opacity: 1; transform: rotateX(30deg); }
+      40% { transform: rotateX(0deg); }
+      70% { stroke-dasharray: 100px 0; }
+      to { stroke-dasharray: 100px 0; }
+    }
+    rect {
+      fill: #303030;
+    }
+    path {
+      stroke: #fdfdfd;
+    }
+
+  @media (prefers-color-scheme: dark) {
+    rect {
+      fill: #fdfdfd;
+    }
+    path {
+      stroke: #303030;
+    }
+  }
+
+  </style>
+  <rect rx="2" ry="2" width="88" height="31" fill="#1C1C1C"/>
+  <path class="path1" d="M43.25 9H45.75" stroke="white" stroke-width="1.5126" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="path2" d="M40.75 12.5294H48.25" stroke="white" stroke-width="1.5126" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="path3" d="M37 16.0588H52" stroke="white" stroke-width="1.5126" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="path4" d="M40.7815 21.7311C41.7045 20.966 43.5023 19.4622 44.4519 19.4622C45.7388 19.4622 45.7811 21.7311 46.8474 21.7311C47.9136 21.7311 48.8487 21.2899 48.8487 21.2899" stroke="white" stroke-width="1.5126" stroke-linecap="round"/>
+</svg>
