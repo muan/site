@@ -7,7 +7,7 @@ title: Banners
 
 <a href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img src="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/html/image/8831.gif" alt="首頁製作百寶箱" width="88" height="31"></a>
 
-My career in tech started here in 1999.
+I only have a career in tech because of this website.
 
 <a href="https://jlord.us/"><img src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a>
 
