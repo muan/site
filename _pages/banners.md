@@ -15,15 +15,19 @@ Jessica is cool.
 
 ## My banners
 
-These are actually 176&times;62. Please set the dimensions accordingly.
+<a href="https://muan.co"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="Mu-An Chiou"></a>
+
+Recommended, SVG. This includes dark and light mode.
+
+The following two images are actually 176&times;62. Please set the dimensions accordingly:
 
 <a href="https://muan.co"><img loading="lazy" src="/images/banner.gif" width="88" height="31" alt="Mu-An Chiou"></a>
 
 Plain old GIF.
 
-<a href="https://muan.co"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="Mu-An Chiou"></a>
+<a href="https://muan.co"><img loading="lazy" src="/images/banner.png" width="88" height="31" alt="Mu-An Chiou"></a>
 
-SVG. This includes dark and light mode.
+Static PNG.
 
 ## References
 
