@@ -5,29 +5,15 @@ title: Banners
 
 ## People's banners
 
-<a href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img loading="lazy" src="/images/banners/dob.gif" alt="首頁製作百寶箱" width="88" height="31"></a>
-
-I only have a career in tech because of this website.
-
-<a href="https://jlord.us/"><img loading="lazy" src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a>
-
-Jessica is cool.
+<a class="text" href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/" title="I only have a career in tech because of this website."><img loading="lazy" src="/images/banners/dob.gif" alt="首頁製作百寶箱" width="88" height="31"></a><a class="text" href="https://jlord.us/" title="Jessica is cool."><img loading="lazy" src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a>
 
 ## My banners
 
-<a href="https://muan.co"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="Mu-An Chiou"></a>
+<div class="text"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="An animated banner with one short line, one medium line, one long line, a symbol resembling the tilde, each being drawn in order."></div><div class="text"><img loading="lazy" src="/images/banner.gif" width="88" height="31" alt="An animated banner with one short line, one medium line, one long line, a symbol resembling the tilde, each being drawn in order."></div><div class="text"><img loading="lazy" src="/images/banner.png" width="88" height="31" alt="An banner with one short line, one medium line, one long line, and then a symbol resembling the tilde."></div>
 
-Recommended, SVG. This includes dark and light mode.
-
-The following two images are actually 176&times;62. Please set the dimensions accordingly:
-
-<a href="https://muan.co"><img loading="lazy" src="/images/banner.gif" width="88" height="31" alt="Mu-An Chiou"></a>
-
-Plain old GIF.
-
-<a href="https://muan.co"><img loading="lazy" src="/images/banner.png" width="88" height="31" alt="Mu-An Chiou"></a>
-
-Static PNG.
+1. Recommended. SVG. This includes dark and light mode.
+2. Plain old GIF. Actually 176&times;62. Please set the dimensions accordingly.
+3. Static PNG. Actually 176&times;62. Please set the dimensions accordingly.
 
 ## References
 
