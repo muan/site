@@ -15,6 +15,8 @@ Jessica is cool.
 
 ## My banners
 
+These are actually 176&times;62. Please set the dimensions accordingly.
+
 <a href="https://muan.co"><img loading="lazy" src="/images/banner.gif" width="88" height="31" alt="Mu-An Chiou"></a>
 
 Plain old GIF.
