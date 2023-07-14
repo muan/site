@@ -5,7 +5,7 @@ title: Banners
 
 ## People's banners
 
-<a href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img loading="lazy" src="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/html/image/8831.gif" alt="首頁製作百寶箱" width="88" height="31"></a>
+<a href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img loading="lazy" src="/images/banners/dob.gif" alt="首頁製作百寶箱" width="88" height="31"></a>
 
 I only have a career in tech because of this website.
 
