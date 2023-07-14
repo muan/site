@@ -5,21 +5,21 @@ title: Banners
 
 ## People's banners
 
-<a href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img src="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/html/image/8831.gif" alt="首頁製作百寶箱" width="88" height="31"></a>
+<a href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img loading="lazy" src="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/html/image/8831.gif" alt="首頁製作百寶箱" width="88" height="31"></a>
 
 I only have a career in tech because of this website.
 
-<a href="https://jlord.us/"><img src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a>
+<a href="https://jlord.us/"><img loading="lazy" src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a>
 
 Jessica is cool.
 
 ## My banners
 
-<a href="https://muan.co"><img src="/images/banner.gif" width="88" height="31" alt="Mu-An Chiou"></a>
+<a href="https://muan.co"><img loading="lazy" src="/images/banner.gif" width="88" height="31" alt="Mu-An Chiou"></a>
 
 Plain old GIF.
 
-<a href="https://muan.co"><img src="/images/banner.svg" width="88" height="31" alt="Mu-An Chiou"></a>
+<a href="https://muan.co"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="Mu-An Chiou"></a>
 
 SVG. This includes dark and light mode.
 
