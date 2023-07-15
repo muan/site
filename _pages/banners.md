@@ -5,7 +5,9 @@ title: Banners
 
 ## People's banners
 
-<a class="text" href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/" title="I only have a career in tech because of this website."><img loading="lazy" src="/images/banners/dob.gif" alt="首頁製作百寶箱" width="88" height="31"></a><a class="text" href="https://jlord.us/" title="Jessica is cool."><img loading="lazy" src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a>
+<a class="text" href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img loading="lazy" src="/images/banners/dob.gif" alt="首頁製作百寶箱" width="88" height="31"></a><span class="text desc">My career in tech only exists because of website.</span>
+
+<a class="text" href="https://jlord.us/"><img loading="lazy" src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a><span class="text desc">Jessica is cool.</span>
 
 ## My banners
 
