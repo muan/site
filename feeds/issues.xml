@@ -13,7 +13,7 @@ permalink: /issues.xml
     {% for issue in site.data.issues limit:10 %}
       <item>
         <title>{{ issue.title | xml_escape }}</title>
-        <description>{{ issue.note | replace: 'src="/', srcbase | xml_escape }}</description>
+        <description>{{ issue.note | markdownify | replace: 'src="/', srcbase | xml_escape }}</description>
         <pubDate>{{ issue.date | date_to_rfc822 }}</pubDate>
         <link>{{ issue.url }}</link>
       </item>
