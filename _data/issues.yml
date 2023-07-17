@@ -1,7 +1,7 @@
 - date: 2023-07-17
-  repo: nvaccess/nvda
+  repo: w3c/aria
   url: https://github.com/w3c/aria/issues/995
-  title: Support for aria-controls
+  title: What to do about aria-controls
   note: See also [Using the aria-controls attribute by Léonie Watson](https://tink.uk/using-the-aria-controls-attribute/), [my tweet conversation with Léonie](https://twitter.com/muanchiou/status/1508351750566150147), and [this issue on NVDA](https://github.com/nvaccess/nvda/issues/8983).
 - date: 2023-07-14
   repo: whatwg/html
