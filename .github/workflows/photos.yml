@@ -9,8 +9,9 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-        ref: 'main'
+        uses: actions/checkout@v3
+        with:
+          ref: 'main'
 
       - name: Copy file
         run: output=$(curl -L --fail https://photos.muan.dev/photos.json) && echo $output > _data/photos.json
