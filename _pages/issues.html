@@ -11,7 +11,7 @@ header_content: |
 {% for issue in site.data.issues %}
   <li class="line">
     <div><code><span class="desc">{{ issue.date }}</span> <a class="desc" href="https://github.com/{{ issue.repo }}">[{{ issue.repo }}]</a></code></div>
-    <h2 class="text"><a href="{{ issue.url }}">{{ issue.title }}</a></h2><br>
+    <h2 class="text"><a href="{{ issue.url }}">{{ issue.title | escape }}</a></h2><br>
     {{ issue.note | markdownify | remove: "<p>" | remove: "</p>" }}
     <hr>
   </li>

@@ -1,3 +1,8 @@
+- date: 2023-07-18
+  repo: whatwg/html
+  url: https://github.com/whatwg/html/issues/3567
+  title: Have some way of opening <dialog> elements without JavaScript
+  note: Since the dawn of time.
 - date: 2023-07-17
   repo: w3c/aria
   url: https://github.com/w3c/aria/issues/995
@@ -16,7 +21,7 @@
 - date: 2023-07-14
   repo: whatwg/html
   url: https://github.com/whatwg/html/issues/2272
-  title: "Disallow interactive content in &lt;summary&gt;"
+  title: Disallow interactive content in <summary>
   note: I think it should be allowed. Search for @muan.
 - date: 2023-07-14
   repo: w3c/clreq
