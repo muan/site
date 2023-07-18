@@ -1,5 +1,10 @@
 - date: 2023-07-18
   repo: whatwg/html
+  url: https://github.com/WebKit/standards-positions/issues/171
+  title: focusgroup attribute
+  note: This is much better than what I initially wanted, which was [either a _reliable_ `tabIndex` or `isFocusable()`](https://github.com/whatwg/html/issues/4464).
+- date: 2023-07-18
+  repo: whatwg/html
   url: https://github.com/whatwg/html/issues/3567
   title: Have some way of opening <dialog> elements without JavaScript
   note: Since the dawn of time.
