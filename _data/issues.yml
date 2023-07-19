@@ -1,7 +1,7 @@
 - date: 2023-07-19
   repo: w3c/csswg-drafts
   url: https://github.com/w3c/csswg-drafts/issues/8930
-  title: [css-ui] Standardize tooltip styling and expose as ::tooltip
+  title: "[css-ui] Standardize tooltip styling and expose as ::tooltip"
   note: We are never, ever, ever going to ban tooltips fully.
 - date: 2023-07-19
   repo: w3c/csswg-drafts
