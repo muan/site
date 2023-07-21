@@ -22,7 +22,7 @@
   repo: w3c/aria
   url: https://github.com/w3c/aria/issues/995
   title: What to do about aria-controls
-  note: See also [Using the aria-controls attribute by Léonie Watson](https://tink.uk/using-the-aria-controls-attribute/), [my tweet conversation with Léonie](https://twitter.com/muanchiou/status/1508351750566150147), and [this issue on NVDA](https://github.com/nvaccess/nvda/issues/8983).
+  note: See also [Using the aria-controls attribute by Léonie Watson](https://tink.uk/using-the-aria-controls-attribute/), [my tweet conversation with Léonie](https://twitter.com/muanchiou/status/1508351750566150147), [this issue on NVDA](https://github.com/nvaccess/nvda/issues/8983), and [@oedipusnj's investigation](https://twitter.com/oedipusnj/status/1508834228330401795).
 - date: 2023-07-14
   repo: whatwg/html
   url: https://github.com/whatwg/html/issues/5033
