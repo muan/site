@@ -1,3 +1,8 @@
+- date: 2023-07-25
+  repo: w3c/csswg-drafts
+  url: https://github.com/w3c/csswg-drafts/issues/8979
+  title: "[css-anchor-1][css-position] Add the “centering” behavior which is now defined as an example in the specs as something built-in"
+  note: This is cool. See Tab's comments.
 - date: 2023-07-19
   repo: w3c/csswg-drafts
   url: https://github.com/w3c/csswg-drafts/issues/8930
