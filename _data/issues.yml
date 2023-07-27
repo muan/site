@@ -1,3 +1,8 @@
+- date: 2023-07-27
+  repo: whatwg/html
+  url: https://github.com/whatwg/html/issues/5488
+  title: "<input type=\"time\"> : Time vs. duration"
+  note: See my comments. I needed this at work, so I wrote a [custom element](https://github.com/muan/input-duration-element) to fill in. I no longer work there. /shrug
 - date: 2023-07-25
   repo: w3c/csswg-drafts
   url: https://github.com/w3c/csswg-drafts/issues/8979
