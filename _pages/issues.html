@@ -9,7 +9,7 @@ header_content: |
 <ul class="terminal">
 {% for issue in site.data.issues %}
   <li class="line" id="issues-{{ forloop.rindex }}">
-    <div><code><a href="#issues-{{ forloop.rindex }}" title="anchor" class="desc">#</a> <span class="desc">{{ issue.date }}</span> <a class="desc" href="https://github.com/{{ issue.repo }}">[{{ issue.repo }}]</a></code></div>
+    <div class="desc"><a href="#issues-{{ forloop.rindex }}" title="anchor">#</a> {{ issue.date }}</div>
     <h2 class="text"><a href="{{ issue.url }}">{{ issue.title | escape }}</a></h2><br>
     {{ issue.note | markdownify | remove: "<p>" | remove: "</p>" }}
     <hr>
