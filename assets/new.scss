@@ -782,3 +782,7 @@ open-heart:not(:defined) {
 [hidden] {
   display: none !important;
 }
+
+.time {
+  font-variant-numeric: tabular-nums;
+}
