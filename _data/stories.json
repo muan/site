@@ -9141,5 +9141,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ef1600fe-9fba-4ccf-b447-f2098f86dd00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ef1600fe-9fba-4ccf-b447-f2098f86dd00/public"
     ]
+  },
+  {
+    "uploaded": "2023-08-06T13:09:41.633Z",
+    "id": "a4b9d6cb-82b7-4c57-c14c-15542f6b0400",
+    "filename": "IMG_4932.jpeg",
+    "meta": {
+      "caption": "hi",
+      "alt": "a person wearing a mask and taking a selfie in front of a lime yellow green wall",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Self"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a4b9d6cb-82b7-4c57-c14c-15542f6b0400/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a4b9d6cb-82b7-4c57-c14c-15542f6b0400/public"
+    ]
   }
 ]
