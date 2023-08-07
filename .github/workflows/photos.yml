@@ -2,7 +2,7 @@ name: "Sync photos"
 
 on:
   workflow_dispatch:
-
+concurrency: ci-${{ github.action }}
 jobs:
   process:
     runs-on: ubuntu-latest

@@ -11,7 +11,7 @@ on:
         description: "Datetime"
         type: string
         required: true
-
+concurrency: ci-${{ github.action }}
 jobs:
   process:
     runs-on: ubuntu-latest

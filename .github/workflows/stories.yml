@@ -11,6 +11,7 @@ on:
         description: "Stringify JSON data of the image"
         type: string
         required: true
+concurrency: ci-${{ github.action }}
 
 jobs:
   process:
