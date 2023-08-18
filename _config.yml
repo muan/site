@@ -27,4 +27,5 @@ i18n:
   Friends: 朋友
   Oven: 烤箱
   Self: 本人
+  Polaroid: Polaroid
 include: [".well-known"]
