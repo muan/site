@@ -536,7 +536,7 @@
       "caption": "New weapon acquired. Attack +5.",
       "tags": [
         "Life",
-        "Cook",
+        "Oven",
         "Highlight"
       ]
     },
@@ -647,7 +647,8 @@
       "caption": "Oh no I have become one of those. No worries I think I will give up very soon.",
       "tags": [
         "Life",
-        "Cook"
+        "Oven",
+        "Highlight"
       ]
     },
     "requireSignedURLs": false,
@@ -770,7 +771,9 @@
       "alt": "Selfie of a reflection of myself sitting on squash court.",
       "caption": "I want a personal squash court now.",
       "tags": [
-        "Life"
+        "Life",
+        "Highlight",
+        "Self"
       ]
     },
     "requireSignedURLs": false,
@@ -937,7 +940,9 @@
       "alt": "instagram story reply. “u ok?” “no but better now. u ok? wann chat and overshare? lol” “let’s”",
       "caption": "I call this Depression Diplomacy.",
       "tags": [
-        "Life"
+        "Life",
+        "Highlight",
+        "Chat"
       ]
     },
     "requireSignedURLs": false,
@@ -1010,6 +1015,7 @@
       "caption": "3KG OF FLOUR GONE ALREADY.",
       "tags": [
         "Life",
+        "Highlight",
         "Cook"
       ]
     },
@@ -1044,7 +1050,9 @@
       "alt": "Selfie with squash gear/attire against a reflective window with a park in the back ground.",
       "caption": "Double checked with doc if it’s ok for the me to play squash while not being able to walk straight half of the time–“as long as it makes you happy. just remember you are playing cause it makes you happy, not playing to be good, let some balls go.” but, but, but if I’m not good, how can I be happy?",
       "tags": [
-        "Life"
+        "Life",
+        "Highlight",
+        "Self"
       ]
     },
     "requireSignedURLs": false,
@@ -1175,7 +1183,6 @@
       "tags": [
         "Life",
         "Plants",
-        "Friends",
         "Highlight"
       ]
     },
@@ -1214,7 +1221,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -1488,7 +1495,8 @@
       "caption": "Streuselkuchen, first attempt.",
       "tags": [
         "Life",
-        "Cook"
+        "Highlight",
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -1618,7 +1626,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -1637,7 +1645,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -1675,7 +1683,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -1974,7 +1982,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -2382,7 +2390,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -2532,6 +2540,7 @@
       "tags": [
         "Life",
         "Highlight",
+        "Self",
         "Oven"
       ]
     },
@@ -3158,7 +3167,8 @@
       "tags": [
         "Life",
         "Travel",
-        "Highlight"
+        "Highlight",
+        "Self"
       ]
     },
     "requireSignedURLs": false,
@@ -3271,7 +3281,7 @@
       "alt": "Two bearded Spanish men looking at a phone discussing.",
       "tags": [
         "Life",
-        "Travel",
+        "Friends",
         "Highlight"
       ]
     },
@@ -3514,7 +3524,6 @@
       "alt": "A dozen of madeleines and a man drinking a cup of tea across the table looking at the camera.",
       "tags": [
         "Life",
-        "Travel",
         "Highlight",
         "Friends"
       ]
@@ -3768,7 +3777,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -4039,7 +4048,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -4242,7 +4251,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -4492,9 +4501,7 @@
       "caption": "Success!",
       "alt": "An espresso tonic in a small glass against a black background.",
       "tags": [
-        "Life",
-        "Highlight",
-        "Cook"
+        "Life"
       ]
     },
     "requireSignedURLs": false,
@@ -4789,7 +4796,6 @@
       "alt": "google meet screenshot with me, southgate, and his dog bigsur",
       "tags": [
         "Life",
-        "Animals",
         "Highlight",
         "Friends"
       ]
@@ -6444,7 +6450,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Cook"
+        "Oven"
       ]
     },
     "requireSignedURLs": false,
@@ -6738,9 +6744,7 @@
       "caption": "I still believe mine is better.",
       "alt": "pretzels, priced NTD 48, very yellow looking.",
       "tags": [
-        "Life",
-        "Highlight",
-        "Oven"
+        "Life"
       ]
     },
     "requireSignedURLs": false,
@@ -7016,7 +7020,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Self"
+        "Cook"
       ]
     },
     "requireSignedURLs": false,
@@ -7659,6 +7663,7 @@
       "alt": "selfie of me holding a phone and looking at the phone I have long hair and look asian I guess alt text is hard",
       "tags": [
         "Life",
+        "Highlight",
         "Self"
       ]
     },
@@ -8099,9 +8104,7 @@
       "caption": "I got this for myself really.",
       "alt": "a hand with a sanma tattoo holding a sanma fish plushy",
       "tags": [
-        "Life",
-        "Highlight",
-        "Self"
+        "Life"
       ]
     },
     "requireSignedURLs": false,
@@ -8472,7 +8475,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Self"
+        "Travel"
       ]
     },
     "requireSignedURLs": false,
@@ -9082,7 +9085,7 @@
       "tags": [
         "Life",
         "Highlight",
-        "Self"
+        "Chat"
       ]
     },
     "requireSignedURLs": false,
@@ -9150,9 +9153,7 @@
       "caption": "hi",
       "alt": "a person wearing a mask and taking a selfie in front of a lime yellow green wall",
       "tags": [
-        "Life",
-        "Highlight",
-        "Self"
+        "Life"
       ]
     },
     "requireSignedURLs": false,
@@ -9282,7 +9283,9 @@
       "caption": "“a decent man.” lulz. stop saying my cat friends are boring!",
       "alt": "a screenshot of a chat: gray bubble: Why do I keep finding the frea- (redacted) men; blue bubble: You pick them up like strays lol The most boring men. Like I do with cats( ???); gray bubble: Omg best analogy; blue bubble: (I disagree but just so you understand my point) Hahaahaha",
       "tags": [
-        "Life"
+        "Life",
+        "Highlight",
+        "Chat"
       ]
     },
     "requireSignedURLs": false,
@@ -9318,32 +9321,15 @@
       "caption": "gray bubble was once a boy like that. thanks James for the contribution to my otherwise lack of either open or closed stories in life.",
       "alt": "a screenshot of a chat screen with two bubbles. blue: why are boys like this? gray: they are very simple organisms.",
       "tags": [
-        "Life"
+        "Life",
+        "Highlight",
+        "Chat"
       ]
     },
     "requireSignedURLs": false,
     "variants": [
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ac6e16e6-865a-4951-3af3-a146c9ea5500/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ac6e16e6-865a-4951-3af3-a146c9ea5500/thumbnail"
-    ]
-  },
-  {
-    "uploaded": "2023-08-18T14:46:28.514Z",
-    "id": "7c8dae1b-827f-4d3a-6164-6601b949a200",
-    "filename": "IMG_4820.jpeg",
-    "meta": {
-      "caption": "duck people on forums said one shall try taking their ducks to swim in the ocean",
-      "alt": "a person holding a duck",
-      "tags": [
-        "Life",
-        "Highlight",
-        "Polaroid"
-      ]
-    },
-    "requireSignedURLs": false,
-    "variants": [
-      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7c8dae1b-827f-4d3a-6164-6601b949a200/public",
-      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7c8dae1b-827f-4d3a-6164-6601b949a200/thumbnail"
     ]
   }
 ]

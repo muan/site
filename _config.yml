@@ -28,4 +28,5 @@ i18n:
   Oven: 烤箱
   Self: 本人
   Polaroid: Polaroid
+  Chat: 對話
 include: [".well-known"]
