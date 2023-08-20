@@ -9405,5 +9405,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/960c9038-cc46-4135-4719-7dfc76b6da00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/960c9038-cc46-4135-4719-7dfc76b6da00/public"
     ]
+  },
+  {
+    "uploaded": "2023-08-20T08:58:15.747Z",
+    "id": "008e5636-f0f5-4fae-bbcc-345fe2725900",
+    "filename": "IMG_5160.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "a cow cat lying on a bed",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Animals"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/008e5636-f0f5-4fae-bbcc-345fe2725900/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/008e5636-f0f5-4fae-bbcc-345fe2725900/thumbnail"
+    ]
   }
 ]
