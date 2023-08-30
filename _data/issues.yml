@@ -1,3 +1,7 @@
+- date: 2023-08-30
+  url: https://github.com/w3c/csswg-drafts/issues/8510
+  title: "[css-text-4] Specify width of autospace gaps"
+  note: Adding spaces is a pain. Adding spaces for others is a PITA.
 - date: 2023-08-03
   url: https://github.com/oven-sh/bun/issues/2998
   title: bun install / binary in wrong place
