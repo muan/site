@@ -2,7 +2,6 @@
 layout: default
 date: 2023-04-03
 title: We don't have to be friends
-feature: 1
 ---
 
 Sometime last year, at the height of my mental health crisis, I had a text exchange with a close friend. We have been friends for almost ten years at that point.
