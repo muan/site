@@ -1,3 +1,11 @@
+- date: 2023-09-22
+  url: https://github.com/whatwg/html/issues/9742
+  title: Make the currentTime setter clamp to duration
+  note: PROGRESS.
+- date: 2023-09-22
+  url: https://github.com/w3c/csswg-drafts/issues/7542
+  title: "[css-ui] ? Allow <textarea> to be sized by contents."
+  note: Cause https://github.com/github/textarea-autosize. Soon in Chrome Canary!
 - date: 2023-08-30
   url: https://github.com/w3c/csswg-drafts/issues/8510
   title: "[css-text-4] Specify width of autospace gaps"
