@@ -56,17 +56,6 @@ root: true
 
 <hr class="hr">
 
-{% assign note = site.notes | last %}
-<h2 class="text">隨筆</h2><a href="/notes" class="styled-link">近期隨筆</a> <a href="/notes.xml" class="styled-link">RSS</a>
-<div class="note">
-  <div class="note-heading">
-    最新：{{ note.date | date: "%B %e, %Y" }}
-  </div>
-  {{ note.content | markdownify }}
-</div>
-
-<hr class="hr">
-
 <h2 class="text">文章</h2><a href="/feed.xml" class="styled-link">RSS</a>
 <ul aria-label="posts" class="terminal">
 {% assign posts = site.pages | where: "feature", 1 %}
