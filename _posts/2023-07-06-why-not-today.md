@@ -2,7 +2,6 @@
 layout: default
 date: 2023-07-06
 title: Why not today? (CW)
-feature: 1
 ---
 
 CONTENT WARNING: depression, suicide.

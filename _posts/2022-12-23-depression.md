@@ -2,7 +2,6 @@
 layout: default
 date: 2022-12-23
 title: Depression (CW)
-feature: 1
 ---
 
 CONTENT WARNING: suicide, and very strong opinions on the value of lives.
