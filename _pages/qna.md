@@ -16,7 +16,6 @@ title: Questions & answers
 
 <audio src="/assets/name.m4a" controls></audio>
 
-
 ## What are your pronouns?
 
 She/her/她/妳.
@@ -24,3 +23,7 @@ She/her/她/妳.
 ## Where are you from?
 
 I am from Taipei, Taiwan.
+
+## Are you OK?
+
+[I am tired of my own thoughts.](https://muan.co/notes/2023-09-06-uu)
