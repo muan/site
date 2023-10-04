@@ -29,7 +29,7 @@ The Unicode Consortium does a lot of other things, like [preserving near-extinct
 
 Slack custom emoji on the other hand, are images that rendered in character sized to mimic the graphical yet character-like nature of Emoji. They are usually assigned a shortcode, but has no _definition_ nor does it occupy a space in [the Unicode Character Code Charts](https://unicode.org/charts/).
 
-As an Emoji fundamentalist, I hope you can see why I have a problem with people calling them emoji. The "文字" part is kind of important. These are tiny stickers. I am not saying it's bad; they are just not emoji.
+As an Emoji fundamentalist, I hope you can see why I have a problem with people calling them emoji. The "文字"（words/characters) part is kind of important. These are tiny stickers. I am not saying it's bad; they are just not emoji.
 
 ## Who _invented_ `:emoji_code:`?
 
