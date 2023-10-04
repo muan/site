@@ -14,7 +14,7 @@ For a bit of context, I am a bit of an emoji enthusiast, and also kind of a fund
 To all the lovelies at Slack, I don't mean to pick on you all. You just got too popular and people start to attribute things to you. So I aim to set some records straight.
 
 - What is Emoji?
-- Slack custom _emoji_ are not Emoji.
+- Slack custom "emoji" are not Emoji.
 - Slack did not invent `:emoji_code:`.
 
 ## What is Emoji?
@@ -25,7 +25,7 @@ My very brief version of the introduction is: Emoji is a character or a sequence
 
 The Unicode Consortium does a lot of other things, like [preserving near-extinct languages](https://restofworld.org/2021/tulu-unicode-script/), like [figuring out how to design spaces for multiple versions of the same origin character that are different in cultures as they continue to change over time](https://en.wikipedia.org/wiki/Han_unification).
 
-## Slack custom emoji
+## Slack custom "emoji"
 
 Slack custom emoji on the other hand, are images that rendered in character sized to mimic the graphical yet character-like nature of Emoji. They are usually assigned a shortcode, but has no _definition_ nor does it occupy a space in [the Unicode Character Code Charts](https://unicode.org/charts/).
 
