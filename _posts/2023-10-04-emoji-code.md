@@ -31,9 +31,9 @@ Slack custom emoji on the other hand, are images that rendered in character size
 
 As an Emoji fundamentalist, I hope you can see why I have a problem with people calling them emoji. The "文字" part is kind of important. These are tiny stickers. I am not saying it's bad; they are just not emoji.
 
-## Who invented `:emoji_code:`?
+## Who _invented_ `:emoji_code:`?
 
-It's hard to say, but short codes like these that represents text-sized imagery have existed since the dawn of the world wide web, and particular around the time internet forum blossomed. I'd say it's going to be between _the standardization of emoji_ (read the linked posts if you didn't in the previous paragraphs) and the birth of Campfire. Here I will let [Jeremy Daer](https://twitter.com/bitsweat) who introduced the first 10 :emoji_code: to [Campfire](https://en.wikipedia.org/wiki/37signals#Campfire) do the talking:
+It's hard to say, but shortcodes like these that represents text-sized imagery have existed since the dawn of the world wide web, and particularly around the time internet forum blossomed. In this case I want to talk about specifically using shortcodes for emoji, so it's going to be between _the standardization of emoji_ (read the linked posts if you didn't in the previous paragraphs) and the birth of Campfire. Here I will let [Jeremy Daer](https://twitter.com/bitsweat) who introduced the first 10 `:emoji_code:` to [Campfire](https://en.wikipedia.org/wiki/37signals#Campfire) do the talking:
 
 > Nice to meet you, Mu-An.
 >
@@ -56,9 +56,9 @@ It's hard to say, but short codes like these that represents text-sized imagery 
 > Best,
 > Jeremy
 
-That's it! Many thanks to Jeremy Daer for providing these context. 
+That's it! Many thanks to Jeremy Daer for providing these context.
 
-To this day the naming of `:emoji_code:` is still non-standardized, and I don't know what it'd take for it to be. There are emoji projects that attempts to consolidate all the codes used in different chat platform, but because there [isn't a consistent source of truth](https://github.com/muan/emojilib/issues/194#issuecomment-1731797669), these libraries will always be playing catch.
+To this day the naming of `:emoji_code:` is still non-standardized, and I don't know what it'd take for it to be. There are emoji projects that attempts to consolidate all the codes used in different chat platforms, but because there [isn't a consistent source of truth](https://github.com/muan/emojilib/issues/194#issuecomment-1731797669), these libraries will always be playing catch.
 
 ## How to use Emoji?
 
