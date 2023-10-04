@@ -86,6 +86,6 @@ Now, go forth and enjoy Emoji responsibly. 👋🏼
 
 ---
 
-Many thanks to Javan, Trevor, Josh, and Jeremy for the background information on the creation of shortcode.
-Many thanks to Monica for reviewing this blog post.
-Many thanks to Julia for her wonderful emoji presentation in GitHub circa 2012 (find it and watch it, current hubbers!). 
+Many thanks to [Javan](https://javan.us/), [Trevor](https://mastodon.social/@trevorturk@ruby.social), [Josh](https://github.com/josh), and [Jeremy](https://twitter.com/bitsweat) for the background information on the creation of shortcode.
+Many thanks to [Monica](https://meowni.ca/) for reviewing this blog post.
+Many thanks to [Julia](https://github.com/juliamae) for her wonderful emoji presentation in GitHub circa 2012 (find it and watch it, current hubbers!). 
