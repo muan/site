@@ -68,11 +68,11 @@ Since Emoji are characters by definition, they should not be used as not iconogr
 
 For example, 🧵 is defined as "thread", which is commonly known in the English speaking internet as "a thread of discussions on a topic", however this definition is not localized to Chinese. To use 🧵 as a stand-in for "thread" it means you risk meaning getting lost in language barriers and cultural differences. 
 
-For a microblog like "🚨🚨🚨🚨 Attention 🚨🚨🚨🚨 Wild fire alert in the following regions: ...., calling for immediate evacuation for all local residents," what assistive technology reads out is "police car's light police car's light police car's light police car's light attention police car's light police car's light police car's light police car's light wid fire alert in the following regions:...". Surely this is not the experience you'd like people to have, is it?
+For a microblog like "🚨🚨🚨🚨 Attention 🚨🚨🚨🚨 Wild fire alert in the following regions: ...., calling for immediate evacuation for all local residents," what assistive technology reads out is "police car's light police car's light police car's light police car's light attention police car's light police car's light police car's light police car's light wid fire alert in the following regions:..." Surely that is not considered an optimal experience nor messaging.
 
 Or for a less hyperbole example: "Today is international 🥞 pancake 🥞 day!" reads "Today is international pancakes pancake pancakes day!"
 
-We can argue how assistive technology, operating systems, or browser engines, should and may be able to fix this issues through automatic de-duplication. but in the case of user-generated content I personally do not think it's an easy problem to tackle. 
+We can argue how assistive technology, operating systems, or browser engines, should and may be able to fix this issues through automatic de-duplication. but in the case of user-generated content I personally do not think it's an easy problem to tackle. [VoiceOver on macOS now reads it by count of emoji](https://mastodon.social/@timdream/111174932479788790), [NVDA de-duplicates where possible](https://github.com/nvaccess/nvda/issues/8499); however, these only applies whyen emoji are used as plain text, and aren't being replaced by images with alt text for flavors or global support (slack, discord, twitter, etc).
 
 I don't expect everyone with an emoji keyboard to know this, but I think these guidelines are should be baseline knowledge for all the content writers out there.
 
