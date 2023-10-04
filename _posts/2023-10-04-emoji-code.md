@@ -19,9 +19,9 @@ To all the lovelies at Slack, I don't mean to pick on you all. You just got too 
 
 ## What is Emoji?
 
-Emoji are <ruby>絵文字<rp>(</rp><rt>えもじ</rt><rp>)</rp> </ruby>, you can find the origin story on [Mariko](https://twitter.com/kosamari)'s [Evolution of Emoji 🖼🔤✨](https://speakerdeck.com/kosamari/evolution-of-emoji) or [Monica](https://meowni.ca/)'s [Emoji: how do you get from U+1F355 to 🍕?](https://meowni.ca/posts/emoji-emoji-emoji/). They have done a fantastic job telling you all its glory that there's nothing I can add.
+You can find the origin story of Emoji (<ruby>絵文字<rp>(</rp><rt>えもじ</rt><rp>)</rp> </ruby>) in [Mariko](https://twitter.com/kosamari)'s [Evolution of Emoji 🖼🔤✨](https://speakerdeck.com/kosamari/evolution-of-emoji) or [Monica](https://meowni.ca/)'s [Emoji: how do you get from U+1F355 to 🍕?](https://meowni.ca/posts/emoji-emoji-emoji/). They have done a fantastic job telling you all its glory that there's nothing I can add.
 
-My very brief version of the introduction is: Emoji is a character or a sequence of characters in the emoji category, as defined and maintained by the Unicode Consortium. Emoji are characters, exactly like [龜 is a character that means turtle](https://www.compart.com/en/unicode/U+9F9C), and [🐢 is a character that means turtle](https://www.compart.com/en/unicode/U+1F422).
+My very brief version of the introduction is: Emoji is a character or a sequence of characters in the emoji category, as defined and maintained by the Unicode Consortium. Emoji are characters, similarly [龜 is a character that means turtle](https://www.compart.com/en/unicode/U+9F9C), and [🐢 is a character that means turtle](https://www.compart.com/en/unicode/U+1F422).
 
 The Unicode Consortium does a lot of other things, like [preserving near-extinct languages](https://restofworld.org/2021/tulu-unicode-script/), like [figuring out how to design spaces for multiple versions of the same origin character that are different in cultures as they continue to change over time](https://en.wikipedia.org/wiki/Han_unification).
 
