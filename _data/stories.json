@@ -10280,5 +10280,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/eb82ab1d-1a5e-4673-eaef-caa7df101600/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/eb82ab1d-1a5e-4673-eaef-caa7df101600/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-10-10T01:08:14.576Z",
+    "id": "2160ad98-9339-4401-d459-ad4379d68100",
+    "filename": "R0006043.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "a building with light shining through",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Travel"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2160ad98-9339-4401-d459-ad4379d68100/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2160ad98-9339-4401-d459-ad4379d68100/public"
+    ]
   }
 ]
