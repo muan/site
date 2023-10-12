@@ -10371,5 +10371,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c87ef1e0-ffd7-40be-16fe-f8e228ca1900/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c87ef1e0-ffd7-40be-16fe-f8e228ca1900/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-10-12T03:10:28.781Z",
+    "id": "3464a27b-cbf2-4dbf-cade-b6f645478d00",
+    "filename": "R0006138.jpeg",
+    "meta": {
+      "caption": "Australia’s best (?)",
+      "alt": "a kangaroo jumping on the grass",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Animals"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3464a27b-cbf2-4dbf-cade-b6f645478d00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3464a27b-cbf2-4dbf-cade-b6f645478d00/public"
+    ]
   }
 ]
