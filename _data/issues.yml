@@ -1,3 +1,7 @@
+- date: 2023-10-30
+  url: https://github.com/whatwg/compat/issues/240
+  title: "Document -webkit-text-security"
+  note: Back by popular demand. See also [`<input type=password>` should provide UI to show/hide its value](https://github.com/whatwg/html/issues/7293).
 - date: 2023-10-04
   url: https://github.com/openui/open-ui/issues/847
   title: "How to make an accessible searchable \"select\" list?"
