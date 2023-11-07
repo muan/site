@@ -88,5 +88,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/5abd4f3e-ba2f-431c-9802-48a149a0b000/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/5abd4f3e-ba2f-431c-9802-48a149a0b000/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-07T17:11:33.778Z",
+    "id": "2f2b82e6-f2f7-4474-8fb1-dcb0ffb2d300",
+    "filename": "004994970010.jpeg",
+    "meta": {
+      "film": "Kodak Gold 200",
+      "location": "Keelung",
+      "alt": "a blurry image of people walking in a fishmarket",
+      "camera": "Canon AE-1 Program",
+      "caption": "I forgot I have shutter speed set at two seconds.",
+      "ratio": 0
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2f2b82e6-f2f7-4474-8fb1-dcb0ffb2d300/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2f2b82e6-f2f7-4474-8fb1-dcb0ffb2d300/thumbnail"
+    ]
   }
 ]
