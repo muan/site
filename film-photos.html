@@ -1,0 +1,35 @@
+---
+layout: default
+type: photos
+title: Film
+---
+
+<div class="photos-wrapper" id="photos">
+{% assign photos = site.data.film %}
+{% for photo in photos %}
+<figure id="P{{ photo.id }}" class="figure-{% if photo.meta.radio > 1 %}landscape{% else %}portrait{% endif %}">
+  <a href="{{ photo.variants[1] }}" class="image-link">
+    <img 
+      src="{{ photo.variants[1] }}"
+      height="2400"
+      style="aspect-ratio: {{ photo.meta.ratio }}"
+      alt="{{ photo.meta.alt }}"
+      title="{{ photo.meta.alt }}"
+      class="{% if photo.meta.radio > 1 %}landscape{% else %}portrait{% endif %}"
+      loading="lazy">
+  </a>
+  <figcaption>
+    <div class="desc photo-metadata">
+      <div>{{ photo.uploaded | date: "%Y/%m/%d (%a)" }}</div>
+      {% if photo.meta.location  %}<div>⌖ {{ photo.meta.location }}</div>{% endif %}
+      <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=film-P{{ photo.id }}" emoji="❤️" aria-labelledby="like-prompt">
+        <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
+      </open-heart>
+    </div>
+    <div class="desc">{{ photo.meta.camera }}, {{ photo.meta.film }}</div>
+    {{ photo.meta.caption | markdownify }}
+  </figcaption>
+</figure>
+{% endfor %}
+
+</div>

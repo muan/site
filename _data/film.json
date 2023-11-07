@@ -8,7 +8,8 @@
       "caption": "Work trip made fun.",
       "alt": "a bus and cars at a bus stop with a sign in the background on a hill reading KEELUNG",
       "camera": "Canon AE-1 Program",
-      "location": "Keelung"
+      "location": "Keelung",
+      "ratio": 1.5
     },
     "requireSignedURLs": false,
     "variants": [

@@ -43,6 +43,17 @@ root: true
 {% endfor %}
 </div>
 
+<h2 class="text">Film photos</h2><a href="/film-photos" class="styled-link">All film photos</a>
+<div class="photos">
+{% assign photos = site.data.film | slice: 0, 5 %}
+{% for photo in photos %}
+  <a href="/film-photos#P{{ photo.id}}" class="image-link">
+    <img src="{{ photo.variants[0] }}" height="200" alt="{{ photo.meta.alt }}" loading="lazy" style="aspect-ratio: {{ photo.meta.ratio }};">
+  </a>
+{% endfor %}
+</div>
+
+<!--
 <h3>Film rolls</h3>
 
 <ul>
@@ -55,6 +66,7 @@ root: true
   <li><a href="/pages/film-roll-07">2023-10 @ Melbourne / Hualian / Nantou</a></li>
   <li><a href="/pages/film-roll-08">2023-10 @ Melbourne / Hualian / Nantou</a></li>
 </ul>
+-->
 
 <hr class="hr">
 
