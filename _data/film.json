@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "uploaded": "2023-11-07T10:14:04.536Z",
+    "id": "f0d64b8b-b17e-4dd5-ce8e-2ffd974bb800",
+    "filename": "004994970001.jpeg",
+    "meta": {
+      "film": "Kodak Gold 200",
+      "caption": "Work trip made fun.",
+      "alt": "a bus and cars at a bus stop with a sign in the background on a hill reading KEELUNG",
+      "camera": "Canon AE-1 Program",
+      "location": "Keelung"
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f0d64b8b-b17e-4dd5-ce8e-2ffd974bb800/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f0d64b8b-b17e-4dd5-ce8e-2ffd974bb800/public"
+    ]
+  }
+]
