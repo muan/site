@@ -52,5 +52,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/92cd3979-cd84-47c0-b6cd-2bb1d78ca900/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/92cd3979-cd84-47c0-b6cd-2bb1d78ca900/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-07T17:09:08.025Z",
+    "id": "b7406861-a485-41bf-1e1e-ccf50b6c4b00",
+    "filename": "004994970007.jpeg",
+    "meta": {
+      "film": "Kodak Gold 200",
+      "location": "Keelung",
+      "alt": "boats on the water at night",
+      "camera": "Canon AE-1 Program",
+      "caption": "The night.",
+      "ratio": 0
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b7406861-a485-41bf-1e1e-ccf50b6c4b00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b7406861-a485-41bf-1e1e-ccf50b6c4b00/public"
+    ]
   }
 ]
