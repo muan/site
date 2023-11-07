@@ -16,5 +16,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f0d64b8b-b17e-4dd5-ce8e-2ffd974bb800/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f0d64b8b-b17e-4dd5-ce8e-2ffd974bb800/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-07T17:06:08.465Z",
+    "id": "fec19ff9-545d-4215-5937-b6bc76aabf00",
+    "filename": "004994970006.jpeg",
+    "meta": {
+      "film": "Kodak Gold 200",
+      "location": "Keelung",
+      "alt": "boats in a harbor with boats and buildings",
+      "camera": "Canon AE-1 Program",
+      "caption": "Day time of the night.",
+      "ratio": 0
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/fec19ff9-545d-4215-5937-b6bc76aabf00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/fec19ff9-545d-4215-5937-b6bc76aabf00/public"
+    ]
   }
 ]
