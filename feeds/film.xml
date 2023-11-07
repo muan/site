@@ -1,0 +1,34 @@
+---
+permalink: /film.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{% capture srcbase %}src="{{site.url}}/{% endcapture %}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>@muan's film photos</title>
+    <description>Film photos.</description>
+    {% assign photos = site.data.film | sort: "uploaded" | reverse %}
+    <lastBuildDate>{{ stories.first.uploaded | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ site.url }}/film.xml" rel="self" type="application/rss+xml" />
+    <link>{{ site.url }}/film.xml</link>
+    {% for photo in photos limit:10 %}
+      <item>
+        <title>{{ photo.meta.caption | xml_escape }}</title>
+        <description>
+          {% capture openheart %}
+            <br><a href="https://muan.co{% link _pages/like.html %}?id=film-P{{ photo.id }}">❤️</a><br><small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
+          {% endcapture %}
+          {% capture content %}
+            <a href="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ photo.id }}/public">
+              <img src="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ photo.id }}/public" width="100%" alt="{{ photo.meta.alt }}"/>
+            </a>
+          {% endcapture %}
+          {{ content | xml_escape }}{{ openheart | xml_escape }}
+        </description>
+        <pubDate>{{ photo.uploaded | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}/film#P{{ photo.id }}</link>
+        <guid isPermaLink="true">{{ site.url }}/film#P{{ photo.id }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

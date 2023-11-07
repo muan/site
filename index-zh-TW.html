@@ -23,7 +23,7 @@ root: true
 </nav>
 
 <div class="lang">
-  <a href="/zh-TW/" aria-current="true">正體中文</a><a href="/">English</a>
+  <a href="/zh-TW/" srclang="zh-TW" aria-current="true">正體中文</a><a href="/" srclang="en-US">English</a>
 </div>
 
 <hr class="hr">
@@ -46,18 +46,15 @@ root: true
 {% endfor %}
 </div>
 
-<h3>底片</h3>
-
-<ul>
-  <li><a href="/pages/film-roll-01">2023-03 @ Taipei</a></li>
-  <li><a href="/pages/film-roll-02">2023-04 @ Taipei</a></li>
-  <li><a href="/pages/film-roll-03">2023-04 @ Taipei</a></li>
-  <li><a href="/pages/film-roll-04">2023-04 @ Taipei</a></li>
-  <li><a href="/pages/film-roll-05">2023-05 @ Kaohsiung</a></li>
-  <li><a href="/pages/film-roll-06">2023-06 @ Taipei / Taichung / Tokyo</a></li>
-  <li><a href="/pages/film-roll-07">2023-10 @ Melbourne / Hualian / Nantou</a></li>
-  <li><a href="/pages/film-roll-08">2023-10 @ Melbourne / Hualian / Nantou</a></li>
-</ul>
+<h2 class="text">底片照片</h2><a href="/film" class="styled-link">全部底片照片</a> <a href="/film.xml" class="styled-link">RSS</a>
+<div class="photos">
+{% assign photos = site.data.film | slice: 0, 5 %}
+{% for photo in photos %}
+  <a href="/film#P{{ photo.id}}" class="image-link">
+    <img src="{{ photo.variants[0] }}" height="200" alt="{{ photo.meta.alt }}" loading="lazy" style="aspect-ratio: {{ photo.meta.ratio }};">
+  </a>
+{% endfor %}
+</div>
 
 <hr class="hr">
 
