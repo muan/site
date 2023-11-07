@@ -7,7 +7,7 @@ title: Film
 <div class="photos-wrapper" id="photos">
 {% assign photos = site.data.film | reverse %}
 {% for photo in photos %}
-<figure id="P{{ photo.id }}" class="figure-{% if photo.meta.radio > 1 %}landscape{% else %}portrait{% endif %}">
+<figure id="P{{ photo.id }}" class="figure-{% if photo.meta.ratio > 1 %}landscape{% else %}portrait{% endif %}">
   <a href="{{ photo.variants[1] }}" class="image-link">
     <img 
       src="{{ photo.variants[1] }}"
@@ -15,7 +15,7 @@ title: Film
       style="aspect-ratio: {{ photo.meta.ratio }}"
       alt="{{ photo.meta.alt }}"
       title="{{ photo.meta.alt }}"
-      class="{% if photo.meta.radio > 1 %}landscape{% else %}portrait{% endif %}"
+      class="{% if photo.meta.ratio > 1 %}landscape{% else %}portrait{% endif %}"
       loading="lazy">
   </a>
   <figcaption>
