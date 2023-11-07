@@ -106,5 +106,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2f2b82e6-f2f7-4474-8fb1-dcb0ffb2d300/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2f2b82e6-f2f7-4474-8fb1-dcb0ffb2d300/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-11-07T17:12:21.320Z",
+    "id": "09292cb9-0e7a-4a9d-b171-9e84f16a4a00",
+    "filename": "004994970016.jpeg",
+    "meta": {
+      "film": "Kodak Gold 200",
+      "location": "Keelung",
+      "alt": "a fish in a basket",
+      "camera": "Canon AE-1 Program",
+      "caption": "I like fish.",
+      "ratio": 0
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/09292cb9-0e7a-4a9d-b171-9e84f16a4a00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/09292cb9-0e7a-4a9d-b171-9e84f16a4a00/public"
+    ]
   }
 ]
