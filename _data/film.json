@@ -142,5 +142,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ad2f464d-7fda-402b-2786-d957bb459500/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ad2f464d-7fda-402b-2786-d957bb459500/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-07T17:14:47.370Z",
+    "id": "068df515-ea97-4b29-c3c6-c1c89876f600",
+    "filename": "004994970023.jpeg",
+    "meta": {
+      "film": "Kodak Gold 200",
+      "location": "Keelung",
+      "alt": "a person walking through on a pile of fish",
+      "camera": "Canon AE-1 Program",
+      "caption": "",
+      "ratio": 0
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/068df515-ea97-4b29-c3c6-c1c89876f600/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/068df515-ea97-4b29-c3c6-c1c89876f600/public"
+    ]
   }
 ]
