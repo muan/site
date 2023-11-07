@@ -70,5 +70,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b7406861-a485-41bf-1e1e-ccf50b6c4b00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b7406861-a485-41bf-1e1e-ccf50b6c4b00/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-07T17:10:02.052Z",
+    "id": "5abd4f3e-ba2f-431c-9802-48a149a0b000",
+    "filename": "004994970025.jpeg",
+    "meta": {
+      "film": "Kodak Gold 200",
+      "location": "Keelung",
+      "alt": "a city with boats and buildings",
+      "camera": "Canon AE-1 Program",
+      "caption": "Proper weather for Keelung.",
+      "ratio": 0
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/5abd4f3e-ba2f-431c-9802-48a149a0b000/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/5abd4f3e-ba2f-431c-9802-48a149a0b000/public"
+    ]
   }
 ]
