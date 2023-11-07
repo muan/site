@@ -1,3 +1,7 @@
+- date: 2023-11-07
+  url: https://github.com/whatwg/html/issues/7759
+  title: "Navigating to an anchor, focus, and caret navigation insertion point ordering."
+  note: [A can of worm I will be opening](https://github.com/muan/sfnsp/issues/1).
 - date: 2023-10-30
   url: https://github.com/whatwg/compat/issues/240
   title: "Document -webkit-text-security"
