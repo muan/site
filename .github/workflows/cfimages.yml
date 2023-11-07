@@ -1,4 +1,4 @@
-name: "Sync stories"
+name: "Upload image"
 
 on:
   workflow_dispatch:
