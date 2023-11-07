@@ -48,7 +48,7 @@ root: true
 
 <h2 class="text">底片照片</h2><a href="/film" class="styled-link">全部底片照片</a> <a href="/film.xml" class="styled-link">RSS</a>
 <div class="photos">
-{% assign photos = site.data.film | slice: 0, 5 %}
+{% assign photos = site.data.film | reverse | slice: 0, 5 %}
 {% for photo in photos %}
   <a href="/film#P{{ photo.id}}" class="image-link">
     <img src="{{ photo.variants[0] }}" height="200" alt="{{ photo.meta.alt }}" loading="lazy" style="aspect-ratio: {{ photo.meta.ratio }};">

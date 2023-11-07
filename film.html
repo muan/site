@@ -5,7 +5,7 @@ title: Film
 ---
 
 <div class="photos-wrapper" id="photos">
-{% assign photos = site.data.film %}
+{% assign photos = site.data.film | reverse %}
 {% for photo in photos %}
 <figure id="P{{ photo.id }}" class="figure-{% if photo.meta.radio > 1 %}landscape{% else %}portrait{% endif %}">
   <a href="{{ photo.variants[1] }}" class="image-link">
