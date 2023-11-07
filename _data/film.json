@@ -27,7 +27,7 @@
       "alt": "boats in a harbor with boats and buildings",
       "camera": "Canon AE-1 Program",
       "caption": "Day time of the night.",
-      "ratio": 0
+      "ratio": 0.67
     },
     "requireSignedURLs": false,
     "variants": [
@@ -45,7 +45,7 @@
       "alt": "a city next to a body of water",
       "camera": "Canon AE-1 Program",
       "caption": "Dawn.",
-      "ratio": 0
+      "ratio": 0.67
     },
     "requireSignedURLs": false,
     "variants": [
@@ -63,7 +63,7 @@
       "alt": "boats on the water at night",
       "camera": "Canon AE-1 Program",
       "caption": "The night.",
-      "ratio": 0
+      "ratio": 0.67
     },
     "requireSignedURLs": false,
     "variants": [
@@ -81,7 +81,7 @@
       "alt": "a city with boats and buildings",
       "camera": "Canon AE-1 Program",
       "caption": "Proper weather for Keelung.",
-      "ratio": 0
+      "ratio": 1.5
     },
     "requireSignedURLs": false,
     "variants": [
@@ -99,7 +99,7 @@
       "alt": "a blurry image of people walking in a fishmarket",
       "camera": "Canon AE-1 Program",
       "caption": "I forgot I have shutter speed set at two seconds.",
-      "ratio": 0
+      "ratio": 1.5
     },
     "requireSignedURLs": false,
     "variants": [
@@ -117,7 +117,7 @@
       "alt": "a fish in a basket",
       "camera": "Canon AE-1 Program",
       "caption": "I like fish.",
-      "ratio": 0
+      "ratio": 1.5
     },
     "requireSignedURLs": false,
     "variants": [
@@ -135,7 +135,7 @@
       "alt": "a fish head on the ground",
       "camera": "Canon AE-1 Program",
       "caption": "NSFW?",
-      "ratio": 0
+      "ratio": 1.5
     },
     "requireSignedURLs": false,
     "variants": [
@@ -153,7 +153,7 @@
       "alt": "a person walking through on a pile of fish",
       "camera": "Canon AE-1 Program",
       "caption": "",
-      "ratio": 0
+      "ratio": 1.5
     },
     "requireSignedURLs": false,
     "variants": [
