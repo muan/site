@@ -14,6 +14,8 @@ if (!fileExists && dirName !== '.') {
   fs.mkdirSync(dirName, {recursive: true})
 }
 
+if (!filePath.endsWith('stories.json')) return
+
 const date = new Date(json.uploaded)
 const content = `---
 layout: story
