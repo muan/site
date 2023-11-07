@@ -14,6 +14,8 @@ if (!fileExists && dirName !== '.') {
   fs.mkdirSync(dirName, {recursive: true})
 }
 
+fs.writeFileSync(filePath, JSON.stringify(photos, null, 2))
+
 if (!filePath.endsWith('stories.json')) process.exit()
 
 const date = new Date(json.uploaded)
@@ -35,4 +37,3 @@ ${json.meta.caption}
 `
 
 fs.writeFileSync(`_stories/${json.id}.md`, content)
-fs.writeFileSync(filePath, JSON.stringify(photos, null, 2))
