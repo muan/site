@@ -232,5 +232,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/61be572e-817d-46d1-207e-daad7f33b800/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/61be572e-817d-46d1-207e-daad7f33b800/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-08T05:31:46.315Z",
+    "id": "184a8be3-3cb8-4183-0acc-9b2230d38700",
+    "filename": "004994980016.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Chiayi",
+      "alt": "a forest with trees and plants",
+      "camera": "Canon AE-1 Program",
+      "caption": "Arboretum! word of the day.",
+      "ratio": 0.66
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/184a8be3-3cb8-4183-0acc-9b2230d38700/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/184a8be3-3cb8-4183-0acc-9b2230d38700/thumbnail"
+    ]
   }
 ]
