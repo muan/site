@@ -23,13 +23,13 @@ open_heart: true
   <figcaption>
     <div class="desc photo-metadata">
       <div>{{ photo.uploaded | date: "%Y/%m/%d (%a)" }}</div>
-      {% if photo.meta.location  %}<div>⌖ {{ photo.meta.location }}</div>{% endif %}
+      {% if photo.meta.location  %}<div>@ {{ photo.meta.location }}</div>{% endif %}
       <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=film-P{{ photo.id }}" emoji="❤️" aria-labelledby="like-prompt">
         <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
       </open-heart>
     </div>
-    <div class="desc">{{ photo.meta.camera }} + {{ photo.meta.film }}</div>
     {{ photo.meta.caption | markdownify }}
+    <details class="desc"><summary>Camera details</summary>{{ photo.meta.camera }} + {{ photo.meta.film }}</details>
   </figcaption>
 </figure>
 {% endfor %}

@@ -24,7 +24,7 @@ open_heart: true
       <div>{{ photo.createdAt | date: "%Y/%m/%d (%a)" }}</div>
       {% assign split = photo.caption | strip | split: "@ " %}
       {% assign caption = split | first | strip %}
-      {% if split.size > 1  %}<div>⌖ {{ split[1] }}</div>{% endif %}
+      {% if split.size > 1  %}<div>@ {{ split[1] }}</div>{% endif %}
       <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=photo-P{{ photo.guid }}" emoji="❤️" aria-labelledby="like-prompt">
         <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
       </open-heart>

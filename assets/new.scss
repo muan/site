@@ -397,7 +397,7 @@ figure {
   .image-link {
     display: block;
     width: fit-content;
-    margin: auto;
+    margin: 0 auto 0.5em;
   }
 
   p {
@@ -524,7 +524,7 @@ figure {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: .5em auto 0;
+  margin: auto;
   gap: 0.5em;
 
   open-heart {
