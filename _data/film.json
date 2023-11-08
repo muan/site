@@ -178,5 +178,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/fd6508b7-14e7-40cb-b823-ffb8bba31900/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/fd6508b7-14e7-40cb-b823-ffb8bba31900/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-08T03:52:03.888Z",
+    "id": "e44e4259-0912-47fa-6453-a4d0c3b8a200",
+    "filename": "004994970031.jpeg",
+    "meta": {
+      "film": "Kodak Gold 200",
+      "location": "Keelung",
+      "alt": "a cat sitting on a scooter from a window reflection",
+      "camera": "Canon AE-1 Program",
+      "caption": "",
+      "ratio": 0
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e44e4259-0912-47fa-6453-a4d0c3b8a200/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e44e4259-0912-47fa-6453-a4d0c3b8a200/public"
+    ]
   }
 ]
