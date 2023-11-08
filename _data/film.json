@@ -286,5 +286,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/13e479fe-e863-4735-24bc-9b22a3ae2d00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/13e479fe-e863-4735-24bc-9b22a3ae2d00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-11-08T11:04:38.038Z",
+    "id": "d104232a-af52-4a35-f8a1-0a8520979800",
+    "filename": "004983470020.jpeg",
+    "meta": {
+      "film": "Fujifilm 200",
+      "location": "Nantou",
+      "alt": "a bird on a rocky trail",
+      "camera": "Canon AE-1 Program",
+      "caption": "Birdy hiked with us.",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d104232a-af52-4a35-f8a1-0a8520979800/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d104232a-af52-4a35-f8a1-0a8520979800/public"
+    ]
   }
 ]
