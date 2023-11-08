@@ -136,7 +136,7 @@
     <script type="module" src="/assets/site.js"></script>
     <script type="module" src="https://unpkg.com/open-stories-element@latest"></script>
     {% endif %}
-    {% if page.feature == 1 or page.open_heart %}
+    {% if page.feature == 1 or page.open_heart or page.type == "photos" %}
     <script type="module" src="https://unpkg.com/open-heart-element@latest"></script>
     <script>
       const observer = new IntersectionObserver((entries, observer) => {
