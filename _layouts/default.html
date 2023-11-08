@@ -17,8 +17,16 @@
     {% if page.collection == "posts" %}
       <link href="/assets/syntax.css" rel="stylesheet" type="text/css">
     {% endif %}
-    {% if page.collection == "posts" or page.collection == "pages" or page.collection == "notes" or page.collection == "stories" %}
+    {% if page.title %}
       <title>{{ page.title }} - {{ site.title }}</title>
+      <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
+      <meta content="{{ page.title }} - {{ site.title }}" name="twitter:title">
+    {% else %}
+      <title>{{ site.title }}</title>
+      <meta content="{{ site.title }}" property="og:title">
+      <meta content="{{ site.title }}" name="twitter:title">
+    {% endif %}
+    {% if page.collection == "posts" or page.collection == "notes" or page.collection == "stories" %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
       <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
       {% if page.collection == "posts" %}
@@ -37,18 +45,12 @@
         <meta content="https://muan.co/assets/logo.png" name="twitter:image">
         <meta content="https://muan.co/assets/logo.png" property="og:image">
       {% endif %}
-      <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
-      <meta content="{{ page.title }} - {{ site.title }}" name="twitter:title">
     {% else %}
-    <title>{{ site.title }}</title>
       <meta content="summary" name="twitter:card">
       <meta content="https://muan.co/assets/logo.png" property="twitter:image">
-      <meta content="{{ site.title }}" name="twitter:title">
       <meta content="https://muan.co/assets/logo.png" property="og:image">
-      <meta content="{{ site.title }}" property="og:title">
       <meta content="{{ site.description }}" name="description">
-      <meta content="blog" property="og:type">
-      
+      <meta content="website" property="og:type">
     {% endif %}
   </head>
   
