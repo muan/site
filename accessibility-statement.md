@@ -17,14 +17,14 @@ Mu-An Chiou takes the following measures to ensure accessibility of muan.co:
 
 The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. muan.co is partially conformant with WCAG 2.1 level AA. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
 
-- I am aware that there is one color contrast is in violation on the front page.
+- I am aware that there is one color contrast violation on the front page.
 - I constantly experiment things on the site so it might not be fully conformant at all times.
 
 ## Feedback
 
-I welcome all feedback on the accessibility of muan.co. Please let me know if you encounter accessibility barriers on the site:
+I welcome all feedback on the accessibility of muan.co. Please let me know if you encounter accessibility barriers on the site.
 
-Please [open an issue on GitHub](https://github.com/muan/site/issues/new) or [message me on Mastodon](https://mastodon.social/@muan) and I will try to respond within 1 week.
+To report, [open an issue on GitHub](https://github.com/muan/site/issues/new) or [message me on Mastodon](https://mastodon.social/@muan), and I will try to respond within 1 week.
 
 ## Date
 
