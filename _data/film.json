@@ -340,5 +340,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/26162372-c28d-457b-739b-c7518f751d00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/26162372-c28d-457b-739b-c7518f751d00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-11-09T02:09:49.811Z",
+    "id": "223acb99-6b50-4512-0b19-10bad298c600",
+    "filename": "004994980033.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Hsinchu",
+      "alt": "a stack of red and green plastic crates",
+      "camera": "Canon AE-1 Program",
+      "caption": "Or what about this one?",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/223acb99-6b50-4512-0b19-10bad298c600/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/223acb99-6b50-4512-0b19-10bad298c600/public"
+    ]
   }
 ]
