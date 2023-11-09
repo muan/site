@@ -322,5 +322,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/26100e6a-8191-4c34-eb7d-7ed99fb8b200/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/26100e6a-8191-4c34-eb7d-7ed99fb8b200/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-09T02:08:42.749Z",
+    "id": "26162372-c28d-457b-739b-c7518f751d00",
+    "filename": "004994980005.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Hsinchu",
+      "alt": "a beig door with blue and faded red signs on it",
+      "camera": "Canon AE-1 Program",
+      "caption": "Or this palette.",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/26162372-c28d-457b-739b-c7518f751d00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/26162372-c28d-457b-739b-c7518f751d00/thumbnail"
+    ]
   }
 ]
