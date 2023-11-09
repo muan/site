@@ -304,5 +304,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d104232a-af52-4a35-f8a1-0a8520979800/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d104232a-af52-4a35-f8a1-0a8520979800/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-09T02:06:12.752Z",
+    "id": "26100e6a-8191-4c34-eb7d-7ed99fb8b200",
+    "filename": "004994980020.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Chiayi",
+      "alt": "a group of baskets and bags",
+      "camera": "Canon AE-1 Program",
+      "caption": "This palette.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/26100e6a-8191-4c34-eb7d-7ed99fb8b200/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/26100e6a-8191-4c34-eb7d-7ed99fb8b200/public"
+    ]
   }
 ]
