@@ -376,5 +376,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0a67dee3-39bf-4f18-bb87-c60bb89ac600/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/0a67dee3-39bf-4f18-bb87-c60bb89ac600/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-11-11T06:22:31.157Z",
+    "id": "74c74ffa-b998-4111-6118-6bf58a35b200",
+    "filename": "004994980031.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Taiwan",
+      "alt": "a selfie in a mirror on a pole on the streets",
+      "camera": "Canon AE-1 Program",
+      "caption": "Inspired by Erica as usual.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/74c74ffa-b998-4111-6118-6bf58a35b200/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/74c74ffa-b998-4111-6118-6bf58a35b200/public"
+    ]
   }
 ]
