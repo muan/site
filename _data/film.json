@@ -394,5 +394,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/74c74ffa-b998-4111-6118-6bf58a35b200/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/74c74ffa-b998-4111-6118-6bf58a35b200/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-11T06:24:25.660Z",
+    "id": "566f8e81-69fc-43a5-9b13-78f7d40a5400",
+    "filename": "004994980029.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Chiayi",
+      "alt": "a metal grate with a couple of meters and a road sign",
+      "camera": "Canon AE-1 Program",
+      "caption": "Fun typeface.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/566f8e81-69fc-43a5-9b13-78f7d40a5400/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/566f8e81-69fc-43a5-9b13-78f7d40a5400/thumbnail"
+    ]
   }
 ]
