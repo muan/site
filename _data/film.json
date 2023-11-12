@@ -502,5 +502,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d6dff020-607d-4e8f-6cc6-62fa01d60600/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d6dff020-607d-4e8f-6cc6-62fa01d60600/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-11-12T10:11:16.600Z",
+    "id": "960d8aac-a000-4862-6961-2c2b08258700",
+    "filename": "004994980032.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Chiayi",
+      "alt": "a sign on a staircase reading voice of the people newspapers ",
+      "camera": "Canon AE-1 Program",
+      "caption": "Voice of the People.",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/960d8aac-a000-4862-6961-2c2b08258700/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/960d8aac-a000-4862-6961-2c2b08258700/public"
+    ]
   }
 ]
