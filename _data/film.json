@@ -592,5 +592,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/134bf8ba-e57e-4b6e-b601-cf43878f1400/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/134bf8ba-e57e-4b6e-b601-cf43878f1400/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-12T10:16:55.836Z",
+    "id": "440993a1-7e61-44e3-8e4b-5502f4ab1900",
+    "filename": "004994980003.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Hsinchu",
+      "alt": "a hallway with white walls and a tile floor",
+      "camera": "Canon AE-1 Program",
+      "caption": "Hsinchu City Hall, built by the Japanese.",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/440993a1-7e61-44e3-8e4b-5502f4ab1900/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/440993a1-7e61-44e3-8e4b-5502f4ab1900/public"
+    ]
   }
 ]
