@@ -430,5 +430,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b632a28c-2639-4a75-9e21-7055f18a8e00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b632a28c-2639-4a75-9e21-7055f18a8e00/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-12T10:07:26.445Z",
+    "id": "92180734-39b2-4447-34c2-93fa5ac14700",
+    "filename": "004994980035.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Chiayi",
+      "alt": "a couple of buildings with air conditioning",
+      "camera": "Canon AE-1 Program",
+      "caption": "Imagine this without the AC units.",
+      "ratio": 1.49
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/92180734-39b2-4447-34c2-93fa5ac14700/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/92180734-39b2-4447-34c2-93fa5ac14700/public"
+    ]
   }
 ]
