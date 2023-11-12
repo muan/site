@@ -484,5 +484,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7bc59131-032a-4817-e98a-391560d65d00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7bc59131-032a-4817-e98a-391560d65d00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-11-12T10:10:14.574Z",
+    "id": "d6dff020-607d-4e8f-6cc6-62fa01d60600",
+    "filename": "004994980028.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Chiayi",
+      "alt": "a red gate in front of a building and green/red railing on the second floor balcony",
+      "camera": "Canon AE-1 Program",
+      "caption": "",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d6dff020-607d-4e8f-6cc6-62fa01d60600/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d6dff020-607d-4e8f-6cc6-62fa01d60600/thumbnail"
+    ]
   }
 ]
