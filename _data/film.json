@@ -412,5 +412,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/566f8e81-69fc-43a5-9b13-78f7d40a5400/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/566f8e81-69fc-43a5-9b13-78f7d40a5400/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-11-12T10:06:31.803Z",
+    "id": "b632a28c-2639-4a75-9e21-7055f18a8e00",
+    "filename": "004994980025.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Chiayi",
+      "alt": "a building with a street sign",
+      "camera": "Canon AE-1 Program",
+      "caption": "",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b632a28c-2639-4a75-9e21-7055f18a8e00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b632a28c-2639-4a75-9e21-7055f18a8e00/public"
+    ]
   }
 ]
