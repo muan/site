@@ -574,5 +574,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/6397d577-53bd-4056-73c2-fddab86d6f00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/6397d577-53bd-4056-73c2-fddab86d6f00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-11-12T10:15:33.234Z",
+    "id": "134bf8ba-e57e-4b6e-b601-cf43878f1400",
+    "filename": "004994980013.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Hsinchu",
+      "alt": "A ruin",
+      "camera": "Canon AE-1 Program",
+      "caption": "",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/134bf8ba-e57e-4b6e-b601-cf43878f1400/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/134bf8ba-e57e-4b6e-b601-cf43878f1400/public"
+    ]
   }
 ]
