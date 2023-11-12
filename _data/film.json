@@ -448,5 +448,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/92180734-39b2-4447-34c2-93fa5ac14700/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/92180734-39b2-4447-34c2-93fa5ac14700/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-12T10:08:16.872Z",
+    "id": "875f2555-4a91-4253-230f-9a1321cd9200",
+    "filename": "004994980030.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Chiayi",
+      "alt": "a building with windows and a car parked on the side of the road",
+      "camera": "Canon AE-1 Program",
+      "caption": "Overexposed.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/875f2555-4a91-4253-230f-9a1321cd9200/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/875f2555-4a91-4253-230f-9a1321cd9200/thumbnail"
+    ]
   }
 ]
