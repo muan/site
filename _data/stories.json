@@ -10845,5 +10845,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ab81c41c-5b6e-42e1-adae-3cbf0f457c00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/ab81c41c-5b6e-42e1-adae-3cbf0f457c00/public"
     ]
+  },
+  {
+    "uploaded": "2023-11-21T12:48:01.064Z",
+    "id": "b69ca057-59f3-4746-79ac-4f4085a39900",
+    "filename": "152526CD-DB26-41CD-AF6A-3EC3516CE18F.jpeg",
+    "meta": {
+      "caption": "Baked.",
+      "alt": "a group of pretzels on a plate",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Oven"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b69ca057-59f3-4746-79ac-4f4085a39900/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b69ca057-59f3-4746-79ac-4f4085a39900/thumbnail"
+    ]
   }
 ]
