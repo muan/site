@@ -2,7 +2,6 @@
 layout: default
 date: 2023-04-17
 title: On relationships, or lack thereof
-feature: 1
 ---
 
 > Wanting a relational sense of happiness is totally legitimate. But we shame both its desire and its lack of achievement. We condemn women who stay single and refuse to settle, but we also condemn women who are honest about how hard it is to have 0 social support or safety nets. - [@aymannadeem](https://twitter.com/aymannadeem/status/1548426910400913408)
