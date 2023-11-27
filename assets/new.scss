@@ -55,6 +55,7 @@ body, kbd {
 
 a {
   color: var(--linkColor);
+  text-underline-position: under;
 }
 
 ::selection {
@@ -67,11 +68,6 @@ header {
 
 footer {
   padding-bottom: 2.5em;
-}
-
-main {
-  padding-top: 1em;
-  padding-bottom: 3em;
 }
 
 header,
@@ -167,6 +163,16 @@ h1, h2, h3, h4, h5, h6 {
   border-left: .7rem solid var(--textColor);
   height: .7rem;
   margin: 3rem 0;
+}
+
+.inline-hr {
+  border: 0;
+  border-left: .3rem solid var(--borderColor);
+  height: .3rem;
+  display: inline-block;
+  vertical-align: middle;
+  align-self: center;
+  margin: 0;
 }
 
 .notes {
@@ -425,7 +431,7 @@ figure {
   }
 
   label {
-    top: -50px;
+    top: -30px;
     left: 100px;
     padding: .5em;
     cursor: pointer;
@@ -441,7 +447,6 @@ figure {
 .photos-wrapper {
   &:focus { outline: none; }
   scroll-behavior: smooth;
-  margin-top: -40px;
   clear: both;
   text-align: center;
 }
@@ -725,7 +730,7 @@ kbd {
 nav {
   display: flex;
   flex-wrap: wrap;
-  column-gap: .6em;
+  column-gap: .8em;
   margin: .6em 0;
 }
 

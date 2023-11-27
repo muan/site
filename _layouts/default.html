@@ -127,18 +127,21 @@
     </main>
     <footer>
       <hr class="hr">
-      Mu-An Chiou<br>
-      <a href="https://github.com/muan/site">{% if lang == 'zh-TW' %}查看原始碼{% else %}View source{% endif %}</a> | 
-      <a href="/accessibility-statement">{% if lang == 'zh-TW' %}親和力支援告知{% else %}Accessibility statement{% endif %}</a>
-      <br>
-      <a title="88×31" href="{% link _pages/banners.md %}"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="An animated banner with one short line, one medium line, one long line, a symbol resembling the tilde, each being drawn in order."></a>
+      <p>
+        <a title="88×31" href="{% link _pages/banners.md %}"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="An animated banner with one short line, one medium line, one long line, a symbol resembling the tilde, each being drawn in order."></a>
+      </p>
+      <nav aria-label="About this site">
+        <a href="/accessibility-statement">{% if lang == 'zh-TW' %}親和力支援告知{% else %}Accessibility statement{% endif %}</a>
+        <hr class="inline-hr">
+        <a href="https://github.com/muan/site">{% if lang == 'zh-TW' %}查看原始碼{% else %}View source{% endif %}</a>
+      </nav>
     </footer>
 
     {% if page.root %}
     <script type="module" src="/assets/site.js"></script>
     <script type="module" src="https://unpkg.com/open-stories-element@latest"></script>
     {% endif %}
-    {% if page.feature == 1 or page.open_heart or page.type == "photos" %}
+    {% if page.feature == 1 or page.open_heart or page.has_open_heart %}
     <script type="module" src="https://unpkg.com/open-heart-element@latest"></script>
     <script>
       const observer = new IntersectionObserver((entries, observer) => {
