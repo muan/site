@@ -10972,5 +10972,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/429eabe3-8eed-4b3d-9a10-cd17a335f300/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/429eabe3-8eed-4b3d-9a10-cd17a335f300/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2023-12-10T16:23:37.178Z",
+    "id": "c51080b2-cf8c-41bb-8329-0301449a0200",
+    "filename": "IMG_7524.jpeg",
+    "meta": {
+      "caption": "This is good.",
+      "alt": "a plate of pretzels on a chair",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Oven"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c51080b2-cf8c-41bb-8329-0301449a0200/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c51080b2-cf8c-41bb-8329-0301449a0200/public"
+    ]
   }
 ]
