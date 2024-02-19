@@ -11347,5 +11347,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a8e8c860-88e9-4f13-46b1-6b05b8cb9900/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a8e8c860-88e9-4f13-46b1-6b05b8cb9900/public"
     ]
+  },
+  {
+    "uploaded": "2024-02-19T07:44:00.567Z",
+    "id": "74adf997-5cbb-45cd-893b-984a81b7bb00",
+    "filename": "IMG_9067.jpeg",
+    "meta": {
+      "caption": "I went to a fancy cat shelter.",
+      "alt": "a person looking at a cat",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Animals"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/74adf997-5cbb-45cd-893b-984a81b7bb00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/74adf997-5cbb-45cd-893b-984a81b7bb00/public"
+    ]
   }
 ]
