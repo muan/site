@@ -664,5 +664,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4d7ed033-a4e2-40ba-cf28-c084572ebc00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4d7ed033-a4e2-40ba-cf28-c084572ebc00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-04-23T11:47:41.239Z",
+    "id": "920b0907-87a3-4319-66f5-984969dc6600",
+    "filename": "IMG_0552.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Taipei",
+      "alt": "a bird and a squirrel eating and standing on a ledge",
+      "camera": "Canon AE-1 Program",
+      "caption": "Rare glimpse of the defensive blue magpie with squirrel ♡.",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/920b0907-87a3-4319-66f5-984969dc6600/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/920b0907-87a3-4319-66f5-984969dc6600/public"
+    ]
   }
 ]
