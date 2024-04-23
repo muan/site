@@ -628,5 +628,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e16bcaf1-2411-4034-3373-0dece2154800/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e16bcaf1-2411-4034-3373-0dece2154800/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-04-23T11:42:45.895Z",
+    "id": "7fc3efe1-f5b1-46ad-be9a-896bec4f0b00",
+    "filename": "IMG_0555.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Taipei",
+      "alt": "a squirrel on a wood fence",
+      "camera": "Canon AE-1 Program",
+      "caption": "Cutie chichi.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7fc3efe1-f5b1-46ad-be9a-896bec4f0b00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/7fc3efe1-f5b1-46ad-be9a-896bec4f0b00/thumbnail"
+    ]
   }
 ]
