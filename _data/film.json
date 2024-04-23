@@ -592,5 +592,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/440993a1-7e61-44e3-8e4b-5502f4ab1900/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/440993a1-7e61-44e3-8e4b-5502f4ab1900/public"
     ]
+  },
+  {
+    "uploaded": "2024-04-23T11:36:07.142Z",
+    "id": "a8ea1137-d80e-4c19-e7e9-7faedc3d3b00",
+    "filename": "IMG_0547.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "八里",
+      "alt": "plates of dessert, tea, and coffee on a table by a window with greenery outside",
+      "camera": "Canon AE-1 Program",
+      "caption": "A good day.",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a8ea1137-d80e-4c19-e7e9-7faedc3d3b00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a8ea1137-d80e-4c19-e7e9-7faedc3d3b00/thumbnail"
+    ]
   }
 ]
