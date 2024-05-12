@@ -11925,5 +11925,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/63e6cc95-8c6b-4f54-7edd-69201dfc4500/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/63e6cc95-8c6b-4f54-7edd-69201dfc4500/public"
     ]
+  },
+  {
+    "uploaded": "2024-05-12T06:28:51.064Z",
+    "id": "9b1424b8-61ef-4dfb-228f-4b22f3663d00",
+    "filename": "IMG_1005.jpeg",
+    "meta": {
+      "caption": "cooking is self-care",
+      "alt": "a plate of pasta with creamy sauce and herbs",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Cook"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9b1424b8-61ef-4dfb-228f-4b22f3663d00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9b1424b8-61ef-4dfb-228f-4b22f3663d00/public"
+    ]
   }
 ]
