@@ -30,3 +30,7 @@ i18n:
   Polaroid: 拍立得
   Chat: 對話
 include: [".well-known"]
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]

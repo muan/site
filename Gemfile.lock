@@ -270,6 +270,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-commonmark
+  jekyll-commonmark-ghpages (~> 0.2)
   webrick (~> 1.8)
 
 BUNDLED WITH
