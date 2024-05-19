@@ -1,42 +1,43 @@
 ---
-title: 邱慕安
-permalink: /zh-TW/
+title: Mu-An Chiou
+permalink: /de-DE/
 layout: default
 root: true
 ---
 
 <p>
-  軟體設計、工程師，做著低調好用的網站。
+  Eine Software-Designerin und -Entwickerin, die bescheidene Websites erstellt.
 </p>
 <p>
-  目前居住在德國柏林<span class="time" data-timestamp-text="，現在 {time}"></span>。曾住於英國伯明翰、倫敦，和美國紐約。
+  Jetzt in Berlin, Deutschland<span class="time" data-timestamp-text=", wo es gerade {time} ist"></span>. 
+  Frühere Wohnorte sind New York, London und Birmingham, UK.
 </p>
 
-<nav aria-label="額外內容">
-  <a href="{% link _pages/qna.md %}">問與答</a><hr class="inline-hr"> 
-  <a href="{% link _pages/blogroll.md %}">部落格名單</a><hr class="inline-hr">
+<nav aria-label="Extra Inhalt">
+  <a href="{% link _pages/qna.md %}">Fragen und Antworten</a><hr class="inline-hr"> 
+  <a href="{% link _pages/blogroll.md %}">Blogroll</a><hr class="inline-hr">
   <a href="{% link _pages/issues.html %}">Issues</a><hr class="inline-hr">
   <a href="{% link _pages/banners.md %}">88&times;31</a>
 </nav>
-<nav aria-label="社群連結">
+<nav aria-label="Soziale Links">
   <a href="https://github.com/muan" rel="me">GitHub</a><hr class="inline-hr"> <a href="https://read.cv/muan" rel="me">Read.cv</a><hr class="inline-hr"> <a href="https://mastodon.social/@muan" rel="me">Mastodon</a><hr class="inline-hr"> <a href="https://www.duolingo.com/profile/muan" rel="me">Duolingo</a>
 </nav>
 
 <div class="lang">
-  <a href="/zh-TW/" srclang="zh-TW" aria-current="true">正體中文</a><a href="/" srclang="en-US">English</a><a href="/de-DE/" srclang="de-DE">Deutsch</a>
+  <a href="/zh-TW/" srclang="zh-TW">正體中文</a><a href="/" srclang="en-US">English</a><a href="/de-DE/" srclang="de-DE" aria-current="true">Deutsch</a>
 </div>
 
 <hr class="hr">
 
-<h2 class="text">動態</h2> <a href="/stories.xml" class="styled-link">RSS</a><a href="https://github.com/dddddddddzzzz/OpenStories" class="styled-link">這是什麼？</a>
+<h2 class="text">Stories</h2> <a href="/stories.xml" class="styled-link">RSS</a><a href="https://github.com/dddddddddzzzz/OpenStories" class="styled-link">Was is das?</a>
 
 <div class="stories">
-  {% include stories.html lang="zh-TW" %}
+  {% include stories.html lang="de-DE" %}
 </div>
 
 <hr class="hr">
 
-<h2 class="text">照片</h2><a href="/photos" class="styled-link">全部照片</a> <a href="/photos.xml" class="styled-link">RSS</a>
+<h2 class="text">Fotos</h2><a href="/photos" class="styled-link">Alle Fotos</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
 {% for photo in photos %}
@@ -46,7 +47,7 @@ root: true
 {% endfor %}
 </div>
 
-<h2 class="text">底片照片</h2><a href="/film" class="styled-link">全部底片照片</a> <a href="/film.xml" class="styled-link">RSS</a>
+<h2 class="text">Filmfotos</h2><a href="/film" class="styled-link">Alles Filmfotos</a> <a href="/film.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.film | reverse | slice: 0, 5 %}
 {% for photo in photos %}
@@ -60,17 +61,17 @@ root: true
 <hr class="hr">
 
 {% assign note = site.notes | last %}
-<h2 class="text">隨筆</h2><a href="/notes" class="styled-link">近期隨筆</a> <a href="/notes.xml" class="styled-link">RSS</a>
+<h2 class="text">Notizen</h2><a href="/notes" class="styled-link">Aktuelle Notizen</a> <a href="/notes.xml" class="styled-link">RSS</a>
 <div class="note">
   <div class="note-heading">
-    最新：{{ note.date | date: "%B %e, %Y" }}
+    Neueste: {{ note.date | date: "%d.%m.%Y" }}
   </div>
   {{ note.content | markdownify }}
 </div>
 
 <hr class="hr">
 
-<h2 class="text">文章</h2><a href="/feed.xml" class="styled-link">RSS</a>
+<h2 class="text">Beiträge</h2><a href="/feed.xml" class="styled-link">RSS</a>
 <ul aria-label="posts" class="terminal">
 {% assign posts = site.pages | where: "feature", 1 %}
 {% for post in posts %}
@@ -80,7 +81,7 @@ root: true
 {% assign posts = site.posts | where: "feature", 1 %}
 {% for post in posts %}
   <li class="line"><a href="{{ post.url }}">{{ post.title }}</a><br>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time></li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time></li>
 {% endfor %}
 
 </ul>
