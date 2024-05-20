@@ -47,7 +47,7 @@ root: true
 {% endfor %}
 </div>
 
-<h2 class="text">Filmfotos</h2><a href="/film" class="styled-link">Alles Filmfotos</a> <a href="/film.xml" class="styled-link">RSS</a>
+<h2 class="text">Filmfotos</h2><a href="/film" class="styled-link">Alle Filmfotos</a> <a href="/film.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.film | reverse | slice: 0, 5 %}
 {% for photo in photos %}
