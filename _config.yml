@@ -30,11 +30,11 @@ i18n:
     Self: 本人
     Polaroid: 拍立得
     Chat: 對話
-    accessibility: Erklärung zur Barrierefreiheit
-    source: Seitequelltext anzeigen
+    accessibility: 親和力支援告知
+    source: 查看原始碼
   de-DE:
     Travel: Reisen
-    Animals: Tier
+    Animals: Tiere
     Taiwan: Taiwan
     Books: Bücher
     Cook: Küche
@@ -47,7 +47,7 @@ i18n:
     Polaroid: Polaroid
     Chat: Chat
     accessibility: Erklärung zur Barrierefreiheit
-    source: Seitequelltext anzeigen
+    source: Quelltext anzeigen
 include: [".well-known"]
 markdown: CommonMarkGhPages
 commonmark:
