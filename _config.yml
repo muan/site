@@ -3,8 +3,6 @@ description:      Mu-An Chiou's home page on the World Wide Web.
 url:              https://muan.co
 permalink:        /posts/:title
 timezone:         Asia/Taipei
-kramdown:
-  hard_wrap: true
 sass:
   sass_dir: assets
   style: :compressed
@@ -51,5 +49,5 @@ i18n:
 include: [".well-known"]
 markdown: CommonMarkGhPages
 commonmark:
-  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  options: ["UNSAFE", "HARDBREAKS"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
