@@ -1,3 +1,7 @@
+- date: 2024-05-23
+  url: https://github.com/whatwg/html/issues/9625
+  title: "[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS"
+  note: Love to avoid JavaScript whenever possible, but not in love with "invoker" the name.
 - date: 2023-11-07
   url: https://github.com/whatwg/html/issues/7759
   title: "Navigating to an anchor, focus, and caret navigation insertion point ordering."
