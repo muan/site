@@ -3,8 +3,6 @@ description:      Mu-An Chiou's home page on the World Wide Web.
 url:              https://muan.co
 permalink:        /posts/:title
 timezone:         Asia/Taipei
-kramdown:
-  hard_wrap: true
 sass:
   sass_dir: assets
   style: :compressed
@@ -16,17 +14,43 @@ collections:
   stories:
     output: true
 i18n:
-  Travel: 旅行
-  Animals: 動物
-  Taiwan: 台灣
-  Books: 書籍
-  Cook: 廚房
-  Plants: 植物
-  24h: 今天
-  Mails: 郵件
-  Friends: 朋友
-  Oven: 烤箱
-  Self: 本人
-  Polaroid: Polaroid
-  Chat: 對話
+  en-US:
+    accessibility: Accessibility statement
+    source: View source
+  zh-TW:
+    Travel: 旅行
+    Animals: 動物
+    Taiwan: 台灣
+    Books: 書籍
+    Cook: 廚房
+    Plants: 植物
+    24h: 今天
+    Mails: 郵件
+    Friends: 朋友
+    Oven: 烤箱
+    Self: 本人
+    Polaroid: 拍立得
+    Chat: 對話
+    accessibility: 親和力支援告知
+    source: 查看原始碼
+  de-DE:
+    Travel: Reisen
+    Animals: Tiere
+    Taiwan: Taiwan
+    Books: Bücher
+    Cook: Küche
+    Plants: Pflanzen
+    24h: Heute
+    Mails: Post
+    Friends: Freunde
+    Oven: Ofen
+    Self: Selbst
+    Polaroid: Polaroid
+    Chat: Chat
+    accessibility: Erklärung zur Barrierefreiheit
+    source: Quelltext anzeigen
 include: [".well-known"]
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE", "HARDBREAKS"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]

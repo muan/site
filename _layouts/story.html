@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{% if page.path contains 'zh-TW' %}zh-TW{% else %}en{% endif %}">
+<html lang="{% if page.path contains 'zh-TW' %}zh-TW{% elsif page.path contains 'de-DE' %}de-DE{% else %}en{% endif %}">
   <head>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">

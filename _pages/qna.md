@@ -1,12 +1,9 @@
 ---
 layout: default
 title: Questions & answers
+type: qna
 ---
 
-<style>
-  h2 { font-size: 1em; opacity: 0.6; margin-bottom: 0.3em; }
-  h2 + p { margin-top: 0em; }
-</style>
 
 ## How do you preferred to be called?
 

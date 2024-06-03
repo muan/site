@@ -411,6 +411,11 @@ figure {
   }
 }
 
+[data-page-type="qna"] {
+  h2 { font-size: 1em; opacity: 0.6; margin-bottom: 0.3em; }
+  h2 + p { margin-top: 0em; }
+}
+
 [data-page-type="photos"] {
   header, main, footer {
     max-width: 100%;
@@ -633,7 +638,6 @@ open-stories {
     flex-direction: column;
     flex-shrink: 0;
     transition: all .3s;
-    text-transform: lowercase;
     line-height: normal;
     justify-content: center;
     cursor: pointer;

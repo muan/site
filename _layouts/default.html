@@ -1,7 +1,9 @@
 {% if page.path contains "zh-TW" %}
   {% assign lang = "zh-TW" %}
+{% elsif page.path contains "de-DE" %}
+  {% assign lang = "de-DE" %}
 {% else %}
-  {% assign lang = "en" %}
+  {% assign lang = "en-US" %}
 {% endif %}
 <!doctype html>
 <html lang="{{ lang }}">
@@ -131,9 +133,9 @@
         <a title="88×31" href="{% link _pages/banners.md %}"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="An animated banner with one short line, one medium line, one long line, a symbol resembling the tilde, each being drawn in order."></a>
       </p>
       <nav aria-label="About this site">
-        <a href="/accessibility-statement">{% if lang == 'zh-TW' %}親和力支援告知{% else %}Accessibility statement{% endif %}</a>
+        <a href="/accessibility-statement">{{ site.i18n[lang].accessibility }}</a>
         <hr class="inline-hr">
-        <a href="https://github.com/muan/site">{% if lang == 'zh-TW' %}查看原始碼{% else %}View source{% endif %}</a>
+        <a href="https://github.com/muan/site">{{ site.i18n[lang].source }}</a>
       </nav>
     </footer>
 

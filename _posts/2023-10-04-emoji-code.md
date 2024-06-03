@@ -74,7 +74,7 @@ Or for a less hyperbole example: "Today is international 🥞 pancake 🥞 day!"
 
 We can argue how assistive technology, operating systems, or browser engines, should and may be able to fix this issues through automatic de-duplication. but in the case of user-generated content I personally do not think it's an easy problem to tackle. [VoiceOver on macOS now reads it by count of emoji](https://mastodon.social/@timdream/111174932479788790), [NVDA de-duplicates where possible](https://github.com/nvaccess/nvda/issues/8499); however, these fixes only apply when emoji are used as plain text, and aren't being replaced by images with alt text for flavors or cross operating system support, like they do in Slack, Discord, Twitter, and may other platforms.
 
-I don't expect everyone with an emoji keyboard to know this, but I think these guidelines are should be baseline knowledge for all the content writers out there.
+I don't expect everyone with an emoji keyboard to know this, but I think these guidelines should be baseline knowledge for all the content writers.
 
 ---
 

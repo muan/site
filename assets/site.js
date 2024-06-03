@@ -3,7 +3,7 @@ function settime() {
   if (!timestamp || !('Intl' in window)) return
 
   const options = {
-    timeZone: "Asia/Taipei",
+    timeZone: "Europe/Berlin",
     timeStyle: "short",
     hour12: false,
     hourCycle: "h23"

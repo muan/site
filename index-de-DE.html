@@ -1,0 +1,91 @@
+---
+title: Mu-An Chiou
+permalink: /de-DE/
+layout: default
+root: true
+---
+
+<p>
+  Eine Software-Designerin und -Entwickerin, die bescheidene Websites erstellt.
+</p>
+<p>
+  Jetzt in Berlin, Deutschland<span class="time" data-timestamp-text=", wo es gerade {time} ist"></span>. 
+  Frühere Wohnorte sind New York, London und Birmingham, UK.
+</p>
+
+<p>
+  Aktualisiert am {{ "2024/05/23" | date: "%d.%m" }}: Selbstständig. Schläft, strickt, spielt Squash, macht Yoga, lernt Deutsch und backt manchmal Brot. Berührt selten einen Laptop.
+</p>
+
+<nav aria-label="Extra Inhalt">
+  <a href="{% link _pages/qna.md %}">Q&A</a><hr class="inline-hr"> 
+  <a href="{% link _pages/blogroll.md %}">Blogroll</a><hr class="inline-hr">
+  <a href="{% link _pages/issues.html %}">Issues</a><hr class="inline-hr">
+  <a href="{% link _pages/banners.md %}">88&times;31</a>
+</nav>
+<nav aria-label="Soziale Links">
+  <a href="https://github.com/muan" rel="me">GitHub</a><hr class="inline-hr"> <a href="https://read.cv/muan" rel="me">Read.cv</a><hr class="inline-hr"> <a href="https://mastodon.social/@muan" rel="me">Mastodon</a><hr class="inline-hr"> <a href="https://www.duolingo.com/profile/muan" rel="me">Duolingo</a>
+</nav>
+
+<div class="lang">
+  <a href="/zh-TW/" srclang="zh-TW">正體中文</a><a href="/" srclang="en-US">English</a><a href="/de-DE/" srclang="de-DE" aria-current="true">Deutsch</a>
+</div>
+
+<hr class="hr">
+
+<h2 class="text">Stories</h2> <a href="/stories.xml" class="styled-link">RSS</a><a href="https://github.com/dddddddddzzzz/OpenStories" class="styled-link">Was ist das?</a>
+
+<div class="stories">
+  {% include stories.html lang="de-DE" %}
+</div>
+
+<hr class="hr">
+
+<h2 class="text">Fotos</h2><a href="/photos" class="styled-link">Alle Fotos</a> <a href="/photos.xml" class="styled-link">RSS</a>
+<div class="photos">
+{% assign photos = site.data.photos | slice: 0, 5 %}
+{% for photo in photos %}
+  <a href="/photos#P{{ photo.guid}}" class="image-link">
+    <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}" loading="lazy" style="aspect-ratio: {{ photo.ratio }};">
+  </a>
+{% endfor %}
+</div>
+
+<h2 class="text">Filmfotos</h2><a href="/film" class="styled-link">Alle Filmfotos</a> <a href="/film.xml" class="styled-link">RSS</a>
+<div class="photos">
+{% assign photos = site.data.film | reverse | slice: 0, 5 %}
+{% for photo in photos %}
+  {% capture image_url %}{% for url in photo.variants %}{% if url contains "/thumbnail" %}{{ url }}{% endif %}{% endfor %}{% endcapture %}
+  <a href="/film#P{{ photo.id}}" class="image-link">
+    <img src="{{ image_url }}" height="200" alt="{{ photo.meta.alt }}" loading="lazy" style="aspect-ratio: {{ photo.meta.ratio }};">
+  </a>
+{% endfor %}
+</div>
+
+<hr class="hr">
+
+{% assign note = site.notes | last %}
+<h2 class="text">Notizen</h2><a href="/notes" class="styled-link">Aktuelle Notizen</a> <a href="/notes.xml" class="styled-link">RSS</a>
+<div class="note">
+  <div class="note-heading">
+    Neueste: {{ note.date | date: "%d.%m.%Y" }}
+  </div>
+  {{ note.content | markdownify }}
+</div>
+
+<hr class="hr">
+
+<h2 class="text">Beiträge</h2><a href="/feed.xml" class="styled-link">RSS</a>
+<ul aria-label="posts" class="terminal">
+{% assign posts = site.pages | where: "feature", 1 %}
+{% for post in posts %}
+  <li class="line"><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+{% assign posts = site.posts | where: "feature", 1 %}
+{% for post in posts %}
+  <li class="line"><a href="{{ post.url }}">{{ post.title }}</a><br>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time></li>
+{% endfor %}
+
+</ul>
