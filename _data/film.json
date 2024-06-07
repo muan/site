@@ -970,5 +970,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/af8316bb-17b8-434d-57c6-19b91fa57e00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/af8316bb-17b8-434d-57c6-19b91fa57e00/public"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T09:04:13.046Z",
+    "id": "60e65f06-167b-47c9-d7b9-46b824f00a00",
+    "filename": "IMG_1780.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a group of people on a sidewalk watching an old man play accordion",
+      "camera": "Canon AE-1 Program",
+      "caption": "The accordion man.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/60e65f06-167b-47c9-d7b9-46b824f00a00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/60e65f06-167b-47c9-d7b9-46b824f00a00/public"
+    ]
   }
 ]
