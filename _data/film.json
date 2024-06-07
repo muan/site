@@ -862,5 +862,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4f33a72b-6175-4af6-5b0e-6b239d460a00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4f33a72b-6175-4af6-5b0e-6b239d460a00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:55:35.014Z",
+    "id": "afe686bd-d25a-4506-5414-15d89395e600",
+    "filename": "IMG_1771.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a dog on a leash on a poll",
+      "camera": "Canon AE-1 Program",
+      "caption": "Tied outside of a Lidl.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/afe686bd-d25a-4506-5414-15d89395e600/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/afe686bd-d25a-4506-5414-15d89395e600/thumbnail"
+    ]
   }
 ]
