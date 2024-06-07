@@ -952,5 +952,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b504d5fb-5dc0-41ad-b164-a59309b09c00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b504d5fb-5dc0-41ad-b164-a59309b09c00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T09:02:56.572Z",
+    "id": "af8316bb-17b8-434d-57c6-19b91fa57e00",
+    "filename": "IMG_1775.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a bicycle and a ironing board by a street corner",
+      "camera": "Canon AE-1 Program",
+      "caption": "Convenient!",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/af8316bb-17b8-434d-57c6-19b91fa57e00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/af8316bb-17b8-434d-57c6-19b91fa57e00/public"
+    ]
   }
 ]
