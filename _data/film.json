@@ -772,5 +772,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/dfdd415d-b14c-4f54-ff85-6c0fa7fd2e00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/dfdd415d-b14c-4f54-ff85-6c0fa7fd2e00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:49:13.851Z",
+    "id": "d17a313d-f5af-4180-85f3-d20b76850f00",
+    "filename": "IMG_1767.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a plant with tiny Swiss flag by it",
+      "camera": "Canon AE-1 Program",
+      "caption": "Swiss hiding in plain sight.",
+      "ratio": 0.68
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d17a313d-f5af-4180-85f3-d20b76850f00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d17a313d-f5af-4180-85f3-d20b76850f00/public"
+    ]
   }
 ]
