@@ -880,5 +880,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/afe686bd-d25a-4506-5414-15d89395e600/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/afe686bd-d25a-4506-5414-15d89395e600/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:56:28.827Z",
+    "id": "3db89f2b-2f09-453d-3819-9593a09a5e00",
+    "filename": "IMG_1768.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a tree in front of a building",
+      "camera": "Canon AE-1 Program",
+      "caption": "Bled so much.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3db89f2b-2f09-453d-3819-9593a09a5e00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3db89f2b-2f09-453d-3819-9593a09a5e00/public"
+    ]
   }
 ]
