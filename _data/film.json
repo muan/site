@@ -844,5 +844,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9b56fd56-0948-464d-ff99-9ce46ce84d00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9b56fd56-0948-464d-ff99-9ce46ce84d00/public"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:54:02.040Z",
+    "id": "4f33a72b-6175-4af6-5b0e-6b239d460a00",
+    "filename": "IMG_1760.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a dog in a park",
+      "camera": "Canon AE-1 Program",
+      "caption": "Hundi?",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4f33a72b-6175-4af6-5b0e-6b239d460a00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4f33a72b-6175-4af6-5b0e-6b239d460a00/thumbnail"
+    ]
   }
 ]
