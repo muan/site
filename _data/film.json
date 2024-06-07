@@ -718,5 +718,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/293c71a9-43f4-4f5c-2154-5e9d39da6b00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/293c71a9-43f4-4f5c-2154-5e9d39da6b00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:45:05.485Z",
+    "id": "cfb0813d-b4a0-4d05-8bfc-72654dc13700",
+    "filename": "IMG_1769.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a green scooter parked on a street",
+      "camera": "Canon AE-1 Program",
+      "caption": "Cool Schwalbe. My green.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cfb0813d-b4a0-4d05-8bfc-72654dc13700/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/cfb0813d-b4a0-4d05-8bfc-72654dc13700/public"
+    ]
   }
 ]
