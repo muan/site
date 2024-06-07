@@ -754,5 +754,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/80f184e9-da08-4e95-3378-6eadba92d700/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/80f184e9-da08-4e95-3378-6eadba92d700/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:47:44.071Z",
+    "id": "dfdd415d-b14c-4f54-ff85-6c0fa7fd2e00",
+    "filename": "IMG_1753.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a tree with green leaves",
+      "camera": "Canon AE-1 Program",
+      "caption": "Spring pollen.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/dfdd415d-b14c-4f54-ff85-6c0fa7fd2e00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/dfdd415d-b14c-4f54-ff85-6c0fa7fd2e00/thumbnail"
+    ]
   }
 ]
