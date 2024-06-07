@@ -808,5 +808,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/638257e7-ec99-4f46-10da-1777983b0e00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/638257e7-ec99-4f46-10da-1777983b0e00/public"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:51:53.897Z",
+    "id": "c293f8b1-0783-45d1-f405-b5aabfa20a00",
+    "filename": "IMG_1764.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a trash can next to a Club Mate bottle",
+      "camera": "Canon AE-1 Program",
+      "caption": "Love Club Mate still.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c293f8b1-0783-45d1-f405-b5aabfa20a00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/c293f8b1-0783-45d1-f405-b5aabfa20a00/thumbnail"
+    ]
   }
 ]
