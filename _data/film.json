@@ -682,5 +682,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/920b0907-87a3-4319-66f5-984969dc6600/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/920b0907-87a3-4319-66f5-984969dc6600/public"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:41:57.375Z",
+    "id": "b6bee052-72ac-420b-5734-7ffd2bee2f00",
+    "filename": "IMG_1751.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a truck with graffiti on the side of the road",
+      "camera": "Canon AE-1 Program",
+      "caption": "Cool car.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b6bee052-72ac-420b-5734-7ffd2bee2f00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b6bee052-72ac-420b-5734-7ffd2bee2f00/public"
+    ]
   }
 ]
