@@ -700,5 +700,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b6bee052-72ac-420b-5734-7ffd2bee2f00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b6bee052-72ac-420b-5734-7ffd2bee2f00/public"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:42:54.184Z",
+    "id": "293c71a9-43f4-4f5c-2154-5e9d39da6b00",
+    "filename": "IMG_1755.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a white camper van in front of a building",
+      "camera": "Canon AE-1 Program",
+      "caption": "Cool van.",
+      "ratio": 0.68
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/293c71a9-43f4-4f5c-2154-5e9d39da6b00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/293c71a9-43f4-4f5c-2154-5e9d39da6b00/thumbnail"
+    ]
   }
 ]
