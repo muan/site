@@ -898,5 +898,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3db89f2b-2f09-453d-3819-9593a09a5e00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3db89f2b-2f09-453d-3819-9593a09a5e00/public"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T08:57:34.584Z",
+    "id": "49d529cd-3c96-44e8-4743-385ce66a8e00",
+    "filename": "IMG_1766.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a bicycle parked outside of a building by a blossoming tree with pink flowers",
+      "camera": "Canon AE-1 Program",
+      "caption": "Berline Spring is lovely.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/49d529cd-3c96-44e8-4743-385ce66a8e00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/49d529cd-3c96-44e8-4743-385ce66a8e00/public"
+    ]
   }
 ]
