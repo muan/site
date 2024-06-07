@@ -934,5 +934,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e7bf7041-2cd5-4922-c37e-5b1263c3c600/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/e7bf7041-2cd5-4922-c37e-5b1263c3c600/public"
     ]
+  },
+  {
+    "uploaded": "2024-06-07T09:01:32.467Z",
+    "id": "b504d5fb-5dc0-41ad-b164-a59309b09c00",
+    "filename": "IMG_1759.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a yellow sign on a sidewalk depicting a blue head with long tongue out and a hand reaching out of its mouth trying to grab a pizza that’s flying away",
+      "camera": "Canon AE-1 Program",
+      "caption": "Ammazza Che Pizza. Good sign.",
+      "ratio": 0.68
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b504d5fb-5dc0-41ad-b164-a59309b09c00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/b504d5fb-5dc0-41ad-b164-a59309b09c00/thumbnail"
+    ]
   }
 ]
