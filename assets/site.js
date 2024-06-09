@@ -5,8 +5,7 @@ function settime() {
   const options = {
     timeZone: "Europe/Berlin",
     timeStyle: "short",
-    hour12: false,
-    hourCycle: "h23"
+    hour12: false
   }
 
   // https://gist.github.com/muan/e7414b6241f088090acd916ed965540e
