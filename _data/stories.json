@@ -12153,5 +12153,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4bf2440b-7688-4c99-4a56-47c9758f6100/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4bf2440b-7688-4c99-4a56-47c9758f6100/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-06-15T20:04:04.792Z",
+    "id": "708ef60a-cb9f-41bb-6086-c3e2173d9100",
+    "filename": "IMG_2336.jpeg",
+    "meta": {
+      "caption": "Berlin in a nutshell.",
+      "alt": "a couch and orange cone in front of a wall with posters",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Travel"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/708ef60a-cb9f-41bb-6086-c3e2173d9100/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/708ef60a-cb9f-41bb-6086-c3e2173d9100/public"
+    ]
   }
 ]
