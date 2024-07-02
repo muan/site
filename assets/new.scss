@@ -800,4 +800,5 @@ open-heart:not(:defined) {
 
 .time {
   font-variant-numeric: tabular-nums;
+  font-feature-settings: "ss03" 1;
 }
