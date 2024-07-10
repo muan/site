@@ -1114,5 +1114,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/564e2a23-afd2-42e4-36f6-ebb6d5088600/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/564e2a23-afd2-42e4-36f6-ebb6d5088600/public"
     ]
+  },
+  {
+    "uploaded": "2024-07-10T01:25:10.777Z",
+    "id": "2d5f584e-032b-4d04-e647-6b7cf0358b00",
+    "filename": "IMG_2641.jpeg",
+    "meta": {
+      "film": "Kodak Portra 400",
+      "location": "Berlin",
+      "alt": "a pile of plastic chairs on a white boxy structure",
+      "camera": "Canon AE-1 Program",
+      "caption": "Art in front of Mozilla Berlin.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2d5f584e-032b-4d04-e647-6b7cf0358b00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/2d5f584e-032b-4d04-e647-6b7cf0358b00/thumbnail"
+    ]
   }
 ]
