@@ -1060,5 +1060,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f7d91d4a-ac14-4b9c-6111-b36d9ca7aa00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f7d91d4a-ac14-4b9c-6111-b36d9ca7aa00/public"
     ]
+  },
+  {
+    "uploaded": "2024-07-10T01:21:33.408Z",
+    "id": "3693a61c-ef94-4925-b9f9-9a0ecab9c500",
+    "filename": "IMG_2624.jpeg",
+    "meta": {
+      "film": "Kodak Portra 400",
+      "location": "Berlin",
+      "alt": "An old man stocking a vegetable stand in front of a white tent",
+      "camera": "Canon AE-1 Program",
+      "caption": "Maybachufer Markt 🥬",
+      "ratio": 0.68
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3693a61c-ef94-4925-b9f9-9a0ecab9c500/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3693a61c-ef94-4925-b9f9-9a0ecab9c500/public"
+    ]
   }
 ]
