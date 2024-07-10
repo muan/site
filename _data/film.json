@@ -1096,5 +1096,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a6814a0c-d6ee-4148-f9c8-1b73b06e9b00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a6814a0c-d6ee-4148-f9c8-1b73b06e9b00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-07-10T01:24:14.849Z",
+    "id": "564e2a23-afd2-42e4-36f6-ebb6d5088600",
+    "filename": "IMG_2642.jpeg",
+    "meta": {
+      "film": "Kodak Portra 400",
+      "location": "Berlin",
+      "alt": "a white swan approaching me",
+      "camera": "Canon AE-1 Program",
+      "caption": "Disappointed swan.",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/564e2a23-afd2-42e4-36f6-ebb6d5088600/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/564e2a23-afd2-42e4-36f6-ebb6d5088600/public"
+    ]
   }
 ]
