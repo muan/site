@@ -1042,5 +1042,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4dba58d7-7b23-461a-b01e-be780bdbb900/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/4dba58d7-7b23-461a-b01e-be780bdbb900/public"
     ]
+  },
+  {
+    "uploaded": "2024-07-10T01:19:56.818Z",
+    "id": "f7d91d4a-ac14-4b9c-6111-b36d9ca7aa00",
+    "filename": "IMG_2629.jpeg",
+    "meta": {
+      "film": "Kodak Portra 400",
+      "location": "Berlin",
+      "alt": "two swans swimming in a canal on a cloudy day",
+      "camera": "Canon AE-1 Program",
+      "caption": "Landwehrkanal, where every single Berliner’s first date happen??",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f7d91d4a-ac14-4b9c-6111-b36d9ca7aa00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/f7d91d4a-ac14-4b9c-6111-b36d9ca7aa00/public"
+    ]
   }
 ]
