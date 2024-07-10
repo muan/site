@@ -1078,5 +1078,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3693a61c-ef94-4925-b9f9-9a0ecab9c500/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3693a61c-ef94-4925-b9f9-9a0ecab9c500/public"
     ]
+  },
+  {
+    "uploaded": "2024-07-10T01:22:59.070Z",
+    "id": "a6814a0c-d6ee-4148-f9c8-1b73b06e9b00",
+    "filename": "IMG_2622.jpeg",
+    "meta": {
+      "film": "Kodak Portra 400",
+      "location": "Berlin",
+      "alt": "a VW white van parked on a brick road",
+      "camera": "Canon AE-1 Program",
+      "caption": "WESTFALIA",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a6814a0c-d6ee-4148-f9c8-1b73b06e9b00/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a6814a0c-d6ee-4148-f9c8-1b73b06e9b00/thumbnail"
+    ]
   }
 ]
