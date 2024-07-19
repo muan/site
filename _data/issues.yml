@@ -1,3 +1,7 @@
+- date: 2024-07-19
+  url: https://github.com/whatwg/html/issues/10499
+  title: "Toggle (show/hide) button"
+  note: Opened by me. I have thoughts.
 - date: 2024-05-23
   url: https://github.com/whatwg/html/issues/9625
   title: "[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS"
