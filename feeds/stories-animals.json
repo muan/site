@@ -2,7 +2,7 @@
 permalink: /stories-animals.json
 type: "Animals"
 ---
-{% assign stories = site.data.stories | where_exp: "story", "story.meta.tags contains page.type" | where_exp: "story", "story.meta.tags contains 'Highlight'" | reverse %}
+{% assign stories = site.data.stories | where_exp: "story", "story.meta.tags contains page.type" | where_exp: "story", "story.meta.tags contains 'Highlight'" %}
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "@muan's stories for {{ page.type }}",
