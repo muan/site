@@ -12381,5 +12381,24 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3e2e8414-1792-4ff0-cce8-156ed5c4d400/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/3e2e8414-1792-4ff0-cce8-156ed5c4d400/public"
     ]
+  },
+  {
+    "uploaded": "2024-08-08T03:17:30.437Z",
+    "id": "6b9ec609-24a8-463b-dc80-47ffe914cd00",
+    "filename": "IMG_4064.jpeg",
+    "meta": {
+      "caption": "",
+      "alt": "a cat looking at a mirror",
+      "tags": [
+        "Life",
+        "Highlight",
+        "Animals"
+      ]
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/6b9ec609-24a8-463b-dc80-47ffe914cd00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/6b9ec609-24a8-463b-dc80-47ffe914cd00/public"
+    ]
   }
 ]
