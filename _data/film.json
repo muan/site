@@ -1186,5 +1186,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a5bd5dbd-d237-4b0f-616f-7464f2921300/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a5bd5dbd-d237-4b0f-616f-7464f2921300/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-08-21T10:01:33.235Z",
+    "id": "9c41411d-aaf7-43bb-a6bd-f9fdeb09fb00",
+    "filename": "000035370015.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a back blank sign on the side of a building painted light yellow, white, and baby blue top to down.",
+      "camera": "Canon AE-1 Program",
+      "caption": "",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9c41411d-aaf7-43bb-a6bd-f9fdeb09fb00/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9c41411d-aaf7-43bb-a6bd-f9fdeb09fb00/public"
+    ]
   }
 ]
