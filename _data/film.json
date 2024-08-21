@@ -1168,5 +1168,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/52a53374-446d-4934-27ca-b306e6c39a00/public",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/52a53374-446d-4934-27ca-b306e6c39a00/thumbnail"
     ]
+  },
+  {
+    "uploaded": "2024-08-21T09:59:25.372Z",
+    "id": "a5bd5dbd-d237-4b0f-616f-7464f2921300",
+    "filename": "000035370013.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Berlin",
+      "alt": "a car parked in on a cobble stone street under tree shading on a bright sunny day",
+      "camera": "Canon AE-1 Program",
+      "caption": "",
+      "ratio": 0.67
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a5bd5dbd-d237-4b0f-616f-7464f2921300/public",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/a5bd5dbd-d237-4b0f-616f-7464f2921300/thumbnail"
+    ]
   }
 ]
