@@ -1204,5 +1204,23 @@
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9c41411d-aaf7-43bb-a6bd-f9fdeb09fb00/thumbnail",
       "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/9c41411d-aaf7-43bb-a6bd-f9fdeb09fb00/public"
     ]
+  },
+  {
+    "uploaded": "2024-08-21T10:02:50.978Z",
+    "id": "d5912c38-5cf6-4c0b-bf57-8943d6996700",
+    "filename": "000035370024.jpeg",
+    "meta": {
+      "film": "Kodak UltraMax 400",
+      "location": "Taipei",
+      "alt": "a green path and white sign of a person with hat holding a child painted on it. A pedestrian path.",
+      "camera": "Canon AE-1 Program",
+      "caption": "",
+      "ratio": 1.51
+    },
+    "requireSignedURLs": false,
+    "variants": [
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d5912c38-5cf6-4c0b-bf57-8943d6996700/thumbnail",
+      "https://imagedelivery.net/-wp_VgtWlgmh1JURQ8t1mg/d5912c38-5cf6-4c0b-bf57-8943d6996700/public"
+    ]
   }
 ]
