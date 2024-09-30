@@ -1708,7 +1708,7 @@
     "meta": {
       "ratio": 0.667,
       "orientation": "portrait",
-      "caption": "-",
+      "caption": "",
       "alt": "A tiled building with yellow pillars and a small stones wall garden."
     },
     "variants": [
@@ -1722,7 +1722,7 @@
     "meta": {
       "ratio": 0.667,
       "orientation": "portrait",
-      "caption": "-",
+      "caption": "",
       "alt": "A white and yellow building with pillars and construction on the outside on a sunny day."
     },
     "variants": [
@@ -1736,7 +1736,7 @@
     "meta": {
       "ratio": 0.666,
       "orientation": "portrait",
-      "caption": "-",
+      "caption": "",
       "alt": "beige tiled building, a bike"
     },
     "variants": [
@@ -1904,7 +1904,7 @@
     "meta": {
       "ratio": 0.667,
       "orientation": "portrait",
-      "caption": "-",
+      "caption": "",
       "alt": "old buildings in taipei with stone façade and walkways occupied by scooters."
     },
     "variants": [
@@ -1932,7 +1932,7 @@
     "meta": {
       "ratio": 0.667,
       "orientation": "portrait",
-      "caption": "-",
+      "caption": "",
       "alt": "small square tiles made of shades of green, white strips. A tree, banana leaves, wooden fence."
     },
     "variants": [
@@ -1946,7 +1946,7 @@
     "meta": {
       "ratio": 0.666,
       "orientation": "portrait",
-      "caption": "-",
+      "caption": "",
       "alt": "street shot, asphalt, shopfront with lots of potted plants, a row of color plant pots on the second floor, finely tiled beige building."
     },
     "variants": [
@@ -2002,7 +2002,7 @@
     "meta": {
       "ratio": 0.667,
       "orientation": "portrait",
-      "caption": "-",
+      "caption": "",
       "alt": "white tiled building, trees, scooters, construction lines."
     },
     "variants": [
@@ -2114,7 +2114,7 @@
     "meta": {
       "ratio": 1.5,
       "orientation": "landscape",
-      "caption": "-",
+      "caption": "",
       "alt": "An otherwise very neat and minimalistic building with vertical tiled panels of white and beige and AC units installed on the outside wall."
     },
     "variants": [
