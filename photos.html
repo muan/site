@@ -8,21 +8,22 @@ title: Photos
 <div class="photos-wrapper" id="photos">
 {% assign photos = site.data.photos %}
 {% for photo in photos %}
-<figure id="P{{ photo.guid }}" class="figure-{{ photo.orientation }}">
-  <a href="{{ photo.path }}/public" class="image-link">
+<figure id="P{{ photo.id }}" class="figure-{% if photo.meta.ratio > 1 %}landscape{% else %}portrait{% endif %}">
+  {% capture image_url %}{% for url in photo.variants %}{% if url contains "/public" %}{{ url }}{% endif %}{% endfor %}{% endcapture %}
+  <a href="{{ image_url }}" class="image-link">
     <img 
-      src="{{ photo.path }}/public"
-      height="{{ photo.height }}"
-      style="aspect-ratio: {{ photo.ratio }}"
-      alt="{{ photo.alt }}"
-      title="{{ photo.alt }}"
-      class="{{ photo.orientation }}"
+      src="{{ image_url }}"
+      height="2400"
+      style="aspect-ratio: {{ photo.meta.ratio }}"
+      alt="{{ photo.meta.alt }}"
+      title="{{ photo.meta.alt }}"
+      class="{% if photo.meta.ratio > 1 %}landscape{% else %}portrait{% endif %}"
       loading="lazy">
   </a>
   <figcaption>
     <div class="desc photo-metadata">
-      <div>{{ photo.createdAt | date: "%Y/%m/%d (%a)" }}</div>
-      {% assign split = photo.caption | strip | split: "@ " %}
+      <div>{{ photo.uploaded | date: "%Y/%m/%d (%a)" }}</div>
+      {% assign split = photo.meta.caption | strip | split: "@ " %}
       {% assign caption = split | first | strip %}
       {% if split.size > 1  %}<div>@ {{ split[1] }}</div>{% endif %}
       <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=photo-P{{ photo.guid }}" emoji="❤️" aria-labelledby="like-prompt">

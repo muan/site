@@ -14,7 +14,7 @@ if (!fileExists && dirName !== '.') {
   fs.mkdirSync(dirName, {recursive: true})
 }
 
-fs.writeFileSync(filePath, JSON.stringify(photos, null, 2))
+fs.writeFileSync(filePath, JSON.stringify(photos))
 
 if (!filePath.endsWith('stories.json')) process.exit()
 

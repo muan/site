@@ -45,8 +45,9 @@ root: true
 <div class="photos">
 {% assign photos = site.data.photos | slice: 0, 5 %}
 {% for photo in photos %}
-  <a href="/photos#P{{ photo.guid}}" class="image-link">
-    <img src="{{ photo.path }}/thumbnail" height="200" alt="{{ photo.alt }}" loading="lazy" style="aspect-ratio: {{ photo.ratio }};">
+  {% capture image_url %}{% for url in photo.variants %}{% if url contains "/thumbnail" %}{{ url }}{% endif %}{% endfor %}{% endcapture %}
+  <a href="/photos#P{{ photo.id }}" class="image-link">
+    <img src="{{ image_url }}" height="200" alt="{{ photo.meta.alt }}" loading="lazy" style="aspect-ratio: {{ photo.meta.ratio }};">
   </a>
 {% endfor %}
 </div>
