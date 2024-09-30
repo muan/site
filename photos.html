@@ -6,7 +6,7 @@ title: Photos
 ---
 
 <div class="photos-wrapper" id="photos">
-{% assign photos = site.data.photos %}
+{% assign photos = site.data.photos | reverse %}
 {% for photo in photos %}
 <figure id="P{{ photo.id }}" class="figure-{% if photo.meta.ratio > 1 %}landscape{% else %}portrait{% endif %}">
   {% capture image_url %}{% for url in photo.variants %}{% if url contains "/public" %}{{ url }}{% endif %}{% endfor %}{% endcapture %}

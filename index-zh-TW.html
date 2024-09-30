@@ -42,7 +42,7 @@ root: true
 
 <h2 class="text">照片</h2><a href="/photos" class="styled-link">全部照片</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
-{% assign photos = site.data.photos | slice: 0, 5 %}
+{% assign photos = site.data.photos | reverse | slice: 0, 5 %}
 {% for photo in photos %}
   {% capture image_url %}{% for url in photo.variants %}{% if url contains "/thumbnail" %}{{ url }}{% endif %}{% endfor %}{% endcapture %}
   <a href="/photos#P{{ photo.id }}" class="image-link">
