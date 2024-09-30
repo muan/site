@@ -28,7 +28,7 @@ title: Photos
         <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
       </open-heart>
     </div>
-    {% if caption != "-" and caption != "" %}{{ caption | markdownify }}{% endif %}
+    {{ photo.meta.caption | markdownify }}
   </figcaption>
 </figure>
 {% endfor %}
