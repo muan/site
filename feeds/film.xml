@@ -8,7 +8,7 @@ permalink: /film.xml
     <title>@muan's film photos</title>
     <description>Film photos.</description>
     {% assign photos = site.data.film | sort: "uploaded" | reverse %}
-    <lastBuildDate>{{ stories.first.uploaded | date_to_rfc822 }}</lastBuildDate>
+    <lastBuildDate>{{ photos.first.uploaded | date_to_rfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/film.xml" rel="self" type="application/rss+xml" />
     <link>{{ site.url }}/film.xml</link>
     {% for photo in photos limit:10 %}

@@ -19,7 +19,7 @@ permalink: /stories.xml
         <title>{{ story.meta.caption | xml_escape }}</title>
         <description>
           {% capture openheart %}
-            <br><a href="https://muan.co{% link _pages/like.html %}?id={{ story.id }}">❤️</a><br><small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
+            <br><a href="https://muan.co{% link _pages/like.html %}?id=/stories/{{ story.id }}">❤️</a><br><small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
           {% endcapture %}
           {% capture content %}
             <a href="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public">
