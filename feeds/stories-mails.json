@@ -19,6 +19,8 @@ type: "Mails"
       "date_published": "{{ story.uploaded | date_to_xmlschema }}", {% assign date_expired = story.uploaded | date: "%s" | plus: 86400 | date_to_xmlschema %}
       "tags": [{% for tag in story.meta.tags %}"{{ tag }}"{% if tag != story.meta.tags.last %}, {% endif %}{% endfor %}],
       "content_html": "<img src='https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public' alt='{{ story.meta.alt }}'>",
+      "title": "{{ story.uploaded | date: "%Y/%m/%d" }}",
+      "summary": "{% if story.meta.caption == "" %}N/A{% else %}{{ story.meta.caption }}{% endif %} ({{ story.meta.alt }})",
       "authors": [{"name": "Mu-An Chiou", "url": "https://muan.co"}],
       "url": "{{ site.url }}/stories/{{ story.id }}",
       "_open_stories": {
