@@ -8,7 +8,7 @@ permalink: /notes.xml
     <description>Micro posts.</description>
     {% assign notes = site.notes | reverse %}
     <lastBuildDate>{{ notes.first.date | date_to_rfc822 }}</lastBuildDate>
-    <link>{{ site.url }}/notes.xml</link>
+    <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/notes.xml" rel="self" type="application/rss+xml" />
     {% assign one_day_ago = site.time | date: "%s" | minus: 86400 %}
     {% for note in notes limit: 10 %}

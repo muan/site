@@ -6,8 +6,8 @@ comment: For micro.blog only.
 {% capture srcbase %}src="{{site.url}}/{% endcapture %}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title }} notes</title>
-    <description>notes</description>
+    <title>@muan's notes</title>
+    <description>Micro posts.</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/notes.rss" rel="self" type="application/rss+xml" />
     {% assign notes = site.notes | reverse %}
@@ -16,9 +16,12 @@ comment: For micro.blog only.
     {% for note in notes limit: 10 %}
       {% assign note_time = note.date | date: "%s" | plus: 0 %}
       {% if note_time > one_day_ago %}{% continue %}{% endif %}
+      {% capture openheart %}
+        <br><a href="https://muan.co{% link _pages/like.html %}?id={{ note.url }}">Like</a><br><small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
+      {% endcapture %}
       <item>
-        <title></title>
-        <description>{{ note.content | markdownify | xml_escape }}</description>
+        <title>{{ note.date | date: "%Y-%m-%d" }}</title>
+        <description>{{ note.content | markdownify | xml_escape }}{{ openheart | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
         <link>{{ note.url }}</link>
         <guid isPermaLink="true">{{ note.url }}</guid>
