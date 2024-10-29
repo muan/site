@@ -75,6 +75,7 @@ main,
 footer {
   max-width: 36em;
   margin: auto;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, .font {
@@ -419,6 +420,7 @@ figure {
 [data-page-type="photos"] {
   header, main, footer {
     max-width: 100%;
+    overflow: initial;
   }
 
   input {
