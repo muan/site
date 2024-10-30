@@ -3,7 +3,7 @@ name: "Fetch and save robots.txt"
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '0 16 * * *' # * 16:00 UTC +08:00
+    - cron:  '0 16 * * 1' # * 16:00 UTC +08:00 Mondays
 
 jobs:
   process:
@@ -15,7 +15,7 @@ jobs:
 
       - name: Push changes
         run: |
-          curl https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/refs/heads/main/robots.txt > robot.txt
+          curl https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/refs/heads/main/robots.txt > robots.txt
           git config user.email "bot@muan.dev"
           git config user.name "guardian [bot]"
           git add .
