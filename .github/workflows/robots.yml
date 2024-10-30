@@ -18,7 +18,7 @@ jobs:
           curl https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/refs/heads/main/robots.txt > robots.txt
           git config user.email "bot@muan.dev"
           git config user.name "guardian [bot]"
-          git add .
+          git add robots.txt
           git commit -m "Update robots.txt" || echo "Nothing changed in ai-robots-txt.txt"
           git fetch origin main
           git push origin HEAD:main
