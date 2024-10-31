@@ -11,7 +11,7 @@ feature: 1
 <a href="https://www.jpopasia.com/mayday/lyrics/37158/maydays-1st-album/hey-im-leaving-%E5%98%BF-%E6%88%91%E8%A6%81%E8%B5%B0%E4%BA%86/">Hey! I'm leaving</a> by <a href="https://open.spotify.com/artist/16s0YTFcyjP4kgFwt7ktrY">Mayday</a>
 </div>
 
-Today is my last day at GitHub. 
+It is my last day at GitHub. 
 
 In the last 7 years I met so many great people, and got to step into worlds that I didn’t think I belonged in. I’m extremely thankful to those of you who welcomed me with open arms and helped me along the way, internally and externally.
 
