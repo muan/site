@@ -12,6 +12,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <link rel="me" href="https://micro.blog/muan">
     <link rel="alternate" type="application/rss+xml" href="/notes.xml">
+    <link rel="apple-touch-icon" href="https://muan.co/assets/logo.png">
     <link rel="icon" href="/assets/fav.svg" type="image/svg+xml" sizes="24x24">
     <!--link rel="icon" href="/assets/fav.png" type="image/png" sizes="96x96"-->
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
@@ -21,20 +22,26 @@
     {% endif %}
     {% if page.title %}
       <title>{{ page.title }} - {{ site.title }}</title>
-      <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
-      <meta content="{{ page.title }} - {{ site.title }}" name="twitter:title">
+      <meta content="{{ page.title }} from {{ site.title }} | {% if page.date %}{{ page.date | date: "%B %e, %Y" }}{% endif %}" property="og:site_name">
+      <meta content="{{ page.title }} from {{ site.title }} | {% if page.date %}{{ page.date | date: "%B %e, %Y" }}{% endif %}" name="twitter:title">
     {% else %}
       <title>{{ site.title }}</title>
-      <meta content="{{ site.title }}" property="og:title">
+      <meta content="{{ site.title }}" property="og:site_name">
       <meta content="{{ site.title }}" name="twitter:title">
     {% endif %}
     {% if page.collection == "posts" or page.collection == "notes" or page.collection == "stories" %}
+      <meta content="article" property="og:type">
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
       <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
-      {% if page.collection == "posts" %}
-      <meta content="article" property="og:type">
-      <meta content="@muanchiou" property="twitter:site">
-      <meta name="twitter:card" content="summary_large_image">
+      <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="og:description">
+      <meta content="{{ page.date | date_to_xmlschema }}" name="og:published_time">
+      <meta content="Mu-An Chiou" property="profile:username">
+      <!-- https://developer.apple.com/documentation/technotes/tn3156-create-rich-previews-for-messages#Enable-social-network-link-previews -->
+      <link href="{{ site.url }}/activitypub.json" rel="alternate" type="application/activity+json">
+      {% if page.collection == "posts" or page.collection == "notes" %}
+        <meta content="article" property="og:type">
+        <meta content="@muanchiou" property="twitter:site">
+        <meta name="twitter:card" content="summary_large_image">
       {% endif %}
       {% if page.image %}
         <meta content="https://muan.co/images/{{ page.image }}" property="og:image">
@@ -43,10 +50,10 @@
         <meta content="https://muan-text-image.herokuapp.com/title?v=2&text={{ page.image_text | strip | url_encode }}" property="og:image">
         <meta content="https://muan-text-image.herokuapp.com/title?v=2&text={{ page.image_text | strip | url_encode }}" property="twitter:image">
       {% else %}
-        <meta content="summary" name="twitter:card">
-        <meta content="https://muan.co/assets/logo.png" name="twitter:image">
+        <meta content="https://muan.co/assets/logo.png" property="twitter:image">
         <meta content="https://muan.co/assets/logo.png" property="og:image">
       {% endif %}
+      
     {% else %}
       <meta content="summary" name="twitter:card">
       <meta content="https://muan.co/assets/logo.png" property="twitter:image">

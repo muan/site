@@ -6,13 +6,14 @@ has_open_heart: true
 
 <ul class="notes">
 {% assign notes = site.notes | sort: "date" | reverse %}
-{% for note in notes limit: 100 %}
+{% for note in notes limit: 200 %}
   <li class="note">
     <div class="note-heading" style="display: flex; justify-content: space-between; align-items: center;;">
       <div>
         <a href="{{ note.url }}" class="monospace">
           <h2 class="text"><u>{{ note.date | date: "%B %e, %Y" }}</u></h2>
         </a>
+        <button type="button" class="share-button monospace" data-share-url="{{ note.url }}" hidden>Share</button>
         <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">
           <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
         </open-heart>
@@ -24,16 +25,26 @@ has_open_heart: true
 {% endfor %}
 </ul>
 
-{% if notes.size > 100 %}
+{% if notes.size > 200 %}
   <hr>
-  <p class="desc">Only the most recent 100 notes are shown.</p>
+  <p class="desc">Only the most recent 200 notes are shown.</p>
   {% for note in notes %}
     {% assign id = note.date | date: "%Y%m%d%I%M" %}
     <a class="note" id="t{{id}}" href="{{ note.url }}" hidden></a>
   {% endfor %}
   <script>
-    if (window.location.hash) {
-      document.querySelector(document.location.hash)?.click()
-    }
+    if (window.location.hash) document.querySelector(document.location.hash)?.click()
   </script>
 {% endif %}
+
+<script>
+  if ('share' in navigator) {
+    for (const shareButton of document.querySelectorAll('[data-share-url]')) {
+      shareButton.hidden = false
+      shareButton.addEventListener('click', event => {
+        const url = shareButton.getAttribute('data-share-url')
+        navigator.share({url})
+      })
+    }
+  }
+</script>

@@ -804,3 +804,10 @@ open-heart:not(:defined) {
   font-variant-numeric: tabular-nums;
   font-feature-settings: "ss03" 1;
 }
+
+.share-button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
