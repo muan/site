@@ -21,9 +21,9 @@
       <link href="/assets/syntax.css" rel="stylesheet" type="text/css">
     {% endif %}
     {% if page.title %}
-      <title>{{ page.title }} - {{ site.title }}</title>
-      <meta content="{{ page.title }} from {{ site.title }} | {% if page.date %}{{ page.date | date: "%B %e, %Y" }}{% endif %}" property="og:site_name">
-      <meta content="{{ page.title }} from {{ site.title }} | {% if page.date %}{{ page.date | date: "%B %e, %Y" }}{% endif %}" name="twitter:title">
+      <title>{{ page.title }}{% unless page.root %} @ {{ site.title }}{% endunless %}</title>
+      <meta content="{{ page.title }}{% unless page.root %} @ {{ site.title }}{% endunless %}{% if page.date %} | {{ page.date | date: "%B %e, %Y" }}{% endif %}" property="og:site_name">
+      <meta content="{{ page.title }}{% unless page.root %} @ {{ site.title }}{% endunless %}{% if page.date %} | {{ page.date | date: "%B %e, %Y" }}{% endif %}" name="twitter:title">
     {% else %}
       <title>{{ site.title }}</title>
       <meta content="{{ site.title }}" property="og:site_name">
