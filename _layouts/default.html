@@ -32,8 +32,8 @@
     {% if page.collection == "posts" or page.collection == "notes" or page.collection == "stories" %}
       <meta content="article" property="og:type">
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-      <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
-      <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="og:description">
+      <meta content="{{ page.content | strip_html | truncate: 120 }}" name="description">
+      <meta content="{{ page.content | strip_html | truncate: 120 }}" name="og:description">
       <meta content="{{ page.date | date_to_xmlschema }}" name="og:published_time">
       <meta content="Mu-An Chiou" property="profile:username">
       <!-- https://developer.apple.com/documentation/technotes/tn3156-create-rich-previews-for-messages#Enable-social-network-link-previews -->
