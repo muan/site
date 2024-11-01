@@ -1,0 +1,38 @@
+---
+permalink: /stories-meow.json
+type: "Meow"
+---
+{% assign stories = site.data.stories | where_exp: "story", "story.meta.tags contains page.type" | where_exp: "story", "story.meta.tags contains 'Highlight'" %}
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "@muan's stories for {{ page.type }}",
+  "icon": "https://github.com/muan.png",
+  "home_page_url": "https://muan.co/",
+  "feed_url": "https://muan.co/stories-meow.json",
+  "description": "Stories about {{ page.type }}.",
+  "_open_stories": {
+    "version": "0.0.9"
+  },
+  "items": [{% for story in stories %}{% if stories.first != story %},{% endif %}
+    {
+      "id": "{{ story.id }}",
+      "date_published": "{{ story.uploaded | date_to_xmlschema }}", {% assign date_expired = story.uploaded | date: "%s" | plus: 86400 | date_to_xmlschema %}
+      "tags": [{% for tag in story.meta.tags %}"{{ tag }}"{% if tag != story.meta.tags.last %}, {% endif %}{% endfor %}],
+      "content_html": "{% if story.playback %}<video src='${story.playback.hls}' controls></video>{{ story.meta.title }}{% else %}<img src='https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public' alt='{{ story.meta.alt }}'>{% endif %}",
+      "title": "{{ story.uploaded | date: "%Y/%m/%d" }}",
+      "summary": "{% if story.meta.caption == "" %}N/A{% else %}{{ story.meta.caption }}{% endif %} ({{ story.meta.alt }})",
+      "authors": [{"name": "Mu-An Chiou", "url": "https://muan.co"}],
+      "url": "{{ site.url }}/stories/{{ story.id }}",
+      "_open_stories": {
+        "mime_type": "{% if story.meta.filetype %}{{ story.meta.filetype }}{% else %}image/jpeg{% endif %}",
+        "url": "{% if story.playback %}{{ story.playback.hls }}{% else %}https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public{% endif %}",{% if story.meta.alt %}
+        "alt": "{{ story.meta.alt }}",{% endif %}{% if story.meta.caption %}
+        "caption": "{{ story.meta.caption }}",{% endif %}{% if story.meta.title %}
+        "title": "{{ story.meta.title }}",{% endif %}
+        "reactions": {
+          "open_heart_urls": ["https://likes.muan.dev/?id=/stories/{{ story.id }}"]
+        }
+      }
+    }{% endfor %}
+  ]
+}
