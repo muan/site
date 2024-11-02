@@ -813,18 +813,23 @@ open-heart:not(:defined) {
 }
 
 .note-tag {
-  &:before { content: attr(data-tag) }
+  &:after { content: attr(data-tag) }
+  input { margin: 0; }
 
   font-size: 0.7rem;
   padding: 0.4rem 0.6rem;
   line-height: 1;
   background: var(--subtleBackgroundColor);
   border-radius: 0.4rem;
-  margin-top: 0.2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
 }
 
 .note-tags {
+  margin-top: 1rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
+  gap: 0.4rem;
 }

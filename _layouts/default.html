@@ -123,6 +123,7 @@
         </article>
       {% elsif page.collection == "notes" %}
         {{ content_and_then_some }}
+        <div class="note-tags">{% for tag in page.tags %}<span class="note-tag" data-tag="{{ tag }}"></span>{% endfor %}</div>
       {% else %}
         {{ content_and_then_some }}
       {% endif %}

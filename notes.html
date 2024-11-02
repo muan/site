@@ -4,8 +4,21 @@ title: Recent notes
 has_open_heart: true
 ---
 
-<ul class="notes">
 {% assign notes = site.notes | sort: "date" | reverse %}
+{% assign tags = notes | map: "tags" | uniq %}
+<style>
+  {% for tag in tags %}
+  body:has([value="{{ tag }}"]:not(:checked)) .note:has([data-tag="{{ tag }}"]) { display: none; }
+  {% endfor %}
+</style>
+
+<div class="note-tags">
+{% for tag in tags %}
+<label class="note-tag" data-tag="{{ tag }}"><input value="{{ tag }}" value="tag" checked type="checkbox"></label>
+{% endfor %}
+</div>
+
+<ul class="notes">
 {% for note in notes limit: 200 %}
   <li class="note" lang="{{ note.lang }}">
     <div class="note-heading" style="display: flex; justify-content: space-between; align-items: center;;">
