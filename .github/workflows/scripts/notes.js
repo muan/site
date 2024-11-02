@@ -13,7 +13,7 @@ title: Note
 layout: default
 open_heart: true
 date: ${datetime}
-tags: ${tags.split(',').map(tag => `\n  - ${tag}`)}${lang ? `\nlang: ${lang}` : ''}
+tags: ${tags.split(',').map(tag => `\n  - ${tag}`).join('')}${lang ? `\nlang: ${lang}` : ''}
 ---
 
 ${content}
