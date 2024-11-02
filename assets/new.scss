@@ -697,9 +697,9 @@ open-stories {
   100% { opacity: .5 }
 }
 
-.monospace {
+.monospace, pre, code {
   font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;  
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 open-heart.text-open-heart {
