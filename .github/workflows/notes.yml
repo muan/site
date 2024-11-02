@@ -7,6 +7,14 @@ on:
         description: "File content"
         type: string
         required: true
+      tags:
+        description: "Tags"
+        type: string
+        required: true
+      lang:
+        description: "Language"
+        type: string
+        required: true
       datetime:
         description: "Datetime"
         type: string
@@ -25,7 +33,7 @@ jobs:
           node-version: 17.7
 
       - name: Run script
-        run: node .github/workflows/scripts/notes.js '${{ inputs.datetime }}' '${{ inputs.content }}'
+        run: node .github/workflows/scripts/notes.js '${{ inputs.datetime }}' '${{ inputs.tags }}' '${{ inputs.lang }}' '${{ inputs.content }}'
 
       - name: Push changes
         run: |
