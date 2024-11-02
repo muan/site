@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   & > ul {
-    margin-top: 1.5em;
+    margin: 1.5em 0;
     list-style: disc;
   }
 
@@ -810,4 +810,21 @@ open-heart:not(:defined) {
   background: transparent;
   color: inherit;
   cursor: pointer;
+}
+
+.note-tag {
+  &:before { content: attr(data-tag) }
+
+  font-size: 0.7rem;
+  padding: 0.4rem 0.6rem;
+  line-height: 1;
+  background: var(--subtleBackgroundColor);
+  border-radius: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+.note-tags {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

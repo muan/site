@@ -24,7 +24,8 @@ comment: For micro.blog only.
         <description>{{ note.content | markdownify | xml_escape }}{{ openheart | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
         <link>{{ note.url }}</link>
-        <guid isPermaLink="true">{{ note.url }}</guid>
+        <guid isPermaLink="true">{{ note.url }}</guid>{% for tag in note.tags %}
+        <category>{{ tag }}</category>{% endfor %}
       </item>
     {% endfor %}
   </channel>
