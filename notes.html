@@ -9,6 +9,7 @@ has_open_heart: true
 <style>
   {% for tag in tags %}
   body:has([value="{{ tag }}"]:not(:checked)) .note:has([data-tag="{{ tag }}"]) { display: none; }
+  body:has([value="{{ tag }}"]:checked) .note:has([data-tag="{{ tag }}"]) { display: block; }
   {% endfor %}
 </style>
 
