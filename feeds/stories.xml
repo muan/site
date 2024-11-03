@@ -22,9 +22,14 @@ permalink: /stories.xml
             <br><a href="https://muan.co{% link _pages/like.html %}?id=/stories/{{ story.id }}">❤️</a><br><small><a href="https://github.com/dddddddddzzzz/OpenHeart">(Backed by OpenHeart protocol)</a></small>
           {% endcapture %}
           {% capture content %}
-            <a href="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public">
-              <img src="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public" width="100%" alt="{{ story.meta.alt }}"/>
-            </a>
+            {% if story.playback %}
+              <video src="{{ story.playback.hls }}" poster='{{ stoty.thumbnail }}' muted autoplay controls playsinline><!-- tracks --></video>
+              {{ story.meta.title }}
+            {% else %}
+              <a href="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public">
+                <img src="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public" width="100%" alt="{{ story.meta.alt }}"/>
+              </a>
+            {% endif %}
           {% endcapture %}
           {{ content | xml_escape }}{{ openheart | xml_escape }}
         </description>
