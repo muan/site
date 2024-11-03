@@ -49,4 +49,4 @@ alt: |
 ${markdown}
 `
 
-fs.writeFileSync(`_stories/${json.id}.md`, content)
+fs.writeFileSync(`_stories/${json.id || json.uid}.md`, content)
