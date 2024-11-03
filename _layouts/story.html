@@ -32,7 +32,7 @@
     </header>
     <main>
       {% if page.video %}
-        <video height="100%" src="{{ page.video }}" poster='{{ page.image }}' aria-describedby="description" muted autoplay controls><!-- tracks --></video>
+        <video height="100%" src="{{ page.video }}" poster='{{ page.image }}' aria-describedby="description" muted autoplay controls playsinline><!-- tracks --></video>
       {% else %}
         <img src="{{ page.image }}" alt="{{ page.alt }}" class="story-image">
       {% endif %}
