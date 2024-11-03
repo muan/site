@@ -7,6 +7,8 @@ const fileExists = fs.existsSync(filePath)
 
 const photos = fileExists ? JSON.parse(fs.readFileSync(filePath).toString()) : []
 const json = JSON.parse(jsonString)
+// CFStream has uid not id
+if (!json['id']) json.id = json.uid
 photos.push(json)
 
 const dirName = path.dirname(filePath)
