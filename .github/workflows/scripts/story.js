@@ -23,18 +23,21 @@ if (!filePath.endsWith('stories.json')) process.exit()
 const date = new Date(json.uploaded)
 const desc = json.meta.alt || json.meta.title
 const isVideo = !!json.playback
-const image = isVideo ? json.thumbnail : `https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/${json.id}/public`
 
 let frontmatter = `
 layout: story
 date: ${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()} ${date.getHours()}:${date.getMinutes()}
 tags: [ ${json.meta.tags.join(', ')} ]
-title: Story
-image: ${image}`
+title: Story`
 
 let markdown = ``
 
 if (isVideo) {
+  frontmatter += `
+image: ${json.thumbnail}
+caption: |
+  ${json.meta.title}`
+
   markdown = `
 <video src='${json.playback.hls}' poster='${json.thumbnail}' aria-describedby='description'><!-- tracks --></video>
 
@@ -42,6 +45,7 @@ if (isVideo) {
 `
 } else {
   frontmatter += `
+image: https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/${json.id}/public
 caption: |
   ${json.meta.caption || ''}
 alt: |

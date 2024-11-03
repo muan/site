@@ -26,12 +26,16 @@
           (<span class="on">Liked ♥︎.</span><span class="off">Like?</span>)
         </open-heart>
       </div>
-      <div>
+      <div id="description">
         {{ page.caption }}
       </div>
     </header>
     <main>
-      <img src="{{ page.image }}" alt="{{ page.alt }}" class="story-image">
+      {% if page.video %}
+        <video height="100%" src="{{ page.video }}" poster='{{ page.image }}' aria-describedby="description" muted autoplay controls><!-- tracks --></video>
+      {% else %}
+        <img src="{{ page.image }}" alt="{{ page.alt }}" class="story-image">
+      {% endif %}
     </main>
 
     <script defer type="module" src="https://unpkg.com/open-heart-element@latest"></script>
