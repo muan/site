@@ -5,7 +5,7 @@ has_open_heart: true
 ---
 
 {% assign notes = site.notes | sort: "date" | reverse %}
-{% assign tags = notes | map: "tags" | uniq %}
+{% assign tags = notes | map: "tags" | uniq | sort %}
 <style>
   {% for tag in tags %}
   body:has([value="{{ tag }}"]:not(:checked)) .note:has([data-tag="{{ tag }}"]) { display: none; }
@@ -13,11 +13,18 @@ has_open_heart: true
   {% endfor %}
 </style>
 
-<div class="note-tags">
-{% for tag in tags %}
-<label class="note-tag" data-tag="{{ tag }}"><input value="{{ tag }}" value="tag" checked type="checkbox"></label>
-{% endfor %}
-</div>
+<form action="#" method="get" class="note-tags">
+  {% for tag in tags %}
+  <label class="note-tag" data-tag="{{ tag }}">
+    <input id="{{ tag | slugify }}" name="tag" value="{{ tag }}" checked type="checkbox">
+    {% assign notes_with_tag = notes | where_exp: "note", "note.tags contains tag" %}
+    {{ tag }}
+    ({{ notes_with_tag | size }})
+  </label>
+  {% endfor %}
+  <hr class="inline-hr">
+  <button type="reset" class="note-tag check-all-tag">Check all</button>
+</form>
 
 <ul class="notes">
 {% for note in notes limit: 200 %}
@@ -35,7 +42,7 @@ has_open_heart: true
       <a href="https://github.com/muan/site/edit/main/{{ note.path }}" class="monospace" tabindex="-1" aria-hidden="true">&nbsp;&nbsp;&nbsp;&nbsp;</a>
     </div>
     {{ note.content | markdownify }}
-    <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}"></span>{% endfor %}</div>
+    <div class="note-tags">{% for tag in note.tags %}<label class="note-tag" for="{{ tag | slugify }}" data-tag="{{ tag }}">{{ tag }}</label>{% endfor %}
   </li>
 {% endfor %}
 </ul>

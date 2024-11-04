@@ -813,7 +813,6 @@ open-heart:not(:defined) {
 }
 
 .note-tag {
-  &:after { content: attr(data-tag) }
   input { margin: 0; }
 
   font-size: 0.7rem;
@@ -823,7 +822,15 @@ open-heart:not(:defined) {
   border-radius: 0.4rem;
   display: inline-flex;
   align-items: center;
+  border: 0;
   gap: 0.4em;
+}
+
+.note-tags .inline-hr, .check-all-tag { display: none; }
+// After 4 unchecked, show check all
+label:has(input:not(:checked)) ~ label:has(input:not(:checked)) ~ label:has(input:not(:checked)) ~ label:has(input:not(:checked)) {
+  & ~ .check-all-tag { display: unset; }
+  & ~ .inline-hr { display: unset; }
 }
 
 .note-tags {
