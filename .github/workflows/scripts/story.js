@@ -35,6 +35,7 @@ let markdown = ``
 if (isVideo) {
   frontmatter += `
 image: ${json.thumbnail}
+video: ${json.playback.hls}
 caption: |
   ${json.meta.title}`
 
