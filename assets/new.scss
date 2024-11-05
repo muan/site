@@ -837,8 +837,12 @@ label:has(input:not(:checked)) ~ label:has(input:not(:checked)) ~ label:has(inpu
   & ~ .inline-hr { display: unset; }
 }
 
-.note-tags {
+.details-note-tags {
   margin-top: 1rem;
+}
+
+.note-tags {
+  margin-top: 0.6em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

@@ -13,18 +13,21 @@ has_open_heart: true
   {% endfor %}
 </style>
 
-<form action="#" method="get" class="note-tags">
-  {% for tag in tags %}
-  <label class="note-tag" data-tag="{{ tag }}">
-    <input id="{{ tag | slugify }}" name="tag" value="{{ tag }}" checked type="checkbox">
-    {% assign notes_with_tag = notes | where_exp: "note", "note.tags contains tag" %}
-    {{ tag }}
-    ({{ notes_with_tag | size }})
-  </label>
-  {% endfor %}
-  <hr class="inline-hr">
-  <button type="reset" class="note-tag check-all-tag">Check all</button>
-</form>
+<details class="details-note-tags">
+  <summary class="note-tag">Tag filter</summary>
+  <form action="#" method="get" class="note-tags">
+    {% for tag in tags %}
+    <label class="note-tag" data-tag="{{ tag }}">
+      <input id="{{ tag | slugify }}" name="tag" value="{{ tag }}" checked type="checkbox">
+      {% assign notes_with_tag = notes | where_exp: "note", "note.tags contains tag" %}
+      {{ tag }}
+      ({{ notes_with_tag | size }})
+    </label>
+    {% endfor %}
+    <hr class="inline-hr">
+    <button type="reset" class="note-tag check-all-tag">Check all</button>
+  </form>
+</details>
 
 <ul class="notes">
 {% for note in notes limit: 200 %}
