@@ -81,6 +81,7 @@ root: true
     Neueste: {{ note.date | date: "%d.%m.%Y" }}
   </div>
   {{ note.content | markdownify }}
+  <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}">{{ tag }}</span>{% endfor %}</div>
 </div>
 
 <hr class="hr">
