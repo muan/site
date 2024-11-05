@@ -196,8 +196,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   & > ul {
-    margin: 1.5em 0;
     list-style: disc;
+  }
+  
+  & > ul,
+  & > details {
+    margin: 1.5em 0;
   }
 
   &:last-of-type {
