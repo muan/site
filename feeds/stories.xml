@@ -23,7 +23,7 @@ permalink: /stories.xml
           {% endcapture %}
           {% capture content %}
             {% if story.playback %}
-              <video src="{{ story.playback.hls }}" poster='{{ stoty.thumbnail }}' muted autoplay controls playsinline><!-- tracks --></video>
+              <video src="{{ story.meta.url }}" poster='{{ stoty.thumbnail }}' muted autoplay controls playsinline><!-- tracks --></video>
               {{ story.meta.title }}
             {% else %}
               <a href="https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/{{ story.id }}/public">

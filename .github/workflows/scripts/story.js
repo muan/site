@@ -7,8 +7,10 @@ const fileExists = fs.existsSync(filePath)
 
 const photos = fileExists ? JSON.parse(fs.readFileSync(filePath).toString()) : []
 const json = JSON.parse(jsonString)
+
 // CFStream has uid not id
 if (!json['id']) json.id = json.uid
+
 photos.push(json)
 
 const dirName = path.dirname(filePath)
@@ -35,12 +37,12 @@ let markdown = ``
 if (isVideo) {
   frontmatter += `
 image: ${json.thumbnail}
-video: ${json.playback.hls}
+video: ${json.meta.url}
 caption: |
   ${json.meta.title}`
 
   markdown = `
-<video src='${json.playback.hls}' poster='${json.thumbnail}' aria-describedby='description'><!-- tracks --></video>
+<video src='${json.meta.url}' poster='${json.thumbnail}' aria-describedby='description'><!-- tracks --></video>
 
 <div id='description'>${json.meta.title}</div>
 `
