@@ -56,6 +56,7 @@ body, kbd {
 a {
   color: var(--linkColor);
   text-underline-position: under;
+  text-decoration-thickness: 0.5px;
 }
 
 ::selection {
@@ -194,7 +195,11 @@ h1, h2, h3, h4, h5, h6 {
   main > & {
     margin-top: -.6em;
   }
+}
 
+.note-content {
+  margin: 1em 0;
+  
   & > ul {
     list-style: disc;
   }
@@ -213,6 +218,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .note-heading {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
   font-size: .8em;
   line-height: 1;
   font-weight: normal;
@@ -629,7 +637,7 @@ open-stories {
   &::part(button) {
     font-family: system-ui, sans-serif;
     border: 1px solid var(--borderColor);
-    box-shadow: inset 0 0 0 2px var(--backgroundColor);
+    box-shadow: inset 0 0 0 1.5px var(--backgroundColor);
     color: var(--textColor);
     background: var(--subtleBackgroundColor);
     padding: 1em 0;
@@ -816,8 +824,16 @@ open-heart:not(:defined) {
   cursor: pointer;
 }
 
+summary {
+  cursor: pointer;
+}
+
 .note-tag {
   input { margin: 0; }
+
+  &:is(label) {
+    cursor: pointer;
+  }
 
   font-size: 0.7rem;
   padding: 0.4rem 0.6rem;
