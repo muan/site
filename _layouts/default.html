@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" href="https://muan.co/assets/apple-touch-icon.png">
     <link rel="icon" href="/assets/fav.svg" type="image/svg+xml" sizes="24x24">
     <!--link rel="icon" href="/assets/fav.png" type="image/png" sizes="96x96"-->
-    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan&display=swap" rel="stylesheet">
     <link href="/assets/new.css" rel="stylesheet" type="text/css">
     {% if page.collection == "posts" %}
       <link href="/assets/syntax.css" rel="stylesheet" type="text/css">
@@ -144,15 +144,16 @@
       <p>
         <a title="88×31" href="{% link _pages/banners.md %}"><img loading="lazy" src="/images/banner.svg" width="88" height="31" alt="An animated banner with one short line, one medium line, one long line, a symbol resembling the tilde, each being drawn in order."></a>
       </p>
-      <nav aria-label="About this site">
+      <nav class="monospace" aria-label="About this site">
         <a href="/accessibility-statement">{{ site.i18n[lang].accessibility }}</a>
         <hr class="inline-hr">
         <a href="https://github.com/muan/site">{{ site.i18n[lang].source }}</a>
       </nav>
     </footer>
-
-    {% if page.root %}
+    
     <script type="module" src="/assets/site.js"></script>
+    {% if page.root %}
+    <script type="module" src="/assets/root.js"></script>
     <script type="module" src="https://unpkg.com/open-stories-element@latest"></script>
     {% endif %}
     {% if page.feature == 1 or page.open_heart or page.has_open_heart %}

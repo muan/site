@@ -24,12 +24,12 @@ title: Film
     <div class="desc photo-metadata">
       <div>{{ photo.uploaded | date: "%Y/%m/%d (%a)" }}</div>
       {% if photo.meta.location  %}<div>@ {{ photo.meta.location }}</div>{% endif %}
-      <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id=film-P{{ photo.id }}" emoji="❤️" aria-labelledby="like-prompt">
+      <open-heart class="text-open-heart" href="https://likes.muan.dev/?id=film-P{{ photo.id }}" emoji="❤️" aria-labelledby="like-prompt">
         <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
       </open-heart>
     </div>
     {{ photo.meta.caption | markdownify }}
-    <details class="desc"><summary>Camera details</summary>{{ photo.meta.camera }} + {{ photo.meta.film }}</details>
+    <details class="monospace smol"><summary>Camera details</summary>{{ photo.meta.camera }} + {{ photo.meta.film }}</details>
   </figcaption>
 </figure>
 {% endfor %}
