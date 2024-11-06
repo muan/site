@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
 
   li {
-    padding: .1rem 0;
+    margin-bottom: 1em;
   }
 
   ul {
@@ -399,6 +399,7 @@ time.monospace {
   flex-wrap: nowrap;
   overflow: auto;
   align-items: center;
+  margin-bottom: 1em;
 
   .image-link {
     flex-shrink: 0;
@@ -406,6 +407,7 @@ time.monospace {
 
   img {
     background-color: var(--photoBackground);
+    margin-top: 0;
   }
 }
 
@@ -888,4 +890,8 @@ label:has(input:not(:checked)) ~ label:has(input:not(:checked)) ~ label:has(inpu
   flex-wrap: wrap;
   align-items: center;
   gap: 0.6rem 1.2rem;
+}
+
+.status-time {
+  margin-left: 1em;
 }

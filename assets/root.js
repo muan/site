@@ -38,7 +38,7 @@ try {
     const date = relativeDate(new Date(datetime))
     if (date) {
       document.querySelector('[data-status-text]').textContent = text
-      document.querySelector('[data-status-datetime]').textContent = `(${date})`
+      document.querySelector('[data-status-datetime]').textContent = ` ${date}`
     }
   }
   statusEl.removeAttribute('data-status-loading')
