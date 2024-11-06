@@ -17,6 +17,8 @@
   --langShadowColor: transparent;
   --logoColor: #cccccc;
   --photoBackground: #f4f4f4;
+
+  --monospace: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,6 +58,9 @@ body, kbd {
 a {
   color: var(--linkColor);
   text-underline-position: under;
+}
+
+a, u {
   text-decoration-thickness: 0.5px;
 }
 
@@ -295,6 +300,7 @@ article {
   margin-top: 2em;
   white-space: nowrap;
   box-shadow: 0 5px 15px var(--langShadowColor);
+  font-family: var(--monospace);
 
   a[aria-current] {
     color: var(--textColor);
@@ -344,8 +350,8 @@ article {
   font-size: .7em;
 }
 
-time {
-  font-size: .8em;
+time.monospace {
+  font-size: .7em;
   color: var(--mutedTextColor);
 }
 
@@ -709,8 +715,8 @@ open-stories {
   100% { opacity: .5 }
 }
 
-.monospace, pre, code {
-  font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;  
+.note-tag, .monospace, pre, code {
+  font-family: var(--monospace);
   font-size: 0.85em;
 }
 
@@ -829,20 +835,26 @@ summary {
 }
 
 .note-tag {
-  input { margin: 0; }
-
   &:is(label) {
     cursor: pointer;
   }
 
+  // weird af
+  &:is(span):before, &[for]:before {
+    content: "#";
+  }
+
   font-size: 0.7rem;
-  padding: 0.4rem 0.6rem;
   line-height: 1;
-  background: var(--subtleBackgroundColor);
   border-radius: 0.4rem;
   display: inline-flex;
   align-items: center;
+
+  // button reset
   border: 0;
+  background: transparent;
+  color: inherit;
+  padding: 0;
   gap: 0.4em;
 }
 
@@ -862,5 +874,5 @@ label:has(input:not(:checked)) ~ label:has(input:not(:checked)) ~ label:has(inpu
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.6rem 1.2rem;
 }
