@@ -1,4 +1,4 @@
-name: "Upload story"
+name: "Media upload"
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
         type: string
         required: true
       filedata:
-        description: "Stringify JSON data of the story"
+        description: "Stringify JSON data of the media"
         type: string
         required: true
 concurrency: ci-${{ github.action }}
@@ -26,7 +26,7 @@ jobs:
           node-version: 17.7
 
       - name: Run script
-        run: node .github/workflows/scripts/story.js '${{ inputs.filepath }}' '${{ inputs.filedata }}'
+        run: node .github/workflows/scripts/media.js '${{ inputs.filepath }}' '${{ inputs.filedata }}'
 
       - name: Push changes
         run: |
