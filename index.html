@@ -48,7 +48,7 @@ root: true
 
 <h2 class="text">Photos</h2><a href="/photos" class="styled-link">All photos</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
-{% assign photos = site.data.photos | reverse | slice: 0, 5 %}
+{% assign photos = site.data.photos | reverse | slice: 0, 10 %}
 {% for photo in photos %}
   {% capture image_url %}{% for url in photo.variants %}{% if url contains "/thumbnail" %}{{ url }}{% endif %}{% endfor %}{% endcapture %}
   <a href="/photos#P{{ photo.id }}" class="image-link">
@@ -59,7 +59,7 @@ root: true
 
 <h2 class="text">Film photos</h2><a href="/film" class="styled-link">All film photos</a> <a href="/film.xml" class="styled-link">RSS</a>
 <div class="photos">
-{% assign photos = site.data.film | reverse | slice: 0, 5 %}
+{% assign photos = site.data.film | reverse | slice: 0, 10 %}
 {% for photo in photos %}
   {% capture image_url %}{% for url in photo.variants %}{% if url contains "/thumbnail" %}{{ url }}{% endif %}{% endfor %}{% endcapture %}
   <a href="/film#P{{ photo.id}}" class="image-link">
