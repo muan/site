@@ -5,9 +5,12 @@ title: Banners
 
 ## People's banners
 
-<a class="text" href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img loading="lazy" src="/images/banners/dob.gif" alt="首頁製作百寶箱" width="88" height="31"></a><span class="text desc">My career in tech only exists because of website.</span>
+<a class="text" href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/"><img loading="lazy" src="/images/banners/dob.gif" alt="首頁製作百寶箱" width="88" height="31"></a>
+<p class="monospace">My career in tech only exists because of website.</p>
 
-<a class="text" href="https://jlord.us/"><img loading="lazy" src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a><span class="text desc">Jessica is cool.</span>
+<a class="text" href="https://jlord.us/"><img loading="lazy" src="https://jlord.us/old-site/jlord_banner.png" alt="Jessica Lord" width="88" height="31"></a><p class="monospace">Jessica is cool.</p>
+
+<a class="text" href="https://status.cafe"><img src="https://status.cafe/assets/button.png" loading="lazy" alt="Status Cafe"></a><p class="monospace">status.cafe is a place to share your current status.</p>
 
 ## My banners
 
