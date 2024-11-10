@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: normal;
   display: inline-block;
-  margin-top: 0;
+  margin: 0;
 }
 
 .terminal {
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .note-content {
-  margin: 1em 0;
+  margin: 1.5em 0;
   
   & > ul {
     list-style: disc;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 
 blockquote {
   color: var(--secondaryTextColor);
-  margin: 2em 0 2em 1.5em;
+  margin: 1em 0 1em 1.5em;
 
   &::before {
     content: '“';
