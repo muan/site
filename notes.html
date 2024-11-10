@@ -32,7 +32,7 @@ has_open_heart: true
 <ul class="notes">
 {% for note in notes limit: 200 %}
   <li class="note">
-    <div class="note-heading" style="display: flex; justify-content: space-between; align-items: center;;">
+    <div class="note-heading">
       <div>
         <a href="{{ note.url }}" class="monospace">
           <h2 class="text"><u>{{ note.date | date: "%B %e, %Y" }}</u></h2>

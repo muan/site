@@ -135,6 +135,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+.normal-heading {
+  margin-right: .4rem;
+  font-size: inherit;
+  font-weight: normal;
+  display: inline-block;
+  margin-top: 0;
+}
+
 .text {
   margin-right: .4rem;
   font-size: inherit;
@@ -216,6 +224,22 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 0;
   }
 
+  details[open] {
+    summary {
+      margin-bottom: 1em;
+    }
+
+    padding-bottom: 1em;
+    border-bottom: 1px dashed var(--borderColor);
+  }
+
+  summary {
+    background: var(--subtleBackgroundColor);
+    color: var(--secondaryTextColor);
+    padding: 0.5em 1em;
+    border-radius: 0.4em;
+  }
+
   p:first-child, blockquote:first-child { margin-top: 0; }
   p:last-child, blockquote:last-child, img:last-child { margin-bottom: 0; }
 }
@@ -237,14 +261,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 blockquote {
+  box-shadow: inset 0 0 1em -.5em var(--borderColor);
   color: var(--secondaryTextColor);
-  margin: 1em 0 1em 1.5em;
+  padding: 1em 1em 1em 3em;
+  margin: 1em 0 1em;
+  border-radius: 0.4em;
 
   &::before {
     content: '“';
     font-size: 2rem;
     position: absolute;
-    margin-left: -.5em;
+    color: var(--borderColor);
+    line-height: 1.2em;
+    margin-left: -1em;
   }
 }
 
@@ -277,10 +306,6 @@ article {
   vertical-align: middle;
 }
 
-.entry-title {
-  margin: 0;
-}
-
 .entry {
   margin-bottom: 3em;
 }
@@ -291,9 +316,11 @@ article {
   margin-top: 2em;
   white-space: nowrap;
   box-shadow: 0 5px 15px var(--langShadowColor);
+  border: 0.5px solid var(--borderColor);
   font-family: var(--monospace);
+  border-radius: 0.4em;
 
-  a[aria-current] {
+  a[aria-current], a:hover {
     color: var(--textColor);
     
     &:before {
@@ -303,26 +330,10 @@ article {
   }
 
   a {
-    background-color: var(--langBackgroundColor);
-    border-color: var(--borderColor);
     color: var(--mutedTextColor);
     padding: 4px 16px;
     margin-right: 1px;
     text-decoration: none;
-
-    &:first-child {
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px;
-    }
-
-    &:last-child {
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px;
-    }
-
-    &:hover {
-      background: var(--langBackgroundColor);
-    }
 
     &:focus {
       z-index: 1;
@@ -732,9 +743,13 @@ open-stories {
   font-weight: normal;
 }
 
+.share-button,
+.text-open-heart {
+  margin-left: 1em;
+}
+
 open-heart.text-open-heart {
   display: inline;
-  margin-left: 1em;
   transition: color .4s, border-color .4s;
 
   &:not([disabled]):hover {

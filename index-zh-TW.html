@@ -41,7 +41,7 @@ root: true
 
 <hr class="hr">
 
-<h2 class="text">動態</h2> <a href="/stories.xml" class="styled-link">RSS</a><a href="https://github.com/dddddddddzzzz/OpenStories" class="styled-link">這是什麼？</a>
+<h2 class="normal-heading">動態</h2> <a href="/stories.xml" class="styled-link">RSS</a><a href="https://github.com/dddddddddzzzz/OpenStories" class="styled-link">這是什麼？</a>
 
 <div class="stories">
   {% include stories.html lang="zh-TW" %}
@@ -49,7 +49,7 @@ root: true
 
 <hr class="hr">
 
-<h2 class="text">照片</h2><a href="/photos" class="styled-link">全部照片</a> <a href="/photos.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">照片</h2><a href="/photos" class="styled-link">全部照片</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.photos | reverse | slice: 0, 10 %}
 {% for photo in photos %}
@@ -60,7 +60,7 @@ root: true
 {% endfor %}
 </div>
 
-<h2 class="text">底片照片</h2><a href="/film" class="styled-link">全部底片照片</a> <a href="/film.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">底片照片</h2><a href="/film" class="styled-link">全部底片照片</a> <a href="/film.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.film | reverse | slice: 0, 10 %}
 {% for photo in photos %}
@@ -74,7 +74,7 @@ root: true
 <hr class="hr">
 
 {% assign note = site.notes | last %}
-<h2 class="text">隨筆</h2><a href="/notes" class="styled-link">近期隨筆</a> <a href="/notes.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">隨筆</h2><a href="/notes" class="styled-link">近期隨筆</a> <a href="/notes.xml" class="styled-link">RSS</a>
 <div class="note">
   <div class="note-heading">
     最新：{{ note.date | date: "%B %e, %Y" }}
@@ -85,7 +85,7 @@ root: true
 
 <hr class="hr">
 
-<h2 class="text">文章</h2><a href="/feed.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">文章</h2><a href="/feed.xml" class="styled-link">RSS</a>
 <ul aria-label="posts" class="terminal">
 {% assign posts = site.pages | where: "feature", 1 %}
 {% for post in posts %}

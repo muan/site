@@ -40,13 +40,13 @@ root: true
 
 <hr class="hr">
 
-<h2 class="text">Stories</h2> <a href="/stories.xml" class="styled-link">RSS</a> <a href="https://github.com/dddddddddzzzz/OpenStories" class="styled-link">What are these?</a>
+<h2 class="normal-heading">Stories</h2> <a href="/stories.xml" class="styled-link">RSS</a> <a href="https://github.com/dddddddddzzzz/OpenStories" class="styled-link">What are these?</a>
 
 {% include stories.html lang="en" %}
 
 <hr class="hr">
 
-<h2 class="text">Photos</h2><a href="/photos" class="styled-link">All photos</a> <a href="/photos.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">Photos</h2><a href="/photos" class="styled-link">All photos</a> <a href="/photos.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.photos | reverse | slice: 0, 10 %}
 {% for photo in photos %}
@@ -57,7 +57,7 @@ root: true
 {% endfor %}
 </div>
 
-<h2 class="text">Film photos</h2><a href="/film" class="styled-link">All film photos</a> <a href="/film.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">Film photos</h2><a href="/film" class="styled-link">All film photos</a> <a href="/film.xml" class="styled-link">RSS</a>
 <div class="photos">
 {% assign photos = site.data.film | reverse | slice: 0, 10 %}
 {% for photo in photos %}
@@ -71,7 +71,7 @@ root: true
 <hr class="hr">
 
 {% assign note = site.notes | last %}
-<h2 class="text">Notes</h2><a href="/notes" class="styled-link">Recent notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">Notes</h2><a href="/notes" class="styled-link">Recent notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
 <div class="note">
   <time class="note-heading monospace">
     {{ note.date | date: "%B %e, %Y" }}
@@ -82,7 +82,7 @@ root: true
 
 <hr class="hr">
 
-<h2 class="text">Posts</h2><a href="/feed.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">Posts</h2><a href="/feed.xml" class="styled-link">RSS</a>
 <ul aria-label="posts" class="terminal">
 {% assign pages = site.pages | where: "feature", 1 %}
 {% for post in pages %}
