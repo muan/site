@@ -319,20 +319,24 @@ article {
   border: 0.5px solid var(--borderColor);
   font-family: var(--monospace);
   border-radius: 0.4em;
+  overflow: auto;
+  max-width: 100%;
+  gap: 1em;
+  padding: 0 0.5em;
+  box-sizing: border-box;
 
-  a[aria-current], a:hover {
-    color: var(--textColor);
-    
-    &:before {
-      content: "●";
-      color: var(--activeColor);
-    }
+  a[aria-current]:before {
+    color: var(--activeColor);
+  }
+
+  a[aria-current]:before,
+  a:hover:before {
+    content: "●";
   }
 
   a {
     color: var(--mutedTextColor);
-    padding: 4px 16px;
-    margin-right: 1px;
+    padding: 0.5em;
     text-decoration: none;
 
     &:focus {
