@@ -1,7 +1,7 @@
 - date: 2024-11-11
   url: https://github.com/whatwg/html/issues/2791#issuecomment-388661163
   title: "Client side include feature for HTML"
-  note: "[GitHub uses `<include-fragment>`](https://github.com/whatwg/html/issues/2791#issuecomment-408193859) since 2014. Honestly I am quite tired of the argument of _this can be done in JavaScript already_ as if what comes first negates the need for the latter, perhaps easier and more accessible and semantic approach."
+  note: "[GitHub uses `<include-fragment>`](https://github.com/whatwg/html/issues/2791#issuecomment-408193859) since 2014. Honestly I am quite tired of the argument of _this can be done in JavaScript already_ as if what comes first negates the need for the latter, perhaps easier, more accessible (in terms of usability and barrier of entry), and semantic approach."
 - date: 2024-11-03
   url: https://github.com/w3c/webappsec-csp/issues/399
   title: "Support 'strict-dynamic' in style-src"
