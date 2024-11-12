@@ -17,11 +17,11 @@ This is Details on `<details>`, a talk I gave at Brooklyn JS in July 2018.
 
 My name is Mu-An Chiou, I work at GitHub as an engineer on the Web Systems team.
 
-My team is responsible for the frontend infrastructure, assets pipeline, client side performance and interaction accessibility. I spend the bulk of my time working on GitHub's suite of open source Web Components.
+My team is responsible for the front-end infrastructure, assets pipeline, client side performance and interaction accessibility. I spend the bulk of my time working on GitHub's suite of open source Web Components.
 
 ## `<details>` basics
 
-I want to share with you all a bit about the HTML element called details. It is heavily used in the github.com frontend for progressive enhancement, but most people don't know about its existence or its usefulness.
+I want to share with you all a bit about the HTML element called details. It is heavily used in the github.com front-end for progressive enhancement, but most people don't know about its existence or its usefulness.
 
 Details is specced as a "disclosure widget from which the user can obtain additional information or controls". It is made of two elements, a parent element being details, and a child element called summary. Everything inside of the details element, except from the summary tag, will be invisible by default.
 
