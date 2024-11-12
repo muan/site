@@ -25,7 +25,7 @@ feature: 1
 
 Addendum 12 Nov 2024, since this middle of the night post that took less than five minutes to write got more eyeballs: 
 
-“Write JavaScript like it’s 2005” had been GitHub’s frontend team’s guideline since its inception, until React got pushed down from Microsoft management and most of us on the front-end team quit. Uou the user can observe how github.com has changed since since 2020. 
+“Write JavaScript like it’s 2005” had been GitHub’s frontend team’s guideline since its inception, until React got pushed down from Microsoft management and most of us on the front-end team quit. If you are a user of github.com, consider how it has changed since 2020. 
 
 This is an old practice that has gotten lost in the ways with the manufacture of JavaScript ecosystems and frameworks. I hate to be the one to tell old tales but this is just another reminder that you can absolutely avoid dependency hell, We used to review every single dependency that goes into GitHub Dotcom and during our time the JS bytes *continuously decreased* as features were added. See [Removing jQuery from GitHub.com frontend](https://github.blog/engineering/engineering-principles/removing-jquery-from-github-frontend/) for how at that time we approached GitHub frontend. jQuery was only one of the many dependency that we have _with the goal to remove_ at some point.
 
