@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.issue-heading {
+.general-actions {
   margin-bottom: 1em;
 }
 
@@ -244,19 +244,21 @@ h1, h2, h3, h4, h5, h6 {
   p:last-child, blockquote:last-child, img:last-child { margin-bottom: 0; }
 }
 
-.issue-heading,
-.note-heading {
+.general-actions {
   display: flex; 
-  justify-content: space-between; 
+  gap: 0.5em;
   align-items: center;
   font-size: .8em;
   line-height: 1;
   font-weight: normal;
+  flex-wrap: wrap;
   color: var(--mutedTextColor);
+}
 
+.general-actions,
+.note-tags {
   a {
     color: inherit;
-    text-decoration: none;
   }
 }
 
@@ -745,11 +747,6 @@ open-stories {
 .smol {
   font-size: .8em;
   font-weight: normal;
-}
-
-.share-button,
-.text-open-heart {
-  margin-left: 1em;
 }
 
 open-heart.text-open-heart {

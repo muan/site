@@ -76,7 +76,7 @@ root: true
 {% assign note = site.notes | last %}
 <h2 class="normal-heading">隨筆</h2><a href="/notes" class="styled-link">近期隨筆</a> <a href="/notes.xml" class="styled-link">RSS</a>
 <div class="note">
-  <div class="note-heading">
+  <div class="general-actions">
     最新：{{ note.date | date: "%B %e, %Y" }}
   </div>
   <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify }}</div>

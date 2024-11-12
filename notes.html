@@ -32,20 +32,20 @@ has_open_heart: true
 <ul class="notes">
 {% for note in notes limit: 200 %}
   <li class="note">
-    <div class="note-heading">
-      <div>
-        <a href="{{ note.url }}" class="monospace">
-          <h2 class="text"><u>{{ note.date | date: "%B %e, %Y" }}</u></h2>
-        </a>
-        <button type="button" class="share-button monospace" data-share-url="{{ note.url }}" hidden>Share</button>
-        <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">
-          <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
-        </open-heart>
-      </div>
-      <a href="https://github.com/muan/site/edit/main/{{ note.path }}" class="monospace" tabindex="-1" aria-hidden="true">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <div class="general-actions">
+      <a href="{{ note.url }}" class="monospace">
+        <h2 class="text">{{ note.date | date: "%B %e, %Y" }}</h2>
+      </a>
+      <button type="button" class="share-button monospace" data-share-url="{{ note.url }}" hidden>Share</button>
+      <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">
+        <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
+      </open-heart>
     </div>
     <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify }}</div>
-    <div class="note-tags">{% for tag in note.tags %}<label class="note-tag" for="{{ tag | slugify }}" data-tag="{{ tag }}">{{ tag }}</label>{% endfor %}
+    <div class="note-tags">
+      {% for tag in note.tags %}<label class="note-tag" for="{{ tag | slugify }}" data-tag="{{ tag }}">{{ tag }}</label>{% endfor %}
+      <a href="https://github.com/muan/site/edit/main/{{ note.path }}" class="monospace" tabindex="-1" aria-hidden="true">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    </div>
   </li>
 {% endfor %}
 </ul>

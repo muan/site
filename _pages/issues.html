@@ -5,20 +5,18 @@ open_heart: true
 ---
 
 <p>
-<a class="text" href="/issues.xml">RSS</a>
-<a class="text" href="https://www.youtube.com/watch?v=EmLHOGT0v4c">The issues</a>(music video)
+  <a href="https://www.youtube.com/watch?v=EmLHOGT0v4c">The issues</a> (music video)<br>
+  <a href="/issues.xml">RSS</a>
 </p>
 
 <ul class="issues">
 {% for issue in site.data.issues %}
   <li class="issue" id="issues-{{ forloop.rindex }}">
-    <div class="issue-heading">
-      <div>
-        <a href="#issues-{{ forloop.rindex }}" title="anchor" class="monospace">
-          <u>{{ issue.date | date: "%B %e, %Y" }}</u>
-        </a>
-        <button type="button" class="share-button monospace" data-share-url="{{ issue.url }}" hidden>Share</button>
-      </div>
+    <div class="general-actions">
+      <a href="#issues-{{ forloop.rindex }}" title="anchor" class="monospace">
+        {{ issue.date | date: "%B %e, %Y" }}
+      </a>
+      <button type="button" class="share-button monospace" data-share-url="{{ issue.url }}" hidden>Share</button>
     </div>
     <a href="{{ issue.url }}">{{ issue.title | escape }}</a>
     {{ issue.note | markdownify }}
