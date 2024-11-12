@@ -22,7 +22,7 @@
     {% endif %}
     {% if page.title %}
       <title>{{ page.title }}{% unless page.root %} @ {{ site.title }}{% endunless %}</title>
-      <meta content="{{ page.title }}{% unless page.root %} @ {{ site.title }}{% endunless %}" property="og:site_name">
+      <meta content="{{ site.title }}" property="og:site_name">
       <meta content="{{ page.title }}{% unless page.root %} @ {{ site.title }}{% endunless %}" name="twitter:title">
     {% else %}
       <title>{{ site.title }}</title>
