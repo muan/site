@@ -5,7 +5,7 @@ title: JavaScript dos and donts
 feature: 1
 ---
 
-## Do use JavaScript
+## Do
 
 - When the core functionality of a feature cannot function with only HTML.
 - When the core functionality of a feature can benefit from some JavaScript. Start with only HTML, then progressively enhance it, so it can still work without JavaScript. A table can be pure HTML; a sortable table needs only a dash of JavaScript.
@@ -17,13 +17,15 @@ feature: 1
 - When the HTML solution is not accessible by default, like when you need an ARIA state change, `aria-expanded` or the sorts. Go to town, after checking [a11ysupport](http://a11ysupport.io)! Do everything WAI-ARIA tells you to. Skip nothing.
 - When you think there’s a cool CSS hack to achieve an interactive behavior, because 95% of the times that solution will not be accessible without JavaScript.
 
-## Do not use JavaScript
+## Don't
 
 - All the other times.
 
 ---
 
-Addendum 12 Nov 2024, since this middle of the night post that took less than five minutes to write got more eyeballs: 
+## Addendum 12 Nov 2024
+
+Since this middle of the night post that took less than five minutes to write got more eyeballs.
 
 “Write JavaScript like it’s 2005” had been GitHub’s front-end team’s guideline since its inception, until React got pushed down from Microsoft management and most of us on the front-end team quit. If you are a user of github.com, consider how it has changed since 2020. 
 
