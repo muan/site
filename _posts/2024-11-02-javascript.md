@@ -39,7 +39,10 @@ We have an enterprise of mediocre restaurants that do not know/care to know the 
 
 ---
 
-Lastly, if you make websites, I encourage you to [exercise taking stock of your JavaScript usage](https://muan.co/notes/2024-11-11-uu).
+Lastly,
+
+- If you make websites, I encourage you to [exercise taking stock of your JavaScript usage](https://muan.co/notes/2024-11-11-uu).
+- [Alex made a flow chart](https://mastodon.social/@slightlyoff@toot.cafe/113432958268955739).
 
 ---
 
