@@ -15,6 +15,7 @@ permalink: /blogroll.xml
       <item>
         <title>{{ blog.title | xml_escape }}</title>
         <link>{{ blog.url }}</link>
+        <description>{{ blog.description }}</description>
         <pubDate>{{ blog.added_at | date_to_rfc822 }}</pubDate>
         <guid isPermaLink="true">{{ blog.url }}</guid>
       </item>

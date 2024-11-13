@@ -9,5 +9,6 @@ This page is under construction. Only websites that are being actively updated a
 
 {% assign links = site.data.blogroll | sort: "title" | sample: site.data.blogroll.size %}
 {%- for item in links %}
-- [{{ item.title }}]({{ item.url }})
+- [{{ item.title }}]({{ item.url }}) <code class="smol">({{ item.lang }})</code>    
+  {{ item.description }}
 {%- endfor %}

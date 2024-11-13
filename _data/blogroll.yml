@@ -1,60 +1,95 @@
+- title: Scott O'Hara
+  url: https://www.scottohara.me/writing/
+  lang: en
+  description: Accessibility standards expert with technical posts.
+  added_at: Fri, 13 Nov 2024 11:36:50 +08:00
 - title: Manuel Moreale
   url: https://manuelmoreale.com
+  lang: en
+  description: Freqently updated blog with lots of quality posts.
   added_at: Fri, 9 Nov 2024 19:09:09 +08:00
 - title: Robb Böhnke
   url: https://robb.is
+  lang: en
+  description: Talented iOS designer developer with very technical content.
   added_at: Tue, 5 Nov 2024 13:47:00 +08:00
 - title: 樸通生活指南 by Emily Lin
   url: https://emilylin.substack.com/archive
+  lang: zh-TW
+  description: 在台東烤麵包的人文社會學家農婦，分享著怎麼跟土地共生。
   added_at: Tue, 5 Nov 2024 13:44:00 +08:00
 - title: Bagel note by Liz Chen
   utl: https://lizchen.co
+  lang: zh-TW
+  description: 科技文學觀察家。
   added_at: Tue, 5 Nov 2024 13:40:00 +08:00
 - title: Garen J. Torikian
   url: https://www.gjtorikian.com/
+  lang: en
+  description: The best writer I know, technical and non-technical.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Javier Acre
   url: https://javier.computer/
+  lang: en, es-ES
+  description: Amazing photos, film logs, short posts.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Robert Heaton
   url: https://robertheaton.com/
+  lang: en
+  description: Security engineer, dad, with in-depth yet very accessible writings about interesting subjects.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: 原田梨沙
   url: https://buttondown.email/risacan/archive/
+  lang: en, jp-JP
+  description: Personal newsletter from a Rails engineer based in Tokyo, also a YouTuber. 
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Monica Dinculescu
   url: https://meowni.ca/
+  lang: en
+  description: Emoji connoisseur, amazing engineer with many skills. Book logs and art works too.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Timothy Guan-tin Chien
   url: https://blog.timdream.org/
+  lang: en
+  description: Taiwanese, web standards expert.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Brian J Brennan
   url: https://bjb.dev/
-  added_at: Thu, 24 Nov 2022 00:00:00 +0800
-- title: Adam Morse
-  url: https://mrmrs.cc/
+  lang: en
+  description: Short posts, a variety of topics, very approachable. 
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Zach Holman
   url: https://zachholman.com/
+  lang: en
+  description: Early GitHubber now investor with occassional posts around tech subjects.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Hidde de Vries
   url: https://hidde.blog/
+  lang: en
+  description: Expert in front-end and especially web accessibility. Technical posts mainly.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Alice Bartlett
   url: https://alicebartlett.co.uk/
+  lang: en
+  description: Tech director at Financial Times, with consistent, approachable, and humourous week notes.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
 - title: Katy DeCorah
   url: https://katydecorah.com/
+  lang: en
+  description: Book logs, notes, not strictly technical content.
   added_at: Thu, 24 Nov 2022 00:00:00 +0800
-- title: Ayman Nadeem
-  url: https://www.aymannadeem.com/
-  added_at: Mon, 28 Nov 2022 10:32:00 +0800
 - title: Jessica Lord
   url: https://jlord.us/
+  lang: en
+  description: She has fun. She's reading. She writes week notes.
   added_at: Mon, 10 Apr 2023 17:14:00 +0800
 - title: Marcel Wichmann
   url: https://marcel.io
+  lang: en, de-DE
+  description: Humorous yet thought-provoking+light-hearted frequent short posts, excellent book reviews.
   added_at: Tue, 25 Jun 2024 15:39:00 +0200
 - title: Erica Fustero
   url: https://www.ericafustero.com/
+  lang: en, es-ES
+  description: Photo logs, illustrations, film reviews. Approachable and friendly content.
   added_at: Fri, 9 Aug 2024 20:29:00 +0800
