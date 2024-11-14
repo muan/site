@@ -12,7 +12,7 @@ root: true
 </p>
 
 <p>
-  As recent as {{ site.recent_date | date: "%B %e" }}, self-employed. Sleeps, knits, learns German, and sometimes bakes bread. Currently making plans to live in Berlin part-time.
+  As recent as {{ site.recent_date | date: "%b %e" }}, self-employed. Sleeps, knits, learns German, and sometimes bakes bread. Currently making plans to live in Berlin part-time.
 </p>
 
 <nav aria-label="Profession">
@@ -74,7 +74,7 @@ root: true
 <h2 class="normal-heading">Notes</h2><a href="/notes" class="styled-link">Recent notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
 <div class="note">
   <time class="general-actions monospace">
-    {{ note.date | date: "%B %e, %Y" }}
+    {{ note.date | date: "%b %e, %Y" }}
   </time>
   <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify }}</div>
   <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}">{{ tag }}</span>{% endfor %}</div>
@@ -82,16 +82,11 @@ root: true
 
 <hr class="hr">
 
-<h2 class="normal-heading">Posts</h2><a href="/feed.xml" class="styled-link">RSS</a>
+<h2 class="normal-heading">Recent posts</h2><a href="/feed.xml" class="styled-link">RSS</a>
 <ul aria-label="posts" class="terminal">
-{% assign pages = site.pages | where: "feature", 1 %}
-{% for post in pages %}
-  <li class="line"><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-
-{% assign posts = site.posts | where: "feature", 1 %}
+{% assign posts = site.posts | where: "feature", 1 | slice: 0, 10 %}
 {% for post in posts %}
   <li class="line"><a href="{{ post.url }}">{{ post.title }}</a><br>
-    <time class="monospace" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time></li>
+    <time class="monospace" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %e, %Y" }}</time></li>
 {% endfor %}
 </ul>

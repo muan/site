@@ -34,7 +34,7 @@ has_open_heart: true
   <li class="note">
     <div class="general-actions">
       <h2 class="text">
-        <a href="{{ note.url }}" class="monospace">{{ note.date | date: "%B %e, %Y" }}</a>
+        <a href="{{ note.url }}" class="monospace">{{ note.date | date: "%b %e, %Y" }}</a>
       </h2>
       <button type="button" class="share-button monospace" data-share-url="{{ note.url }}" hidden>Share</button>
       <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">

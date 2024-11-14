@@ -14,7 +14,7 @@ open_heart: true
   <li class="issue" id="issues-{{ forloop.rindex }}">
     <div class="general-actions">
       <a href="#issues-{{ forloop.rindex }}" title="anchor" class="monospace">
-        {{ issue.date | date: "%B %e, %Y" }}
+        {{ issue.date | date: "%b %e, %Y" }}
       </a>
       <button type="button" class="share-button monospace" data-share-url="{{ issue.url }}" hidden>Share</button>
     </div>

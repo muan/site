@@ -90,7 +90,7 @@
       {% if page.root == true %}
         <div class="desc" lang="en" data-status-loading hidden><span data-status-text></span> <time class="status-time monospace" data-status-datetime></time></div>
       {% endif %}
-      {% if page.collection == "posts" %}<time class="monospace" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time>{% endif %}
+      {% if page.collection == "posts" %}<time class="monospace" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %e, %Y" }}</time>{% endif %}
       {% if page.collection == "notes" or page.collection == "stories" %}<time class="monospace" datetime="{{ page.date }}">{{ page.date | date: "%Y/%m/%d %H:%M" }}</time>{% endif %}
       <div class="desc">{{ page.header_content }}</div>
     </header>

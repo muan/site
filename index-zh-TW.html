@@ -76,9 +76,9 @@ root: true
 {% assign note = site.notes | last %}
 <h2 class="normal-heading">隨筆</h2><a href="/notes" class="styled-link">近期隨筆</a> <a href="/notes.xml" class="styled-link">RSS</a>
 <div class="note">
-  <div class="general-actions">
-    最新：{{ note.date | date: "%B %e, %Y" }}
-  </div>
+  <time class="general-actions monospace" datetime="{{ note.date | date_to_xmlschema }}">
+    {{ note.date | date: "%Y/%m/%d" }}
+  </time>
   <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify }}</div>
   <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}">{{ tag }}</span>{% endfor %}</div>
 </div>
@@ -87,15 +87,10 @@ root: true
 
 <h2 class="normal-heading">文章</h2><a href="/feed.xml" class="styled-link">RSS</a>
 <ul aria-label="posts" class="terminal">
-{% assign posts = site.pages | where: "feature", 1 %}
-{% for post in posts %}
-  <li class="line"><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-
-{% assign posts = site.posts | where: "feature", 1 %}
+{% assign posts = site.posts | where: "feature", 1 | slice: 0, 10 %}
 {% for post in posts %}
   <li class="line"><a href="{{ post.url }}">{{ post.title }}</a><br>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time></li>
+    <time class="monospace" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y/%m/%d" }}</time></li>
 {% endfor %}
 
 </ul>
