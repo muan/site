@@ -45,7 +45,7 @@
 body {
   background: var(--backgroundColor);
   color: var(--textColor);
-  line-height: 1.7em;
+  line-height: 1.62em;
   padding: 0 2.5em;
   margin: 0;
   font-size: 18px;
@@ -58,7 +58,7 @@ body, kbd, button {
 
 a {
   color: var(--linkColor);
-  text-underline-position: under;
+  text-underline-offset: 3px;
 }
 
 a[href^='http']:not([href^='https://muan']):not(.hidden-link):not(:has(img)) {
@@ -804,7 +804,7 @@ kbd {
 nav {
   display: flex;
   flex-wrap: wrap;
-  column-gap: .8em;
+  gap: .6em;
   align-items: center;
   margin: .6em 0;
 }
