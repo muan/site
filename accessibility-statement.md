@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Accessibility Statement for muan.co
+type: static
 ---
 
 This is an accessibility statement from Mu-An Chiou.
