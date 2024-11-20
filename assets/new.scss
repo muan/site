@@ -62,18 +62,17 @@ a {
 }
 
 a[href^='http']:not([href^='https://muan'], .hidden-link, :has(img)) {
+  padding-right: 0.5em;
+
   &:after {
-    content: '(External)';
-    margin-right: 6px;
-    font-size: 0.01em;
-    padding: 0;
-    border-bottom: 3px solid transparent;
-    border-left: 3px solid transparent;
+    content: '┓' / ', external';
+    font-family: var(--sansserif);
+    font-size: 0.5em;
     line-height: 0;
     text-decoration: none;
-    box-shadow: 5em -4em 0 4em var(--linkColor);
-    color: transparent;
-    vertical-align: text-top;
+    position: absolute;
+    margin-top: calc(1rem - 1.7em);
+    line-height: 1em;
   }
 }
 
