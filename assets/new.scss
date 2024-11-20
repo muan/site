@@ -61,6 +61,22 @@ a {
   text-underline-position: under;
 }
 
+a[href^='http']:not([href^='https://muan']):not(.hidden-link):not(:has(img)) {
+  &:after {
+    content: '(External)';
+    margin-right: 6px;
+    font-size: 0.01em;
+    padding: 0;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    line-height: 0;
+    text-decoration: none;
+    box-shadow: 5em -4em 0 4em var(--linkColor);
+    color: transparent;
+    vertical-align: text-top;
+  }
+}
+
 a, u {
   text-decoration-thickness: 0.5px;
 }
@@ -789,6 +805,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   column-gap: .8em;
+  align-items: center;
   margin: .6em 0;
 }
 
