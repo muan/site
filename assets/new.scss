@@ -61,7 +61,7 @@ a {
   text-underline-offset: 3px;
 }
 
-a[href^='http']:not([href^='https://muan'], .hidden-link, :has(img)) {
+a[href^='http']:not([href^='https://muan.co/'], .hidden-link, :has(img)) {
   padding-right: 0.5em;
 
   &:after {
