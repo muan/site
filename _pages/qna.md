@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Questions & answers
-type: qna
+type: static
 ---
 
 

@@ -173,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: .7rem solid var(--textColor);
   height: .7rem;
   margin: 3rem 0;
+  background: none;
 }
 
 .inline-hr {
@@ -191,7 +192,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 
-  .issue,
   .note {
     border-bottom: 1px solid var(--borderColor);
     padding-bottom: 3em;
@@ -290,10 +290,14 @@ img {
   }
 }
 
-hr {
+.note hr,
+.issue hr,
+[page-type="static"] hr,
+article hr {
   margin: 2em 0;
+  height: 0.2em;
+  background: transparent repeating-linear-gradient(45deg, var(--borderColor) 1px, transparent 3px, transparent 0.4em);
   border: 0;
-  border-bottom: 1px solid var(--hrColor);
 }
 
 .pagination {
@@ -441,8 +445,8 @@ figure {
   }
 }
 
-[data-page-type="qna"] {
-  h2 { font-size: 1em; opacity: 0.6; margin-bottom: 0.3em; }
+[data-page-type="static"] {
+  h2 { font-size: 1.1em; font-weight: 500; margin-bottom: 0.3em; }
   h2 + p { margin-top: 0em; }
 }
 

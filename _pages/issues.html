@@ -12,6 +12,7 @@ open_heart: true
 <ul class="issues">
 {% for issue in site.data.issues %}
   <li class="issue" id="issues-{{ forloop.rindex }}">
+    <hr>
     <div class="general-actions">
       <a href="#issues-{{ forloop.rindex }}" title="anchor" class="monospace">
         {{ issue.date | date: "%b %e, %Y" }}
