@@ -32,6 +32,7 @@ i18n:
     Polaroid: 拍立得
     Chat: 對話
     Meow: 喵咪
+    Hobby: 興趣
     accessibility: 親和力支援告知
     source: 查看原始碼
   de-DE:
@@ -48,6 +49,7 @@ i18n:
     Self: Selbst
     Polaroid: Polaroid
     Chat: Chat
+    Hobby: Hobby
     Meow: Miau
     accessibility: Erklärung zur Barrierefreiheit
     source: Quelltext anzeigen

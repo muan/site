@@ -1,4 +1,4 @@
-{% assign categories = "Animals,Meow,Polaroid,Self,Chat,Travel,Taiwan,Books,Cook,Plants,Friends,Mails,Oven" | split: "," %}
+{% assign categories = "Animals,Meow,Polaroid,Self,Chat,Travel,Taiwan,Books,Cook,Plants,Friends,Hobby,Mails,Oven" | split: "," %}
 {% assign stories = site.data.stories | sort: "uploaded" | reverse %}
 {% assign new_categories_arr = "" | split: "" | compact %}
 {% for story in stories %}
