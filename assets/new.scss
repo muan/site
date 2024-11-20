@@ -61,7 +61,7 @@ a {
   text-underline-offset: 3px;
 }
 
-a[href^='http']:not([href^='https://muan']):not(.hidden-link):not(:has(img)) {
+a[href^='http']:not([href^='https://muan'], .hidden-link, :has(img)) {
   &:after {
     content: '(External)';
     margin-right: 6px;
