@@ -1,7 +1,7 @@
 ---
 layout: story
 date: 2024/11/19 2:52
-tags: [ Life, Highlight, Animals ]
+tags: [ Life, Highlight, Meow ]
 title: Story
 image: https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/cd7ffcf9-6fde-4ed4-dc36-c52fd1e7fe00/public
 caption: |
