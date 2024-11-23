@@ -23,8 +23,8 @@ comment: For micro.blog only.
         <title>{{ note.date | date: "%Y-%m-%d" }}</title>
         <description>{{ note.content | markdownify | xml_escape }}{{ openheart | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
-        <link>{{ note.url }}</link>
-        <guid isPermaLink="true">{{ note.url }}</guid>{% for tag in note.tags %}
+        <link>{{ site.url }}{{ note.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ note.url }}</guid>{% for tag in note.tags %}
         <category>{{ tag }}</category>{% endfor %}
       </item>
     {% endfor %}

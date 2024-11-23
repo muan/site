@@ -22,7 +22,7 @@ permalink: /notes.xml
         <description>{{ note.content | markdownify | xml_escape }}{{ openheart | xml_escape }}</description>
         <pubDate>{{ note.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ note.url }}</link>
-        <guid isPermaLink="true">{{ note.url }}</guid>{% for tag in note.tags %}
+        <guid isPermaLink="true">{{ site.url }}{{ note.url }}</guid>{% for tag in note.tags %}
         <category>{{ tag }}</category>{% endfor %}
       </item>
     {% endfor %}
