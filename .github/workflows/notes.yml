@@ -15,6 +15,10 @@ on:
         description: "Language"
         type: string
         required: true
+      location:
+        description: "City"
+        type: string
+        required: false
       datetime:
         description: "Datetime"
         type: string
@@ -33,7 +37,7 @@ jobs:
           node-version: 17.7
 
       - name: Run script
-        run: node .github/workflows/scripts/notes.js '${{ inputs.datetime }}' '${{ inputs.tags }}' '${{ inputs.lang }}' '${{ inputs.content }}'
+        run: node .github/workflows/scripts/notes.js '${{ inputs.datetime }}' '${{ inputs.tags }}' '${{ inputs.lang }}' '${{ inputs.location }}' '${{ inputs.content }}'
 
       - name: Push changes
         run: |
