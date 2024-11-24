@@ -45,7 +45,7 @@ Lastly,
 - Alex Russell made [a flow chart](https://mastodon.social/@slightlyoff@toot.cafe/113432958268955739).
 - Get [the original Anti-JavaScript JavaScript Club stickers](https://infrequently.org/stickers/) from Alex.
 - Support the [Open Web Advocacy](https://open-web-advocacy.org) with [Anti-JavaScript JavaScript Club Tees](https://www.bonfire.com/anti-javascript-javascript-club/) by [Frances](https://fberriman.com).
-- I also designed some [88 &times; 31 banners](https://github.com/muan/anti-js-js.club/issues/1) and made them into [stickers]({% link _pages/items.md %}).
+- I also designed some [88 &times; 31 banners](https://github.com/muan/anti-js-js.club/issues/1) and made them into [stickers]({% link _pages/stuff.md %}).
 
 ---
 

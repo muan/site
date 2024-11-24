@@ -6,7 +6,7 @@ type: static
 
 ## Anti-JavaScript JavaScript Club stickers
 
-[Write JavaScript responsibly](({% link _posts/2024-11-02-javascript.md %})), with sticker owning friends from Taiwan, Germany, Australia, Denmark, Norway, Vietnam, Canada, England, and the US!
+[Write JavaScript responsibly]({% link _posts/2024-11-02-javascript.md %}), with sticker owning friends from Taiwan, Germany, Australia, Denmark, Norway, Vietnam, Canada, England, and the US!
 
 [Request physical stickers](https://airtable.com/app9Az0zOytgcTTl6/shrkl4nqJsn7p7w5U) shipped from Taiwan, or [download the files](https://github.com/muan/anti-js-js.club/issues/1) for your website.
 
