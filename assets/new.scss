@@ -26,7 +26,7 @@
   :root {
     --backgroundColor: #151615;
     --textColor: #dbdfdf;
-    --secondaryTextColor: #cfd5d5;
+    --secondaryTextColor: #bfc5c5;
     --mutedTextColor: #b4b6b8;
     --subtleBackgroundColor: #3a3b3b;
     --heartedBackgroundColor: #652222;
@@ -461,7 +461,7 @@ figure {
 }
 
 [data-page-type="static"] {
-  h2 { font-size: 1.1em; font-weight: 500; margin-bottom: 0.3em; }
+  h2 { font-size: 1.1em; font-weight: 500; color: var(--secondaryTextColor) }
   h2 + p { margin-top: 0em; }
 }
 
