@@ -1,13 +1,18 @@
 <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
-@media (prefers-color-scheme: dark) { 
-  circle { fill: #4A4A4A; }  
-  path { stroke: #E5E5E5; }
+g { stroke: #000; }
+@media (prefers-color-scheme: dark) {
+  g { stroke: #E5E5E5; }
 }
 </style>
-<circle cx="250" cy="250" r="250" fill="#E5E5E5"/>
-<path d="M130 261.109H370" stroke="#4A4A4A" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M190 204.554H310" stroke="#4A4A4A" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M230 148H270" stroke="#4A4A4A" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M190.504 352C205.271 339.74 234.036 315.643 249.23 315.643C269.821 315.643 270.498 352 287.558 352C304.618 352 319.58 344.931 319.58 344.931" stroke="#4A4A4A" stroke-width="40" stroke-linecap="round"/>
-</svg>
+  <g clip-path="url(#a)">
+    <circle cx="249.5" cy="250.5" r="243" stroke-width="15"/>
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M160 258.706h180m-135-42.353h90M235 174h30"/>
+    <path stroke-linecap="round" stroke-width="16" d="M205.378 326.773c11.075-9.181 32.649-27.227 44.045-27.227 15.443 0 15.95 27.227 28.745 27.227 12.795 0 24.017-5.294 24.017-5.294"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <rect width="500" height="500" fill="#fff" rx="60"/>
+    </clipPath>
+  </defs>
+  </svg>
