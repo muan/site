@@ -692,8 +692,8 @@ open-stories {
     background: var(--subtleBackgroundColor);
     padding: 1em 0;
     text-align: center;
-    height: 76px;
-    width: 76px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     font-size: 0.65em;
     box-sizing: border-box;
@@ -701,7 +701,7 @@ open-stories {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    transition: background-color .3s, border .3s;
+    transition: all .3s;
     line-height: normal;
     justify-content: center;
     cursor: pointer;
@@ -709,7 +709,9 @@ open-stories {
     &:hover {
       background: var(--linkColor);
       color: var(--backgroundColor);
-      transform: scale(1.05);
+      border: 0;
+      box-shadow: none;
+      font-size: 0.7em;
     }
   }
 
