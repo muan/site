@@ -11,7 +11,7 @@ Content warning: on depression.
 
 No, I really can’t.
 
-In the last few years I have learned that the way to keep myself away from suicide ideation is through resource management.
+In the last few years I have learned that the way to keep myself away from suicidal ideation is through resource management.
 
 My insomnia persists. Last night I slept in two 2-hour chunks. I woke up each time lethargic and angry at the unchanged state of my physical and mental health. 
 
