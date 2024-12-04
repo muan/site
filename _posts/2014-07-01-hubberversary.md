@@ -2,7 +2,6 @@
 layout: default
 date: 2014-07-22
 title: Happy Hubberversary
-feature: 1
 ---
 
 Today marks my one year being a GitHubber. Phew, what a crazy year.

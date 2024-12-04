@@ -88,7 +88,7 @@ root: true
 
 <h2 class="normal-heading">文章</h2><a href="/feed.xml" class="styled-link">RSS</a>
 <ul aria-label="posts" class="terminal">
-{% assign posts = site.posts | where: "feature", 1 | slice: 0, 10 %}
+{% assign posts = site.posts | where: "feature", 1 %}
 {% for post in posts %}
   <li class="line"><a href="{{ post.url }}">{{ post.title }}</a><br>
     <time class="monospace" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y/%m/%d" }}</time></li>

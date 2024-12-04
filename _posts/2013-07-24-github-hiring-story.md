@@ -3,7 +3,6 @@ layout: default
 date: 2013-07-24 14:34:00 PST
 title: GitHub Hiring Story
 cover: /images/13072203.png
-feature: 1
 ---
 
 _Disclaimer from Aug 2015_: This post was written in mid 2013, things have changed quite a bit. ;)
