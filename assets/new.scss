@@ -1,6 +1,8 @@
 ---
 ---
 
+html { font-size: 100%; font: -apple-system-body; }
+
 :root {
   --backgroundColor: #fdfdfd;
   --textColor: #303030;
@@ -48,7 +50,7 @@ body {
   line-height: 1.62em;
   padding: 0 2.5em;
   margin: 0;
-  font-size: 18px;
+  font-size: 1.1rem;
   word-wrap: break-word;
 }
 
@@ -320,7 +322,7 @@ article hr {
 }
 
 article {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .task-list-item-checkbox {
