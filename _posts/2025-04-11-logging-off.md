@@ -14,7 +14,7 @@ I’m deeply disappointed in everyone—most of all, myself: my (in)abilities, e
 
 The fact that all this is happening while I’m going through SNRI withdrawal and in the worst health of my life just shows how badly I overestimated my abilities. I thought too highly of myself to believe I could somehow do it all—push through and make a dent.
 
-I wish Taiwan, our beautiful island, many others who are more capable—psychologically and physically. People willing to give up their peace and comfort, and strong enough to carry on.
+I wish Taiwan, our beautiful island, many more who are capable—psychologically and physically. People willing to give up their peace and comfort. Strong enough to carry on.
 
 I’ve quit twice now. Nothing to show for it.
 
