@@ -120,6 +120,7 @@
       {% endcapture %}
 
       <!-- 罷免 -->
+      {% if page.root %}
       <div class="recall-psa">
         {% if lang == "zh-TW" %}
           <p>
@@ -153,6 +154,7 @@
           <p>Please take the time to learn and act. It matters. Thank you. ♥︎</p>
         {% endif %}
       </div>
+      {% endif %}
       
       {% if page.collection == "posts" or page.collection == "pages" %}
         <article>
