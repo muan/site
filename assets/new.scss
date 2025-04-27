@@ -936,7 +936,8 @@ label:has(input:not(:checked)) ~ label:has(input:not(:checked)) ~ label:has(inpu
 }
 
 .recall-psa {
-  padding: 0 1em;
-  border: 1px solid var(--activeColor);
-  margin: 2em 0;
+  padding: 1em 2.5em;
+  // border: 1px solid var(--activeColor);
+  background: #000000;
+  margin: 0 -2.5em 0;
 }
