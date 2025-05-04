@@ -39,9 +39,9 @@ This should not, and can not be made to be about what happened to us, or the jus
 
 I understand we all have a limited number of things that we can care for and fight for at any given time, but that should not be an excuse for not making judgments from a place of empathy.
 
-我的亞美尼亞人好朋友 [Garen Torikian](https://www.gjtorikian.com/) 跟我分享了[這篇文章]({% link _posts/2020-06-06-reparations.md %})，讓我有深深的共鳴。我們一樣，長大過程中走過一個又一個立著殺人魔雕像的廣場。我們一樣，在教科書裡只學到他們「光復台灣」的豐功偉業。這一切都不是新事情，歷史早有教訓。有著類似文化背景的我們應該要更能理解、更能付出。
+我的亞美尼亞人好朋友 [Garen Torikian](https://www.gjtorikian.online/) 跟我分享了[這篇文章]({% link _posts/2020-06-06-reparations.md %})，讓我有深深的共鳴。我們一樣，長大過程中走過一個又一個立著殺人魔雕像的廣場。我們一樣，在教科書裡只學到他們「光復台灣」的豐功偉業。這一切都不是新事情，歷史早有教訓。有著類似文化背景的我們應該要更能理解、更能付出。
 
-[Garen Torikian](https://www.gjtorikian.com/), my good Armenian friend sent me [this article]({% link _posts/2020-06-06-reparations.md %}), which resonated with me deeply. We too grew up walking through plazas with giant statues of mass murderers. We too learned only about their "liberation of the Taiwanese people" from the textbook. None of this is new. Having so many similarities in our stories, we should know better, and do better.
+[Garen Torikian](https://www.gjtorikian.online/), my good Armenian friend sent me [this article]({% link _posts/2020-06-06-reparations.md %}), which resonated with me deeply. We too grew up walking through plazas with giant statues of mass murderers. We too learned only about their "liberation of the Taiwanese people" from the textbook. None of this is new. Having so many similarities in our stories, we should know better, and do better.
 
 最後，讓我偷一句 Garen 說的話，因為他文筆比我好多了：
 
