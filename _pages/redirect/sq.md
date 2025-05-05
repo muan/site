@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /sq/
-redirect_to: http://muan.github.io/sq/
+redirect_to: https://muan.github.io/sq/
 ---

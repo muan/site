@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Testimonials
+title: Endorsements
 type: static
 ---
 
