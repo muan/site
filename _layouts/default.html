@@ -69,44 +69,6 @@
   </head>
   
   <body class="{% if page.root != true %}post-body{% endif %} col-{{ page.collection }}" data-page-type="{{ page.type }}">
-    <!-- 罷免 -->
-    {% if page.root %}
-    <div class="recall-psa">
-      {% if lang == "zh-TW" %}
-      <p>
-        台灣人們，請參加大罷免。如果你不知道發生了什麼事情：
-      </p>
-
-      <ul>
-        <li>參考<a href="https://watchout.tw/projects/2025-big-recall">沃草的系列報導</a>（中文）。</li>
-        <li>如果你想看英文，我寫了一份 <a href="https://gist.github.com/muan/0a84cf0286da578c0653b69e964d072a">英文摘要</a>。</li>
-        <li>從國外連署，可以用 <a href="https://tw886.app">tw886.app</a> 查詢、列印、填寫、簽署，並寄出回台灣。作者是 <a
-            href="https://github.com/CarolHsu">Carol</a>。亦可攜身分證去<a href="https://world.bafu.tw">海外連署點</a>簽寫。</li>
-        <li>在台灣的連署人，可以去我架設的<a href="https://bafu.tw/">罷傅</a>罷免資訊站。</li>
-      </ul>
-
-      <p>希望你能停下來想想，讓我放上這個巨大的橫幅，背後乘載多大的的焦慮和心意。也請你把它分享給在乎台灣的人。</p>
-      {% else %}
-      <p>
-        To every Taiwanese voter: please join the recall movement. If you don't know what has happened:
-      </p>
-
-      <ul>
-        <li>Read <a href="https://watchout.tw/projects/2025-big-recall">watchout.tw’s feature series</a>.
-        </li>
-        <li>Check out <a
-            href="https://gist.github.com/muan/0a84cf0286da578c0653b69e964d072a">my write-up about the recall in English</a>.</li>
-        <li>Print, sign, and mail the form back to Taiwan via <a href="https://tw886.app">tw886.app</a>, built by
-          <a
-            href="https://github.com/CarolHsu">Carol</a> (for overseas supporters).</li>
-        <li>Find a nearby signing booth in Taiwan <a href="https://bafu.tw/map">via the bafu.tw map</a> or <a
-            href="https://world.bafu.tw">internationally</a>, maintained by yours truly.</li>
-      </ul>
-
-      <p>I hope you'll take a moment to understand why I cared enough to put up an intrusive banner — and share it with others who care about Taiwan, here or abroad.</p>
-      {% endif %}
-    </div>
-    {% endif %}
     <header>
       <div class="logo-container">
         {% if page.root != true %}

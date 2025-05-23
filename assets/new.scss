@@ -934,10 +934,3 @@ label:has(input:not(:checked)) ~ label:has(input:not(:checked)) ~ label:has(inpu
 .status-time {
   margin-left: 1em;
 }
-
-.recall-psa {
-  padding: 1em 2.5em;
-  background: var(--langBackgroundColor);
-  color: var(--textColor);
-  margin: 0 -2.5em 0;
-}
