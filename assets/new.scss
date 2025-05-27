@@ -64,6 +64,7 @@ a {
 }
 
 a[href^='http']:not([href^='https://muan.co/'], .hidden-link, :has(img)) {
+  position: relative;
   padding-right: 0.5em;
 
   &:after {
