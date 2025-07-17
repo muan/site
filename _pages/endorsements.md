@@ -4,8 +4,15 @@ title: Endorsements
 type: static
 ---
 
+## By [Alex Russell](https://infrequently.org/), currently Microsoft, W3C TAG, previously Google
+Written in 2025.
+
+> Mu-An is one of the rare folks working on the web who makes deeply intentional tradeoffs using the best information and technologies available to achieve good outcomes for users. This approach makes her uniquely effective, delivering more value to the widest set of end-users for the least amount of code. In a world of varying device and network capabilities, this creates outsized value to the organisations she works in and with.
+> 
+> She is also generous with her time, using what she has learned in making compelling experiences for users to inform the development of international standards, including through the W3C where her work has shaped the development of fundamental technologies (including Web Components, Declarative Shadow DOM, and others). This trait is only common among the strongest engineers, and the web is better for her efforts in both areas.
+
 ## By [Sina Bahram](http://www.sinabahram.com) & [James Scholes](https://bsky.app/profile/jscholes.bsky.social), from [Prime Access Consulting, Inc.](https://www.pac.bz/)
-Collaborated after Microsoft acqusition of GitHub with me leading the accessibility work from GitHub. Written in 2024.
+Collaborated after Microsoft acquisition of GitHub with me leading the accessibility work from GitHub. Written in 2024.
 
 > Over the years, we've interacted with hundreds of developers, designers, accessibility specialists, and other stakeholders in the field. Our interactions with Mu-An has been some of the most rewarding, with it being a delight to receive every update and question from her. Her sincerity, exceptional knowledge, passion for doing the right thing, and remarkable endurance are deeply meaningful. We feel a great deal of heartfelt gratitude for all that she has done to make the web more accessible and equitable.
 
