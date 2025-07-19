@@ -11,6 +11,8 @@ Written in 2025.
 > 
 > She is also generous with her time, using what she has learned in making compelling experiences for users to inform the development of international standards, including through the W3C where her work has shaped the development of fundamental technologies (including Web Components, Declarative Shadow DOM, and others). This trait is only common among the strongest engineers, and the web is better for her efforts in both areas.
 
+---
+
 ## By [Sina Bahram](http://www.sinabahram.com) & [James Scholes](https://bsky.app/profile/jscholes.bsky.social), from [Prime Access Consulting, Inc.](https://www.pac.bz/)
 Collaborated after Microsoft acquisition of GitHub with me leading the accessibility work from GitHub. Written in 2024.
 
