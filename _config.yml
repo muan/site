@@ -17,6 +17,7 @@ i18n:
   en-US:
     accessibility: Accessibility statement
     source: View source
+    causes: Causes
   zh-TW:
     Travel: 旅行
     Animals: 動物
@@ -35,6 +36,7 @@ i18n:
     Hobby: 興趣
     accessibility: 親和力支援告知
     source: 查看原始碼
+    causes: 理念
   de-DE:
     Travel: Reisen
     Animals: Tiere
@@ -53,6 +55,7 @@ i18n:
     Meow: Miau
     accessibility: Erklärung zur Barrierefreiheit
     source: Quelltext anzeigen
+    causes: Anliegen
 include: [".well-known"]
 markdown: CommonMarkGhPages
 commonmark:
