@@ -18,6 +18,7 @@ i18n:
     accessibility: Accessibility statement
     source: View source
     causes: Causes
+    colophon: Colophon
   zh-TW:
     Travel: 旅行
     Animals: 動物
@@ -37,6 +38,7 @@ i18n:
     accessibility: 親和力支援告知
     source: 查看原始碼
     causes: 理念
+    colophon: 發布資訊
   de-DE:
     Travel: Reisen
     Animals: Tiere
@@ -56,6 +58,7 @@ i18n:
     accessibility: Erklärung zur Barrierefreiheit
     source: Quelltext anzeigen
     causes: Anliegen
+    colophon: Colophon
 include: [".well-known"]
 markdown: CommonMarkGhPages
 commonmark:
