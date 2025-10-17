@@ -935,3 +935,10 @@ label:has(input:not(:checked)) ~ label:has(input:not(:checked)) ~ label:has(inpu
 .status-time {
   margin-left: 1em;
 }
+
+.banners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  align-items: start;
+}
