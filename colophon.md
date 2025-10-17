@@ -36,3 +36,5 @@ type: static
 
 - MacBook Pro (16-inch, 2021, Apple M1 Max, 32GB)
 - iPhone 15 Pro
+- Canon AE-1 Program
+- Ricoh GR IIIx
