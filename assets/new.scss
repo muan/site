@@ -109,7 +109,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 1.4em 0 1em 0;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .logo {
@@ -153,14 +153,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .h1 {
   font-size: 1.2rem;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: 0;
 }
 
 .normal-heading {
   margin-right: .4rem;
   font-size: inherit;
-  font-weight: normal;
+  font-weight: 300;
   display: inline-block;
   margin-top: 0;
 }
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 .text {
   margin-right: .4rem;
   font-size: inherit;
-  font-weight: normal;
+  font-weight: 300;
   display: inline-block;
   margin: 0;
 }
@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   font-size: .85em;
   line-height: 1;
-  font-weight: normal;
+  font-weight: 300;
   flex-wrap: wrap;
   margin-bottom: 1em;
   color: var(--mutedTextColor);
@@ -463,7 +463,7 @@ figure {
 }
 
 [data-page-type="static"] {
-  h2 { font-size: 1.1em; font-weight: 500; color: var(--secondaryTextColor) }
+  h2 { font-size: 1.1em; font-weight: 600; color: var(--secondaryTextColor) }
   h2 + p { margin-top: 0em; }
 }
 
@@ -770,7 +770,7 @@ open-stories {
 
 .smol {
   font-size: .8em;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 open-heart.text-open-heart {
