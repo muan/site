@@ -2,6 +2,8 @@ User-agent: AddSearchBot
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: aiHitBot
+User-agent: AmazonBuyForMe
+User-agent: atlassian-bot
 User-agent: amazon-kendra-
 User-agent: Amazonbot
 User-agent: Andibot
@@ -14,6 +16,7 @@ User-agent: bedrockbot
 User-agent: bigsur.ai
 User-agent: Bravebot
 User-agent: Brightbot 1.0
+User-agent: BuddyBot
 User-agent: Bytespider
 User-agent: CCBot
 User-agent: ChatGPT Agent
