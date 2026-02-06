@@ -34,7 +34,8 @@ type: static
 
 ## Hardware
 
-- MacBook Pro (16-inch, 2021, Apple M1 Max, 32GB)
-- iPhone 15 Pro
+- MacBook Pro (16-inch, 2021, Apple M1 Max, 32GB memory)
+- iPhone 17 Pro
+- iPad Pro (13-inch, M5)
 - Canon AE-1 Program
-- Ricoh GR IIIx
+- RICOH GR IIIx
