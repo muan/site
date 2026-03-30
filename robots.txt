@@ -15,6 +15,7 @@ User-agent: ApifyBot
 User-agent: ApifyWebsiteContentCrawler
 User-agent: Applebot
 User-agent: Applebot-Extended
+User-agent: Aranet-SearchBot
 User-agent: atlassian-bot
 User-agent: Awario
 User-agent: AzureAI-SearchBot
@@ -54,6 +55,7 @@ User-agent: Factset_spyderbot
 User-agent: FirecrawlAgent
 User-agent: FriendlyCrawler
 User-agent: Gemini-Deep-Research
+User-agent: Google-Agent
 User-agent: Google-CloudVertexBot
 User-agent: Google-Extended
 User-agent: Google-Firebase
