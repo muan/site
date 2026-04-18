@@ -64,4 +64,4 @@ markdown: CommonMarkGhPages
 commonmark:
   options: ["UNSAFE", "HARDBREAKS"]
   extensions: ["strikethrough", "autolink", "table"]
-recent_date: "2026/02/06"
+recent_date: "2026/04/18"
