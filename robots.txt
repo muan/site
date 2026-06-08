@@ -1,4 +1,5 @@
 User-agent: AddSearchBot
+User-agent: AgentTimes
 User-agent: AI2Bot
 User-agent: AI2Bot-DeepResearchEval
 User-agent: Ai2Bot-Dolma
