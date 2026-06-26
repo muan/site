@@ -81,7 +81,7 @@
 - date: 2023-07-14
   url: https://github.com/whatwg/html/issues/5033
   title: Consider adding a headinglevelstart attribute
-  note: My proposal! Support it! (EDIT 2026: this is shipped!)
+  note: "My proposal! Support it! (EDIT 2026: this is shipped!)"
 - date: 2023-07-14
   url: https://github.com/whatwg/html/issues/5326
   title: Programmatically setting focus navigation start point? 
