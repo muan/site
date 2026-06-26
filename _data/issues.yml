@@ -1,3 +1,7 @@
+- date: 2026-06-26
+  url: https://github.com/WebKit/standards-positions/issues/11
+  title: "Web Share Target API"
+  note: "This would be fun in conjunction with Declarative Web Push for PWAs."
 - date: 2024-11-11
   url: https://github.com/whatwg/html/issues/2791#issuecomment-388661163
   title: "Client side include feature for HTML"
@@ -77,7 +81,7 @@
 - date: 2023-07-14
   url: https://github.com/whatwg/html/issues/5033
   title: Consider adding a headinglevelstart attribute
-  note: My proposal! Support it!
+  note: My proposal! Support it! (EDIT 2026: this is shipped!)
 - date: 2023-07-14
   url: https://github.com/whatwg/html/issues/5326
   title: Programmatically setting focus navigation start point? 
