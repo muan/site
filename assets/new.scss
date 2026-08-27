@@ -60,7 +60,7 @@ body, kbd, button {
 
 a {
   color: var(--linkColor);
-  text-underline-offset: 3px;
+  text-underline-offset: 2px;
 }
 
 a[href^='http']:not([href^='https://muan.co/'], .hidden-link, :has(img)) {
@@ -272,6 +272,10 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   margin-bottom: 1em;
   color: var(--mutedTextColor);
+
+  h2.text {
+    flex: 1 0 0;
+  }
 }
 
 .general-actions,
@@ -312,7 +316,7 @@ img {
 [page-type="static"] hr,
 article hr {
   margin: 2em 0;
-  height: 0.2em;
+  height: 2px;
   background: transparent repeating-linear-gradient(45deg, var(--borderColor) 1px, transparent 3px, transparent 0.4em);
   border: 0;
 }
@@ -882,6 +886,11 @@ open-heart:not(:defined) {
   background: transparent;
   color: inherit;
   cursor: pointer;
+  font-weight: inherit;
+
+  &:hover {
+    color: var(--linkColor);
+  }
 }
 
 summary {

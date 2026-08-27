@@ -38,7 +38,7 @@ has_open_heart: true
       </h2>
       <button type="button" class="share-button monospace" data-share-url="{{ note.url }}" hidden>Share</button>
       <open-heart class="text-open-heart monospace" href="https://likes.muan.dev/?id={{ note.url }}" emoji="❤️" aria-labelledby="like-prompt">
-        <span class="on">Liked ♥︎.</span><span class="off">Like?</span>
+        <span class="on">Liked ♥︎.</span><span class="off">Like</span>
       </open-heart>
     </div>
     <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify }}</div>
