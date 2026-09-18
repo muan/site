@@ -31,7 +31,8 @@ has_open_heart: true
 
 <ul class="notes">
 {% for note in notes limit: 200 %}
-  <li class="note">
+  {% assign id = note.date | date: "%Y%m%d%I%M" %}
+  <li class="note" id="t{{id}}">
     <div class="general-actions">
       <h2 class="text">
         <a href="{{ note.url }}" class="monospace" title="{{ note.date }}">{{ note.date | date: "%b %e, %Y" }}</a>

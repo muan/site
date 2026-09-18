@@ -80,7 +80,8 @@ root: true
   {% for note in notes %}
   <li class="note">
     <span data-relative-time="{{ note.date | date: "%s" | to_epoch }}">
-      <a href="{{ note.url }}" title="{{ note.date }}"><time class="monospace">{{ note.date | date: "%b %e, %Y" }}</time></a>
+      {% assign id = note.date | date: "%Y%m%d%I%M" %}
+      <a href="/notes#t{{ id }}" title="{{ note.date }}"><time class="monospace">{{ note.date | date: "%b %e, %Y" }}</time></a>
     </span>
     <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify | strip_html | truncatewords: 20 }}</div>
     <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}">{{ tag }}</span>{% endfor %}</div>
