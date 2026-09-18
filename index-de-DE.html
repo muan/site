@@ -39,7 +39,7 @@ root: true
 </nav>
 
 <div class="lang">
-  <a href="/zh-TW/" srclang="zh-TW">正體中文</a><a href="/" srclang="en-US">English</a><a href="/de-DE/" srclang="de-DE" aria-current="true">Deutsch</a>
+  <a href="/" srclang="en-US">English</a><a href="/de-DE/" srclang="de-DE" aria-current="true">Deutsch</a><a href="/zh-TW/" srclang="zh-TW">正體中文</a>
 </div>
 
 <hr class="hr">
@@ -76,20 +76,24 @@ root: true
 
 <hr class="hr">
 
-{% assign note = site.notes | last %}
 <h2 class="normal-heading">Notizen</h2><a href="/notes" class="styled-link">Aktuelle Notizen</a> <a href="/notes.xml" class="styled-link">RSS</a>
-<div class="note">
-  <time class="general-actions monospace" datetime="{{ note.date | date_to_xmlschema }}">
-    Neueste: {{ note.date | date: "%d.%m.%Y" }}
-  </time>
-  <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify }}</div>
-  <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}">{{ tag }}</span>{% endfor %}</div>
-</div>
+<ul aria-label="Aktuelle Notizen" class="terminal">
+  {% assign notes = site.notes | reverse | slice: 0, 2 %}
+  {% for note in notes %}
+  <li class="note">
+    <span data-relative-time="{{ note.date | date: "%s" | to_epoch }}">
+      <a href="{{ note.url }}" title="{{ note.date }}"><time class="monospace">{{ note.date | date: "%b %e, %Y" }}</time></a>
+    </span>
+    <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify | strip_html | truncatewords: 20 }}</div>
+    <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}">{{ tag }}</span>{% endfor %}</div>
+  </li>
+  {% endfor %}
+</ul>
 
 <hr class="hr">
 
 <h2 class="normal-heading">Beiträge</h2><a href="/feed.xml" class="styled-link">RSS</a>
-<ul aria-label="posts" class="terminal">
+<ul aria-label="Beiträge" class="terminal">
 {% assign posts = site.posts | where: "feature", 1 %}
 {% for post in posts %}
   <li class="line"><a href="{{ post.url }}">{{ post.title }}</a><br>

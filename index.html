@@ -37,7 +37,7 @@ root: true
 </nav>
 
 <div class="lang">
-  <a href="/zh-TW/" srclang="zh-TW">正體中文</a><a href="/" srclang="en-US" aria-current="true">English</a><a href="/de-DE/" srclang="de-DE">Deutsch</a>
+  <a href="/" srclang="en-US" aria-current="true">English</a><a href="/de-DE/" srclang="de-DE">Deutsch</a><a href="/zh-TW/" srclang="zh-TW">正體中文</a>
 </div>
 
 <hr class="hr">
@@ -72,15 +72,19 @@ root: true
 
 <hr class="hr">
 
-{% assign note = site.notes | last %}
 <h2 class="normal-heading">Notes</h2><a href="/notes" class="styled-link">Recent notes</a> <a href="/notes.xml" class="styled-link">RSS</a>
-<div class="note">
-  <time class="general-actions monospace">
-    {{ note.date | date: "%b %e, %Y" }}
-  </time>
-  <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify }}</div>
-  <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}">{{ tag }}</span>{% endfor %}</div>
-</div>
+<ul aria-label="notes" class="terminal">
+  {% assign notes = site.notes | reverse | slice: 0, 2 %}
+  {% for note in notes %}
+    <li class="note">
+      <span data-relative-time="{{ note.date | date: "%s" | to_epoch }}">
+        <a href="{{ note.url }}" title="{{ note.date }}"><time class="monospace">{{ note.date | date: "%b %e, %Y" }}</time></a>
+      </span>
+      <div class="note-content" lang="{{ note.lang }}">{{ note.content | markdownify | strip_html | truncatewords: 20 }}</div>
+      <div class="note-tags">{% for tag in note.tags %}<span class="note-tag" data-tag="{{ tag }}">{{ tag }}</span>{% endfor %}</div>
+    </li>
+  {% endfor %}
+</ul>
 
 <hr class="hr">
 
