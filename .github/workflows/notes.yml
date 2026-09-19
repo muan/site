@@ -1,4 +1,4 @@
-name: "Add a note"
+name: "Add note"
 
 on:
   workflow_dispatch:
