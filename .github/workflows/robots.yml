@@ -1,4 +1,4 @@
-name: "Fetch and save robots.txt"
+name: "Update robots"
 
 on:
   workflow_dispatch:
