@@ -7,6 +7,10 @@
 name: Deploy Jekyll site to Pages
 
 on:
+  workflow_run:
+    workflows: ["Add note", "Media upload", "Update robots"]
+    types:
+      - completed
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
