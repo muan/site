@@ -67,6 +67,7 @@ User-agent: DuckAssistBot
 User-agent: Echobot Bot
 User-agent: EchoboxBot
 User-agent: ElevenlabsBot
+User-agent: ElevenlabsCrawler
 User-agent: ERNIEBot
 User-agent: ExaBot
 User-agent: ExaSearchBot
@@ -168,6 +169,7 @@ User-agent: QwenBot
 User-agent: Reflectionbot
 User-agent: SBIntuitionsBot
 User-agent: Scrapy
+User-agent: ScryBot
 User-agent: SemrushBot-OCOB
 User-agent: SemrushBot-SWA
 User-agent: Shap-User
